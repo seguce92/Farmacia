@@ -15,5 +15,22 @@
     "laravel-mix": "^0.8.1",
     "lodash": "^4.17.4",
     "vue": "^2.1.10"
-  }
+  },
+  "name": "sysbase",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altamiranoesdras/sysbase.git"
+  },
+  "author": "Esdras Altamirano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altamiranoesdras/sysbase/issues"
+  },
+  "homepage": "https://github.com/altamiranoesdras/sysbase#readme"
 }
