@@ -228,6 +228,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
 
+        'Menu' => 'Facades\App\Menu',
+        'OptionMenu' => 'Facades\App\Option',
 
     ],
 
