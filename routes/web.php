@@ -23,3 +23,9 @@ Route::group(['middleware' => 'auth'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_routes
 });
+
+Route::get('/admin/user/{user}/menu', 'AdminUserControler@menu');
+Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');
+Route::post('/admin/user/menu', 'AdminUserControler@menuStore');
+Route::resource('/admin/user',"AdminUserControler");
+Route::resource('/admin/option',"OptionMenuController");
