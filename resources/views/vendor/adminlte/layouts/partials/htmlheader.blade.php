@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title> AdminLTE 2 with Laravel - @yield('htmlheader_title', 'Your title here') </title>
+    <title> @yield('htmlheader_title', 'Your title here') </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -21,7 +21,7 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{asset("/css/skins/_all-skins.min.css")}}">
     <!-- iCheck -->
-    <link rel="stylesheet" href="{{asset("plugins/iCheck/flat/blue.css")}}">
+    <link rel="stylesheet" href="{{asset("plugins/iCheck/square/blue.css")}}">
     <!-- Morris chart -->
     <link rel="stylesheet" href="{{asset("plugins/morris/morris.css")}}">
     <!-- jvectormap -->

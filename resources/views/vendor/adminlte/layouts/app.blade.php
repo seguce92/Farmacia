@@ -67,8 +67,8 @@ desired effect
 <!-- Bootstrap 3.3.6 -->
 <script src="{{asset("/js/bootstrap.min.js")}}"></script>
 <!-- Morris.js charts -->
-<script src="{{asset("https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js")}}"></script>
-<script src="{{asset("plugins/morris/morris.min.js")}}"></script>
+{{--<script src="{{asset("https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js")}}"></script>--}}
+{{--<script src="{{asset("plugins/morris/morris.min.js")}}"></script>--}}
 <!-- Sparkline -->
 <script src="{{asset("plugins/sparkline/jquery.sparkline.min.js")}}"></script>
 <!-- jvectormap -->
@@ -90,9 +90,9 @@ desired effect
 <!-- AdminLTE App -->
 <script src="{{asset("js/app.min.js")}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{asset("js/pages/dashboard.js")}}"></script>
+{{--<script src="{{asset("js/pages/dashboard.js")}}"></script>--}}
 <!-- AdminLTE for demo purposes -->
-<script src="{{asset("js/demo.js")}}"></script>
+{{--<script src="{{asset("js/demo.js")}}"></script>--}}
 
 <!-- App scripts -->
 @section('scripts')
