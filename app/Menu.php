@@ -60,8 +60,8 @@ class Menu{
                 $result.= " <a href=\"{$actionEdit}\" data-toggle=\"tooltip\" title=\"Editar\"><span class='glyphicon glyphicon-edit'></span></a>";
                 $result.= " <a data-toggle='modal' href='#modal-delete' data-action=\"{$actionDelet}\" class='text-danger btn-delete' ><span class=\"glyphicon glyphicon-remove\"  data-toggle=\"tooltip\" title=\"Eliminar\"></span></a>";
 
-                if (self::has_children($opciones,$op->id))
-                    $result.= self::build_menu_form($opciones,$op->id);
+                if ($this->has_children($opciones,$op->id))
+                    $result.=  $this->renderAdmin($opciones,$op->id);
                 $result.= "</li>";
                 $ruta= url("/admin/option/create/{$op->id}");
                 $result.= "<ul><li><a href=\"{$ruta}\" class='text-green text-sm' data-toggle=\"tooltip\" title=\"Nueva opcion\"><span class=\"glyphicon glyphicon-plus\"></span></a></li></ul>";
@@ -92,8 +92,8 @@ class Menu{
                                 	</label>
                                 </div>";
 
-                if (self::has_children($opciones,$op->id))
-                    $result.= self::build_menu_usuario($opciones,$op->id,$usuario);
+                if ($this->has_children($opciones,$op->id))
+                    $result.= $this->renderUser($opciones,$op->id,$usuario);
                 $result.= "</li>";
             }
         }

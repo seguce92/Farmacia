@@ -19,7 +19,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <!--Contenido-->
-                            <form class="form-horizontal" role="form" method="POST" action="{{ url('admin/user/menu') }}">
+                            <form class="form-horizontal" role="form" method="POST" action="{{ url('admin/user/menu',["id" => $user->id]) }}">
                                 {{ csrf_field() }}
 
                                 {!! $menu !!}
@@ -36,7 +36,7 @@
                                                 Regresar
                                             </button>
                                         </a>
-                                        <input type="hidden" name="user_id" value="{{$user->id}}">
+
                                     </div>
                                 </div>
                             </form>

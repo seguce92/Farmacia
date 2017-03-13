@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Option;
 use App\User;
+use Facades\App\Menu;
 use Illuminate\Http\Request;
 
 class AdminUserControler extends Controller
@@ -89,5 +91,36 @@ class AdminUserControler extends Controller
         $user->delete();
 
         return redirect("admin/user")->with("status","Usuario eliminado correctamente");
+    }
+
+
+    /**
+     * Muestra al vista para poder asignar opciones del menu a un usuario
+     *
+     * @param $id id del usuario
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function menu(User $user){
+
+        $opciones= Option::all();
+        $menu= Menu::renderUser($opciones,0,$user);
+
+        return view("admin.user.menu",compact('user','menu'));
+    }
+
+    /**
+     * Guarda lsa opciones de menu que se decidieron asignar al usuario
+     *
+     * @param Request $request
+     * @param $id usuario
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function menuStore(Request $request,User $user){
+
+        $opciones = is_null($request->opciones) ? array() : $request->opciones;
+
+        $user->opciones()->sync($opciones);
+
+        return redirect("admin/user/{$user->id}/menu")->with("status","Opciones asignadas!");
     }
 }

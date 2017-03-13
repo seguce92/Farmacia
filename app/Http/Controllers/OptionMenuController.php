@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Facades\App\Menu;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -36,11 +37,10 @@ class OptionMenuController extends Controller
      */
     public function index(){
         $ops= Option::all();
-        $opsPadres= Option::padres()->get();
         $iconos= $this->iconos;
 
-        $menu = Option::build_menu_form($ops);
-        return view("admin.menu.index",compact('ops','opsPadres','iconos','menu'));
+        $menu = Menu::renderAdmin($ops);
+        return view("admin.menu.index",compact('ops','iconos','menu'));
     }
 
     /**
@@ -69,8 +69,9 @@ class OptionMenuController extends Controller
      */
     public function store(OptionMenuFormRequest $request){
 
+//        dd($request->all());
         Option::create([
-            "padre" => $request->padre=="" ? null : $request->padre,
+            "padre" => $request->padre,
             "nombre" => $request->nombre,
             "descripcion" => $request->descripcion,
             "ruta" => $request->ruta,

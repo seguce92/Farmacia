@@ -20,9 +20,9 @@ class CreateTableOptions extends Migration
             $table->integer('padre')->unsigned()->nullable();;
             $table->string('nombre');
             $table->string('ruta')->nullable();
-            $table->string('descripcion');
+            $table->string('descripcion')->nullable();
             $table->string('icono_l')->default('fa-circle-o');
-            $table->string('icono_r')->default('fa-angle-left');
+            $table->string('icono_r')->nullable()->default('fa-angle-left');
             $table->smallInteger('orden')->default(0);
             $table->timestamps();
             $table->softDeletes();
