@@ -88,10 +88,12 @@
 @push("scripts")
 	<script>
 		$(function(){
-			$('#myTable').DataTable();
+			//$('#myTable').DataTable();
 
 			$(".btn-delete").click(function () {
-				$("#form-delete").attr("action",$(this).data("action"))
+				var  acction =$(this).data("action");
+				console.log("El formulario tomara el valor de "+acction);
+				$("#form-delete").attr("action",acction);
 			})
 		});
 	</script>

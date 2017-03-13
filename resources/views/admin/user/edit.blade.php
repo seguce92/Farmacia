@@ -96,10 +96,10 @@
                                             Editar
                                         </button>
 
-                                        <a href="{{ URL::previous() }}">
+                                        <a href="{{ action("AdminUserControler@index")  }}">
 
-                                            <button type="button" class="btn btn-danger">
-                                                Cancelar
+                                            <button type="button" class="btn btn-default">
+                                                Regrear
                                             </button>
                                         </a>
                                     </div>

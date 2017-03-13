@@ -42,9 +42,27 @@ desired effect
 
             {{--@include('adminlte::layouts.partials.contentheader')--}}
 
+
             <!-- Main content -->
             <section class="content">
                 <!-- Your Page Content Here -->
+                @if (count($errors) > 0)
+                    <div class="alert alert-danger">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                @if (session('status'))
+                    <div class="alert alert-success" id="alerta-master">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        {{session('status')}}
+                    </div>
+                @endif
+
                 @yield('content')
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
@@ -95,6 +113,7 @@ desired effect
 {{--<script src="{{asset("js/demo.js")}}"></script>--}}
 
 <!-- App scripts -->
+@stack('scripts')
 @section('scripts')
     {{--@include('adminlte::layouts.partials.scripts')--}}
 @show

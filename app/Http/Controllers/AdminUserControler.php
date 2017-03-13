@@ -25,7 +25,7 @@ class AdminUserControler extends Controller
      */
     public function create()
     {
-        //
+        return view("admin.user.create");
     }
 
     /**
@@ -58,7 +58,7 @@ class AdminUserControler extends Controller
      */
     public function edit(User $user)
     {
-        //
+        return view("admin.user.edit",compact('user'));
     }
 
     /**
@@ -70,7 +70,12 @@ class AdminUserControler extends Controller
      */
     public function update(Request $request, User $user)
     {
-        //
+        $user->fill($request->all());
+
+//        dd($user->toArray());
+        $user->save();
+
+        return redirect('admin/user/'.$user->id.'/edit')->with('status', 'Usuario actualizado!');
     }
 
     /**
@@ -81,6 +86,8 @@ class AdminUserControler extends Controller
      */
     public function destroy(User $user)
     {
-        //
+        $user->delete();
+
+        return redirect("admin/user")->with("status","Usuario eliminado correctamente");
     }
 }

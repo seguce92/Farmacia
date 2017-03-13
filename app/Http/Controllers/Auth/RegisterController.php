@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Illuminate\Http\Request;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -41,7 +42,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/admin/user/';
 
     /**
      * Create a new controller instance.
@@ -66,7 +67,7 @@ class RegisterController extends Controller
             'username' => 'sometimes|required|max:255|unique:users',
             'email'    => 'required|email|max:255|unique:users',
             'password' => 'required|min:6|confirmed',
-            'terms'    => 'required',
+            //'terms'    => 'required',
         ]);
     }
 
@@ -80,6 +81,7 @@ class RegisterController extends Controller
     {
         $fields = [
             'name'     => $data['name'],
+            'username' => $data['username'],
             'email'    => $data['email'],
             'password' => bcrypt($data['password']),
         ];
@@ -88,4 +90,21 @@ class RegisterController extends Controller
         }
         return User::create($fields);
     }
+
+    /**
+     * Metodo sobre escrito para que solo guarde y no autentique los usuarios creados
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function register(Request $request){
+
+        //dd($request->all());
+        $this->validator($request->all())->validate();
+
+        $this->create($request->all());
+
+        return redirect($this->redirectTo)->with('status', 'Usuario creado!');
+    }
+
+
 }
