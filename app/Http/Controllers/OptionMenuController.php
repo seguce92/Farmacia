@@ -9,8 +9,8 @@ use App\Http\Requests;
 use App\Http\Requests\OptionMenuFormRequest;
 use App\Option;
 
-class OptionMenuController extends Controller
-{
+class OptionMenuController extends Controller{
+
 
     private $iconos=[
         'fa fa-circle-o',
@@ -30,6 +30,15 @@ class OptionMenuController extends Controller
         'fa-angle-right',
         'fa-ambulance'
     ];
+
+    /**
+     * OptionMenuController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware("auth");
+    }
+
     /**
      * Display a listing of the resource.
      *
