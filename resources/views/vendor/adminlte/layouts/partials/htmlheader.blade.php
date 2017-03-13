@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title> @yield('htmlheader_title', 'Your title here') </title>
+    <title> @yield('htmlheader_title', 'SysBase') </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -33,6 +33,7 @@
     <!-- bootstrap wysihtml5 - text editor -->
     <link rel="stylesheet" href="{{asset("plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css")}}">
 
+    <link rel="stylesheet" href="{{asset('plugins/DataTables/datatables.min.css')}}">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

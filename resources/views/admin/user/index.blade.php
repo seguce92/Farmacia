@@ -21,14 +21,14 @@
 	<div class="box-body">
 	<div class="row">
 	<div class="col-md-12">
-		<table class="table table-condensed table-hover" id="myTable">
+		<table class="table table-condensed table-hover table-bordered" id="myTable">
 			<thead>
 			<tr>
 				<th>Id</th>
 				<th>Nombre</th>
 				<th>Usuario</th>
 				<th>Email</th>
-				<th>Operación</th>
+				<th width="10%">Operación</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -40,15 +40,15 @@
 					<td>{{$user->email}}</td>
 					<td>
 						<a href="{{ action('AdminUserControler@edit',$user->id) }}" class="btn btn-xs btn-info">
-							Editar
+							<span class="glyphicon glyphicon-edit" data-toggle="tooltip" title="Editar"></span>
 						</a>
 
-						<a href="{{ action('AdminUserControler@menu',$user->id) }}" class="btn btn-xs btn-info">
-							Menu
+						<a href="{{ action('AdminUserControler@menu',$user->id) }}" class="btn btn-xs btn-default">
+							<span class="glyphicon glyphicon-list-alt" data-toggle="tooltip" title="Menu"></span>
 						</a>
 
 						<a data-toggle="modal" href="#modal-delete" data-action="{{action('AdminUserControler@destroy',["id" => $user->id])}}" class="btn btn-xs btn-danger btn-delete">
-							Eliminar
+							<span class="glyphicon glyphicon-remove" data-toggle="tooltip" title="Eliminar"></span>
 						</a>
 					</td>
 				</tr>
@@ -88,7 +88,7 @@
 @push("scripts")
 	<script>
 		$(function(){
-			//$('#myTable').DataTable();
+			$('#myTable').DataTable();
 
 			$(".btn-delete").click(function () {
 				var  acction =$(this).data("action");
