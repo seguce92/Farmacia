@@ -16,7 +16,7 @@ class CreateTableRols extends Migration
         Schema::create('rols', function (Blueprint $table) {
             $table->engine = 'InnoDB';
             $table->increments('id');
-            $table->string('descripcion');
+            $table->string('descripcion','45');
             $table->timestamps();
             $table->softDeletes();
         });

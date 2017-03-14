@@ -29,3 +29,4 @@ Route::post('/admin/user/menu/{user}', 'AdminUserControler@menuStore');
 Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');
 Route::resource('/admin/user',"AdminUserControler");
 Route::resource('/admin/option',"OptionMenuController");
+Route::resource('/admin/rols',"RolController");

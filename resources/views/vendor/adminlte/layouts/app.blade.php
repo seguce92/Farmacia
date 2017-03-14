@@ -64,6 +64,7 @@ desired effect
                 @endif
 
                 @yield('content')
+                {{  $slot or ''}}
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
 
@@ -121,6 +122,7 @@ desired effect
 
 <!-- App scripts -->
 @stack('scripts')
+{{$scripts or ''}}
 @section('scripts')
     {{--@include('adminlte::layouts.partials.scripts')--}}
 @show
