@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTables\RolsDataTables;
 use App\Rol;
 //use Illuminate\Http\Request;
 use App\Http\Requests\RolFormRequest as Request;
@@ -13,9 +14,10 @@ class RolController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(){
+    public function index(RolsDataTables $dataTable){
         $rols = Rol::all();
-        return view("admin.rols.index",compact('rols'));
+//        return view("admin.rols.index",compact('rols'));
+        return $dataTable->render('admin.rols.index');
     }
 
     /**

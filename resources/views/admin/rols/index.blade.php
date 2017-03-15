@@ -6,14 +6,16 @@
 				Roles de usuario <a href="{{ url("/admin/rols/create") }}" ><button class="btn btn-success btn-sm">Nuevo</button></a>
 			@endslot
 
-			@include('admin.rols.table')
+			{{--@include('admin.rols.table')--}}
+			{!! $dataTable->table() !!}
+
 		@endcomponent
 
-		@component('components.modal_delete')
-				@slot('modalTitle','Eliminar rol')
 
-				Seguro que desea eliminar el rol
-		@endcomponent
 
+@push('scripts')
+<script src="/vendor/datatables/buttons.server-side.js"></script>
+{!! $dataTable->scripts() !!}
+@endpush
 
 @endcomponent

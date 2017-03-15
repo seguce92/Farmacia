@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e5edf7d629d05eb1ca7b43bd7d99f81f",
-    "content-hash": "4601a92cccfa753679a9b9b93825166b",
+    "hash": "4eb67771ed5cf55c9ba33e7c50c9539d",
+    "content-hash": "981b1e4c3a506dead493edd8f120a54c",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -2589,16 +2589,16 @@
         },
         {
             "name": "yajra/laravel-datatables-html",
-            "version": "v1.1.0",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yajra/laravel-datatables-html.git",
-                "reference": "c7bed6be2da748742b6774a06d53d234048ec92f"
+                "reference": "b0d3abf53f3862cdceb4b8232dd9dc5bfb5a97e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yajra/laravel-datatables-html/zipball/c7bed6be2da748742b6774a06d53d234048ec92f",
-                "reference": "c7bed6be2da748742b6774a06d53d234048ec92f",
+                "url": "https://api.github.com/repos/yajra/laravel-datatables-html/zipball/b0d3abf53f3862cdceb4b8232dd9dc5bfb5a97e8",
+                "reference": "b0d3abf53f3862cdceb4b8232dd9dc5bfb5a97e8",
                 "shasum": ""
             },
             "require": {
@@ -2639,7 +2639,7 @@
                 "jquery",
                 "laravel"
             ],
-            "time": "2017-02-03 07:19:34"
+            "time": "2017-01-27 02:53:47"
         },
         {
             "name": "yajra/laravel-datatables-oracle",
