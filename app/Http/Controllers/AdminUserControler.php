@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\DataTables\UserDataTables;
 use App\Option;
+use App\Rol;
 use App\User;
 use Facades\App\Menu;
 use Illuminate\Http\Request;
@@ -35,7 +36,9 @@ class AdminUserControler extends Controller
      */
     public function create(User $user)
     {
-        return view("admin.user.create",compact('user'));
+        $rols = Rol::all();
+        //dd($rols);
+        return view("admin.user.create",compact('user','rols'));
     }
 
     /**
@@ -68,7 +71,12 @@ class AdminUserControler extends Controller
      */
     public function edit(User $user)
     {
-        return view("admin.user.edit",compact('user'));
+
+        $rols = Rol::all();
+        $rolsUser = array_pluck($user->rols->toArray(),"id");
+
+        return view("admin.user.edit",compact('user','rols','rolsUser'));
+
     }
 
     /**
@@ -84,6 +92,8 @@ class AdminUserControler extends Controller
 
 //        dd($user->toArray());
         $user->save();
+
+        $user->rols()->sync($request->rols);
 
         return redirect('admin/user/'.$user->id.'/edit')->with('status', 'Usuario actualizado!');
     }

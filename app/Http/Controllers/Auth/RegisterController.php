@@ -88,7 +88,8 @@ class RegisterController extends Controller
         if (config('auth.providers.users.field','email') === 'username' && isset($data['username'])) {
             $fields['username'] = $data['username'];
         }
-        return User::create($fields);
+
+        return User::create($fields)->rols()->sync($data['rols']);
     }
 
     /**
@@ -98,7 +99,7 @@ class RegisterController extends Controller
      */
     public function register(Request $request){
 
-        //dd($request->all());
+//        dd($request->all());
         $this->validator($request->all())->validate();
 
         $this->create($request->all());
