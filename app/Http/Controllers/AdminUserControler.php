@@ -37,8 +37,10 @@ class AdminUserControler extends Controller
     public function create(User $user)
     {
         $rols = Rol::all();
+        $rolsUser= [];
+        $create= 1;
         //dd($rols);
-        return view("admin.user.create",compact('user','rols'));
+        return view("admin.user.create",compact('user','rols','rolsUser','create'));
     }
 
     /**
@@ -88,14 +90,22 @@ class AdminUserControler extends Controller
      */
     public function update(Request $request, User $user)
     {
-        $user->fill($request->all());
+        $user->name = $request->name;
+        $user->username = $request->username;
+        $user->email = $request->email;
+
+
+
+        if(!is_null($request->password) && !is_null($request->password_confirmation)){
+            $user->password = bcrypt($request->password);
+        }
 
 //        dd($user->toArray());
         $user->save();
 
         $user->rols()->sync($request->rols);
 
-        return redirect('admin/user/'.$user->id.'/edit')->with('status', 'Usuario actualizado!');
+        return redirect(route('user.edit',$user->id))->with('status', 'Usuario actualizado!');
     }
 
     /**

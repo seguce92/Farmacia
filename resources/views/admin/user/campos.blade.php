@@ -50,7 +50,7 @@
         <select name="rols[]" id="rols" class="form-control" multiple="multiple">
             <option value=""> -- Select One -- </option>
             @foreach($rols as $rol)
-                <option value="{{$rol->id}}" {{in_array($rol->id,$rolsUser) ? "selected" : ""}}>{{$rol->descripcion}}</option>
+                <option value="{{$rol->id}}" {{ in_array($rol->id,$rolsUser) ? "selected" : ""}}>{{$rol->descripcion}}</option>
             @endforeach
         </select>
         @if ($errors->has('rols'))
@@ -59,31 +59,49 @@
     </div>
 </div>
 
-<div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-    <label for="password" class="col-md-2 control-label">Contraseña</label>
+@if(!isset($create))
+<div class="form-group">
+	<label for="inputID" class="col-sm-2 control-label"></label>
+	<div class="col-sm-10">
 
-    <div class="col-md-6">
-        <input id="password" type="password" class="form-control" name="password" required>
+        <a class="" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Editar también contraseña
+        </a>
 
-        @if ($errors->has('password'))
-            <span class="help-block">
+	</div>
+</div>
+@endif
+
+
+<div class="{{ !isset($create) ? "collapse" : '' }}" id="collapseExample">
+
+    <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+        <label for="password" class="col-md-2 control-label">Contraseña</label>
+
+        <div class="col-md-6">
+            <input id="password" type="password" class="form-control" name="password" >
+
+            @if ($errors->has('password'))
+                <span class="help-block">
                         <strong>{{ $errors->first('password') }}</strong>
                     </span>
-        @endif
+            @endif
+        </div>
     </div>
-</div>
 
-<div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
-    <label for="password-confirm" class="col-md-2 control-label">Confirmar Contraseña</label>
+    <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
 
-    <div class="col-md-6">
-        <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+        <label for="password-confirm" class="col-md-2 control-label">Confirmar Contraseña</label>
 
-        @if ($errors->has('password_confirmation'))
-            <span class="help-block">
+        <div class="col-md-6">
+            <input id="password-confirm" type="password" class="form-control" name="password_confirmation" >
+
+            @if ($errors->has('password_confirmation'))
+                <span class="help-block">
                         <strong>{{ $errors->first('password_confirmation') }}</strong>
                     </span>
-        @endif
+            @endif
+        </div>
     </div>
 </div>
 
