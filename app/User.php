@@ -29,8 +29,14 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-    public function opciones()
-    {
+    public function opciones(){
         return $this->belongsToMany(Option::class);
     }
+
+    public function rols()
+    {
+      return $this->belongsToMany(Rol::class);
+    }
+
+
 }

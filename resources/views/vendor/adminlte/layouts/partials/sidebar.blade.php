@@ -43,7 +43,7 @@
                 {{--</ul>--}}
             {{--</li>--}}
         {{--</ul><!-- /.sidebar-menu -->--}}
-        {!! Menu::render(OptionMenu::all()) !!}
+        {!! Menu::render(Auth::user()->opciones) !!}
     </section>
     <!-- /.sidebar -->
 </aside>

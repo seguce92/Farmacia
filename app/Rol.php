@@ -13,8 +13,9 @@ class Rol extends Model
       "descripcion"
     ];
 
-    public function usuarios()
-    {
+    public function usuarios(){
         $this->belongsToMany(User::class);
     }
+
+
 }
