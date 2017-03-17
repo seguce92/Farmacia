@@ -25,6 +25,7 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::get('/admin/user/{user}/menu', 'AdminUserControler@menu')->name('user.menu');;
+Route::get('/settings/{user}', 'AdminUserControler@editProfile')->name('user.edit.profile');;
 
 Route::post('/admin/user/menu/{user}', 'AdminUserControler@menuStore');
 Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');

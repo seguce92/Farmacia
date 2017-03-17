@@ -3,7 +3,7 @@
 
     @component('components.box')
         @slot('boxTitle')
-        Editar Usuario
+        Editar {{ isset($editProfile) ? "Perfil":"Usuario"}}
         @endslot
 
         {!! Form::model($user, ['route' => ['user.update', $user->id], 'method' => 'patch',"class" => 'form-horizontal']) !!}

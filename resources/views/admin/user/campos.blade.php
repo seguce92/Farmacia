@@ -44,6 +44,7 @@
     </div>
 </div>
 
+@if(!isset($editProfile))
 <div class="form-group{{ $errors->has('rols') ? ' has-error' : '' }}">
     <label for="rols" class="col-sm-2 control-label">Roles</label>
     <div class="col-sm-6">
@@ -58,6 +59,9 @@
         @endif
     </div>
 </div>
+@else
+    <input type="hidden" name="editProfile" value="1">
+@endif
 
 @if(!isset($create))
 <div class="form-group">
@@ -111,7 +115,7 @@
             Guardar
         </button>
 
-        <a href="{{ action("AdminUserControler@index")  }}">
+        <a href="{{ URL::previous()  }}">
 
             <button type="button" class="btn btn-default">
                 Regrear

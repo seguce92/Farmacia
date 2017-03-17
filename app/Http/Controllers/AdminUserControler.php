@@ -82,6 +82,19 @@ class AdminUserControler extends Controller
     }
 
     /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  \App\User  $user
+     * @return \Illuminate\Http\Response
+     */
+    public function editProfile(User $user)
+    {
+        $editProfile=1;
+        return view("admin.user.edit",compact('user','editProfile'));
+
+    }
+
+    /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -95,17 +108,19 @@ class AdminUserControler extends Controller
         $user->email = $request->email;
 
 
-
         if(!is_null($request->password) && !is_null($request->password_confirmation)){
             $user->password = bcrypt($request->password);
         }
 
-//        dd($user->toArray());
         $user->save();
 
-        $user->rols()->sync($request->rols);
-
-        return redirect(route('user.edit',$user->id))->with('status', 'Usuario actualizado!');
+        if($request->editProfile){
+            return redirect(route('user.edit.profile',["user" => $user->id,"editProfile"=> 1 ]))->with('status', 'Perfil actualizado!');
+        }
+        else{
+            $user->rols()->sync($request->rols);
+            return redirect(route('user.edit',$user->id))->with('status', 'Usuario actualizado!');
+        }
     }
 
     /**
