@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTables\UserDataTables;
 use App\Option;
 use App\User;
 use Facades\App\Menu;
@@ -22,10 +23,9 @@ class AdminUserControler extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(UserDataTables $dataTables)
     {
-        $users = User::all();
-        return view("admin.user.index",compact("users"));
+        return $dataTables->render('admin.user.index');
     }
 
     /**
