@@ -38,6 +38,15 @@ class OptionTableSeeder extends Seeder
         ]);
 
         Option::create([
+            "padre"=>"1",
+            "nombre"=>"Roles",
+            "ruta"=>"admin/rols",
+            "descripcion"=>"Administración de los roles de los usuarios",
+            "orden"=>"3",
+            "icono_r"=>""
+        ]);
+
+        Option::create([
             "nombre"=>"Ayuda",
             "descripcion"=>"Manual de usuario y tutoriales",
             "icono_l"=>"fa-plus-square",
