@@ -33,9 +33,9 @@ class AdminUserControler extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(User $user)
     {
-        return view("admin.user.create");
+        return view("admin.user.create",compact('user'));
     }
 
     /**
