@@ -43,7 +43,12 @@
                 {{--</ul>--}}
             {{--</li>--}}
         {{--</ul><!-- /.sidebar-menu -->--}}
-        {!! Menu::render(Auth::user()->opciones) !!}
+        {{--Si el usuario logueado contiene el rol con id 1=administrador--}}
+        @if(in_array(1,array_pluck(Auth::user()->rols->toArray(),"id")))
+            {!! Menu::render(OptionMenu::all()) !!}
+        @else
+            {!! Menu::render(Auth::user()->opciones) !!}
+        @endif
     </section>
     <!-- /.sidebar -->
 </aside>
