@@ -17,5 +17,9 @@ class UsersTableSeeder extends Seeder
             "name" => "Administrador",
             "password" => bcrypt("admin")
         ]);
+
+        User::findOrFail(1)->opciones()->sync([
+            1,2,3,4,5,6
+        ]);
     }
 }
