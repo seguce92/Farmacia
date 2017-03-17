@@ -11,6 +11,12 @@ namespace App;
 
 class Menu{
 
+    /**
+     * Comprueba si una opcion tien sub opciones
+     * @param $opciones
+     * @param $id
+     * @return bool
+     */
     public function has_children($opciones,$id) {
         foreach ($opciones as $op) {
             if ($op->padre == $id)
@@ -19,6 +25,12 @@ class Menu{
         return false;
     }
 
+    /**
+     * Genera el menu que se muestra en la seccion sidebar
+     * @param $opciones
+     * @param int $parent
+     * @return string
+     */
     public function render($opciones,$parent=0){
 
         $result = $parent==0 ? "<ul class=\"sidebar-menu\"><li class=\"header\"></li>" : "<ul class=\"treeview-menu\">";
@@ -36,7 +48,7 @@ class Menu{
                 $result.= "<i class=\"fa {$op->icono_r} pull-right\"></i>";
                 $result.= "</a>";
 
-                if (self::has_children($opciones,$op->id))
+                if ($this->has_children($opciones,$op->id))
                     $result.= $this->render($opciones,$op->id);
                 $result.= "</li>";
             }
@@ -46,6 +58,13 @@ class Menu{
         return $result;
     }
 
+
+    /**
+     * Genera el menu con opciones para crear, editar y eliminar las opciones
+     * @param $opciones
+     * @param int $parent
+     * @return string
+     */
     public function renderAdmin($opciones,$parent=0){
 
         $result = "<ul>";
@@ -73,6 +92,13 @@ class Menu{
         return $result;
     }
 
+    /**
+     * Genera el menu con checkbos en cada opción para asignar o quitar opciones al usuario
+     * @param $opciones
+     * @param int $parent
+     * @param $usuario
+     * @return string
+     */
     public function renderUser($opciones,$parent=0,$usuario){
 
         $opcionesUsuario =  array_pluck($usuario->opciones->toArray(),'id');
