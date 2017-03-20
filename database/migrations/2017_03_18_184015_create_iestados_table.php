@@ -17,8 +17,7 @@ class CreateIestadosTable extends Migration {
             $table->engine = 'InnoDB';
 		    $table->integer('id', true);
 			$table->string('descripcion')->unique('descripcion_UNIQUE');
-			$table->dateTime('crated_at')->nullable();
-			$table->dateTime('updated_at')->nullable();
+			$table->timestamps();
 			$table->softDeletes();
 		});
 	}
