@@ -72,8 +72,7 @@ class IestadoDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'descripcion' => ['name' => 'descripcion', 'data' => 'descripcion'],
-            'crated_at' => ['name' => 'crated_at', 'data' => 'crated_at']
+            'descripcion' => ['name' => 'descripcion', 'data' => 'descripcion']
         ];
     }
 
