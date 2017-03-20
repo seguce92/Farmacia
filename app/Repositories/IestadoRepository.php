@@ -11,8 +11,7 @@ class IestadoRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'descripcion',
-        'crated_at'
+        'descripcion'
     ];
 
     /**
