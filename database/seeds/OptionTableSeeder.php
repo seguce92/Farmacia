@@ -62,7 +62,7 @@ class OptionTableSeeder extends Seeder
         Option::create([
             "padre"=>"5",
             "nombre"=>"Categorías",
-            "ruta"=>"inventario/categorias",
+            "ruta"=>"inventario/icategorias",
             "descripcion"=>"Administración de las categorías de los articulos",
             "orden"=>"1",
             "icono_r"=>""
