@@ -90,15 +90,25 @@ class OptionTableSeeder extends Seeder
 
         //9
         Option::create([
+            "padre"=>"5",
+            "nombre"=>"Estados de articulos",
+            "ruta"=>"inventario/iestados",
+            "descripcion"=>"Administración de las unidades de medida",
+            "orden"=>"3",
+            "icono_r"=>""
+        ]);
+
+        //10
+        Option::create([
             "nombre"=>"Compras",
             "descripcion"=>"",
             "icono_l"=>"fa-shopping-cart",
             "orden"=>"1",
         ]);
 
-        //10
+        //11
         Option::create([
-            "padre"=>"9",
+            "padre"=>"10",
             "nombre"=>"Proveedores",
             "ruta"=>"compras/proveedores",
             "descripcion"=>"Administración de proveedores",
@@ -106,9 +116,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //11
+        //12
         Option::create([
-            "padre"=>"9",
+            "padre"=>"10",
             "nombre"=>"Ingresos",
             "ruta"=>"compras/ingreso",
             "descripcion"=>"Ingresos de artículos a inventario",
@@ -116,7 +126,7 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //12
+        //13
         Option::create([
             "nombre"=>"Ventas",
             "descripcion"=>"",
@@ -124,9 +134,9 @@ class OptionTableSeeder extends Seeder
             "orden"=>"1",
         ]);
 
-        //13
+        //14
         Option::create([
-            "padre"=>"12",
+            "padre"=>"13",
             "nombre"=>"Ventas",
             "ruta"=>"ventas/ventas",
             "descripcion"=>"",
@@ -134,9 +144,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //14
+        //15
         Option::create([
-            "padre"=>"12",
+            "padre"=>"13",
             "nombre"=>"Clientes",
             "ruta"=>"ventas/clientes",
             "descripcion"=>"",
@@ -144,17 +154,16 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //15
+        //16
         Option::create([
             "nombre"=>"Medicamentos",
             "descripcion"=>"",
             "icono_l"=>"fa-ambulance",
             "orden"=>"1",
         ]);
-
-        //16
+        //17
         Option::create([
-            "padre"=>"15",
+            "padre"=>"16",
             "nombre"=>"Laboratorios",
             "ruta"=>"medicamentos/laboratorios",
             "descripcion"=>"",
@@ -162,9 +171,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //17
+        //18
         Option::create([
-            "padre"=>"15",
+            "padre"=>"16",
             "nombre"=>"Categorías",
             "ruta"=>"medicamentos/fcategorias",
             "descripcion"=>"",
@@ -172,9 +181,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //18
+        //19
         Option::create([
-            "padre"=>"15",
+            "padre"=>"16",
             "nombre"=>"Farmacos",
             "ruta"=>"medicamentos/farmacos",
             "descripcion"=>"",
@@ -182,9 +191,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //18
+        //20
         Option::create([
-            "padre"=>"15",
+            "padre"=>"16",
             "nombre"=>"Medicamentos",
             "ruta"=>"medicamentos/medicamentos",
             "descripcion"=>"",
