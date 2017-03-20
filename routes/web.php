@@ -32,3 +32,6 @@ Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');
 Route::resource('/admin/user',"AdminUserControler");
 Route::resource('/admin/option',"OptionMenuController");
 Route::resource('/admin/rols',"RolController");
+
+
+Route::resource('inventario/icategorias', 'IcategoriaController');
