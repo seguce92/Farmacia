@@ -35,3 +35,5 @@ Route::resource('/admin/rols',"RolController");
 
 
 Route::resource('inventario/icategorias', 'IcategoriaController');
+
+Route::resource('inventario/unimeds', 'UnimedController');
