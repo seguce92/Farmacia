@@ -1,6 +1,6 @@
 <head>
     <meta charset="UTF-8">
-    <title> @yield('htmlheader_title', 'SysBase') </title>
+    <title> @yield('htmlheader_title', 'Farmacia') </title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">

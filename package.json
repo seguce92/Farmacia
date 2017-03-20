@@ -22,7 +22,7 @@
     "toastr": "^2.1.2",
     "vue": "^2.1.10"
   },
-  "name": "sysbase",
+  "name": "Farmacia",
   "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
   "version": "1.0.0",
   "main": "webpack.mix.js",
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/altamiranoesdras/sysbase.git"
+    "url": "git+https://github.com/altamiranoesdras/Farmacia.git"
   },
   "author": "Esdras Altamirano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/altamiranoesdras/sysbase/issues"
+    "url": "https://github.com/altamiranoesdras/Farmacia/issues"
   },
-  "homepage": "https://github.com/altamiranoesdras/sysbase#readme"
+  "homepage": "https://github.com/altamiranoesdras/Farmacia#readme"
 }

@@ -1,11 +1,11 @@
-### SysBase
+### Farmacia
 ![page_design]()
 
 ## Get started
 
 I would like to refer to the wiki, for help on getting started
 
-* [Installation](https://github.com/altamiranoesdras/sysbase/wiki/Install)
+* [Installation](https://github.com/altamiranoesdras/Farmacia/wiki/Install)
 
 ## Features overview
 - User management
@@ -20,4 +20,4 @@ The packages used are the following...
 
 ### License
 
-Sysbase is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Farmacia is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
