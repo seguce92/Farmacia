@@ -2,7 +2,7 @@
     <i class="glyphicon glyphicon-edit"></i>
 </a>
 
-<a href="{{ route('user.menu',$user->id) }}" class="btn btn-xs btn-default">
+<a href="{{ route('user.menu',$id) }}" class="btn btn-xs btn-default">
     <span class="glyphicon glyphicon-list-alt" data-toggle="tooltip" title="Menu"></span>
 </a>
 
