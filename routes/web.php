@@ -60,3 +60,5 @@ Route::get('images/{filename}', function ($filename)
 
 
 Route::resource('compras/proveedores', 'ProveedorController');
+
+Route::resource('compras/cestados', 'CestadoController');
