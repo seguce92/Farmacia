@@ -39,3 +39,21 @@ Route::resource('inventario/icategorias', 'IcategoriaController');
 Route::resource('inventario/unimeds', 'UnimedController');
 
 Route::resource('inventario/iestados', 'IestadoController');
+
+Route::resource('inventario/items', 'ItemController');
+
+
+Route::get('images/{filename}', function ($filename)
+{
+    $path = storage_path() . '/app/items/' . $filename;
+
+    if(!File::exists($path)) abort(404);
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $type);
+
+    return $response;
+});

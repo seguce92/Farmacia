@@ -3,7 +3,7 @@
 @section('content')
     <section class="content-header">
         <h1>
-            Iestado
+            Item
         </h1>
     </section>
     <div class="content">
@@ -12,9 +12,9 @@
 
             <div class="box-body">
                 <div class="row">
-                    {!! Form::open(['route' => 'iestados.store']) !!}
+                    {!! Form::open(['route' => 'items.store',"enctype"=>"multipart/form-data"]) !!}
 
-                        @include('iestados.fields')
+                        @include('items.fields')
 
                     {!! Form::close() !!}
                 </div>

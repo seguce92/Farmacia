@@ -3,7 +3,7 @@
 @section('content')
     <section class="content-header">
         <h1>
-            Unimed
+            Item
         </h1>
    </section>
    <div class="content">
@@ -11,9 +11,9 @@
        <div class="box box-primary">
            <div class="box-body">
                <div class="row">
-                   {!! Form::model($unimed, ['route' => ['unimeds.update', $unimed->id], 'method' => 'patch']) !!}
+                   {!! Form::model($item, ['route' => ['items.update', $item->id], 'method' => 'patch',"enctype"=>"multipart/form-data"]) !!}
 
-                        @include('unimeds.fields')
+                        @include('items.fields')
 
                    {!! Form::close() !!}
                </div>
