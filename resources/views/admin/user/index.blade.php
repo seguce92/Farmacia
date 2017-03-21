@@ -3,13 +3,10 @@
 
 	@component('components.box')
 		@slot('boxTitle')
-		Administración de Usuarios <a href="{{ url("/admin/user/create") }}" ><button class="btn btn-success btn-sm">Nuevo</button></a>
+		Usuarios <a href="{{ url("/admin/user/create") }}" ><button class="btn btn-success btn-sm">Nuevo</button></a>
 		@endslot
 
-		<div class="table-responsive">
-
-			{!! $dataTable->table() !!}
-		</div>
+		{!! $dataTable->table(['width' => '100%']) !!}
 
 	@endcomponent
 

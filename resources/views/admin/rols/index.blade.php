@@ -6,9 +6,7 @@
 				Roles de usuario <a href="{{ url("/admin/rols/create") }}" ><button class="btn btn-success btn-sm">Nuevo</button></a>
 			@endslot
 
-			{{--@include('admin.rols.table')--}}
-			{!! $dataTable->table() !!}
-
+			{!! $dataTable->table(['width' => '100%']) !!}
 		@endcomponent
 
 

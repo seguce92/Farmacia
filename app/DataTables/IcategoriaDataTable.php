@@ -46,6 +46,7 @@ class IcategoriaDataTable extends DataTable
             ->parameters([
                 'dom' => 'Bfrtip',
                 'scrollX' => false,
+                'responsive' => true,
                 'buttons' => [
                     'print',
                     'reset',
