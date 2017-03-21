@@ -57,3 +57,6 @@ Route::get('images/{filename}', function ($filename)
 
     return $response;
 });
+
+
+Route::resource('compras/proveedores', 'ProveedorController');
