@@ -4,15 +4,18 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use OwenIt\Auditing\Auditable;
+use OwenIt\Auditing\Contracts\Auditable as AuditableContract;
 
 /**
  * Class Icategoria
  * @package App\Models
  * @version March 19, 2017, 10:51 pm CST
  */
-class Icategoria extends Model
+class Icategoria extends Model implements AuditableContract
 {
     use SoftDeletes;
+    use Auditable;
 
     public $table = 'icategorias';
     
