@@ -64,3 +64,5 @@ Route::resource('compras/proveedores', 'ProveedorController');
 Route::resource('compras/cestados', 'CestadoController');
 
 Route::resource('compras/tcomprobantes', 'TcomprobanteController');
+
+Route::resource('ventas/vestados', 'VestadoController');
