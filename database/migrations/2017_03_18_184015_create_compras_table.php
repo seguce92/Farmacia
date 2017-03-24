@@ -21,8 +21,7 @@ class CreateComprasTable extends Migration {
 			$table->string('serie', 45);
 			$table->string('numero', 45);
 			$table->integer('cestado_id')->index('fk_compras_cestados1_idx');
-			$table->dateTime('create_at')->nullable();
-			$table->dateTime('updated_at')->nullable();
+			$table->timestamps();
 			$table->softDeletes();
 		});
 	}

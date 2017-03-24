@@ -21,9 +21,8 @@ class CreateVentasTable extends Migration {
 			$table->string('serie', 45);
 			$table->string('numero', 45);
 			$table->integer('vestado_id')->index('fk_ventas_estado_venta1_idx');
-			$table->integer('users_id');
-			$table->dateTime('create_at')->nullable();
-			$table->dateTime('updated_at')->nullable();
+			$table->integer('user_id');
+			$table->timestamps();
 			$table->softDeletes();
 		});
 	}
