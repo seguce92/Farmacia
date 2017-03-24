@@ -51,7 +51,7 @@ class Proveedor extends Model
      * @var array
      */
     public static $rules = [
-        
+      'telefono' => 'max:8'
     ];
 
     /**
