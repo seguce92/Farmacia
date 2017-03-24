@@ -109,6 +109,16 @@ class OptionTableSeeder extends Seeder
         //11
         Option::create([
             "padre"=>"10",
+            "nombre"=>"Compras",
+            "ruta"=>"compras/compras",
+            "descripcion"=>"Ingresos de artículos a inventario",
+            "orden"=>"2",
+            "icono_r"=>""
+        ]);
+
+        //12
+        Option::create([
+            "padre"=>"10",
             "nombre"=>"Proveedores",
             "ruta"=>"compras/proveedores",
             "descripcion"=>"Administración de proveedores",
@@ -116,17 +126,28 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //12
+        //13
         Option::create([
             "padre"=>"10",
-            "nombre"=>"Ingresos",
-            "ruta"=>"compras/ingreso",
-            "descripcion"=>"Ingresos de artículos a inventario",
-            "orden"=>"2",
+            "nombre"=>"Estados",
+            "ruta"=>"compras/cestados",
+            "descripcion"=>"Administración de estados de las compras",
+            "orden"=>"1",
             "icono_r"=>""
         ]);
 
-        //13
+        //14
+        Option::create([
+            "padre"=>"10",
+            "nombre"=>"Tipo de comprobantes",
+            "ruta"=>"compras/tcomprobantes",
+            "descripcion"=>"",
+            "orden"=>"1",
+            "icono_r"=>""
+        ]);
+
+
+        //15
         Option::create([
             "nombre"=>"Ventas",
             "descripcion"=>"",
@@ -134,9 +155,9 @@ class OptionTableSeeder extends Seeder
             "orden"=>"1",
         ]);
 
-        //14
+        //16
         Option::create([
-            "padre"=>"13",
+            "padre"=>"15",
             "nombre"=>"Ventas",
             "ruta"=>"ventas/ventas",
             "descripcion"=>"",
@@ -144,9 +165,19 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //15
+        //17
         Option::create([
-            "padre"=>"13",
+            "padre"=>"15",
+            "nombre"=>"Estados",
+            "ruta"=>"ventas/vestados",
+            "descripcion"=>"",
+            "orden"=>"2",
+            "icono_r"=>""
+        ]);
+
+        //18
+        Option::create([
+            "padre"=>"15",
             "nombre"=>"Clientes",
             "ruta"=>"ventas/clientes",
             "descripcion"=>"",
@@ -154,16 +185,17 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //16
+        //19
         Option::create([
             "nombre"=>"Medicamentos",
             "descripcion"=>"",
             "icono_l"=>"fa-ambulance",
             "orden"=>"1",
         ]);
-        //17
+
+        //20
         Option::create([
-            "padre"=>"16",
+            "padre"=>"19",
             "nombre"=>"Laboratorios",
             "ruta"=>"medicamentos/laboratorios",
             "descripcion"=>"",
@@ -171,9 +203,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //18
+        //21
         Option::create([
-            "padre"=>"16",
+            "padre"=>"19",
             "nombre"=>"Categorías",
             "ruta"=>"medicamentos/fcategorias",
             "descripcion"=>"",
@@ -181,9 +213,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //19
+        //22
         Option::create([
-            "padre"=>"16",
+            "padre"=>"19",
             "nombre"=>"Farmacos",
             "ruta"=>"medicamentos/farmacos",
             "descripcion"=>"",
@@ -191,9 +223,9 @@ class OptionTableSeeder extends Seeder
             "icono_r"=>""
         ]);
 
-        //20
+        //23
         Option::create([
-            "padre"=>"16",
+            "padre"=>"19",
             "nombre"=>"Medicamentos",
             "ruta"=>"medicamentos/medicamentos",
             "descripcion"=>"",
