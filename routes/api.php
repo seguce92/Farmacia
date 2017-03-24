@@ -26,3 +26,5 @@ Route::group(['prefix' => 'v1','middleware' => 'auth:api'], function () {
 
 
 Route::resource('proveedors', 'ProveedorAPIController');
+
+Route::resource('tcomprobantes', 'TcomprobanteAPIController');

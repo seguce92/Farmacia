@@ -12,6 +12,8 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+use App\Models\Tcomprobante;
+
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
 
@@ -24,7 +26,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(App\Rol::class, function (Faker\Generator $faker) {
+$factory->define(Tcomprobante::class, function (Faker\Generator $faker) {
     return [
         'descripcion' => $faker->word,
     ];
