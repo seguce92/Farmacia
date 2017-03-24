@@ -18,6 +18,7 @@ class UnimedController extends AppBaseController
 
     public function __construct(UnimedRepository $unimedRepo)
     {
+        $this->middleware("auth");
         $this->unimedRepository = $unimedRepo;
     }
 

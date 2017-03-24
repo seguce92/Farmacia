@@ -10,6 +10,14 @@ use App\Http\Requests\RolFormRequest as Request;
 class RolController extends Controller
 {
     /**
+     * RolController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware("auth");
+    }
+
+    /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response

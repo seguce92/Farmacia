@@ -18,6 +18,7 @@ class CestadoController extends AppBaseController
 
     public function __construct(CestadoRepository $cestadoRepo)
     {
+        $this->middleware("auth");
         $this->cestadoRepository = $cestadoRepo;
     }
 

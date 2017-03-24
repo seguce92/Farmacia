@@ -21,6 +21,7 @@ class ItemController extends AppBaseController
 
     public function __construct(ItemRepository $itemRepo)
     {
+        $this->middleware("auth");
         $this->itemRepository = $itemRepo;
     }
 

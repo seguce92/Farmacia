@@ -18,6 +18,7 @@ class TcomprobanteController extends AppBaseController
 
     public function __construct(TcomprobanteRepository $tcomprobanteRepo)
     {
+        $this->middleware("auth");
         $this->tcomprobanteRepository = $tcomprobanteRepo;
     }
 

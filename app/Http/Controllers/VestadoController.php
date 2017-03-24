@@ -18,6 +18,7 @@ class VestadoController extends AppBaseController
 
     public function __construct(VestadoRepository $vestadoRepo)
     {
+        $this->middleware("auth");
         $this->vestadoRepository = $vestadoRepo;
     }
 

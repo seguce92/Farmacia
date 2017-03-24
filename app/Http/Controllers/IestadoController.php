@@ -18,6 +18,7 @@ class IestadoController extends AppBaseController
 
     public function __construct(IestadoRepository $iestadoRepo)
     {
+        $this->middleware("auth");
         $this->iestadoRepository = $iestadoRepo;
     }
 

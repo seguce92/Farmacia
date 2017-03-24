@@ -18,6 +18,7 @@ class IcategoriaController extends AppBaseController
 
     public function __construct(IcategoriaRepository $icategoriaRepo)
     {
+        $this->middleware("auth");
         $this->icategoriaRepository = $icategoriaRepo;
     }
 
