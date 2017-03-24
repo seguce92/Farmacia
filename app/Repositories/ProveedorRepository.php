@@ -11,11 +11,11 @@ class ProveedorRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'nombre',
-        'razon_social',
-        'nit',
-        'direccion',
-        'telefono'
+        'nombre' => 'like',
+        'razon_social' => 'like',
+        'nit' => 'like',
+        'direccion' => 'like',
+        'telefono' => 'like'
     ];
 
     /**
