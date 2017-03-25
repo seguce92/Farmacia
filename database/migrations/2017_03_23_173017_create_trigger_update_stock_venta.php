@@ -16,7 +16,7 @@ class CreateTriggerUpdateStockVenta extends Migration
         DB::unprepared('
             create trigger trUpdStockVenta after insert on venta_detalles for each row
             Begin
-                update items set stock = stock + new.cantidad where items.id = new.item_id;
+                update items set stock = stock - new.cantidad where items.id = new.item_id;
             END
         ');
     }
