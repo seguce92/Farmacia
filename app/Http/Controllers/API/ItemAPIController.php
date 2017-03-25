@@ -38,7 +38,7 @@ class ItemAPIController extends AppBaseController
     {
         $this->itemRepository->pushCriteria(new RequestCriteria($request));
         $this->itemRepository->pushCriteria(new LimitOffsetCriteria($request));
-        $items = $this->itemRepository->has('icategorias')->all();
+        $items = $this->itemRepository->all();
 
         $items2 = array();
         foreach($items as $item) {
