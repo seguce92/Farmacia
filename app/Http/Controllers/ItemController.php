@@ -62,10 +62,6 @@ class ItemController extends AppBaseController
     public function store(CreateItemRequest $request)
     {
 
-
-        $file = $request->file('imagen');
-
-
         $fields = [
             'nombre'=> $request->nombre,
             'descripcion'=> $request->descripcion,
@@ -83,12 +79,16 @@ class ItemController extends AppBaseController
             $item->icategorias()->sync($request->categorias);
         }
 
-        if($file){
-            $imagen= $item->id.'.'.$file->extension();
-            $item->imagen= $imagen;
+
+        if ($request->hasFile('imagen')) {
+            $file= $request->file('imagen');
+
+            $nameImg= $item->id.'.'.$file->extension();
+
+            $item->imagen = 'img/items/'.$nameImg;
             $item->save();
-            //indicamos que queremos guardar un nuevo archivo en el disco local
-            \Storage::disk('local')->put('items/'.$imagen,  \File::get($file));
+
+            $file->move(public_path().'/img/items/',$nameImg);
         }
 
         Flash::success('Item saved successfully.');
@@ -159,36 +159,34 @@ class ItemController extends AppBaseController
 
             return redirect(route('items.index'));
         }else{
-            $file= $request->file('imagen');
-
-            if($file){
-
-                $imagen= $item->id.'.'.$file->extension();
-                //indicamos que queremos guardar un nuevo archivo en el disco local
-                \Storage::disk('local')->put('items/'.$imagen,  \File::get($file));
-            }
 
             $fields = [
                 'nombre'=> $request->nombre,
                 'descripcion'=> $request->descripcion,
                 'precio' => $request->precio,
                 'codigo' => $request->codigo,
-                'unimed_id' => $request->unimed_id,
-                'imagen' => isset($imagen) ? $imagen : null,
-                'iestado_id' => 1
+                'unimed_id' => $request->unimed_id
             ];
 
-            if(!$file){ unset($fields['imagen']); }
+            if ($request->hasFile('imagen')) {
+                $file= $request->file('imagen');
+
+                $nameImg= $item->id.'.'.$file->extension();
+
+                $fields['imagen']= 'img/items/'.$nameImg;
+
+                $file->move(public_path().'/img/items/',$nameImg);
+            }
 
             $item->fill($fields);
-
-//            dd($item->toArray());
             $item->save();
 
             if($request->categorias){
 
                 $item->icategorias()->sync($request->categorias);
             }
+
+
 
             Flash::success('Item updated successfully.');
 

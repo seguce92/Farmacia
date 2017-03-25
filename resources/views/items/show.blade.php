@@ -11,7 +11,7 @@
             <div class="box-body">
                 <div class="row" style="padding-left: 20px">
                     <div class="col-sm-6">
-                        <img src="{{url("images/".$item->imagen)}}" class="img-responsive" alt="Image">
+                        <img src="{{asset($item->imagen)}}" class="img-responsive" alt="Image">
                     </div>
                     <div class="col-sm-6">
 
