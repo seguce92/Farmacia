@@ -18,6 +18,7 @@ class ItemDataTable extends DataTable
         return $this->datatables
             ->queryBuilder($this->query())
             ->addColumn('action', 'items.datatables_actions')
+            ->editColumn('imagen', '{{asset($imagen) }}')
             ->make(true);
     }
 
@@ -34,6 +35,7 @@ class ItemDataTable extends DataTable
                     ->select(
                         'items.id',
                         'items.nombre',
+                        'items.imagen',
                         'items.descripcion',
                         'items.precio',
                         'items.codigo',
@@ -91,7 +93,9 @@ class ItemDataTable extends DataTable
             'codigo' => ['name' => 'codigo', 'data' => 'codigo'],
             'U/M' => ['name' => 'unimeds.nombre', 'data' => 'unimed'],
             'precio_pro' => ['name' => 'precio_pro', 'data' => 'precio_pro'],
-            'Estado' => ['name' => 'iestados.descripcion', 'data' => 'iestado']
+            'Estado' => ['name' => 'iestados.descripcion', 'data' => 'iestado'],
+            'imagen' => ['name' => 'imagen', 'data' => 'imagen', 'render' => '"<img src=\""+data+"\" class=\"img-responsive\" alt=\"Image\"/>"'],
+
         ];
     }
 
