@@ -115,12 +115,14 @@ desired effect
 <!-- AdminLTE App -->
 <script src="{{asset("js/app.min.js")}}"></script>
 
+
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 {{--<script src="{{asset("js/pages/dashboard.js")}}"></script>--}}
 <!-- AdminLTE for demo purposes -->
 {{--<script src="{{asset("js/demo.js")}}"></script>--}}
 
 <!-- App scripts -->
+<script src="{{asset("js/fnc.js")}}"></script>
 @stack('scripts')
 {{$scripts or ''}}
 @section('scripts')
