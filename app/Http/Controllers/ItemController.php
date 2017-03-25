@@ -77,7 +77,11 @@ class ItemController extends AppBaseController
 
         $item=Item::create($fields);
 
-        $item->icategorias()->sync($request->categorias);
+
+        if($request->categorias){
+
+            $item->icategorias()->sync($request->categorias);
+        }
 
         if($file){
             $imagen= $item->id.'.'.$file->extension();
@@ -181,7 +185,10 @@ class ItemController extends AppBaseController
 //            dd($item->toArray());
             $item->save();
 
-            $item->icategorias()->sync($request->categorias);
+            if($request->categorias){
+
+                $item->icategorias()->sync($request->categorias);
+            }
 
             Flash::success('Item updated successfully.');
 
