@@ -18,6 +18,7 @@ class CompraController extends AppBaseController
 
     public function __construct(CompraRepository $compraRepo)
     {
+        $this->middleware('auth');
         $this->compraRepository = $compraRepo;
     }
 
