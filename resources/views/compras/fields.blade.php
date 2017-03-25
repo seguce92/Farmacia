@@ -1,46 +1,51 @@
 @push('css')
 @include('layouts.select2_css')
+@include('layouts.plugins.datepiker_css')
 @endpush
 <!-- Proveedore Id Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-4">
     <label for="proveedores" class="control-label">Proveedor:</label>
+    <select name="proveedore_id" id="proveedores" class="form-control" style="width: 100%">
+        <option value=""> -- Select One -- </option>
+        @if(isset($compra))
+            <option value="{{$compra->proveedore_id}}" selected>{{$compra->proveedor->nombre}}</option>
+        @endif
+        @if(old('proveedore_id'))
+            <option value="{{old('proveedore_id')}}" selected>{{$proveedores[old('proveedore_id')]}}</option>
+        @endif
+    </select>
+</div>
 
-    <select name="name" id="proveedores" class="form-control">
+<div class="form-group col-sm-4">
+	<label for="tcomprobantes" class="control-label">Tipo de comprobante:</label>
+    <select name="name" id="tcomprobantes" class="form-control" style="width: 100%">
         <option value=""> -- Select One -- </option>
     </select>
 </div>
 
 <!-- Fecha Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-4">
     {!! Form::label('fecha', 'Fecha:') !!}
-    {!! Form::date('fecha', null, ['class' => 'form-control']) !!}
+    {!! Form::text('fecha', null, ['class' => 'form-control','id'=>'fecha']) !!}
 </div>
 
 <!-- Serie Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-4">
     {!! Form::label('serie', 'Serie:') !!}
     {!! Form::text('serie', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Numero Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-4">
     {!! Form::label('numero', 'Numero:') !!}
     {!! Form::text('numero', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Cestado Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('cestado_id', 'Cestado Id:') !!}
-    {!! Form::number('cestado_id', null, ['class' => 'form-control']) !!}
-</div>
 
-<!-- Submit Field -->
-<div class="form-group col-sm-12">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{!! route('compras.index') !!}" class="btn btn-default">Cancel</a>
-</div>
+
 @push('scripts')
 @include('layouts.select2_js')
+@include('layouts.plugins.datepiker_js')
 <script>
     $(function () {
         function formatState (state) {
@@ -52,8 +57,8 @@
             return $state;
         };
 
-
         $("#proveedores").select2({
+            theme: "classic",
             language : 'es',
             ajax: {
                 url: "{{ route('api.proveedors.index') }}",
@@ -82,6 +87,44 @@
                 else
                     return data.nombre
             },
+        });
+
+        $("#tcomprobantes").select2({
+            theme: 'classic',
+            language : 'es',
+            ajax: {
+                url: "{{ route('api.tcomprobantes.index') }}",
+                dataType: 'json',
+                delay: 250,
+                data: function (params) {
+                    return {
+                        search: params.term, // search term
+                        page: params.page
+                    };
+                },
+                processResults: function (data, params) {
+
+                    return {
+                        results: data.data,
+                    };
+                },
+                cache: true
+            },
+            //escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
+            minimumInputLength: 1,
+            templateResult: function (data) {
+                return data.descripcion
+            },
+            templateSelection: function (data) {
+                if(data.id === '')
+                    return 'Ingrese descripcion';
+                else
+                    return data.descripcion
+            },
+        });
+
+        $("#fecha").datepicker({
+            language : 'es'
         });
     })
 </script>
