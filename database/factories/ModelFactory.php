@@ -12,6 +12,7 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+use App\Models\Item;
 use App\Models\Tcomprobante;
 
 $factory->define(App\User::class, function (Faker\Generator $faker) {
@@ -29,5 +30,15 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 $factory->define(Tcomprobante::class, function (Faker\Generator $faker) {
     return [
         'descripcion' => $faker->word,
+    ];
+});
+
+$factory->define(Item::class, function (Faker\Generator $faker) {
+    return [
+        'nombre' => $faker->word,
+        'precio' => $faker->numberBetween(5,100),
+        'unimed_id' => $faker->numberBetween(1,1),
+        'iestado_id' => $faker->numberBetween(1,1),
+
     ];
 });
