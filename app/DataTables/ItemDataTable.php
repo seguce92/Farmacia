@@ -4,6 +4,7 @@ namespace App\DataTables;
 
 use App\Models\Item;
 use Form;
+use Illuminate\Support\Facades\DB;
 use Yajra\Datatables\Services\DataTable;
 
 class ItemDataTable extends DataTable
@@ -15,7 +16,7 @@ class ItemDataTable extends DataTable
     public function ajax()
     {
         return $this->datatables
-            ->eloquent($this->query())
+            ->queryBuilder($this->query())
             ->addColumn('action', 'items.datatables_actions')
             ->make(true);
     }
@@ -27,19 +28,19 @@ class ItemDataTable extends DataTable
      */
     public function query()
     {
-        $items = Item::query()
+        $items = DB::table('items')
                     ->join('iestados', 'items.iestado_id', '=', 'iestados.id')
                     ->join('unimeds', 'items.unimed_id', '=', 'unimeds.id')
-            ->select(
-                'items.id',
-                'items.nombre',
-                'items.descripcion',
-                'items.precio',
-                'items.codigo',
-                'unimeds.nombre as unimed',
-                'items.precio_pro',
-                'iestados.descripcion as iestado'
-            );
+                    ->select(
+                        'items.id',
+                        'items.nombre',
+                        'items.descripcion',
+                        'items.precio',
+                        'items.codigo',
+                        'unimeds.nombre as unimed',
+                        'items.precio_pro',
+                        'iestados.descripcion as iestado'
+                    );
         return $this->applyScopes($items);
     }
 
@@ -88,9 +89,9 @@ class ItemDataTable extends DataTable
             'descripcion' => ['name' => 'descripcion', 'data' => 'descripcion'],
             'precio' => ['name' => 'precio', 'data' => 'precio'],
             'codigo' => ['name' => 'codigo', 'data' => 'codigo'],
-            'U/M' => ['name' => 'unimed', 'data' => 'unimed'],
+            'U/M' => ['name' => 'unimeds.nombre', 'data' => 'unimed'],
             'precio_pro' => ['name' => 'precio_pro', 'data' => 'precio_pro'],
-            'estados' => ['name' => 'iestado', 'data' => 'iestado']
+            'Estado' => ['name' => 'iestados.descripcion', 'data' => 'iestado']
         ];
     }
 
