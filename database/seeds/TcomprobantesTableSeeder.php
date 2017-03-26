@@ -12,8 +12,8 @@ class TcomprobantesTableSeeder extends Seeder
      */
     public function run()
     {
-        Tcomprobante::crate(['nombre' => 'Stock inicial']);
-        Tcomprobante::crate(['nombre' => 'Factura']);
-        Tcomprobante::crate(['nombre' => 'Regalo']);
+        Tcomprobante::create(['nombre' => 'Stock inicial']);
+        Tcomprobante::create(['nombre' => 'Factura']);
+        Tcomprobante::create(['nombre' => 'Regalo']);
     }
 }
