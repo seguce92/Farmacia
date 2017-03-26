@@ -20,7 +20,7 @@ class CreateVentaDetallesTable extends Migration {
 			$table->integer('items_id')->index('fk_venta_detalles_items1_idx');
 			$table->smallInteger('cantidad');
 			$table->decimal('precio', 11);
-			$table->decimal('descuento', 11)->nullable();
+			$table->decimal('descuento', 11)->nullable()->default(0);
 			$table->timestamps();
 			$table->softDeletes();
 		});

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddFieldStokItemTable extends Migration
+class AddFieldStockItemTable extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,7 @@ class AddFieldStokItemTable extends Migration
     public function up()
     {
         Schema::table('items', function (Blueprint $table) {
-            $table->decimal('stock',6,2)->after('codigo')->nullable();
+            $table->decimal('stock',6,2)->after('codigo')->nullable()->default(0);
         });
     }
 
