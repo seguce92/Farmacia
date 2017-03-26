@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class Compra
  * @package App\Models
- * @version March 24, 2017, 10:56 am CST
+ * @version March 26, 2017, 5:11 pm CST
  */
 class Compra extends Model
 {
@@ -24,7 +24,8 @@ class Compra extends Model
 
 
     public $fillable = [
-        'proveedore_id',
+        'proveedor_id',
+        'tcomprobante_id',
         'fecha',
         'serie',
         'numero',
@@ -38,7 +39,8 @@ class Compra extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'proveedore_id' => 'integer',
+        'proveedor_id' => 'integer',
+        'tcomprobante_id' => 'integer',
         'serie' => 'string',
         'numero' => 'string',
         'cestado_id' => 'integer'
@@ -67,6 +69,14 @@ class Compra extends Model
     public function cestado()
     {
         return $this->belongsTo(\App\Models\Cestado::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function tcomprobante()
+    {
+        return $this->belongsTo(\App\Models\Tcomprobante::class);
     }
 
     /**

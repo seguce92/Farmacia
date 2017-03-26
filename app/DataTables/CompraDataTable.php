@@ -73,7 +73,7 @@ class CompraDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'proveedore_id' => ['name' => 'proveedore_id', 'data' => 'proveedore_id'],
+            'proveedor_id' => ['name' => 'proveedor_id', 'data' => 'proveedor_id'],
             'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
             'serie' => ['name' => 'serie', 'data' => 'serie'],
             'numero' => ['name' => 'numero', 'data' => 'numero'],

@@ -6,8 +6,8 @@
 
 <!-- Proveedore Id Field -->
 <div class="form-group">
-    {!! Form::label('proveedore_id', 'Proveedore Id:') !!}
-    <p>{!! $compra->proveedore_id !!}</p>
+    {!! Form::label('proveedor_id', 'Proveedore Id:') !!}
+    <p>{!! $compra->proveedor_id !!}</p>
 </div>
 
 <!-- Fecha Field -->

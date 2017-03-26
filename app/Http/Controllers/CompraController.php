@@ -71,10 +71,11 @@ class CompraController extends AppBaseController
         }
 
         $fillable = [
-            'proveedore_id' => $request->proveedore_id,
+            'proveedor_id' => $request->proveedor_id,
             'fecha' => date('Y-m-d H:i:s', strtotime($request->fecha)),
             'serie' => $request->serie,
             'numero' => $request->numero,
+            'tcomprobante_id' => $request->tcomprobante_id,
             'cestado_id' => 1
         ];
 

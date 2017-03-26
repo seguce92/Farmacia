@@ -5,13 +5,13 @@
 <!-- Proveedore Id Field -->
 <div class="form-group col-sm-4">
     <label for="proveedores" class="control-label">Proveedor:</label>
-    <select name="proveedore_id" id="proveedores" class="form-control" style="width: 100%">
+    <select name="proveedor_id" id="proveedores" class="form-control" style="width: 100%">
         <option value=""> -- Select One -- </option>
         @if(isset($compra))
-            <option value="{{$compra->proveedore_id}}" selected>{{$compra->proveedor->nombre}}</option>
+            <option value="{{$compra->proveedor_id}}" selected>{{$compra->proveedor->nombre}}</option>
         @endif
-        @if(old('proveedore_id'))
-            <option value="{{old('proveedore_id')}}" selected>{{$proveedores[old('proveedore_id')]}}</option>
+        @if(old('proveedor_id'))
+            <option value="{{old('proveedor_id')}}" selected>{{$proveedores[old('proveedor_id')]}}</option>
         @endif
     </select>
 </div>
