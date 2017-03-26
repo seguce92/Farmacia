@@ -19,7 +19,7 @@ class CreateCompraDetallesTable extends Migration {
 			$table->integer('compra_id')->index('fk_compra_detalles_compra1_idx');
 			$table->integer('items_id')->index('fk_compra_detalles_items1_idx');
 			$table->smallInteger('cantidad');
-			$table->decimal('precion', 11);
+			$table->decimal('precio', 11);
 			$table->decimal('descuento', 11)->nullable();
 			$table->timestamps();
 			$table->softDeletes();
