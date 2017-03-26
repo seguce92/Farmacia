@@ -30,3 +30,5 @@ Route::resource('proveedors', 'ProveedorAPIController');
 Route::resource('tcomprobantes', 'TcomprobanteAPIController');
 
 Route::resource('items', 'ItemAPIController');
+
+Route::resource('compra_detalles', 'CompraDetalleAPIController');
