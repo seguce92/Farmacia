@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\DataTables\TcomprobanteDataTable;
+use App\Http\Requests;
 use App\Http\Requests\CreateTcomprobanteRequest;
 use App\Http\Requests\UpdateTcomprobanteRequest;
 use App\Repositories\TcomprobanteRepository;
-use App\Http\Controllers\AppBaseController;
-use Illuminate\Http\Request;
 use Flash;
-use Prettus\Repository\Criteria\RequestCriteria;
+use App\Http\Controllers\AppBaseController;
 use Response;
 
 class TcomprobanteController extends AppBaseController
@@ -18,23 +18,19 @@ class TcomprobanteController extends AppBaseController
 
     public function __construct(TcomprobanteRepository $tcomprobanteRepo)
     {
-        $this->middleware("auth");
+        $this->middleware('auth');
         $this->tcomprobanteRepository = $tcomprobanteRepo;
     }
 
     /**
      * Display a listing of the Tcomprobante.
      *
-     * @param Request $request
+     * @param TcomprobanteDataTable $tcomprobanteDataTable
      * @return Response
      */
-    public function index(Request $request)
+    public function index(TcomprobanteDataTable $tcomprobanteDataTable)
     {
-        $this->tcomprobanteRepository->pushCriteria(new RequestCriteria($request));
-        $tcomprobantes = $this->tcomprobanteRepository->all();
-
-        return view('tcomprobantes.index')
-            ->with('tcomprobantes', $tcomprobantes);
+        return $tcomprobanteDataTable->render('tcomprobantes.index');
     }
 
     /**

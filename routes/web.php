@@ -68,3 +68,5 @@ Route::resource('compras/tcomprobantes', 'TcomprobanteController');
 Route::resource('ventas/vestados', 'VestadoController');
 
 Route::resource('compras/compras', 'CompraController');
+
+Route::resource('tcomprobantes', 'TcomprobanteController');

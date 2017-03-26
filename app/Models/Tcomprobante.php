@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class Tcomprobante
  * @package App\Models
- * @version March 23, 2017, 5:38 pm CST
+ * @version March 26, 2017, 3:28 pm CST
  */
 class Tcomprobante extends Model
 {
@@ -24,7 +24,7 @@ class Tcomprobante extends Model
 
 
     public $fillable = [
-        'descripcion'
+        'nombre'
     ];
 
     /**
@@ -34,7 +34,7 @@ class Tcomprobante extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'descripcion' => 'string'
+        'nombre' => 'string'
     ];
 
     /**
@@ -46,5 +46,11 @@ class Tcomprobante extends Model
         
     ];
 
-    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     **/
+    public function compras()
+    {
+        return $this->hasMany(\App\Models\Compra::class);
+    }
 }

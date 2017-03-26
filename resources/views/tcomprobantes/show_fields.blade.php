@@ -4,10 +4,10 @@
     <p>{!! $tcomprobante->id !!}</p>
 </div>
 
-<!-- Descripcion Field -->
+<!-- Nombre Field -->
 <div class="form-group">
-    {!! Form::label('descripcion', 'Descripcion:') !!}
-    <p>{!! $tcomprobante->descripcion !!}</p>
+    {!! Form::label('nombre', 'Nombre:') !!}
+    <p>{!! $tcomprobante->nombre !!}</p>
 </div>
 
 <!-- Created At Field -->

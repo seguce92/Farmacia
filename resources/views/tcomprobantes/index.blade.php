@@ -15,9 +15,9 @@
         <div class="clearfix"></div>
         <div class="box box-primary">
             <div class="box-body">
-                    @include('tcomprobantes.table')
+                {!! $dataTable->table(['width' => '100%']) !!}
             </div>
         </div>
     </div>
 @endsection
-
+@include('layouts.script_dt')

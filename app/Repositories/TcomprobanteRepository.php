@@ -11,7 +11,7 @@ class TcomprobanteRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'descripcion' =>'like'
+        'nombre'
     ];
 
     /**
