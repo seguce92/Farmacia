@@ -18,8 +18,11 @@
 
 <div class="form-group col-sm-4">
 	<label for="tcomprobantes" class="control-label">Tipo de comprobante:</label>
-    <select name="name" id="tcomprobantes" class="form-control" style="width: 100%">
+    <select name="tcomprobante_id" id="tcomprobantes" class="form-control" style="width: 100%">
         <option value=""> -- Select One -- </option>
+        @foreach($tcomps as $tc)
+            <option value="{{$tc->id}}" >{{$tc->descripcion}}</option>
+        @endforeach
     </select>
 </div>
 
@@ -92,35 +95,34 @@
         $("#tcomprobantes").select2({
             theme: 'classic',
             language : 'es',
-            ajax: {
-                url: "{{ route('api.tcomprobantes.index') }}",
-                dataType: 'json',
-                delay: 250,
-                data: function (params) {
-                    return {
-                        search: params.term, // search term
-                        page: params.page
-                    };
-                },
-                processResults: function (data, params) {
+            {{--ajax: {--}}
+                {{--url: "{{ route('api.tcomprobantes.index') }}",--}}
+                {{--dataType: 'json',--}}
+                {{--data: function (params) {--}}
+                    {{--return {--}}
+                        {{--search: params.term, // search term--}}
+                        {{--page: params.page--}}
+                    {{--};--}}
+                {{--},--}}
+                {{--processResults: function (data, params) {--}}
 
-                    return {
-                        results: data.data,
-                    };
-                },
-                cache: true
-            },
+                    {{--return {--}}
+                        {{--results: data.data,--}}
+                    {{--};--}}
+                {{--},--}}
+                {{--cache: true--}}
+            {{--},--}}
             //escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
-            minimumInputLength: 1,
-            templateResult: function (data) {
-                return data.descripcion
-            },
-            templateSelection: function (data) {
-                if(data.id === '')
-                    return 'Ingrese descripcion';
-                else
-                    return data.descripcion
-            },
+//            minimumInputLength: 1,
+//            templateResult: function (data) {
+//                return data.descripcion
+//            },
+//            templateSelection: function (data) {
+//                if(data.id === '')
+//                    return 'Ingrese descripcion';
+//                else
+//                    return data.descripcion
+//            },
         });
 
         $("#fecha").datepicker({

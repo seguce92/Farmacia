@@ -6,6 +6,8 @@ use App\DataTables\CompraDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateCompraRequest;
 use App\Http\Requests\UpdateCompraRequest;
+use App\Models\CompraDetalle;
+use App\Models\Tcomprobante;
 use App\Repositories\CompraRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
@@ -40,7 +42,8 @@ class CompraController extends AppBaseController
      */
     public function create()
     {
-        return view('compras.create');
+        $tcomps = Tcomprobante::all();
+        return view('compras.create',compact('tcomps'));
     }
 
     /**
@@ -54,7 +57,32 @@ class CompraController extends AppBaseController
     {
         $input = $request->all();
 
-        $compra = $this->compraRepository->create($input);
+        $collectDetalles=collect();
+        foreach ($request->detalles as $index => $detalle){
+
+            $obj= new CompraDetalle([
+                'item_id' => $request->items[$index],
+                'cantidad' => $request->cantidades[$index],
+                'precio' => $request->precios[$index]
+            ]);
+
+            $collectDetalles->push($obj);
+
+        }
+
+        $fillable = [
+            'proveedore_id' => $request->proveedore_id,
+            'fecha' => date('Y-m-d H:i:s', strtotime($request->fecha)),
+            'serie' => $request->serie,
+            'numero' => $request->numero,
+            'cestado_id' => 1
+        ];
+
+//        dd($fillable);
+
+        $compra = $this->compraRepository->create($fillable);
+
+        $compra->compraDetalles()->saveMany($collectDetalles);
 
         Flash::success('Compra saved successfully.');
 
