@@ -1,5 +1,6 @@
 @component('adminlte::layouts.app')
 
+	<div class="content">
 
 	@component('components.box')
 		@slot('boxTitle')
@@ -9,7 +10,7 @@
 		{!! $dataTable->table(['width' => '100%']) !!}
 
 	@endcomponent
-
+	</div>
 
 
 	@push('scripts')

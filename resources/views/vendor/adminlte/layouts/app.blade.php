@@ -44,7 +44,7 @@ desired effect
 
 
             <!-- Main content -->
-            <section class="content">
+            {{--<section class="content">--}}
                 <!-- Your Page Content Here -->
                 @if (count($errors) > 0)
                     <div class="alert alert-danger">
@@ -65,7 +65,7 @@ desired effect
 
                 @yield('content')
                 {{  $slot or ''}}
-            </section><!-- /.content -->
+            {{--</section><!-- /.content -->--}}
         </div><!-- /.content-wrapper -->
 
         {{--@include('adminlte::layouts.partials.controlsidebar')--}}
