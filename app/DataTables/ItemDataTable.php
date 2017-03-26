@@ -41,6 +41,7 @@ class ItemDataTable extends DataTable
                         'items.codigo',
                         'unimeds.nombre as unimed',
                         'items.precio_pro',
+                        'items.stock',
                         'iestados.descripcion as iestado'
                     );
         return $this->applyScopes($items);
@@ -95,6 +96,7 @@ class ItemDataTable extends DataTable
             'precio_pro' => ['name' => 'precio_pro', 'data' => 'precio_pro'],
             'Estado' => ['name' => 'iestados.descripcion', 'data' => 'iestado'],
             'imagen' => ['name' => 'imagen', 'data' => 'imagen', 'render' => '"<img src=\""+data+"\" class=\"img-responsive\" alt=\"Image\"/>"'],
+            'stock' => ['name' => 'stock', 'data' => 'stock'],
 
         ];
     }
