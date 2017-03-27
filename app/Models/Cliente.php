@@ -53,7 +53,7 @@ class Cliente extends Model
      * @var array
      */
     public static $rules = [
-        
+        'telefono'=>'max:8'
     ];
 
     /**
