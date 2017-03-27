@@ -35,4 +35,4 @@ Route::resource('compra_detalles', 'CompraDetalleAPIController');
 
 Route::resource('clientes', 'ClienteAPIController');
 
-Route::resource('clientes', 'ClienteAPIController');
+Route::resource('venta_detalles', 'VentaDetalleAPIController');
