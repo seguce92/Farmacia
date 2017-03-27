@@ -26,47 +26,21 @@ Route::group(['middleware' => 'auth'], function () {
 
 Route::get('/admin/user/{user}/menu', 'AdminUserControler@menu')->name('user.menu');;
 Route::get('/settings/{user}', 'AdminUserControler@editProfile')->name('user.edit.profile');;
-
 Route::post('/admin/user/menu/{user}', 'AdminUserControler@menuStore');
 Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');
 Route::resource('/admin/user',"AdminUserControler");
 Route::resource('/admin/option',"OptionMenuController");
 Route::resource('/admin/rols',"RolController");
 
-
 Route::resource('inventario/icategorias', 'IcategoriaController');
-
 Route::resource('inventario/unimeds', 'UnimedController');
-
 Route::resource('inventario/iestados', 'IestadoController');
-
 Route::resource('inventario/items', 'ItemController');
 
-
-Route::get('images/{filename}', function ($filename)
-{
-    $path = storage_path() . '/app/items/' . $filename;
-
-    if(!File::exists($path)) abort(404);
-
-    $file = File::get($path);
-    $type = File::mimeType($path);
-
-    $response = Response::make($file, 200);
-    $response->header("Content-Type", $type);
-
-    return $response;
-});
-
-
 Route::resource('compras/proveedores', 'ProveedorController');
-
 Route::resource('compras/cestados', 'CestadoController');
-
 Route::resource('compras/tcomprobantes', 'TcomprobanteController');
-
-Route::resource('ventas/vestados', 'VestadoController');
-
 Route::resource('compras/compras', 'CompraController');
 
-Route::resource('tcomprobantes', 'TcomprobanteController');
+Route::resource('ventas/vestados', 'VestadoController');
+Route::resource('ventas/clientes', 'ClienteController');
