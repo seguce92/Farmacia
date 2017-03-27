@@ -44,8 +44,10 @@ Route::resource('compras/compras', 'CompraController');
 
 Route::resource('ventas/vestados', 'VestadoController');
 Route::resource('ventas/clientes', 'ClienteController');
+Route::resource('ventas/ventas', 'VentaController');
 
 Route::resource('medicamentos/laboratorios', 'LaboratorioController');
 Route::resource('medicamentos/fcategorias', 'FcategoriaController');
 Route::resource('medicamentos/farmacos', 'FarmacoController');
 Route::resource('medicamentos/medicamentos', 'MedicamentoController');
+
