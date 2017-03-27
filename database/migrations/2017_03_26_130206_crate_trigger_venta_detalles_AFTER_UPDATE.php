@@ -13,14 +13,15 @@ class CrateTriggerVentaDetallesAFTERUPDATE extends Migration
      */
     public function up()
     {
-        DB::unprepared('
+        DB::unprepared("
             CREATE DEFINER = CURRENT_USER TRIGGER `farmacia`.`venta_detalles_AFTER_UPDATE` AFTER UPDATE ON `venta_detalles` FOR EACH ROW
             BEGIN
-            if new.deleted_at != null then
+            if (new.deleted_at is not null) then
+                CALL log_triggers('venta_detalles_AFTER_UPDATE',concat('se actualizo el stock del item:',new.item_id));    
                 update items set stock = stock + new.cantidad where items.id = new.item_id;
             end if;
             END
-        ');
+        ");
     }
 
     /**
