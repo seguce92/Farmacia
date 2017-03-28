@@ -11,12 +11,9 @@ class ClienteRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'nit',
-        'nombres',
-        'apellidos',
-        'direccion',
-        'telefono',
-        'email'
+        'nit'=> 'like',
+        'nombres' => 'like',
+        'apellidos' => 'like'
     ];
 
     /**
