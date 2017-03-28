@@ -1,13 +1,22 @@
+@push('css')
+@include('layouts.select2_css')
+@include('layouts.plugins.datepiker_css')
+@endpush
 <!-- Cliente Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('cliente_id', 'Cliente Id:') !!}
-    {!! Form::number('cliente_id', null, ['class' => 'form-control']) !!}
+    <label for="clients" class="control-label">Cliente: <a class="success" data-toggle="modal" href="#modal-form-cliente">nuevo</a></label>
+    <select name="cliente_id" id="clients" class="form-control" style="width: 100%">
+        <option value=""> -- Select One -- </option>
+        @foreach($clientes as $clt)
+            <option value="{{$clt->id}}">{{$clt->nit.' '.$clt->nombres.' '.$clt->apellidos}}</option>
+        @endforeach
+    </select>
 </div>
 
 <!-- Fecha Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('fecha', 'Fecha:') !!}
-    {!! Form::date('fecha', null, ['class' => 'form-control']) !!}
+    {!! Form::text('fecha', \Carbon\Carbon::today()->format('d/m/Y'), ['class' => 'form-control']) !!}
 </div>
 
 <!-- Serie Field -->
@@ -22,20 +31,21 @@
     {!! Form::text('numero', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Vestado Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('vestado_id', 'Vestado Id:') !!}
-    {!! Form::number('vestado_id', null, ['class' => 'form-control']) !!}
-</div>
+<span class="text text-help">
+    Guarde primero la información general para agregar detalles
+</span>
 
-<!-- User Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('user_id', 'User Id:') !!}
-    {!! Form::number('user_id', null, ['class' => 'form-control']) !!}
-</div>
+@push('scripts')
+@include('layouts.select2_js')
+@include('layouts.plugins.datepiker_js')
+<script>
+    $("#fecha").datepicker({
+        language : 'es'
+    });
+    $('#clients').select2({
+        language: 'es'
+    })
+</script>
+@endpush
 
-<!-- Submit Field -->
-<div class="form-group col-sm-12">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{!! route('ventas.index') !!}" class="btn btn-default">Cancel</a>
-</div>
+

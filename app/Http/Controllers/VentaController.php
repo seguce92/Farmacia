@@ -6,6 +6,7 @@ use App\DataTables\VentaDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateVentaRequest;
 use App\Http\Requests\UpdateVentaRequest;
+use App\Models\Cliente;
 use App\Repositories\VentaRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
@@ -18,6 +19,7 @@ class VentaController extends AppBaseController
 
     public function __construct(VentaRepository $ventaRepo)
     {
+        $this->middleware('auth');
         $this->ventaRepository = $ventaRepo;
     }
 
@@ -39,7 +41,8 @@ class VentaController extends AppBaseController
      */
     public function create()
     {
-        return view('ventas.create');
+        $clientes = Cliente::all();
+        return view('ventas.create',compact('clientes'));
     }
 
     /**
@@ -53,6 +56,7 @@ class VentaController extends AppBaseController
     {
         $input = $request->all();
 
+        dd($input);
         $venta = $this->ventaRepository->create($input);
 
         Flash::success('Venta saved successfully.');
