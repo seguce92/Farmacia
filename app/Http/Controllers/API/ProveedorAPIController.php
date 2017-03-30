@@ -6,6 +6,7 @@ use App\Http\Requests\API\CreateProveedorAPIRequest;
 use App\Http\Requests\API\UpdateProveedorAPIRequest;
 use App\Models\Proveedor;
 use App\Repositories\ProveedorRepository;
+use Exception;
 use Illuminate\Http\Request;
 use App\Http\Controllers\AppBaseController;
 use InfyOm\Generator\Criteria\LimitOffsetCriteria;
@@ -55,9 +56,20 @@ class ProveedorAPIController extends AppBaseController
     {
         $input = $request->all();
 
-        $proveedors = $this->proveedorRepository->create($input);
+        try{
 
-        return $this->sendResponse($proveedors->toArray(), 'Proveedor saved successfully');
+            $proveedors = $this->proveedorRepository->create($input);
+            return $this->sendResponse($proveedors->toArray(), 'Proveedor saved successfully');
+
+        }catch (Exception $e){
+
+            return Response::json([
+                'success' => false,
+                'message' => $e->errorInfo[2],
+            ], 500);
+
+        }
+
     }
 
     /**

@@ -106,6 +106,7 @@
             </div>
         </div>
     </div>
+    @include('compras.modal_provs')
 @endsection
 @push('scripts')
 @include('items.def_select2')
