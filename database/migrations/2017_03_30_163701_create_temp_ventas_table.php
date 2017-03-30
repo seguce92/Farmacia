@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateComprasTable extends Migration {
+class CreateTempVentasTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,17 +12,16 @@ class CreateComprasTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('compras', function(Blueprint $table)
+		Schema::create('temp_ventas', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->integer('proveedor_id')->index('fk_compra_proveedores1_idx');
-			$table->integer('tcomprobante_id')->index('fk_compras_tcomprobantes1_idx');
-			$table->date('fecha');
+			$table->integer('cliente_id')->nullable()->index('fk_temp_ventas_clientes1_idx');
+			$table->dateTime('fecha')->nullable();
 			$table->string('serie', 45)->nullable();
 			$table->string('numero', 45)->nullable();
-			$table->integer('cestado_id')->index('fk_compras_cestados1_idx');
+			$table->boolean('procesada')->nullable()->default(0);
+			$table->integer('user_id');
 			$table->timestamps();
-			$table->softDeletes();
 		});
 	}
 
@@ -34,7 +33,7 @@ class CreateComprasTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('compras');
+		Schema::drop('temp_ventas');
 	}
 
 }
