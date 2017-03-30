@@ -18,8 +18,8 @@ class CreateComprasTable extends Migration {
 			$table->integer('proveedor_id')->index('fk_compra_proveedores1_idx');
 			$table->integer('tcomprobante_id')->index('fk_compras_tcomprobantes1_idx');
 			$table->dateTime('fecha');
-			$table->string('serie', 45);
-			$table->string('numero', 45);
+			$table->string('serie', 45)->nullable();
+			$table->string('numero', 45)->nullable();
 			$table->integer('cestado_id')->index('fk_compras_cestados1_idx');
 			$table->timestamps();
 			$table->softDeletes();

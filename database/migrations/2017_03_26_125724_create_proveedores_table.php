@@ -16,7 +16,7 @@ class CreateProveedoresTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->string('nombre', 45);
-			$table->string('razon_social');
+			$table->string('razon_social')->unique()->nullable();
 			$table->char('nit', 10)->nullable();
 			$table->string('direccion')->nullable();
 			$table->char('telefono', 8)->nullable();
