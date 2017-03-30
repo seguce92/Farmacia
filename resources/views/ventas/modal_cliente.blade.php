@@ -20,7 +20,10 @@
                 </div>
                 <div class="modal-footer">
                     <button type="reset" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    {{--<button type="submit" class="btn btn-primary">Save changes</button>--}}
+                    <button type="submit" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                        Guardar
+                    </button>
                 </div>
 
             </form>
@@ -36,6 +39,8 @@
         console.log('enviar formulario modal cliente');
 
         var data= $(this).serializeArray();
+
+        var $btn = $('#myButton').button('loading');
 
         $.ajax({
             method: 'POST',
@@ -58,22 +63,16 @@
                 }else{
 
                 }
+                $btn.button('reset');
             },
             error: function (res) {
-                console.log('respuesta ajax:',res.responseJSON)
-                $("#alert-message").text(res.responseJSON.message);
-                $("#div-error-modal-form-cliente").show('slow',function () {
-                    setTimeout(function () {
-                        $("#div-error-modal-form-cliente").hide('slow');
-                    }, 5000);
-                });
+                console.log('respuesta ajax:',res.responseJSON);
+                bootstrap_alert('<strong>Error! </strong>'+res.responseJSON.message,'danger',0);
+                $btn.button('reset');
             }
         })
     });
 
-    $('#modal-form-cliente').on('hidden.bs.modal', function (e) {
-        var modal = $(this)
-//        modal.find('input:text').val('');
-    });
+
 </script>
 @endpush
