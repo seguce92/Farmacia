@@ -19,10 +19,12 @@
                     '</div>'
             ).appendTo('body');
 
+            if(timeout!=0){
+                setTimeout(function () {
+                    $(".alert").alert('close');
+                }, timeout);
+            }
 
-            setTimeout(function () {
-                $(".alert").alert('close');
-            }, timeout);
         }
     })
 </script>
