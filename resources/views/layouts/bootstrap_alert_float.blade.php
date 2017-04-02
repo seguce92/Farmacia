@@ -1,9 +1,10 @@
 @push('css')
 <style>
     #floating_alert {
-        position: absolute;
-        top: 20px;
-        right: 20px;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        /*left: 10px;*/
         z-index: 5000;
     }
 </style>
@@ -13,8 +14,8 @@
     $(function () {
         bootstrap_alert = function (message, alert, timeout) {
             var div = $(
-                    '<div id="floating_alert" class="alert alert-' + alert + ' fade in">'+
-                    '<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' +
+                    '<div id="floating_alert" class="alert alert-' + alert + ' alert-dismissible">'+
+                    '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>'+
                         message + '&nbsp;&nbsp;' +
                     '</div>'
             ).appendTo('body');
