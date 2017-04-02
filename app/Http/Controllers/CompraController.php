@@ -7,21 +7,28 @@ use App\Http\Requests;
 use App\Http\Requests\CreateCompraRequest;
 use App\Http\Requests\UpdateCompraRequest;
 use App\Models\CompraDetalle;
+use App\Models\Proveedor;
 use App\Models\Tcomprobante;
+use App\Models\TempCompra;
 use App\Repositories\CompraRepository;
+use App\Repositories\TempCompraRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Response;
 
 class CompraController extends AppBaseController
 {
     /** @var  CompraRepository */
     private $compraRepository;
+    private $tempCompraRepository;
 
-    public function __construct(CompraRepository $compraRepo)
+    public function __construct(CompraRepository $compraRepo, TempCompraRepository $tempCompraRepoRepo)
     {
         $this->middleware('auth');
         $this->compraRepository = $compraRepo;
+        $this->tempCompraRepository = $tempCompraRepoRepo;
     }
 
     /**
@@ -42,8 +49,36 @@ class CompraController extends AppBaseController
      */
     public function create()
     {
-        $tcomps = Tcomprobante::all();
-        return view('compras.create',compact('tcomps'));
+
+        $user=Auth::user();
+
+        $tempCompraUser = TempCompra::where('procesada',0)
+            ->where('user_id',$user->id)
+            ->get();
+
+        ///si el usuario no tiene ninguna compra creada
+        if($tempCompraUser->count()==0){
+
+            $tempCompraUser = TempCompra::create([
+                'user_id' => $user->id
+            ]);
+
+        }elseif ($tempCompraUser->count()>1){
+            dd('el usuario tiens '.$tempCompraUser->count().' compras temporales');
+        }
+
+        $tempCompraUser = $tempCompraUser[0];
+        $tempDetalles = $tempCompraUser->tempCompraDetalles;
+
+        $proveedores = array_pluck(Proveedor::all()->toArray(),'nombre','id');
+        $proveedores= array_prepend($proveedores,'Selecione uno...','');
+
+        $tcomps = array_pluck(Tcomprobante::all()->toArray(),'nombre','id');
+        $tcomps = array_prepend($tcomps,'Selecione uno...','');
+
+//        dd($tempCompraUser->toArray());
+        return view('compras.create',compact('proveedores','tcomps','tempCompraUser','tempDetalles'));
+
     }
 
     /**
@@ -55,39 +90,7 @@ class CompraController extends AppBaseController
      */
     public function store(CreateCompraRequest $request)
     {
-        $input = $request->all();
 
-        $collectDetalles=collect();
-        foreach ($request->detalles as $index => $detalle){
-
-            $obj= new CompraDetalle([
-                'item_id' => $request->items[$index],
-                'cantidad' => $request->cantidades[$index],
-                'precio' => $request->precios[$index]
-            ]);
-
-            $collectDetalles->push($obj);
-
-        }
-
-        $fillable = [
-            'proveedor_id' => $request->proveedor_id,
-            'fecha' => date('Y-m-d H:i:s', strtotime($request->fecha)),
-            'serie' => $request->serie,
-            'numero' => $request->numero,
-            'tcomprobante_id' => $request->tcomprobante_id,
-            'cestado_id' => 1
-        ];
-
-//        dd($fillable);
-
-        $compra = $this->compraRepository->create($fillable);
-
-        $compra->compraDetalles()->saveMany($collectDetalles);
-
-        Flash::success('Compra saved successfully.');
-
-        return redirect(route('compras.index'));
     }
 
     /**
@@ -138,21 +141,41 @@ class CompraController extends AppBaseController
      *
      * @return Response
      */
-    public function update($id, UpdateCompraRequest $request)
+    public function update($id,UpdateCompraRequest $request)
     {
-        $compra = $this->compraRepository->findWithoutFail($id);
+        $tempCompra = $this->tempCompraRepository->findWithoutFail($id);
 
-        if (empty($compra)) {
+        //dd($tempCompra->toArray(),$request->all());
+
+        if (empty($tempCompra)) {
             Flash::error('Compra not found');
 
             return redirect(route('compras.index'));
         }
 
-        $compra = $this->compraRepository->update($request->all(), $id);
+        $fillable = [
+            'proveedor_id' => $request->proveedor_id,
+            'tcomprobante_id' => $request->tcomprobante_id,
+            'fecha' => date('Y-m-d H:i:s', strtotime($request->fecha)),
+            'serie' => $request->serie,
+            'numero' => $request->numero
+        ];
 
-        Flash::success('Compra updated successfully.');
+//        dd($fillable);
+        $tempCompra = $this->tempCompraRepository->update($fillable, $id);
+        if ($request->procesar){
+            $this->procesar($tempCompra,$request);
 
-        return redirect(route('compras.index'));
+            Flash::success('Compra saved successfully.');
+
+            return redirect(route('compras.index'));
+        }else{
+
+            Flash::success('Compra updated successfully.');
+
+            return redirect(route('compras.create',['tempCompraUser' => $tempCompra]));
+        }
+
     }
 
     /**
@@ -177,5 +200,43 @@ class CompraController extends AppBaseController
         Flash::success('Compra deleted successfully.');
 
         return redirect(route('compras.index'));
+    }
+
+    public function procesar(TempCompra $tempCompra,UpdateCompraRequest $request){
+
+//        dd($tempCompra,$request);
+
+        $input = $request->all();
+
+        $collectDetalles=collect();
+
+        foreach ($request->items as $index => $item){
+
+            $obj= new CompraDetalle([
+                'item_id' => $item,
+                'cantidad' => $request->cantidades[$index],
+                'precio' => $request->precios[$index]
+            ]);
+
+            $collectDetalles->push($obj);
+        }
+
+        $fillable = [
+            'proveedor_id' => $request->proveedor_id,
+            'fecha' => date('Y-m-d H:i:s', strtotime($request->fecha)),
+            'serie' => $request->serie,
+            'numero' => $request->numero,
+            'tcomprobante_id' => $request->tcomprobante_id,
+            'cestado_id' => 1
+        ];
+
+        $compra = $this->compraRepository->create($fillable);
+
+        $compra->compraDetalles()->saveMany($collectDetalles);
+
+        $tempCompra->procesada=1;
+        $tempCompra->save();
+
+
     }
 }

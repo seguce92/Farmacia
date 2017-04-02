@@ -52,15 +52,18 @@ class Compra extends Model
      * @var array
      */
     public static $rules = [
-        
+        'proveedor_id' => 'required',
+        'tcomprobante_id' => 'required',
+//        'serie' => 'required',
+//        'numero' => 'required'
     ];
 
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      **/
-    public function proveedore()
+    public function proveedor()
     {
-        return $this->belongsTo(\App\Models\Proveedore::class);
+        return $this->belongsTo(\App\Models\Proveedor::class);
     }
 
     /**

@@ -29,127 +29,319 @@
 </style>
 @endpush
 @section('content')
-    <section class="content-header">
-        <h1>
-            Compra
-        </h1>
-    </section>
+
     <div class="content">
+        @include('flash::message')
         @include('adminlte-templates::common.errors')
+        {!! Form::model($tempCompraUser, ['route' => ['compras.update', $tempCompraUser->id], 'method' => 'patch']) !!}
         <div class="box box-primary">
-
+            <div class="box-header with-border">
+                <h3 class="box-title">
+                    <strong>
+                        Compra <small>datos generales, inicia: {{$tempCompraUser->created_at}}</small>
+                    </strong>
+                </h3>
+                <div class="box-tools pull-right">
+                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                </div>
+            </div>
+            <!-- /.box-header -->
             <div class="box-body">
-                <div class="row">
-                    {!! Form::open(['route' => 'compras.store']) !!}
+                @include('compras.fields')
+            </div>
+        </div><!-- /.row -->
 
-                        @include('compras.fields')
-
-
-                        <div class="col-sm-12">
-                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="table table-bordered table-xtra-condensed" id="tablaDetalle">
-                                <thead>
-                                <tr class="bg-primary txtzs txtwb" align="center">
-                                    <td >Cantidad</td>
-                                    <td >Código</td>
-                                    <td >Descripci&oacute;n</td>
-                                    <td >Precio</td>
-                                    <td >Subtotal</td>
-                                    <td >-</td>
-                                </tr>
-                                </thead>
-
-                                <tbody>
-
-                                <tr class="fila">
-                                    <td><input type="text" name="cantidades[]" class="form-control txtzxs  cantidad numero" value="0" size="3"/></td>
-                                    <td><input type="text" class="form-control txtzxs  codigo " value=""  size="3" readonly/></td>
-                                    <td><select name="items[]" class="form-control items" style="width: 100%"></select></td>
-                                    <td><input type="text" name="precios[]" class="form-control txtzxs  precio numero" value="0" size="5" /></td>
-                                    <td><input type="text" class="form-control txtzxs numero rSubTotal" value="0" size="5" readonly="readonly" /></td>
-                                    <td>
-                                        <button type="button" class="btn btn-xs btn-danger btnEliminaDet">
-                                            <span class="glyphicon glyphicon-remove"></span>
-                                        </button>
-                                        <input type="hidden" name="detalles[]" value="" />
-                                    </td>
-                                </tr>
-                                </tbody>
-
-                            </table>
-                            <div class="form-group ">
-                                    <span class="pull-left">
-                                        <button id="btnNewDet" type="button" class="btn btn-xs btn-info">A&ntilde;adir Nuevo Detalle</button>
-                                    </span>
-
-                                <span class="pull-right">
-                                    <input type="hidden" id="sumaTotal" value=""/>
-                                    <strong class="txtzl">Total</strong>
-                                    <span class="txtzl txtwb" id="totalTexto"></span>
-                                </span>
+        <div class="row">
+            {{--Box busqueda--}}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="box box-warning">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">
+                            <strong>
+                                Busqueda
+                            </strong>
+                        </h3>
+                        <div class="box-tools pull-right">
+                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                            {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body" id="datos-new-det">
+                        <div class="form-group">
+                            <select name="item_id" id="items" class="form-control" style="widows: 100%;">
+                                <option value=""> -- Select One -- </option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Cant</span>
+                                    <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
+                                </div>
                             </div>
-                            <br>
-                            <br>
-
-                            <div class="form-group col-sm-12">
-                                {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                <a href="{!! route('compras.index') !!}" class="btn btn-default">Cancel</a>
+                            <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-group-addon">$</span>
+                                    <input type="text" name="precio" id="precio-new-det" class="form-control" >
+                                    <span class="input-group-addon">
+                                        <a href="#" id="btn-add-det" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>"  >
+                                            <span class="text-success text-capitalize glyphicon glyphicon-plus"></span>
+                                        </a>
+                                    </span>
+                                    <input type="hidden" name="temp_compra_id" value="{{$tempCompraUser->id}}">
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            {{--Box busqueda--}}
+
+            {{--Box detalles--}}
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="box box-success">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">
+                            <strong>
+                                Detalles
+                            </strong>
+                        </h3>
+                        <div class="box-tools pull-right">
+                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                            {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
 
 
+                    <div class="box-body" style="padding: 0px;">
+                        <table width="100%"  class="table table-bordered table-condensed" id="tablaDetalle">
+                            <thead>
+                            <tr class="bg-primary txtzs txtwb" align="center">
+                                <td width="10%">Cantidad</td>
+                                {{--<td width="10%">Código</td>--}}
+                                <td width="50%">Descripci&oacute;n</td>
+                                <td width="10%">Precio</td>
+                                <td width="10%">Subtotal</td>
+                                <td width="10%">-</td>
+                            </tr>
+                            </thead>
 
-                        <!-- Submit Field -->
+                            <tbody>
+                            @php
+                                $subt =0;
+                                $total =0;
+                            @endphp
 
+                            @if($tempDetalles->count()>0)
+                                @foreach($tempDetalles as $det)
+                                    @php
+                                        $subt =$det->cantidad*$det->precio;
+                                    @endphp
+                                    <tr >
+                                        <td class="celda-cantidad">{{$det->cantidad}}</td>
+                                        {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
+                                        <td class="celda-descripcion">{{$det->item->nombre}}</td>
+                                        <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
+                                        <td class="celda-subt">{{'Q '.number_format($subt,2)}}</td>
+                                        <td>
+                                            <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="{{$det->id}}">
+                                                <span class="glyphicon glyphicon-remove"></span>
+                                            </button>
+                                            <input type="hidden" name="cantidades[]" class="h-cantidad" value="{{$det->cantidad}}">
+                                            <input type="hidden" name="items[]" class="h-item" value="{{$det->item_id}}">
+                                            <input type="hidden" name="precios[]" class="h-precio" value="{{$det->precio}}">
+                                            {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="{{$det->descuento}}">--}}
+                                            <input type="hidden" class="h-subt" value="{{$subt}}">
+                                        </td>
+                                    </tr>
+                                @endforeach
+                            @else
+                                <tr >
+                                    <td class="celda-cantidad">0</td>
+                                    {{--<td class="celda-codigo">0</td>--}}
+                                    <td class="celda-descripcion">-</td>
+                                    <td class="celda-precio">0</td>
+                                    <td class="celda-subt">0</td>
+                                    <td>
+                                        <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
+                                            <span class="glyphicon glyphicon-remove"></span>
+                                        </button>
+                                        <input type="hidden" name="cantidades[]" class="h-cantidad" value="" >
+                                        <input type="hidden" name="items[]" class="h-item" value="">
+                                        <input type="hidden" name="precios[]" class="h-precio" value="">
+                                        {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="">--}}
+                                        <input type="hidden" class="h-subt" value="">
+                                    </td>
+                                </tr>
+                            @endif
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="5" >
+                                    Total
+                                    <span class="pull-right" id="totalTexto">{{'Q '.number_format($total,2)}}</span>
+                                </td>
+                            </tr>
+                            </tfoot>
 
-                    {!! Form::close() !!}
+                        </table>
+                    </div>
+                </div>
+            </div>
+            {{--/Box detalles--}}
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="form-group">
+                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+                    <a href="{!! route('unimeds.index') !!}" class="btn btn-default">Cancel</a>
+                    
+                    <button type="submit" name="procesar" value="1" class="btn btn-success pull-right">
+                        <span class="glyphicon glyphicon-ok"></span> Procesar
+                    </button>
                 </div>
             </div>
         </div>
+
+        {!! Form::close() !!}
     </div>
     @include('compras.modal_provs')
+
 @endsection
 @push('scripts')
-@include('items.def_select2')
+@include('layouts.bootstrap_alert_float')
+<!--
+*********** Scripts create compras ***********-->
 <script>
     $(function() {
 
-        var debug=true;
+        function formatStateItems (state) {
 
-        /**
-         * Recorre cada uno de los camps detalles y devuelve falso si uno de ellos no tiene valor o su valor es 0
-         * @returns {boolean}
-         */
-        function camposLLenos(){
-            var i=0;
-            //Recorre cada campo tipo texto de la tabla detalle
-            $("#tablaDetalle tbody").find("input:text").each(function() {
-                if($(this).val()=="" || $(this).val()==0){
-                    i++;
+            var $state = $(
+                    "@component('components.format_slc2_item')"+
+                    "@slot('imagen')"+state.imagen+ "@endslot"+
+                    "@slot('nombre')"+state.nombre+ "@endslot"+
+                    "@slot('descripcion')"+ state.descripcion+"@endslot"+
+                    "@slot('um')"+ state.um+"@endslot"+
+                    "@endcomponent"
+            );
+
+            return $state;
+        };
+
+        $("#items").select2({
+            language : 'es',
+            closeOnSelect: false,
+            ajax: {
+                url: "{{ route('api.items.index') }}",
+                dataType: 'json',
+                data: function (params) {
+                    return {
+                        search: params.term
+                    };
+                },
+                processResults: function (data, params) {
+                    return {
+                        results: data.data,
+                    };
+                },
+                cache: true
+            },
+            minimumInputLength: 1,
+            templateResult: formatStateItems,
+            templateSelection: function(data,contenedor) {
+                if(data.id === ''){
+                    return 'Ingrese descripcion';
                 }
-            });
-
-            return i==0 ? true : false;
-        }
-
-        /**
-         * si todos los campos detalle estan llenos puede guardar o agregar otro detalle
-         */
-        function validaGuardaYnuevoDet(){
-            consola("Valida guarda y nuevo detalle",debug);
-            if(camposLLenos()){
-                $("#btnNewDet,#btnSubmit,#btnSubmit2,#btnFinalizar,#btnPreingreso").attr("disabled",false);
-            }else{
-                $("#btnNewDet,#btnSubmit,#btnSubmit2,#btnFinalizar,#btnPreingreso").attr("disabled",true);
+                else{
+                    return data.nombre;
+                }
             }
-        }
+        }).on('select2:close', function (evt) {
+            $("#cant-new-det").focus().select();
+        });
 
+        $("#btn-add-det").click(function () {
+
+            var $btn = $(this).button('loading');
+            var data = $('#datos-new-det :input').serializeArray();
+            console.log('Envío de valores detalle por ajax');
+
+            $.ajax({
+                method: 'POST',
+                url: '{{route("api.temp_compra_detalles.store")}}',
+                data: data,
+                dataType: 'json',
+                success: function (res) {
+                    var det= res.data;
+                    console.log('respuesta ajax:',res)
+                    if(res.success){
+                        addDet(det.id,det.item_id,det.cantidad,det.item.nombre,det.precio);
+                        bootstrap_alert(res.message,'success',3000);
+                    }
+
+                    $btn.button('reset');
+                },
+                error: function (res) {
+                    console.log('respuesta ajax:',res.responseJSON);
+
+                    bootstrap_alert('<strong>Error! </strong>'+res.responseJSON.message,'danger',0);
+                    $btn.button('reset');
+                }
+            })
+        });
+
+        $("#tablaDetalles").DataTable({
+            responsive: true,
+            searching: false,
+            ordering:  false,
+            paginate: false,
+            info: false,
+        });
+        
+        function addDet(idDet,item,cantidad,descripcion,precio) {
+
+            cantidad= parseFloat(cantidad);
+            precio= parseFloat(precio);
+
+            var fila=$("#tablaDetalle tbody tr:last");
+            var subTotal=(cantidad*precio).toFixed(2);
+            var subTotalTexto="Q "+addComas(subTotal);
+            var precioTexto= "Q "+addComas(precio.toFixed(2));
+
+            //si el total es mayor a 0 esto dice que hay algun detalle existente
+            if(total()>0){
+
+                $("#tablaDetalle tbody tr:last").clone(true).appendTo($("#tablaDetalle tbody"));
+
+                var fila=$("#tablaDetalle tbody tr:last");
+            }
+
+            fila.find(".celda-cantidad").text(cantidad)
+            fila.find(".celda-descripcion").text(descripcion);
+            fila.find(".celda-precio").text(precioTexto);
+            fila.find(".celda-subt").text(subTotalTexto);
+
+            fila.find(".h-item").val(item);
+            fila.find(".h-cantidad").val(cantidad);
+            fila.find(".h-precio").val(precio);
+            fila.find(".h-subt").val(subTotal);
+            fila.find(".btnEliminaDet").val(idDet);
+
+            total();
+        }
 
         /*	Suma cada uno de los subtotales
-         ------------------------------------------------*/
+        ------------------------------------------------*/
         function total(){
+
             var Total=0,totalTexto;
 
-            $(".rSubTotal").each(function() {
+            $(".h-subt").each(function() {
                 var cant=parseFloat($(this).val());
                 //suma del valor de cada uno de los subtotales
                 if(!isNaN(cant)){
@@ -158,132 +350,69 @@
             });
 
             totalTexto="Q "+addComas(Total.toFixed(2));
-            $("#sumaTotal").val(Total.toFixed(2));
+            $("#h-total").val(Total.toFixed(2));
             $("#totalTexto").text(totalTexto);
+
+            return Total;
         }
 
-        /*Multiplica la cantidad y el precio de la fila que se le manda como parametrom y lo coloca en el campo subtotal de la misma fila
-         ----------------------------------------------------------------------------------------------------------------------------------*/
-        function subTotal(fila){
-            var sTotal=0;
-            var cantidad=parseFloat(fila.find(".cantidad").val());
-            var precio=parseFloat(fila.find(".precio").val());
-
-            if(!isNaN(precio) && !isNaN(cantidad)){
-                sTotal=cantidad*precio;
-                fila.find(".rSubTotal").val( sTotal.toFixed(5) );
-                total();
-            }
-            validaGuardaYnuevoDet();
-        }
-
-
-        function ajustarDecimales(){
-//            consola("Ajusta decimales",debug);
-            $(".numero").each(function() {
-                $(this).val(parseFloat($(this).val()).toFixed(2));
-            });
-        }
+        total();
 
         /*	Remueve las filas detalle validando si solo queda una fila (no se remueve, solo se borran sus campos)
-         --------------------------------------------------------------------------------------------------------*/
+        --------------------------------------------------------------------------------------------------------*/
         $.fn.removerFila=function(){
             if($('#tablaDetalle >tbody >tr').length==1){
-                $(this).find("input").val("");
-                $(this).find(".numero").val(0);
-                $(this).find(".lbl-perecedero").hide();
+                $(this).find(".celda-cantidad").text(0)
+                $(this).find(".celda-descripcion").text('-');
+                $(this).find(".celda-precio").text(0);
+                $(this).find(".celda-subt").text(0);
+
+                $(this).find(".h-item").val('');
+                $(this).find(".h-cantidad").val(0);
+                $(this).find(".h-precio").val(0);
+                $(this).find(".h-subt").val(0);
             }else{
                 $(this).remove();
             }
-            ajustarDecimales();
-            validaFinalizar();
+
+            total();
         };
 
-        $(".items").defSelect2();
-
-        $(".numero").keypress(function(e) {
-            var keynum = window.event ? window.event.keyCode : e.which;
-            if ((keynum == 8) || (keynum == 0) || (keynum == 13) || (keynum == 46)){
-                return true;
-            }
-            return /\d/.test(String.fromCharCode(keynum));
-        });
-
-        $(".codigo").focus(function() {
-            $(this).select();
-        });
-        $(".cantidad,.precio").focus(function() {
-            $(this).select();
-        });
-
-
-
-        /*Cada vez que se ingrese un dato en los campos cantidad o precio
-         -----------------------------------------------------------------*/
-        $(".cantidad,.precio").keyup(function() {
-            var fila=$(this).parent().parent();
-            subTotal(fila);
-        }).blur(function() {
-            var fila=$(this).parent().parent();
-            subTotal(fila);
-        });
-
-        /* 							AGREGAR DETALLES
-         --------------------------------------------------------------------------------------*/
-        function addDet() {
-            $("#tablaDetalle tbody tr:last").clone(true).appendTo($("#tablaDetalle tbody"));
-
-            var filaClon=$("#tablaDetalle tbody tr:last");
-            filaClon.find(".items").parent().html("<select name='items[]' class='form-control items' style='width: 100%'></select>");
-            filaClon.find(".items").defSelect2();
-            filaClon.find("input").val("");
-            filaClon.find(".numero").val(0);
-            //filaClon.find(".lbl-perecedero").hide();
-
-            ajustarDecimales();
-
-            filaClon.find(".cantidad").focus().select();
-        }
-
-        $("#btnNewDet").click(function(){
-            addDet();
-        });
-
-        /**
-         * Para cundo precione tabular despues de ingresar el precio agrege otro detalle*/
-        $(".precio").keydown(function(e) {
-            var code = e.keyCode || e.which;
-            //si la tecla precionada es tab
-            if (code == '9') {
-                console.log("Tecla tab precionada");
-                // y si todos los campos estan llenos
-                if(camposLLenos()){
-                    e.preventDefault();
-                    addDet();
-                }
-            }
-        })
-
         /* 						   REMOVER DETALLES
-         --------------------------------------------------------------------------------------*/
+        --------------------------------------------------------------------------------------*/
         $(".btnEliminaDet").click(function(){
-            var fila=$(this).parent().parent();
-            var idRegistro=$(this).next("input:hidden").val();
 
-            if(idRegistro){
-                $.get("{{route('api.compra_detalles.destroy',['method'=>"delete",'id'=>'"+idRegistro+"'])}}",{},function(respuesta){
+            var fila=$(this).closest('tr');
+            var id= parseInt($(this).val());
 
-                });
-            }else{
-                fila.removerFila();
+            console.log('eliminar detalle: ' + id)
+
+            if(id){
+                var $btn= $(this).button('loading');
+
+                $.ajax({
+                    method: 'DELETE',
+                    url: '{{url('api/temp_compra_detalles')}}' + '/' + id,
+                    dataType: 'json',
+                    success: function (res) {
+                        ///res = JSON.parse(res);
+                        console.log('respuesta ajax:',res);
+
+                        bootstrap_alert('<strong>Error! </strong>'+res.message,'success',0);
+                        $btn.button('reset');
+                        fila.removerFila();
+                    },
+                    error: function (res) {
+                        console.log('respuesta ajax:',res.responseJSON);
+
+                        bootstrap_alert('<strong>Error! </strong>'+res.responseJSON.message,'danger',0);
+                        $btn.button('reset');
+                    }
+                })
             }
 
-            $("#tablaDetalle tbody tr:last").find(".cantidad").focus().select();
         });
 
-        ajustarDecimales();
-        validaGuardaYnuevoDet();
-        total();
     })
 </script>
 @endpush

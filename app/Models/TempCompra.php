@@ -23,7 +23,7 @@ class TempCompra extends Model
 
 
     public $fillable = [
-        'proveedore_id',
+        'proveedor_id',
         'tcomprobante_id',
         'fecha',
         'serie',
@@ -39,7 +39,7 @@ class TempCompra extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'proveedore_id' => 'integer',
+        'proveedor_id' => 'integer',
         'tcomprobante_id' => 'integer',
         'serie' => 'string',
         'numero' => 'string',

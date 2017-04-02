@@ -9,25 +9,12 @@
         <a  data-toggle="modal" href="#modal-form-proveedores">Nuevo</a>
 
     </label>
-    <select name="proveedor_id" id="proveedores" class="form-control" style="width: 100%">
-        <option value=""> -- Select One -- </option>
-        @if(isset($compra))
-            <option value="{{$compra->proveedor_id}}" selected>{{$compra->proveedor->nombre}}</option>
-        @endif
-        @if(old('proveedor_id'))
-            <option value="{{old('proveedor_id')}}" selected>{{$proveedores[old('proveedor_id')]}}</option>
-        @endif
-    </select>
+    {!! Form::select('proveedor_id', $proveedores ,$tempCompraUser->proveedor_id,['class' => 'form-control', 'id'=>'proveedores']) !!}
 </div>
 
 <div class="form-group col-sm-4">
-	<label for="tcomprobantes" class="control-label">Tipo de comprobante:</label>
-    <select name="tcomprobante_id" id="tcomprobantes" class="form-control" style="width: 100%">
-        <option value=""> -- Select One -- </option>
-        @foreach($tcomps as $tc)
-            <option value="{{$tc->id}}" >{{$tc->nombre}}</option>
-        @endforeach
-    </select>
+    {!! Form::label('tcomprobante', 'Tipo Comprobante:') !!}
+    {!! Form::select('tcomprobante_id', $tcomps ,$tempCompraUser->tcomprobante_id ,['class' => 'form-control', 'id'=>'tcomprobantes']) !!}
 </div>
 
 <!-- Fecha Field -->
@@ -70,34 +57,34 @@
         $("#proveedores").select2({
             closeOnSelect: false,
             language: "es",
-            delay: 500,
-            ajax: {
-                url: "{{ route('api.proveedors.index') }}",
-                dataType: 'json',
-                delay: 250,
-                data: function (params) {
-                    return {
-                        search: params.term, // search term
-                        page: params.page
-                    };
-                },
-                processResults: function (data, params) {
+            {{--delay: 500,--}}
+            {{--ajax: {--}}
+                {{--url: "{{ route('api.proveedors.index') }}",--}}
+                {{--dataType: 'json',--}}
+                {{--delay: 250,--}}
+                {{--data: function (params) {--}}
+                    {{--return {--}}
+                        {{--search: params.term, // search term--}}
+                        {{--page: params.page--}}
+                    {{--};--}}
+                {{--},--}}
+                {{--processResults: function (data, params) {--}}
 
-                    //add attr text a cada objeto de la respuesta para no utilizar templateResult
-                    var newData = $.map(data.data, function (obj) {
-                        obj.text = obj.nombre;
-                        return obj;
-                    });
+                    {{--//add attr text a cada objeto de la respuesta para no utilizar templateResult--}}
+                    {{--var newData = $.map(data.data, function (obj) {--}}
+                        {{--obj.text = obj.nombre;--}}
+                        {{--return obj;--}}
+                    {{--});--}}
 
-                    return {
-                        results: newData,
-                    };
-                },
-                cache: true
-            },
-            //escapeMarkup: function (markup) { return markup; }, // let our custom formatter work
-            minimumInputLength: 1,
-            templateResult: formatState
+                    {{--return {--}}
+                        {{--results: newData,--}}
+                    {{--};--}}
+                {{--},--}}
+                {{--cache: true--}}
+            {{--},--}}
+            {{--//escapeMarkup: function (markup) { return markup; }, // let our custom formatter work--}}
+            {{--minimumInputLength: 1,--}}
+            {{--templateResult: formatState--}}
         }).on('select2:close', function (evt) {
             $("#tcomprobantes").select2('open');
         })

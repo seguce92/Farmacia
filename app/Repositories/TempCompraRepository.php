@@ -11,7 +11,7 @@ class TempCompraRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'proveedore_id',
+        'proveedor_id',
         'tcomprobante_id',
         'fecha',
         'serie',
