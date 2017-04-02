@@ -54,8 +54,9 @@ class Item extends Model
      * @var array
      */
     public static $rules = [
+        "nombre" => 'required|max:45',
         "precio" => 'required|numeric'
-        
+
     ];
 
     /**
