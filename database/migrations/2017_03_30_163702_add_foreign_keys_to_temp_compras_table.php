@@ -14,7 +14,7 @@ class AddForeignKeysToTempComprasTable extends Migration {
 	{
 		Schema::table('temp_compras', function(Blueprint $table)
 		{
-			$table->foreign('proveedore_id', 'fk_temp_compras_proveedores1')->references('id')->on('proveedores')->onUpdate('NO ACTION')->onDelete('NO ACTION');
+			$table->foreign('proveedor_id', 'fk_temp_compras_proveedores1')->references('id')->on('proveedores')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 			$table->foreign('tcomprobante_id', 'fk_temp_compras_tcomprobantes1')->references('id')->on('tcomprobantes')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 		});
 	}

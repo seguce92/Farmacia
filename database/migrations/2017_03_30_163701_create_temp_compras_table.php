@@ -15,7 +15,7 @@ class CreateTempComprasTable extends Migration {
 		Schema::create('temp_compras', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->integer('proveedore_id')->nullable()->index('fk_temp_compras_proveedores1_idx');
+			$table->integer('proveedor_id')->nullable()->index('fk_temp_compras_proveedores1_idx');
 			$table->integer('tcomprobante_id')->nullable()->index('fk_temp_compras_tcomprobantes1_idx');
 			$table->dateTime('fecha')->nullable();
 			$table->string('serie', 45)->nullable();
