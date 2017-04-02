@@ -9,7 +9,7 @@
     <div class="content">
 
         <div class="box box-primary">
-
+            @include('adminlte-templates::common.errors')
             <div class="box-body">
                 <div class="row">
                     {!! Form::open(['route' => 'items.store',"enctype"=>"multipart/form-data"]) !!}
