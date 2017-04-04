@@ -6,6 +6,7 @@ use App\DataTables\RolsDataTables;
 use App\Rol;
 //use Illuminate\Http\Request;
 use App\Http\Requests\RolFormRequest as Request;
+use Laracasts\Flash\Flash;
 
 class RolController extends Controller
 {
@@ -23,8 +24,7 @@ class RolController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(RolsDataTables $dataTable){
-        $rols = Rol::all();
-//        return view("admin.rols.index",compact('rols'));
+
         return $dataTable->render('admin.rols.index');
     }
 
@@ -48,7 +48,9 @@ class RolController extends Controller
 
         Rol::create($request->all());
 
-        return redirect("admin/rols")->with('status','Rol creado!');
+        Flash::success('Rol creado!')->important();
+
+        return redirect("admin/rols");
 
     }
 
@@ -84,8 +86,8 @@ class RolController extends Controller
     public function update(Request $request, Rol $rol)
     {
         $rol->fill($request->all())->save();
-
-        return redirect("admin/rols")->with('status','Rol actualizado!');
+        Flash::success('Rol actualizado!')->important();
+        return redirect("admin/rols");
 
     }
 
@@ -98,6 +100,9 @@ class RolController extends Controller
     public function destroy(Rol $rol)
     {
         $rol->delete();
-        return redirect("admin/rols")->with('status','Rol eliminado!');
+
+        Flash::success('Rol eliminado!')->important();
+
+        return redirect("admin/rols");
     }
 }

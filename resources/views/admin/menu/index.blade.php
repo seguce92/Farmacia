@@ -2,33 +2,34 @@
 
 @section("content")
 
-	<div class="row">
-		<div class="col-md-12">
-			<div class="box">
-			<div class="box-header with-border">
-			<h3 class="box-title"><strong>Administración de opciones del menu</strong></h3>
-			<div class="box-tools pull-right">
-			<button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+	<div class="content">
+		@include('flash::message')
 
-			<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-			</div>
+		<div class="box">
+			<div class="box-header with-border">
+				<h3 class="box-title"><strong>Administración de opciones del menu</strong></h3>
+				<div class="box-tools pull-right">
+					<button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+
+					<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+				</div>
 			</div>
 			<!-- /.box-header -->
 			<div class="box-body">
 				<div class="row">
-				<div class="col-md-12">
-				<!--Contenido-->
-					{!! $menu !!}
+					<div class="col-md-12">
+						<!--Contenido-->
+						{!! $menu !!}
 
-					<ul><li><a href="{{url("/admin/option/create/0")}}" class='text-green text-sm' data-toggle="tooltip" title="Nueva opcion"><span class="glyphicon glyphicon-plus"></span></a></li></ul>
+						<ul><li><a href="{{url("/admin/option/create/0")}}" class='text-green text-sm' data-toggle="tooltip" title="Nueva opcion"><span class="glyphicon glyphicon-plus"></span></a></li></ul>
 
-				<!--Fin Contenido-->
+						<!--Fin Contenido-->
+					</div>
 				</div>
 			</div>
-			</div>
-			</div><!-- /.row -->
-		</div><!-- /.box-body -->
-	</div><!-- /.box -->
+		</div><!-- /.row -->
+	</div>
+
 
 	<div class="modal fade" id="modal-delete">
 		<form action="" method="post" role="form" id="form-delete" >

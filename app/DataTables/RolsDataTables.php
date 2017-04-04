@@ -27,7 +27,7 @@ class RolsDataTables extends DataTable
      */
     public function query()
     {
-        $query = Rol::query()->withTrashed();
+        $query = Rol::query();
 
         return $this->applyScopes($query);
     }
