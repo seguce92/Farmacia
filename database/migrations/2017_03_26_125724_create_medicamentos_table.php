@@ -27,6 +27,7 @@ class CreateMedicamentosTable extends Migration {
 			$table->text('dosis', 65535)->nullable();
 			$table->text('contraindicaciones', 65535)->nullable();
 			$table->text('advertencias', 65535)->nullable();
+            $table->boolean('generico')->nullable()->default(0);
 			$table->timestamps();
 			$table->softDeletes();
 		});

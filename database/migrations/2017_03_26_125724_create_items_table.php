@@ -24,6 +24,7 @@ class CreateItemsTable extends Migration {
 			$table->decimal('stock', 6)->default(0.00);
 			$table->integer('unimed_id')->index('fk_items_unimeds1_idx');
 			$table->integer('iestado_id')->index('fk_items_iestados1_idx');
+            $table->string('ubicacion', 45)->nullable();
 			$table->timestamps();
 			$table->softDeletes();
 		});
