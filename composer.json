@@ -19,7 +19,8 @@
         "owen-it/laravel-auditing": "^4.0",
         "yajra/laravel-datatables-buttons": "1.0",
         "yajra/laravel-datatables-html": "1.0",
-        "yajra/laravel-datatables-oracle": "7.2"
+        "yajra/laravel-datatables-oracle": "7.2",
+        "orangehill/iseed": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
