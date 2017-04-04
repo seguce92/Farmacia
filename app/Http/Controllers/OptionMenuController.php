@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\OptionMenuFormRequest;
 use App\Option;
+use Laracasts\Flash\Flash;
 
 class OptionMenuController extends Controller{
 
@@ -88,7 +89,9 @@ class OptionMenuController extends Controller{
             "icono_l" => $request->icono_l
         ]);
 
-        return redirect('admin/option')->with('status', 'Opción creada!');
+        Flash::success('Opción creada!')->important();
+
+        return redirect('admin/option');
     }
 
     /**
@@ -141,7 +144,9 @@ class OptionMenuController extends Controller{
         $op->icono_l=$request->icono_l;
         $op->save();
 
-        return redirect('admin/option')->with('status','Opción actualizada!');
+        Flash::success('Opción actualizada!')->important();
+
+        return redirect('admin/option');
     }
 
     /**
@@ -156,6 +161,8 @@ class OptionMenuController extends Controller{
 
         $op->delete();
 
-        return redirect('admin/option')->with('status','Opción eliminada!');
+        Flash::success('Opción eliminada!')->important();
+
+        return redirect('admin/option');
     }
 }
