@@ -45,6 +45,11 @@
     <![endif]-->
 
     <!--App css-->
+    <style>
+        .alert {
+            margin-bottom: 10px;
+        }
+    </style>
     @stack('css')
     {{ $css or ''}}
 
