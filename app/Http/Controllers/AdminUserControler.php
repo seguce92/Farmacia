@@ -118,7 +118,8 @@ class AdminUserControler extends Controller
             return redirect(route('user.edit.profile',["user" => $user->id,"editProfile"=> 1 ]))->with('status', 'Perfil actualizado!');
         }
         else{
-            $user->rols()->sync($request->rols);
+            $rols = $request->rols ? $request->rols : [];
+            $user->rols()->sync($rols);
             return redirect(route('user.edit',$user->id))->with('status', 'Usuario actualizado!');
         }
     }
