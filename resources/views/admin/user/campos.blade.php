@@ -115,7 +115,7 @@
             Guardar
         </button>
 
-        <a href="{{ URL::previous()  }}">
+        <a href="{{ route('user.index')  }}">
 
             <button type="button" class="btn btn-default">
                 Regrear

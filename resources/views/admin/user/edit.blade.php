@@ -1,6 +1,7 @@
 @component('adminlte::layouts.app')
 
-
+<div class="content">
+    @include('flash::message')
     @component('components.box')
         @slot('boxTitle')
         Editar {{ isset($editProfile) ? "Perfil":"Usuario"}}
@@ -10,5 +11,5 @@
             @include('admin.user.campos')
         {!! Form::close() !!}
     @endcomponent
-
+</div>
 @endcomponent

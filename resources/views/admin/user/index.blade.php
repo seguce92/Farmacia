@@ -1,6 +1,7 @@
 @component('adminlte::layouts.app')
 
 	<div class="content">
+		@include('flash::message')
 
 	@component('components.box')
 		@slot('boxTitle')

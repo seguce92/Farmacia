@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Illuminate\Http\Request;
+use Laracasts\Flash\Flash;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -89,7 +90,10 @@ class RegisterController extends Controller
             $fields['username'] = $data['username'];
         }
 
-        return User::create($fields)->rols()->sync($data['rols']);
+        $rols = isset($data['rols']) ? $data['rols'] : [];
+
+        return User::create($fields)->rols()->sync($rols);
+
     }
 
     /**
@@ -104,7 +108,9 @@ class RegisterController extends Controller
 
         $this->create($request->all());
 
-        return redirect($this->redirectTo)->with('status', 'Usuario creado!');
+        Flash::success('Usuario creado correctamente!')->important();
+
+        return redirect($this->redirectTo);
     }
 
 

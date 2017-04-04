@@ -8,6 +8,7 @@ use App\Rol;
 use App\User;
 use Facades\App\Menu;
 use Illuminate\Http\Request;
+use Laracasts\Flash\Flash;
 
 class AdminUserControler extends Controller
 {
@@ -114,13 +115,15 @@ class AdminUserControler extends Controller
 
         $user->save();
 
+        Flash::success('Usuario actualizado correctamente!')->important();
+
         if($request->editProfile){
             return redirect(route('user.edit.profile',["user" => $user->id,"editProfile"=> 1 ]))->with('status', 'Perfil actualizado!');
         }
         else{
             $rols = $request->rols ? $request->rols : [];
             $user->rols()->sync($rols);
-            return redirect(route('user.edit',$user->id))->with('status', 'Usuario actualizado!');
+            return redirect(route('user.edit',$user->id));
         }
     }
 
@@ -165,6 +168,8 @@ class AdminUserControler extends Controller
 
         $user->opciones()->sync($opciones);
 
-        return redirect("admin/user/{$user->id}/menu")->with("status","Opciones asignadas!");
+        Flash::success('Menu del usuario actualizado!')->important();
+
+        return redirect("admin/user/{$user->id}/menu");
     }
 }
