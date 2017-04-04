@@ -187,6 +187,7 @@ return [
         \InfyOm\Generator\InfyOmGeneratorServiceProvider::class,
         \InfyOm\AdminLTETemplates\AdminLTETemplatesServiceProvider::class,
         OwenIt\Auditing\AuditingServiceProvider::class,
+        Orangehill\Iseed\IseedServiceProvider::class,
 
 
     ],
