@@ -15,7 +15,7 @@ class CreateLaboratoriosTable extends Migration {
 		Schema::create('laboratorios', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->string('nombre', 45)->unique('nombre_UNIQUE');
+			$table->string('nombre', 100)->unique('nombre_UNIQUE');
 			$table->timestamps();
 			$table->softDeletes();
 		});
