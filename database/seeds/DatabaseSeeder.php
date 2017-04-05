@@ -20,5 +20,11 @@ class DatabaseSeeder extends Seeder
         $this->call(UnimedsTableSeeder::class);
         $this->call(EstadosVentasTableSeeder::class);
         $this->call(TcomprobantesTableSeeder::class);
+        $this->call(LaboratoriosTableSeeder::class);
+        $this->call(ItemsTableSeeder::class);
+        $this->call(ClasificacionsTableSeeder::class);
+        $this->call(FcategoriasTableSeeder::class);
+        $this->call(MedicamentosTableSeeder::class);
+        $this->call(IcategoriaItemTableSeeder::class);
     }
 }
