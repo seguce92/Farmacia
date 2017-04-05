@@ -68,7 +68,8 @@ class CompraController extends AppBaseController
         }
 
         $tempCompraUser = $tempCompraUser[0];
-        $tempDetalles = $tempCompraUser->tempCompraDetalles;
+
+        $tempDetalles = isset($tempCompraUser->tempCompraDetalles) ? $tempCompraUser->tempCompraDetalles : collect();
 
         $proveedores = array_pluck(Proveedor::all()->toArray(),'nombre','id');
         $proveedores= array_prepend($proveedores,'Selecione uno...','');
@@ -227,7 +228,7 @@ class CompraController extends AppBaseController
             'serie' => $request->serie,
             'numero' => $request->numero,
             'tcomprobante_id' => $request->tcomprobante_id,
-            'cestado_id' => 1
+            'cestado_id' => 2
         ];
 
         $compra = $this->compraRepository->create($fillable);
@@ -236,7 +237,5 @@ class CompraController extends AppBaseController
 
         $tempCompra->procesada=1;
         $tempCompra->save();
-
-
     }
 }
