@@ -16,13 +16,13 @@ class CreateMedicamentosTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->integer('laboratotio_id')->index('fk_medicamento_laboratorio1_idx');
-			$table->integer('clasificacion_id')->index('fk_medicamento_clalsificacion1_idx');
+			$table->integer('clasificacion_id')->index('fk_medicamento_clalsificacion1_idx')->nullable();
 			$table->integer('unimed_id')->index('fk_medicamento_unidad_medida1_idx');
 			$table->integer('item_id')->index('fk_medicamentos_items1_idx');
-			$table->string('nombre', 45);
+			$table->string('nombre', 100);
 			$table->boolean('receta')->nullable()->default(0);
-			$table->smallInteger('cnt_total')->nullable();
-			$table->smallInteger('cnt_formula')->nullable();
+			$table->smallInteger('cnt_total')->nullable()->default(0);
+			$table->smallInteger('cnt_formula')->nullable()->default(0);
 			$table->text('indicaciones', 65535)->nullable();
 			$table->text('dosis', 65535)->nullable();
 			$table->text('contraindicaciones', 65535)->nullable();
