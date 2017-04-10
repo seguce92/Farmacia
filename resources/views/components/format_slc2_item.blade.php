@@ -13,7 +13,7 @@
 </style>
 @endpush
 <div class='select2-result-repository clearfix'>"+
-    "<div class='select2-result-repository__avatar'><img src='{!! asset($imagen) or ''!!}' class='img-responsive' alt='Image'></div>"+
+    "<div class='select2-result-repository__avatar'><img src='{!! asset($imagen) !!}' class='img-responsive' alt='Image'></div>"+
     "<div class='select2-result-repository__meta'>"+
         "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}}</div>"+
         "<div class='select2-result-repository__description'>{{$descripcion or 'descripcion'}}</div>"+

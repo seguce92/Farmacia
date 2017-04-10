@@ -233,9 +233,9 @@
             return $state;
         };
 
-        $("#items").select2({
+        var slc2item=$("#items").select2({
             language : 'es',
-            closeOnSelect: false,
+//            closeOnSelect: false,
             ajax: {
                 url: "{{ route('api.items.index') }}",
                 dataType: 'json',
@@ -265,7 +265,9 @@
             $("#cant-new-det").focus().select();
         });
 
-        $("#btn-add-det").click(function () {
+        $("#btn-add-det").click(function (e) {
+
+            e.preventDefault();
 
             var $btn = $(this).button('loading');
             var data = $('#datos-new-det :input').serializeArray();
@@ -285,6 +287,7 @@
                     }
 
                     $btn.button('reset');
+                    slc2item.select2('open');
                 },
                 error: function (res) {
                     console.log('respuesta ajax:',res.responseJSON);
