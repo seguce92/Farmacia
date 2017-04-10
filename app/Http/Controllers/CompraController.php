@@ -57,17 +57,20 @@ class CompraController extends AppBaseController
             ->get();
 
         ///si el usuario no tiene ninguna compra creada
+        if($tempCompraUser->count()>1) {
+            dd('el usuario tiens '.$tempCompraUser->count().' compras temporales');
+        }
+
         if($tempCompraUser->count()==0){
 
             $tempCompraUser = TempCompra::create([
                 'user_id' => $user->id
             ]);
+            dd("Creada nueva compra");
 
-        }elseif ($tempCompraUser->count()>1){
-            dd('el usuario tiens '.$tempCompraUser->count().' compras temporales');
+        }else{
+            $tempCompraUser = $tempCompraUser[0];
         }
-
-        $tempCompraUser = $tempCompraUser[0];
 
         $tempDetalles = isset($tempCompraUser->tempCompraDetalles) ? $tempCompraUser->tempCompraDetalles : collect();
 
