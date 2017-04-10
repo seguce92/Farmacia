@@ -66,7 +66,7 @@ class CompraController extends AppBaseController
             $tempCompraUser = TempCompra::create([
                 'user_id' => $user->id
             ]);
-            dd("Creada nueva compra");
+            //dd("Creada nueva compra");
 
         }else{
             $tempCompraUser = $tempCompraUser[0];
