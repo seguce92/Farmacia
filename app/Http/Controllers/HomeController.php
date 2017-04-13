@@ -8,6 +8,8 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use Carbon\Carbon;
+use Faker\Test\Provider\LocalizationTest;
 use Illuminate\Http\Request;
 
 /**
@@ -24,6 +26,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+
     }
 
     /**
