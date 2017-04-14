@@ -422,14 +422,14 @@
                         ///res = JSON.parse(res);
                         console.log('respuesta ajax:',res);
 
-                        bootstrap_alert('<strong>Error! </strong>'+res.message,'success',0);
+                        bootstrap_alert('<strong>Listo! </strong>'+res.message,'success',5);
                         $btn.button('reset');
                         fila.removerFila();
                     },
                     error: function (res) {
                         console.log('respuesta ajax:',res.responseJSON);
 
-                        bootstrap_alert('<strong>Error! </strong>'+res.responseJSON.message,'danger',0);
+                        bootstrap_alert('<strong>Error! </strong>'+res.responseJSON.message,'danger',5);
                         $btn.button('reset');
                     }
                 })
