@@ -1,54 +1,36 @@
-<!-- Id Field -->
-<div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{!! $compra->id !!}</p>
-</div>
 
 <!-- Proveedore Id Field -->
-<div class="form-group">
-    {!! Form::label('proveedor_id', 'Proveedore Id:') !!}
-    <p>{!! $compra->proveedor_id !!}</p>
-</div>
+{!! Form::label('proveedor', 'Proveedore Id:') !!}
+{!! $compra->proveedor->nombre !!}
+<br>
 
 <!-- Fecha Field -->
-<div class="form-group">
-    {!! Form::label('fecha', 'Fecha:') !!}
-    <p>{!! $compra->fecha !!}</p>
-</div>
+{!! Form::label('fecha', 'Fecha:') !!}
+{!! $compra->fecha !!}
 
+<br>
 <!-- Serie Field -->
-<div class="form-group">
-    {!! Form::label('serie', 'Serie:') !!}
-    <p>{!! $compra->serie !!}</p>
-</div>
+{!! Form::label('serie', 'Serie:') !!}
+{!! $compra->serie !!}
+<br>
 
 <!-- Numero Field -->
-<div class="form-group">
-    {!! Form::label('numero', 'Numero:') !!}
-    <p>{!! $compra->numero !!}</p>
-</div>
+{!! Form::label('numero', 'Numero:') !!}
+{!! $compra->numero !!}
+<br>
 
 <!-- Cestado Id Field -->
-<div class="form-group">
-    {!! Form::label('cestado_id', 'Cestado Id:') !!}
-    <p>{!! $compra->cestado_id !!}</p>
-</div>
+{!! Form::label('cestado', 'Cestado Id:') !!}
+{!! $compra->cestado->descripcion !!}
+<br>
 
 <!-- Created At Field -->
-<div class="form-group">
-    {!! Form::label('created_at', 'Created At:') !!}
-    <p>{!! $compra->created_at !!}</p>
-</div>
-
+{!! Form::label('created_at', 'Created At:') !!}
+{!! $compra->created_at !!}
+<br>
 <!-- Updated At Field -->
-<div class="form-group">
-    {!! Form::label('updated_at', 'Updated At:') !!}
-    <p>{!! $compra->updated_at !!}</p>
-</div>
-
-<!-- Deleted At Field -->
-<div class="form-group">
-    {!! Form::label('deleted_at', 'Deleted At:') !!}
-    <p>{!! $compra->deleted_at !!}</p>
-</div>
+{!! Form::label('updated_at', 'Updated At:') !!}
+{!! $compra->updated_at !!}
+<br>
+<br>
 

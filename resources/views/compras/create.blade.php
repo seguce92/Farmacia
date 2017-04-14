@@ -33,79 +33,165 @@
     <div class="content">
         @include('flash::message')
         @include('adminlte-templates::common.errors')
-        {!! Form::model($tempCompraUser, ['route' => ['compras.update', $tempCompraUser->id], 'method' => 'patch']) !!}
-        <div class="box box-primary">
-            <div class="box-header with-border">
-                <h3 class="box-title">
-                    <strong>
-                        Compra <small>datos generales, inicia: {{$tempCompraUser->created_at}}</small>
-                    </strong>
-                </h3>
-                <div class="box-tools pull-right">
-                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                    {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
-                </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                @include('compras.fields')
-            </div>
-        </div><!-- /.row -->
 
+        {!! Form::model($tempCompraUser, ['route' => ['compras.update', $tempCompraUser->id], 'method' => 'patch']) !!}
         <div class="row">
-            {{--Box busqueda--}}
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="box box-warning">
-                    <div class="box-header with-border">
-                        <h3 class="box-title">
-                            <strong>
-                                Busqueda
-                            </strong>
-                        </h3>
-                        <div class="box-tools pull-right">
-                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                            {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
-                        </div>
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="box-body" id="datos-new-det">
-                        <div class="form-group">
-                            <select name="item_id" id="items" class="form-control" style="widows: 100%;">
-                                <option value=""> -- Select One -- </option>
-                            </select>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon">Cant</span>
-                                    <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                <!-- TAB NAVIGATION -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#tab1" role="tab" data-toggle="tab">Artículos</a></li>
+                    <li><a href="#tab2" role="tab" data-toggle="tab">Detalles</a></li>
+                </ul>
+                <!-- TAB CONTENT -->
+                <div class="tab-content">
+                    <div class="active tab-pane fade in" id="tab1">
+                        {{--Box busqueda--}}
+                            <div class="box box-warning">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title">
+                                        <strong>
+                                            Busqueda
+                                        </strong>
+                                    </h3>
+                                    <div class="box-tools pull-right">
+                                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                        {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <div class="input-group">
-                                    <span class="input-group-addon">$</span>
-                                    <input type="text" name="precio" id="precio-new-det" class="form-control" >
-                                    <span class="input-group-addon">
+                                <!-- /.box-header -->
+                                <div class="box-body" id="datos-new-det">
+                                    <div class="form-group">
+                                        <select name="item_id" id="items" class="form-control" style="widows: 100%;">
+                                            <option value=""> -- Select One -- </option>
+                                        </select>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">Cant</span>
+                                                <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
+                                            </div>
+                                        </div>
+                                        <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">$</span>
+                                                <input type="text" name="precio" id="precio-new-det" class="form-control" >
+                                                <span class="input-group-addon">
                                         <a href="#" id="btn-add-det" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>"  >
                                             <span class="text-success text-capitalize glyphicon glyphicon-plus"></span>
                                         </a>
                                     </span>
-                                    <input type="hidden" name="temp_compra_id" value="{{$tempCompraUser->id}}">
+                                                <input type="hidden" name="temp_compra_id" value="{{$tempCompraUser->id}}">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        {{--Box busqueda--}}
+                    </div>
+                    <div class="tab-pane fade" id="tab2">
+                        {{--Box detalles--}}
+                            <div class="box box-success">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title">
+                                        <strong>
+                                            Detalles
+                                        </strong>
+                                    </h3>
+                                    <div class="box-tools pull-right">
+                                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                        {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
+                                    </div>
+                                </div>
+                                <!-- /.box-header -->
+
+
+                                <div class="box-body" style="padding: 0px;">
+                                    <table width="100%"  class="table table-bordered table-condensed" id="tablaDetalle">
+                                        <thead>
+                                        <tr class="bg-primary txtzs txtwb" align="center">
+                                            <td width="50%">Producto</td>
+                                            <td width="10%">Precio</td>
+                                            {{--<td width="10%">Código</td>--}}
+                                            <td width="10%">Cantidad</td>
+                                            <td width="10%">Subtotal</td>
+                                            <td width="10%">-</td>
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+                                        @php
+                                            $subt =0;
+                                            $total =0;
+                                        @endphp
+
+                                        @if($tempDetalles->count()>0)
+                                            @foreach($tempDetalles as $det)
+                                                @php
+                                                    $subt =$det->cantidad*$det->precio;
+                                                @endphp
+                                                <tr >
+                                                    <td class="celda-descripcion">{{$det->item->nombre}}</td>
+                                                    <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
+                                                    <td class="celda-cantidad">{{$det->cantidad}}</td>
+                                                    {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
+                                                    <td class="celda-subt">{{'Q '.number_format($subt,2)}}</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="{{$det->id}}">
+                                                            <span class="glyphicon glyphicon-remove"></span>
+                                                        </button>
+                                                        <input type="hidden" name="cantidades[]" class="h-cantidad" value="{{$det->cantidad}}">
+                                                        <input type="hidden" name="items[]" class="h-item" value="{{$det->item_id}}">
+                                                        <input type="hidden" name="precios[]" class="h-precio" value="{{$det->precio}}">
+                                                        {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="{{$det->descuento}}">--}}
+                                                        <input type="hidden" class="h-subt" value="{{$subt}}">
+                                                    </td>
+                                                </tr>
+                                            @endforeach
+                                        @else
+                                            <tr >
+                                                <td class="celda-cantidad">0</td>
+                                                {{--<td class="celda-codigo">0</td>--}}
+                                                <td class="celda-descripcion">-</td>
+                                                <td class="celda-precio">0</td>
+                                                <td class="celda-subt">0</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
+                                                        <span class="glyphicon glyphicon-remove"></span>
+                                                    </button>
+                                                    <input type="hidden" name="cantidades[]" class="h-cantidad" value="" >
+                                                    <input type="hidden" name="items[]" class="h-item" value="">
+                                                    <input type="hidden" name="precios[]" class="h-precio" value="">
+                                                    {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="">--}}
+                                                    <input type="hidden" class="h-subt" value="">
+                                                </td>
+                                            </tr>
+                                        @endif
+                                        </tbody>
+                                        <tfoot>
+                                        <tr>
+                                            <td colspan="5" >
+                                                Total
+                                                <span class="pull-right" id="totalTexto">{{'Q '.number_format($total,2)}}</span>
+                                            </td>
+                                        </tr>
+                                        </tfoot>
+
+                                    </table>
+                                </div>
+                            </div>
+                        {{--/Box detalles--}}
                     </div>
                 </div>
-            </div>
-            {{--Box busqueda--}}
 
-            {{--Box detalles--}}
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="box box-success">
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+
+                <div class="box box-primary">
                     <div class="box-header with-border">
                         <h3 class="box-title">
                             <strong>
-                                Detalles
+                                Compra <small>datos generales, inicia: {{$tempCompraUser->created_at}}</small>
                             </strong>
                         </h3>
                         <div class="box-tools pull-right">
@@ -114,106 +200,36 @@
                         </div>
                     </div>
                     <!-- /.box-header -->
+                    <div class="box-body">
+
+                        @include('compras.fields')
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="form-group">
+                                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
+                                    <a href="{!! route('unimeds.index') !!}" class="btn btn-default">Cancel</a>
+
+                                    <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success pull-right">
+                                        <span class="glyphicon glyphicon-ok"></span> Procesar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
 
 
-                    <div class="box-body" style="padding: 0px;">
-                        <table width="100%"  class="table table-bordered table-condensed" id="tablaDetalle">
-                            <thead>
-                            <tr class="bg-primary txtzs txtwb" align="center">
-                                <td width="10%">Cantidad</td>
-                                {{--<td width="10%">Código</td>--}}
-                                <td width="50%">Descripci&oacute;n</td>
-                                <td width="10%">Precio</td>
-                                <td width="10%">Subtotal</td>
-                                <td width="10%">-</td>
-                            </tr>
-                            </thead>
-
-                            <tbody>
-                            @php
-                                $subt =0;
-                                $total =0;
-                            @endphp
-
-                            @if($tempDetalles->count()>0)
-                                @foreach($tempDetalles as $det)
-                                    @php
-                                        $subt =$det->cantidad*$det->precio;
-                                    @endphp
-                                    <tr >
-                                        <td class="celda-cantidad">{{$det->cantidad}}</td>
-                                        {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
-                                        <td class="celda-descripcion">{{$det->item->nombre}}</td>
-                                        <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
-                                        <td class="celda-subt">{{'Q '.number_format($subt,2)}}</td>
-                                        <td>
-                                            <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="{{$det->id}}">
-                                                <span class="glyphicon glyphicon-remove"></span>
-                                            </button>
-                                            <input type="hidden" name="cantidades[]" class="h-cantidad" value="{{$det->cantidad}}">
-                                            <input type="hidden" name="items[]" class="h-item" value="{{$det->item_id}}">
-                                            <input type="hidden" name="precios[]" class="h-precio" value="{{$det->precio}}">
-                                            {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="{{$det->descuento}}">--}}
-                                            <input type="hidden" class="h-subt" value="{{$subt}}">
-                                        </td>
-                                    </tr>
-                                @endforeach
-                            @else
-                                <tr >
-                                    <td class="celda-cantidad">0</td>
-                                    {{--<td class="celda-codigo">0</td>--}}
-                                    <td class="celda-descripcion">-</td>
-                                    <td class="celda-precio">0</td>
-                                    <td class="celda-subt">0</td>
-                                    <td>
-                                        <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
-                                            <span class="glyphicon glyphicon-remove"></span>
-                                        </button>
-                                        <input type="hidden" name="cantidades[]" class="h-cantidad" value="" >
-                                        <input type="hidden" name="items[]" class="h-item" value="">
-                                        <input type="hidden" name="precios[]" class="h-precio" value="">
-                                        {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="">--}}
-                                        <input type="hidden" class="h-subt" value="">
-                                    </td>
-                                </tr>
-                            @endif
-                            </tbody>
-                            <tfoot>
-                            <tr>
-                                <td colspan="5" >
-                                    Total
-                                    <span class="pull-right" id="totalTexto">{{'Q '.number_format($total,2)}}</span>
-                                </td>
-                            </tr>
-                            </tfoot>
-
-                        </table>
                     </div>
-                </div>
-            </div>
-            {{--/Box detalles--}}
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="form-group">
-                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                    <a href="{!! route('unimeds.index') !!}" class="btn btn-default">Cancel</a>
-                    
-                    <button type="submit" name="procesar" value="1" class="btn btn-success pull-right">
-                        <span class="glyphicon glyphicon-ok"></span> Procesar
-                    </button>
-                </div>
+                </div><!-- /.row -->
             </div>
         </div>
-
         {!! Form::close() !!}
+
     </div>
+
     @include('compras.modal_provs')
 
 @endsection
-@push('scripts')
 @include('layouts.bootstrap_alert_float')
+@push('scripts')
 <!--
 *********** Scripts create compras ***********-->
 <script>
@@ -356,6 +372,11 @@
             $("#h-total").val(Total.toFixed(2));
             $("#totalTexto").text(totalTexto);
 
+            if(Total>0){
+                $("#btn-procesar").attr('disabled',false)
+            }else{
+                $("#btn-procesar").attr('disabled',true)
+            }
             return Total;
         }
 

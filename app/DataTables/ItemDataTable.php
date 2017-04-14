@@ -55,7 +55,7 @@ class ItemDataTable extends DataTable
     public function html()
     {
         return $this->builder()
-            ->columns($this->getColumns())
+                ->columns($this->getColumns())
             ->addAction(['width' => '10%'])
             ->ajax('')
             ->parameters([

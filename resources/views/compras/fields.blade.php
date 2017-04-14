@@ -3,34 +3,33 @@
 @include('layouts.plugins.datepiker_css')
 @endpush
 <!-- Proveedore Id Field -->
-<div class="form-group col-sm-4">
+<div class="form-group col-sm-12">
     <label for="proveedores" class="control-label">
         Proveedor:
         <a  data-toggle="modal" href="#modal-form-proveedores">Nuevo</a>
-
     </label>
     {!! Form::select('proveedor_id', $proveedores ,$tempCompraUser->proveedor_id,['class' => 'form-control', 'id'=>'proveedores']) !!}
 </div>
 
-<div class="form-group col-sm-4">
+<div class="form-group col-sm-12">
     {!! Form::label('tcomprobante', 'Tipo Comprobante:') !!}
     {!! Form::select('tcomprobante_id', $tcomps ,$tempCompraUser->tcomprobante_id ,['class' => 'form-control', 'id'=>'tcomprobantes']) !!}
 </div>
 
 <!-- Fecha Field -->
-<div class="form-group col-sm-4">
+<div class="form-group col-sm-12">
     {!! Form::label('fecha', 'Fecha:') !!}
     {!! Form::text('fecha', \Carbon\Carbon::today()->format('d/m/Y'), ['class' => 'form-control','id'=>'fecha']) !!}
 </div>
 
 <!-- Serie Field -->
-<div class="form-group col-sm-4">
+<div class="form-group col-sm-12">
     {!! Form::label('serie', 'Serie:') !!}
     {!! Form::text('serie', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Numero Field -->
-<div class="form-group col-sm-4">
+<div class="form-group col-sm-12">
     {!! Form::label('numero', 'Numero:') !!}
     {!! Form::text('numero', null, ['class' => 'form-control']) !!}
 </div>

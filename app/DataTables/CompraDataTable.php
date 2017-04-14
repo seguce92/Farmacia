@@ -27,7 +27,14 @@ class CompraDataTable extends DataTable
      */
     public function query()
     {
-        $compras = Compra::query();
+        $compras = Compra::query()
+            ->join('proveedores','proveedores.id','=','compras.proveedor_id')
+            ->join('cestados','cestados.id','=','compras.cestado_id')
+            ->select(
+                'compras.*',
+                'proveedores.nombre as proveedor',
+                'cestados.descripcion as estado'
+            );
 
         return $this->applyScopes($compras);
     }
@@ -73,11 +80,11 @@ class CompraDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'proveedor_id' => ['name' => 'proveedor_id', 'data' => 'proveedor_id'],
+            'proveedor' => ['name' => 'proveedor', 'data' => 'proveedor'],
             'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
             'serie' => ['name' => 'serie', 'data' => 'serie'],
             'numero' => ['name' => 'numero', 'data' => 'numero'],
-            'cestado_id' => ['name' => 'cestado_id', 'data' => 'cestado_id']
+            'estado' => ['name' => 'estado', 'data' => 'estado']
         ];
     }
 
