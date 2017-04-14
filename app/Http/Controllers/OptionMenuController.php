@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Requests\OptionMenuFormRequest;
 use App\Option;
+use Illuminate\Http\Response;
 use Laracasts\Flash\Flash;
 
 class OptionMenuController extends Controller{
@@ -46,7 +47,7 @@ class OptionMenuController extends Controller{
      * @return \Illuminate\Http\Response
      */
     public function index(){
-        $ops= Option::all();
+        $ops= Option::orderBy('orden')->get();
         $iconos= $this->iconos;
 
         $menu = Menu::renderAdmin($ops);
@@ -164,5 +165,36 @@ class OptionMenuController extends Controller{
         Flash::success('Opción eliminada!')->important();
 
         return redirect('admin/option');
+    }
+
+    public function updateOrden(Request $request){
+        $datos= $request->datos ? $request->datos : [];
+
+        $colecion=collect();
+
+        if(count($datos)>0){
+
+
+            foreach ($datos as $orden => $id){
+                $opcion = Option::findOrFail($id);
+                $opcion->orden= $orden;
+                $opcion->save();
+
+                $colecion->push($opcion);
+            }
+
+            return response()->json([
+                'success' => true,
+                'data' => $colecion->toArray(),
+                'message' => 'Orden Acutalizado'
+            ]);
+
+        }else{
+            return response()->json([
+                'success' => false,
+                'data' => $colecion->toArray(),
+                'message' => 'No se enviaron opciones'
+            ]);
+        }
     }
 }

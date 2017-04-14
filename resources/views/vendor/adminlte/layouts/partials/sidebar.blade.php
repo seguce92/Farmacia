@@ -45,9 +45,9 @@
         {{--</ul><!-- /.sidebar-menu -->--}}
         {{--Si el usuario logueado contiene el rol con id 1=administrador--}}
         @if(in_array(1,array_pluck(Auth::user()->rols->toArray(),"id")))
-            {!! Menu::render(OptionMenu::all()) !!}
+            {!! Menu::render(OptionMenu::orderBy('orden')->get()) !!}
         @else
-            {!! Menu::render(Auth::user()->opciones) !!}
+            {!! Menu::render(Auth::user()->opciones()->orderBy('orden')->get()) !!}
         @endif
     </section>
     <!-- /.sidebar -->

@@ -25,9 +25,13 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::get('/admin/user/{user}/menu', 'AdminUserControler@menu')->name('user.menu');;
-Route::get('/settings/{user}', 'AdminUserControler@editProfile')->name('user.edit.profile');;
+Route::get('/settings/{user}', 'AdminUserControler@editProfile')->name('user.edit.profile');
 Route::post('/admin/user/menu/{user}', 'AdminUserControler@menuStore');
+
 Route::get('/admin/option/create/{padre}', 'OptionMenuController@create');
+Route::get('/admin/option/orden', 'OptionMenuController@updateOrden');
+Route::post('/admin/option/orden', 'OptionMenuController@updateOrden');
+
 Route::resource('/admin/user',"AdminUserControler");
 Route::resource('/admin/option',"OptionMenuController");
 Route::resource('/admin/rols',"RolController");
