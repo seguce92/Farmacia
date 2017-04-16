@@ -231,14 +231,14 @@ class OptionsTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'padre' => 15,
-                'nombre' => 'Ventas',
+                'nombre' => 'Listado',
                 'ruta' => 'ventas/ventas',
-                'descripcion' => '',
-                'icono_l' => 'fa-circle-o',
-                'icono_r' => '',
+                'descripcion' => NULL,
+                'icono_l' => 'fa fa-circle-o',
+                'icono_r' => NULL,
                 'orden' => 16,
                 'created_at' => '2017-04-09 21:53:19',
-                'updated_at' => '2017-04-13 18:49:48',
+                'updated_at' => '2017-04-15 16:42:44',
                 'deleted_at' => NULL,
             ),
             16 => 
@@ -394,6 +394,20 @@ class OptionsTableSeeder extends Seeder
                 'created_at' => '2017-04-13 17:08:58',
                 'updated_at' => '2017-04-13 17:54:31',
                 'deleted_at' => '2017-04-13 17:54:31',
+            ),
+            27 => 
+            array (
+                'id' => 28,
+                'padre' => 15,
+                'nombre' => 'Nueva',
+                'ruta' => 'ventas/ventas/create',
+                'descripcion' => 'Realizar nueva venta',
+                'icono_l' => 'fa fa-circle-o',
+                'icono_r' => NULL,
+                'orden' => 0,
+                'created_at' => '2017-04-15 16:38:52',
+                'updated_at' => '2017-04-15 16:39:27',
+                'deleted_at' => NULL,
             ),
         ));
         
