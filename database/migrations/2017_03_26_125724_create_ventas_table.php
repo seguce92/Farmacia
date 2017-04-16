@@ -17,8 +17,8 @@ class CreateVentasTable extends Migration {
 			$table->integer('id', true);
 			$table->integer('cliente_id')->nullable()->index('fk_venta_cliente1_idx');
 			$table->date('fecha');
-			$table->string('serie', 45);
-			$table->string('numero', 45);
+			$table->string('serie', 45)->nullable();
+			$table->string('numero', 45)->nullable();
 			$table->integer('vestado_id')->index('fk_ventas_estado_venta1_idx');
 			$table->integer('user_id');
 			$table->timestamps();
