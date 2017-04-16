@@ -4,6 +4,7 @@ namespace App\DataTables;
 
 use App\Models\Venta;
 use Form;
+use Illuminate\Support\Facades\DB;
 use Yajra\Datatables\Services\DataTable;
 
 class VentaDataTable extends DataTable
@@ -27,7 +28,16 @@ class VentaDataTable extends DataTable
      */
     public function query()
     {
-        $ventas = Venta::query();
+        $ventas = Venta::query()
+            ->join('clientes','clientes.id','=','ventas.cliente_id')
+            ->join('vestados','vestados.id','=','ventas.vestado_id')
+            ->join('users','users.id','=','ventas.user_id')
+            ->select(
+                "ventas.*",
+                DB::raw("concat(clientes.nit,' ',clientes.nombres,' ',clientes.apellidos) as cliente"),
+                "vestados.descripcion as estado",
+                "users.name as usuario"
+            );
 
         return $this->applyScopes($ventas);
     }
@@ -73,12 +83,12 @@ class VentaDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'cliente_id' => ['name' => 'cliente_id', 'data' => 'cliente_id'],
+            'cliente' => ['name' => 'cliente', 'data' => 'cliente'],
             'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
             'serie' => ['name' => 'serie', 'data' => 'serie'],
             'numero' => ['name' => 'numero', 'data' => 'numero'],
-            'vestado_id' => ['name' => 'vestado_id', 'data' => 'vestado_id'],
-            'user_id' => ['name' => 'user_id', 'data' => 'user_id']
+            'estado' => ['name' => 'estado', 'data' => 'estado'],
+            'usuario' => ['name' => 'usuario', 'data' => 'usuario']
         ];
     }
 
