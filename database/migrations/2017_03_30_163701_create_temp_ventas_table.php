@@ -16,7 +16,7 @@ class CreateTempVentasTable extends Migration {
 		{
 			$table->integer('id', true);
 			$table->integer('cliente_id')->nullable()->index('fk_temp_ventas_clientes1_idx');
-			$table->dateTime('fecha')->nullable();
+			$table->date('fecha')->nullable();
 			$table->string('serie', 45)->nullable();
 			$table->string('numero', 45)->nullable();
 			$table->boolean('procesada')->nullable()->default(0);
