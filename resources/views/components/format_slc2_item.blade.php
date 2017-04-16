@@ -18,8 +18,8 @@
         "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}}</div>"+
         "<div class='select2-result-repository__description'>{{$descripcion or 'descripcion'}}</div>"+
         "<div class='select2-result-repository__statistics'>"+
-            "<div class='select2-result-repository__forks'><i class='fa fa-flash'></i> {{$um or 'um'}}</div>"+
-            {{--"<div class='select2-result-repository__stargazers'><i class='fa fa-star'></i> 0 Stars</div>"+--}}
+            "<div class='select2-result-repository__forks'><i>U/M: </i> <strong>{{$um or 'um'}}</strong></div>"+
+            "<div class='select2-result-repository__stargazers'><i>Stok: </i> <strong>{{$stock or 'stock'}}</strong></div>"+
             {{--"<div class='select2-result-repository__watchers'><i class='fa fa-eye'></i> 0 Watchers</div>"+--}}
         "</div>"+
     "</div>"+
