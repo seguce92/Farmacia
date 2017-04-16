@@ -56,7 +56,7 @@ class Cliente extends Model
         'nit'=>'unique:clientes|required',
         'nombres'=>'required',
         'apellidos'=>'required',
-        'telefono'=>'max:8|numeric',
+        'telefono'=>'nullable|numeric',
 
     ];
 
