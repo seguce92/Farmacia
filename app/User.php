@@ -38,5 +38,14 @@ class User extends Authenticatable
       return $this->belongsToMany(Rol::class);
     }
 
+    /**
+     * Si el usuario contiene el rol de administrador
+     * @return bool
+     */
+    public function isAdmin(){
+
+        return in_array(1,array_pluck($this->rols->toArray(),"id")) ? true : false;
+    }
+
 
 }
