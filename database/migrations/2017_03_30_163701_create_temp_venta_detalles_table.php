@@ -21,6 +21,7 @@ class CreateTempVentaDetallesTable extends Migration {
 			$table->decimal('precio', 6)->default(0.00);
 			$table->decimal('descuento', 6)->nullable()->default(0.00);
 			$table->timestamps();
+			$table->softDeletes();
 		});
 	}
 
