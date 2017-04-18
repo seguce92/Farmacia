@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class TempVenta extends Model
 {
-//    use SoftDeletes;
+    use SoftDeletes;
 
     public $table = 'temp_ventas';
     

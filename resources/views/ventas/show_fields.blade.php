@@ -1,60 +1,41 @@
 <!-- Id Field -->
 <div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{!! $venta->id !!}</p>
-</div>
+    {{--{!! Form::label('id', 'Id:') !!} {!! $venta->id !!}--}}
+    <br>
+    {!! Form::label('cliente', 'Cliente:') !!}
+    {!! $venta->cliente->nombres." ".$venta->cliente->apellidos  !!}
+    <br>
 
-<!-- Cliente Id Field -->
-<div class="form-group">
-    {!! Form::label('cliente_id', 'Cliente Id:') !!}
-    <p>{!! $venta->cliente_id !!}</p>
-</div>
-
-<!-- Fecha Field -->
-<div class="form-group">
     {!! Form::label('fecha', 'Fecha:') !!}
-    <p>{!! $venta->fecha !!}</p>
-</div>
+    {!! fecha($venta->fecha) !!}
+    <br>
 
-<!-- Serie Field -->
-<div class="form-group">
     {!! Form::label('serie', 'Serie:') !!}
-    <p>{!! $venta->serie !!}</p>
-</div>
+    {!! $venta->serie !!}
+    <br>
 
-<!-- Numero Field -->
-<div class="form-group">
     {!! Form::label('numero', 'Numero:') !!}
-    <p>{!! $venta->numero !!}</p>
-</div>
+    {!! $venta->numero !!}
+    <br>
 
-<!-- Vestado Id Field -->
-<div class="form-group">
-    {!! Form::label('vestado_id', 'Vestado Id:') !!}
-    <p>{!! $venta->vestado_id !!}</p>
-</div>
+    {!! Form::label('vestado', 'Vestado:') !!}
+    {!! $venta->vestado->descripcion !!}
+    <br>
 
-<!-- User Id Field -->
-<div class="form-group">
-    {!! Form::label('user_id', 'User Id:') !!}
-    <p>{!! $venta->user_id !!}</p>
-</div>
+    {!! Form::label('user', 'Usuario:') !!}
+    {!! $venta->user->name !!}
+    <br>
 
-<!-- Created At Field -->
-<div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}
-    <p>{!! $venta->created_at !!}</p>
-</div>
+    {!! $venta->created_at !!}
+    <br>
 
-<!-- Updated At Field -->
-<div class="form-group">
     {!! Form::label('updated_at', 'Updated At:') !!}
-    <p>{!! $venta->updated_at !!}</p>
+    {!! $venta->updated_at !!}
+    <br>
+
+{{--    {!! Form::label('deleted_at', 'Deleted At:') !!}--}}
+    {{--{!! $venta->deleted_at !!}--}}
 </div>
 
-<!-- Deleted At Field -->
-<div class="form-group">
-    {!! Form::label('deleted_at', 'Deleted At:') !!}
-    <p>{!! $venta->deleted_at !!}</p>
-</div>
 

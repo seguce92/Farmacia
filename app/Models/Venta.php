@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
+use App\User;
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Venta
  * @package App\Models
- * @version March 27, 2017, 1:08 pm CST
+ * @version April 17, 2017, 11:07 am CST
  */
 class Venta extends Model
 {
@@ -29,6 +30,7 @@ class Venta extends Model
         'serie',
         'numero',
         'vestado_id',
+        'recibido',
         'user_id'
     ];
 
@@ -40,6 +42,7 @@ class Venta extends Model
     protected $casts = [
         'id' => 'integer',
         'cliente_id' => 'integer',
+//        'fecha' => 'date',
         'serie' => 'string',
         'numero' => 'string',
         'vestado_id' => 'integer',
@@ -52,7 +55,7 @@ class Venta extends Model
      * @var array
      */
     public static $rules = [
-        
+        'cliente_id' => 'required',
     ];
 
     /**
@@ -76,6 +79,11 @@ class Venta extends Model
      **/
     public function ventaDetalles()
     {
-        return $this->hasMany(\App\Models\VentaDetalle::class);
+        return $this->hasMany(\App\Models\VentaDetalle::class)->withTrashed();
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
     }
 }

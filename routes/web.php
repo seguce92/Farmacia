@@ -49,7 +49,8 @@ Route::resource('compras/compras', 'CompraController');
 Route::resource('ventas/vestados', 'VestadoController');
 Route::resource('ventas/clientes', 'ClienteController');
 Route::resource('ventas/ventas', 'VentaController');
-Route::get('ventas/anular', 'VentaController@anular')->name('ventas.anular');
+Route::get('ventas/cancelar/{tempVenta}', 'VentaController@cancelar')->name('ventas.cancelar');
+Route::get('ventas/anular/{venta}', 'VentaController@anular')->name('ventas.anular');
 
 Route::resource('medicamentos/laboratorios', 'LaboratorioController');
 Route::resource('medicamentos/fcategorias', 'FcategoriaController');

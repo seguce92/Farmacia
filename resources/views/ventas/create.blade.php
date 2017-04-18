@@ -38,6 +38,12 @@
                                         <option value=""> -- Select One -- </option>
                                     </select>
                                 </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">Stock actual</label>
+                                    <div class="col-sm-10">
+                                        <p class="form-control-static" id="stock-actual"></p>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <div class="input-group">
@@ -54,7 +60,7 @@
                                             <span class="text-success text-capitalize glyphicon glyphicon-plus"></span>
                                         </a>
                                     </span>
-                                            <input type="hidden" name="temp_compra_id" value="{{$tempVenta->id}}">
+                                            <input type="hidden" name="temp_venta_id" value="{{$tempVenta->id}}">
                                         </div>
                                     </div>
                                 </div>
@@ -164,7 +170,8 @@
                     <div class="box-header with-border">
                         <h3 class="box-title">
                             <strong>
-                                Venta <small> inicia: {{$tempVenta->created_at}}</small>
+                                Venta
+                                <br><small> inicia: {{$tempVenta->created_at}}</small>
                             </strong>
                         </h3>
                         <div class="box-tools pull-right">
@@ -173,21 +180,9 @@
                         </div>
                     </div>
                     <!-- /.box-header -->
-                    <div class="box-body">
+                    <div class="box-body" style="padding: 0px;">
 
                         @include('ventas.fields')
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                    <a href="{!! route('unimeds.index') !!}" class="btn btn-default">Cancel</a>
-
-                                    <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success pull-right">
-                                        <span class="glyphicon glyphicon-ok"></span> Procesar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -244,6 +239,8 @@
                     return 'Ingrese descripcion';
                 }
                 else{
+                    $("#stock-actual").text(data.stock);
+                    $("#precio-new-det").val(data.precio);
                     return data.nombre;
                 }
             }
@@ -261,7 +258,7 @@
 
             $.ajax({
                 method: 'POST',
-                url: '{{route("api.temp_compra_detalles.store")}}',
+                url: '{{route("api.temp_venta_detalles.store")}}',
                 data: data,
                 dataType: 'json',
                 success: function (res) {
@@ -321,7 +318,11 @@
             fila.find(".h-subt").val(subTotal);
             fila.find(".btnEliminaDet").val(idDet);
 
+            $("#cant-new-det").val(1);
+            $("#precio-new-det").val(0);
+
             total();
+            totalItems();
         }
 
         /*	Suma cada uno de los subtotales
@@ -341,16 +342,33 @@
             totalTexto="Q "+addComas(Total.toFixed(2));
             $("#h-total").val(Total.toFixed(2));
             $("#totalTexto").text(totalTexto);
+            $("#total-venta").text(totalTexto);
 
-            if(Total>0){
-                $("#btn-procesar").attr('disabled',false)
-            }else{
-                $("#btn-procesar").attr('disabled',true)
-            }
             return Total;
         }
 
         total();
+
+        /*	Suma cada una de las cantidades
+         ------------------------------------------------*/
+        function totalItems(){
+
+            var Total=0,totalTexto;
+
+            $(".h-cantidad").each(function() {
+                var cant=parseFloat($(this).val());
+                //suma del valor de cada uno de los subtotales
+                if(!isNaN(cant)){
+                    Total+=cant;
+                }
+            });
+
+            $("#num-items").text(Total.toFixed(2));
+
+            return Total;
+        }
+
+        totalItems();
 
         /*	Remueve las filas detalle validando si solo queda una fila (no se remueve, solo se borran sus campos)
          --------------------------------------------------------------------------------------------------------*/
@@ -370,6 +388,7 @@
             }
 
             total();
+            totalItems();
         };
 
         /* 						   REMOVER DETALLES
@@ -386,7 +405,7 @@
 
                 $.ajax({
                     method: 'DELETE',
-                    url: '{{url('api/temp_compra_detalles')}}' + '/' + id,
+                    url: '{{url('api/temp_venta_detalles')}}' + '/' + id,
                     dataType: 'json',
                     success: function (res) {
                         ///res = JSON.parse(res);

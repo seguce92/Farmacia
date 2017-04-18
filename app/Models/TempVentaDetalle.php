@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  */
 class TempVentaDetalle extends Model
 {
-//    use SoftDeletes;
+    use SoftDeletes;
 
     public $table = 'temp_venta_detalles';
     
@@ -48,7 +48,10 @@ class TempVentaDetalle extends Model
      * @var array
      */
     public static $rules = [
-        
+        'temp_venta_id' => 'required',
+        'item_id' => 'required',
+        'cantidad' => 'required',
+        'precio' => 'required',
     ];
 
     /**
