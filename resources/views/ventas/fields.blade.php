@@ -119,8 +119,13 @@
 
     
     $("#recibido").keyup(function (e) {
+        vuelto()
+    })
+
+    function vuelto() {
         var Total = parseFloat($("#h-total").val());
-        var recibido = parseFloat($(this).val());
+        var recibido = parseFloat($("#recibido").val());
+        console.log(Total,recibido);
 
         recibido = isNaN(recibido) ? 0 : recibido;
 
@@ -134,7 +139,9 @@
         }else{
             $("#btn-procesar").attr('disabled',true)
         }
-    })
+    }
+
+
 </script>
 @endpush
 
