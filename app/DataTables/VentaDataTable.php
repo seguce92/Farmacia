@@ -35,9 +35,10 @@ class VentaDataTable extends DataTable
             ->select(
                 "ventas.*",
                 DB::raw("concat(clientes.nit,' ',clientes.nombres,' ',clientes.apellidos) as cliente"),
+                DB::raw("DATE_FORMAT(fecha,'%d/%m/%Y') as fechaf"),
                 "vestados.descripcion as estado",
                 "users.name as usuario"
-            );
+            )->orderBy('created_at','vestado_id');
 
         return $this->applyScopes($ventas);
     }
@@ -84,7 +85,7 @@ class VentaDataTable extends DataTable
     {
         return [
             'cliente' => ['name' => 'cliente', 'data' => 'cliente'],
-            'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
+            'fecha' => ['name' => 'fecha', 'data' => 'fechaf'],
             'serie' => ['name' => 'serie', 'data' => 'serie'],
             'numero' => ['name' => 'numero', 'data' => 'numero'],
             'estado' => ['name' => 'estado', 'data' => 'estado'],
