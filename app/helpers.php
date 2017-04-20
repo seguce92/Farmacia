@@ -57,3 +57,32 @@ function hoyDb(){
 
     return \Carbon\Carbon::now('America/Guatemala')->format('Y-m-d');
 }
+
+
+function diasMes($anio=0,$mes=0){
+
+    if(!$mes && !$anio)
+        return false;
+
+    return cal_days_in_month ( CAL_GREGORIAN , $mes , $anio );
+
+}
+
+function diasMesActual(){
+
+    $fechaActual= hoy();
+
+    list($dia,$mes,$anio)=explode('/',$fechaActual);
+
+    return diasMes($anio,$mes);
+
+}
+
+function mesLetras($mes=0){
+    if($mes==0)
+        return 'mes invalido';
+
+    $meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+    return $meses[$mes+1];
+}

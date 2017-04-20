@@ -12,7 +12,7 @@
 
                 <div class="info-box-content">
                     <span class="info-box-text">Ventas Hoy</span>
-                    <span class="info-box-number">760</span>
+                    <span class="info-box-number">Q {{number_format($totalDia,2)}}</span>
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -36,16 +36,38 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="chart">
-                        <canvas id="grf-ventas-h" style="height:250px"></canvas>
-                    </div>
+                    <div id="grafica-ventas-dia" style="width:100%; height:100%;"></div>
                 </div>
                 <!-- /.box-body -->
             </div>
             <!-- /.box -->
         </div>
 
-        <div class="col-md-6">
+
+
+
+
+        <div class="col-md-12">
+            <!-- AREA CHART -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Ventas diarias de {{ucfirst(\Carbon\Carbon::now()->formatLocalized('%B'))}}</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div id="grafica-ventas-mes" style="width:100%; height:100%;"></div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+
+        <div class="col-md-12">
             <!-- BAR CHART -->
             <div class="box box-success">
                 <div class="box-header with-border">
@@ -58,31 +80,8 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <div class="chart">
-                        <canvas id="grf-ventas-m" style="height:230px"></canvas>
-                    </div>
-                </div>
-                <!-- /.box-body -->
-            </div>
-            <!-- /.box -->
-        </div>
+                    <div id="grafica-ventas-anio" style="width:100%; height:100%;"></div>
 
-        <div class="col-md-6">
-            <!-- BAR CHART -->
-            <div class="box box-success">
-                <div class="box-header with-border">
-                    <h3 class="box-title">Ventas diarias de {{ucfirst(\Carbon\Carbon::now()->formatLocalized('%B'))}}</h3>
-
-                    <div class="box-tools pull-right">
-                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                    </div>
-                </div>
-                <div class="box-body">
-                    <div class="chart">
-                        <canvas id="grf-ventas-d" style="height:230px"></canvas>
-                    </div>
                 </div>
                 <!-- /.box-body -->
             </div>
@@ -96,160 +95,245 @@
 @endsection
 @push('scripts')
 <script src="{{asset('plugins/chartjs/Chart.min.js')}}"></script>
+<script src="{{asset('js/highcharts.js')}}"></script>
 <script>
     $(function () {
-        //--------------
-        //- AREA CHART -
-        //--------------
 
-        // Get context with jQuery - using jQuery's .get() method.
-        var areaChartCanvas = $("#grf-ventas-h").get(0).getContext("2d");
-        // This will get the first returned node in the jQuery collection.
-        var areaChart = new Chart(areaChartCanvas);
-
-        var areaChartData = {
-//            labels: ["January", "February", "March", "April", "May", "June", "July"],
-            labels: [8,9,10,11,12,13,14,15,16,17,18],
-            datasets: [
-                {
-                    label: "Monto",
-                    fillColor: "rgba(210, 214, 222, 1)",
-                    strokeColor: "rgba(210, 214, 222, 1)",
-                    pointColor: "rgba(210, 214, 222, 1)",
-                    pointStrokeColor: "#c1c7d1",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "rgba(220,220,220,1)",
-                    data: [65, 59, 80, 81, 56, 65, 59, 80, 81, 56, 40]
-                },
-                {
-                    label: "Articulos",
-                    fillColor: "rgba(60,141,188,0.9)",
-                    strokeColor: "rgba(60,141,188,0.8)",
-                    pointColor: "#3b8bba",
-                    pointStrokeColor: "rgba(60,141,188,1)",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "rgba(60,141,188,1)",
-                    data: [28, 48, 40, 19, 86, 27, 90, 48, 40, 19, 86]
+        var optionsDia={
+            chart: {
+                renderTo: 'grafica-ventas-dia',
+            },
+            title: {
+                text: '',
+                style: {
+                    display: 'none'
                 }
-            ]
-        };
+            },
+            subtitle: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            xAxis: {
+                categories: [],
+                title: {
+                    text: 'dias del mes'
+                },
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '',
+                    style: {
+                        display: 'none'
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y} </b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'monto',
+                data: []
+            }]
+        }
 
-        var areaChartOptions = {
-            //Boolean - If we should show the scale at all
-            showScale: true,
-            //Boolean - Whether grid lines are shown across the chart
-            scaleShowGridLines: false,
-            //String - Colour of the grid lines
-            scaleGridLineColor: "rgba(0,0,0,.05)",
-            //Number - Width of the grid lines
-            scaleGridLineWidth: 1,
-            //Boolean - Whether to show horizontal lines (except X axis)
-            scaleShowHorizontalLines: true,
-            //Boolean - Whether to show vertical lines (except Y axis)
-            scaleShowVerticalLines: true,
-            //Boolean - Whether the line is curved between points
-            bezierCurve: true,
-            //Number - Tension of the bezier curve between points
-            bezierCurveTension: 0.3,
-            //Boolean - Whether to show a dot for each point
-            pointDot: false,
-            //Number - Radius of each point dot in pixels
-            pointDotRadius: 4,
-            //Number - Pixel width of point dot stroke
-            pointDotStrokeWidth: 1,
-            //Number - amount extra to add to the radius to cater for hit detection outside the drawn point
-            pointHitDetectionRadius: 20,
-            //Boolean - Whether to show a stroke for datasets
-            datasetStroke: true,
-            //Number - Pixel width of dataset stroke
-            datasetStrokeWidth: 2,
-            //Boolean - Whether to fill the dataset with a color
-            datasetFill: true,
-            //String - A legend template
-            //Boolean - whether to maintain the starting aspect ratio or not when responsive, if set to false, will take up entire container
-            maintainAspectRatio: true,
-            //Boolean - whether to make the chart responsive to window resizing
-            responsive: true
-        };
+        $.ajax({
+            method: 'GET',
+            url: '{{url('graficas/ventas/dia')}}',
+            dataType: 'json',
+            success: function (res) {
+                ///res = JSON.parse(res);
+                console.log('respuesta ajax:',res);
+                var i=0;
+                var monto=0;
+                for(i=res.horaini;i<=res.horafin;i++){
+                    monto= parseFloat(res.datos[i]);
+                    optionsDia.series[0].data.push(monto);
+                    optionsDia.xAxis.categories.push(i);
 
-        //Create the line chart
-        areaChart.Line(areaChartData, areaChartOptions);
+                }
 
+                chart = new Highcharts.Chart(optionsDia);
 
+            },
+            error: function (res) {
+                console.log('respuesta ajax:',res);
 
-    //-------------
-    //- BAR CHART -
-    //-------------
-    var barChartCanvas = $("#grf-ventas-m").get(0).getContext("2d");
-    var barChart = new Chart(barChartCanvas);
-    var barChartData = areaChartData;
-    barChartData.datasets[1].fillColor = "#00a65a";
-    barChartData.datasets[1].strokeColor = "#00a65a";
-    barChartData.datasets[1].pointColor = "#00a65a";
-    var barChartOptions = {
-      //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
-      scaleBeginAtZero: true,
-      //Boolean - Whether grid lines are shown across the chart
-      scaleShowGridLines: true,
-      //String - Colour of the grid lines
-      scaleGridLineColor: "rgba(0,0,0,.05)",
-      //Number - Width of the grid lines
-      scaleGridLineWidth: 1,
-      //Boolean - Whether to show horizontal lines (except X axis)
-      scaleShowHorizontalLines: true,
-      //Boolean - Whether to show vertical lines (except Y axis)
-      scaleShowVerticalLines: true,
-      //Boolean - If there is a stroke on each bar
-      barShowStroke: true,
-      //Number - Pixel width of the bar stroke
-      barStrokeWidth: 2,
-      //Number - Spacing between each of the X value sets
-      barValueSpacing: 5,
-      //Number - Spacing between data sets within X values
-      barDatasetSpacing: 1,
-      //Boolean - whether to make the chart responsive
-      responsive: true,
-      maintainAspectRatio: true
-    };
+            }
+        })
 
-    barChartOptions.datasetFill = false;
-    barChart.Bar(barChartData, barChartOptions);
+        var optionsMes={
+            chart: {
+                renderTo: 'grafica-ventas-mes',
+                type: 'column'
+            },
+            title: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            subtitle: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            xAxis: {
+                categories: [],
+                title: {
+                    text: 'dias del mes'
+                },
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '',
+                    style: {
+                        display: 'none'
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y} </b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'monto',
+                data: []
+            }]
+        }
 
-        //-------------
-        //- BAR CHART -
-        //-------------
-        var barChartCanvas = $("#grf-ventas-d").get(0).getContext("2d");
-        var barChart = new Chart(barChartCanvas);
-        var barChartData = areaChartData;
+        $.ajax({
+            method: 'GET',
+            url: '{{url('graficas/ventas/mes')}}',
+            dataType: 'json',
+            success: function (res) {
+                ///res = JSON.parse(res);
+                console.log('respuesta ajax:',res);
+                var i=0;
+                var monto=0;
+                for(i=1;i<=res.diasmes;i++){
+                    monto = parseFloat(res.datos[i]);
+                    optionsMes.series[0].data.push(monto);
+                    optionsMes.xAxis.categories.push(i);
 
-        var barChartOptions = {
-            //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
-            scaleBeginAtZero: true,
-            //Boolean - Whether grid lines are shown across the chart
-            scaleShowGridLines: true,
-            //String - Colour of the grid lines
-            scaleGridLineColor: "rgba(0,0,0,.05)",
-            //Number - Width of the grid lines
-            scaleGridLineWidth: 1,
-            //Boolean - Whether to show horizontal lines (except X axis)
-            scaleShowHorizontalLines: true,
-            //Boolean - Whether to show vertical lines (except Y axis)
-            scaleShowVerticalLines: true,
-            //Boolean - If there is a stroke on each bar
-            barShowStroke: true,
-            //Number - Pixel width of the bar stroke
-            barStrokeWidth: 2,
-            //Number - Spacing between each of the X value sets
-            barValueSpacing: 5,
-            //Number - Spacing between data sets within X values
-            barDatasetSpacing: 1,
-            //Boolean - whether to make the chart responsive
-            responsive: true,
-            maintainAspectRatio: true
-        };
+                }
 
-        barChartOptions.datasetFill = false;
-        barChart.Bar(barChartData, barChartOptions);
+                chart = new Highcharts.Chart(optionsMes);
+
+            },
+            error: function (res) {
+                console.log('respuesta ajax:',res);
+
+            }
+        })
+
+        var optionsAnio={
+            chart: {
+                renderTo: 'grafica-ventas-anio',
+                type: 'column'
+            },
+            title: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            subtitle: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            xAxis: {
+                categories: [],
+                title: {
+                    text: 'dias del mes'
+                },
+                crosshair: true
+            },
+            yAxis: {
+                min: 0,
+                title: {
+                    text: '',
+                    style: {
+                        display: 'none'
+                    }
+                }
+            },
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+                pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y} </b></td></tr>',
+                footerFormat: '</table>',
+                shared: true,
+                useHTML: true
+            },
+            plotOptions: {
+                column: {
+                    pointPadding: 0.2,
+                    borderWidth: 0
+                }
+            },
+            series: [{
+                name: 'monto',
+                data: []
+            }]
+        }
+
+        $.ajax({
+            method: 'GET',
+            url: '{{url('graficas/ventas/anio')}}',
+            dataType: 'json',
+            success: function (res) {
+                ///res = JSON.parse(res);
+                console.log('respuesta ajax:',res);
+
+                var meses =['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+                var i=0;
+                var monto=0;
+                for(i=0;i<12;i++){
+                    monto = parseFloat(res.datos[i]);
+                    optionsAnio.series[0].data.push(monto);
+                    optionsAnio.xAxis.categories.push(meses[i]);
+
+                }
+
+                chart = new Highcharts.Chart(optionsAnio);
+
+            },
+            error: function (res) {
+                console.log('respuesta ajax:',res);
+
+            }
+        })
+
   });
 </script>
 @endpush

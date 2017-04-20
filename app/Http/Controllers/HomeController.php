@@ -8,9 +8,12 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Models\Venta;
 use Carbon\Carbon;
 use Faker\Test\Provider\LocalizationTest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 /**
  * Class HomeController
@@ -34,8 +37,30 @@ class HomeController extends Controller
      *
      * @return Response
      */
-    public function index()
-    {
-        return view('admin.dashboard');
+    public function index(){
+
+        $user = Auth::user();
+
+        if($user->isAdmin()){
+            $ventas= Venta::where('fecha','=',hoyDb())
+                ->where('vestado_id','=','2')
+                ->get();
+
+            //dd($ventas);
+
+            $totalDia=0;
+            foreach ($ventas as $venta){
+                foreach ($venta->ventaDetalles as $detalle){
+                    $totalDia+=($detalle->precio*$detalle->cantidad);
+                }
+            }
+
+            return view('admin.dashboard',compact('totalDia'));
+        }else{
+
+            return view('home');
+        }
+
+
     }
 }
