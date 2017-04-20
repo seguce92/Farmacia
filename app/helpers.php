@@ -86,3 +86,18 @@ function mesLetras($mes=0){
 
     return $meses[$mes+1];
 }
+
+function arrayDias(){
+    $dias=['domingo','lunes','martes','miercoles','jueves','viernes','sabado','domingo',];
+
+    return $dias;
+}
+
+function diaLetras($dia=NULL){
+    if(is_null($dia))
+        return 'día invalido';
+
+    $dias=arrayDias();
+
+    return $dias[$dia];
+}
