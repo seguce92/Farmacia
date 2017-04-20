@@ -163,7 +163,7 @@
                 for(i=res.horaini;i<=res.horafin;i++){
                     monto= parseFloat(res.datos[i]);
                     optionsDia.series[0].data.push(monto);
-                    optionsDia.xAxis.categories.push(i);
+                    optionsDia.xAxis.categories.push(i+':00');
 
                 }
 
@@ -318,10 +318,10 @@
                 var meses =['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
                 var i=0;
                 var monto=0;
-                for(i=0;i<12;i++){
+                for(i=1;i<=12;i++){
                     monto = parseFloat(res.datos[i]);
                     optionsAnio.series[0].data.push(monto);
-                    optionsAnio.xAxis.categories.push(meses[i]);
+                    optionsAnio.xAxis.categories.push(meses[i-1]);
 
                 }
 

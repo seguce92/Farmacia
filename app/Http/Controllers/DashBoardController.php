@@ -9,7 +9,7 @@ class DashBoardController extends Controller
 {
     public function graficaVentasDia(){
 
-        $horaini = 8;
+        $horaini = 6;
         $horafin = 21;
 
         $results = DB::select( DB::raw("
@@ -24,12 +24,19 @@ class DashBoardController extends Controller
                 1
         ") );
 
-        $results = array_pluck($results,'monto','hora');
+        $horas = array_pluck($results,'monto','hora');
+
+        $horaMaxVenta=max(array_keys($horas));
 
         $datos=[];
         for($i=$horaini;$i<=$horafin;$i++){
 
-            $datos[$i]= isset($results[$i]) ? $results[$i] : 0 ;
+            if($i<$horaMaxVenta){
+                $datos[$i]= isset($horas[$i]) ? $horas[$i] : 0 ;
+            }else{
+                $datos[$i]= isset($horas[$i]) ? $horas[$i] : NULL ;
+            }
+
         }
 
 
@@ -58,12 +65,19 @@ class DashBoardController extends Controller
                 1
         ") );
 
-        $results = array_pluck($results,'monto','dia');
+        $dias = array_pluck($results,'monto','dia');
+
+        $diaMaxVenta=max(array_keys($dias));
 
         $datos=[];
         for($i=1;$i<=$diasMes;$i++){
 
-            $datos[$i]= isset($results[$i]) ? $results[$i] : 0 ;
+            if($i<$diaMaxVenta){
+                $datos[$i]= isset($dias[$i]) ? $dias[$i] : 0 ;
+            }else{
+                $datos[$i]= isset($dias[$i]) ? $dias[$i] : NULL ;
+            }
+
         }
 
         return response()->json([
@@ -86,13 +100,21 @@ class DashBoardController extends Controller
                 1
         ") );
 
-        $results = array_pluck($results,'monto','mes');
+        $meses = array_pluck($results,'monto','mes');
+
+        $mesMaxVenta=max(array_keys($meses));
 
         $datos=[];
         for($i=1;$i<=12;$i++){
 
-            $datos[$i]= isset($results[$i]) ? $results[$i] : 0 ;
+            if($i<$mesMaxVenta){
+                $datos[$i]= isset($meses[$i]) ? $meses[$i] : 0 ;
+            }else{
+                $datos[$i]= isset($meses[$i]) ? $meses[$i] : NULL ;
+            }
         }
+
+//        dd($datos);
 
         return response()->json(['datos' => $datos]);
     }
