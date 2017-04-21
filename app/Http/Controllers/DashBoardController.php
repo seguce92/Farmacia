@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
 class DashBoardController extends Controller
@@ -26,12 +27,12 @@ class DashBoardController extends Controller
 
         $horas = array_pluck($results,'monto','hora');
 
-        $horaMaxVenta=max(array_keys($horas));
+        $horaActual= Carbon::now()->hour;
 
         $datos=[];
         for($i=$horaini;$i<=$horafin;$i++){
 
-            if($i<$horaMaxVenta){
+            if($i<=$horaActual){
                 $datos[$i]= isset($horas[$i]) ? $horas[$i] : 0 ;
             }else{
                 $datos[$i]= isset($horas[$i]) ? $horas[$i] : NULL ;
@@ -67,12 +68,12 @@ class DashBoardController extends Controller
 
         $dias = array_pluck($results,'monto','dia');
 
-        $diaMaxVenta=max(array_keys($dias));
+        $diaActual=Carbon::now()->day;
 
         $datos=[];
         for($i=1;$i<=$diasMes;$i++){
 
-            if($i<$diaMaxVenta){
+            if($i<=$diaActual){
                 $datos[$i]= isset($dias[$i]) ? $dias[$i] : 0 ;
             }else{
                 $datos[$i]= isset($dias[$i]) ? $dias[$i] : NULL ;
@@ -102,19 +103,17 @@ class DashBoardController extends Controller
 
         $meses = array_pluck($results,'monto','mes');
 
-        $mesMaxVenta=max(array_keys($meses));
+        $mesActual=Carbon::now()->month;
 
         $datos=[];
         for($i=1;$i<=12;$i++){
 
-            if($i<$mesMaxVenta){
+            if($i<=$mesActual){
                 $datos[$i]= isset($meses[$i]) ? $meses[$i] : 0 ;
             }else{
                 $datos[$i]= isset($meses[$i]) ? $meses[$i] : NULL ;
             }
         }
-
-//        dd($datos);
 
         return response()->json(['datos' => $datos]);
     }
