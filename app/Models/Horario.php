@@ -47,10 +47,10 @@ class Horario extends Model
      * @var array
      */
     public static $rules = [
-        'dia' => 'required|unique:horarios|max:1',
+        'dia' => 'required|max:1|unique:horarios',
         'hora_ini' => 'required|numeric|digits_between:1,2|between:0,24',
         'hora_fin' => 'required|numeric|digits_between:1,2|between:0,24'
     ];
 
-    
+
 }

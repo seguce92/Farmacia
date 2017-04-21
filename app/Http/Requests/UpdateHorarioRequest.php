@@ -25,6 +25,10 @@ class UpdateHorarioRequest extends FormRequest
      */
     public function rules()
     {
-        return Horario::$rules;
+        $id= $this->horario;
+        $rules = Horario::$rules;
+        $rules['dia'] = $rules['dia'] . ',dia,' . $id;
+
+        return $rules;
     }
 }
