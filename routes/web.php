@@ -62,3 +62,8 @@ Route::get('graficas/ventas/mes', 'DashBoardController@graficaVentasMes');
 Route::get('graficas/ventas/anio', 'DashBoardController@graficaVentasAnio');
 
 Route::resource('admin/horarios', 'HorarioController');
+
+Route::get('pruebas', function (){
+
+
+});
