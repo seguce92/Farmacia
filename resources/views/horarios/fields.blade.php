@@ -5,7 +5,7 @@
         <select name="dia" id="dia" class="form-control">
             @foreach(arrayDias() as $diaNum => $diaLetra)
                 @if($diaNum!=0)
-                    <option value="{{$diaNum}}"> {{$diaLetra}}</option>
+                    <option value="{{$diaNum}}" {{isset($horario->dia) && $horario->dia==$diaNum ? 'selected' : '' }}> {{$diaLetra}}</option>
                 @endif
             @endforeach
         </select>
