@@ -2,13 +2,18 @@
 <div class="form-group col-sm-6">
 
     <label for="dia" class="col-sm-2 control-label">Día: </label>
-        <select name="dia" id="dia" class="form-control">
-            @foreach(arrayDias() as $diaNum => $diaLetra)
-                @if($diaNum!=0)
+    <select name="dia" id="dia" class="form-control" {{isset($horario) ? 'disabled' : ''}}>
+        @foreach(arrayDias() as $diaNum => $diaLetra)
+            @if($diaNum!=0 )
+                @if(!in_array($diaNum,isset($diasUsados) ? $diasUsados : [] ))
                     <option value="{{$diaNum}}" {{isset($horario->dia) && $horario->dia==$diaNum ? 'selected' : '' }}> {{$diaLetra}}</option>
                 @endif
-            @endforeach
-        </select>
+            @endif
+        @endforeach
+    </select>
+    @if(isset($horario))
+        <input type="hidden" name="dia" value="{{$horario->dia}}">
+    @endif
 </div>
 
 <!-- Hora Ini Field -->

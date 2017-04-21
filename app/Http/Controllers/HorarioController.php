@@ -6,6 +6,7 @@ use App\DataTables\HorarioDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateHorarioRequest;
 use App\Http\Requests\UpdateHorarioRequest;
+use App\Models\Horario;
 use App\Repositories\HorarioRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
@@ -39,7 +40,16 @@ class HorarioController extends AppBaseController
      */
     public function create()
     {
-        return view('horarios.create');
+        $diasUsados = Horario::pluck('dia')->toArray();
+
+        if(count($diasUsados)==7){
+
+            Flash::success('Ya están todos los días de la semana con horario.');
+
+            return redirect(route('horarios.index'));
+        }
+
+        return view('horarios.create',compact('diasUsados'));
     }
 
     /**
