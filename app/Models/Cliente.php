@@ -53,7 +53,7 @@ class Cliente extends Model
      * @var array
      */
     public static $rules = [
-        'nit'=>'unique:clientes|required',
+        'nit'=>'required|unique:clientes',
         'nombres'=>'required',
         'apellidos'=>'required',
         'telefono'=>'nullable|numeric',

@@ -25,6 +25,10 @@ class UpdateClienteRequest extends FormRequest
      */
     public function rules()
     {
-        return Cliente::$rules;
+        $id= $this->cliente;
+        $rules = Cliente::$rules;
+        $rules['nit'] = $rules['nit'] . ',nit,' . $id;
+
+        return $rules;
     }
 }
