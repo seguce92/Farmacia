@@ -409,6 +409,20 @@ class OptionsTableSeeder extends Seeder
                 'updated_at' => '2017-04-15 16:39:27',
                 'deleted_at' => NULL,
             ),
+            28 => 
+            array (
+                'id' => 29,
+                'padre' => 1,
+                'nombre' => 'Horarios',
+                'ruta' => 'admin/horarios',
+                'descripcion' => 'Horarios de atencion',
+                'icono_l' => 'fa fa-circle-o',
+                'icono_r' => NULL,
+                'orden' => 0,
+                'created_at' => '2017-04-21 11:15:22',
+                'updated_at' => '2017-04-21 11:15:22',
+                'deleted_at' => NULL,
+            ),
         ));
         
         
