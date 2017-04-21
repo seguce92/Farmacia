@@ -93,8 +93,8 @@
                         <span class="glyphicon glyphicon-ok" ></span> Procesar
                         </span>
                     </button>
-                    <a href="{{route('ventas.cancelar',['id' => $tempVenta->id])}}" class="btn btn-danger">
-                        X
+                    <a class="btn btn-danger" data-toggle="modal" href="#modal-cancel-venta">
+                        <span data-toggle="tooltip" title="Cancelar venta">X</span>
                     </a>
                 </div>
             </div>
@@ -102,7 +102,25 @@
     </div>
 </div>
 
-
+<div class="modal fade" id="modal-cancel-venta">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Cancelar venta</h4>
+            </div>
+            <div class="modal-body">
+                Seguro que desea cancelar la venta?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">NO</button>
+                <a href="{{route('ventas.cancelar',['id' => $tempVenta->id])}}" class="btn btn-danger">
+                    SI
+                </a>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 
 @push('scripts')
