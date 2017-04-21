@@ -150,10 +150,10 @@
                                             @endforeach
                                         @else
                                             <tr >
-                                                <td class="celda-cantidad">0</td>
-                                                {{--<td class="celda-codigo">0</td>--}}
                                                 <td class="celda-descripcion">-</td>
                                                 <td class="celda-precio">0</td>
+                                                <td class="celda-cantidad">0</td>
+                                                {{--<td class="celda-codigo">0</td>--}}
                                                 <td class="celda-subt">0</td>
                                                 <td>
                                                     <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
