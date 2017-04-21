@@ -134,7 +134,7 @@
         var vueltoTexto="Q "+addComas(vuelto.toFixed(2));
         $("#vuelto").text(vueltoTexto);
 
-        if(recibido>Total && Total>0){
+        if(recibido>=Total && Total>0){
             $("#btn-procesar").attr('disabled',false)
         }else{
             $("#btn-procesar").attr('disabled',true)
