@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Models\Horario;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
@@ -10,8 +11,12 @@ class DashBoardController extends Controller
 {
     public function graficaVentasDia(){
 
-        $horaini = 6;
-        $horafin = 21;
+        $diaSemana=Carbon::now()->dayOfWeek;
+
+        $horarios= Horario::where('dia','=',$diaSemana)->get();
+
+        $horaini = $horarios[0]->hora_ini;
+        $horafin = $horarios[0]->hora_fin;
 
         $results = DB::select( DB::raw("
             select 

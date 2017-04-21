@@ -11,7 +11,7 @@
                 <span class="info-box-icon bg-green"><i class="ion ion-ios-cart-outline"></i></span>
 
                 <div class="info-box-content">
-                    <span class="info-box-text">Ventas Hoy</span>
+                    <span class="info-box-text">Ventas Hoy </span>
                     <span class="info-box-number">Q {{number_format($totalDia,2)}}</span>
                 </div>
                 <!-- /.info-box-content -->
@@ -27,7 +27,7 @@
             <!-- AREA CHART -->
             <div class="box box-primary">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Ventas por hora hoy</h3>
+                    <h3 class="box-title">Ventas por hora hoy {{diaLetras(\Carbon\Carbon::now()->dayOfWeek)}}</h3>
 
                     <div class="box-tools pull-right">
                         <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
