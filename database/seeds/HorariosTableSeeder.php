@@ -21,10 +21,10 @@ class HorariosTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'dia' => 1,
-                'hora_ini' => 6,
-                'hora_fin' => 12,
+                'hora_ini' => 8,
+                'hora_fin' => 21,
                 'created_at' => '2017-04-21 10:13:44',
-                'updated_at' => '2017-04-21 10:36:31',
+                'updated_at' => '2017-04-21 11:17:20',
                 'deleted_at' => NULL,
             ),
             1 => 
@@ -62,9 +62,9 @@ class HorariosTableSeeder extends Seeder
                 'id' => 5,
                 'dia' => 5,
                 'hora_ini' => 8,
-                'hora_fin' => 20,
+                'hora_fin' => 21,
                 'created_at' => '2017-04-21 10:23:21',
-                'updated_at' => '2017-04-21 10:43:02',
+                'updated_at' => '2017-04-21 11:16:52',
                 'deleted_at' => NULL,
             ),
             5 => 
