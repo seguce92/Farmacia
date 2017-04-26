@@ -15,7 +15,7 @@ class AddForeignKeysToMedicamentosTable extends Migration {
 		Schema::table('medicamentos', function(Blueprint $table)
 		{
 			$table->foreign('clasificacion_id', 'fk_medicamento_clalsificacion1')->references('id')->on('clasificacions')->onUpdate('NO ACTION')->onDelete('NO ACTION');
-			$table->foreign('laboratotio_id', 'fk_medicamento_laboratorio1')->references('id')->on('laboratorios')->onUpdate('NO ACTION')->onDelete('NO ACTION');
+			$table->foreign('laboratorio_id', 'fk_medicamento_laboratorio1')->references('id')->on('laboratorios')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 			$table->foreign('unimed_id', 'fk_medicamento_unidad_medida1')->references('id')->on('unimeds')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 			$table->foreign('item_id', 'fk_medicamentos_items1')->references('id')->on('items')->onUpdate('NO ACTION')->onDelete('NO ACTION');
 		});
