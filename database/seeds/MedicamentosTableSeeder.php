@@ -20,7 +20,7 @@ class MedicamentosTableSeeder extends Seeder
             0 => 
             array (
                 'id' => 256,
-                'laboratotio_id' => 47,
+                'laboratorio_id' => 47,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1,
@@ -40,7 +40,7 @@ class MedicamentosTableSeeder extends Seeder
             1 => 
             array (
                 'id' => 257,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 2,
@@ -60,7 +60,7 @@ class MedicamentosTableSeeder extends Seeder
             2 => 
             array (
                 'id' => 258,
-                'laboratotio_id' => 38,
+                'laboratorio_id' => 38,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 3,
@@ -80,7 +80,7 @@ class MedicamentosTableSeeder extends Seeder
             3 => 
             array (
                 'id' => 259,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 4,
@@ -100,7 +100,7 @@ class MedicamentosTableSeeder extends Seeder
             4 => 
             array (
                 'id' => 260,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 5,
@@ -120,7 +120,7 @@ class MedicamentosTableSeeder extends Seeder
             5 => 
             array (
                 'id' => 261,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 6,
@@ -140,7 +140,7 @@ class MedicamentosTableSeeder extends Seeder
             6 => 
             array (
                 'id' => 262,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 7,
@@ -160,7 +160,7 @@ class MedicamentosTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 263,
-                'laboratotio_id' => 38,
+                'laboratorio_id' => 38,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 8,
@@ -180,7 +180,7 @@ class MedicamentosTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 264,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 9,
@@ -200,7 +200,7 @@ class MedicamentosTableSeeder extends Seeder
             9 => 
             array (
                 'id' => 265,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 10,
@@ -220,7 +220,7 @@ class MedicamentosTableSeeder extends Seeder
             10 => 
             array (
                 'id' => 266,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 11,
@@ -240,7 +240,7 @@ class MedicamentosTableSeeder extends Seeder
             11 => 
             array (
                 'id' => 267,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 12,
@@ -260,7 +260,7 @@ class MedicamentosTableSeeder extends Seeder
             12 => 
             array (
                 'id' => 268,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 13,
@@ -280,7 +280,7 @@ class MedicamentosTableSeeder extends Seeder
             13 => 
             array (
                 'id' => 269,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 14,
@@ -300,7 +300,7 @@ class MedicamentosTableSeeder extends Seeder
             14 => 
             array (
                 'id' => 270,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 15,
@@ -320,7 +320,7 @@ class MedicamentosTableSeeder extends Seeder
             15 => 
             array (
                 'id' => 271,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 16,
@@ -340,7 +340,7 @@ class MedicamentosTableSeeder extends Seeder
             16 => 
             array (
                 'id' => 272,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 17,
@@ -360,7 +360,7 @@ class MedicamentosTableSeeder extends Seeder
             17 => 
             array (
                 'id' => 273,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 18,
@@ -380,7 +380,7 @@ class MedicamentosTableSeeder extends Seeder
             18 => 
             array (
                 'id' => 274,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 19,
@@ -400,7 +400,7 @@ class MedicamentosTableSeeder extends Seeder
             19 => 
             array (
                 'id' => 275,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 20,
@@ -420,7 +420,7 @@ class MedicamentosTableSeeder extends Seeder
             20 => 
             array (
                 'id' => 276,
-                'laboratotio_id' => 88,
+                'laboratorio_id' => 88,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 21,
@@ -440,7 +440,7 @@ class MedicamentosTableSeeder extends Seeder
             21 => 
             array (
                 'id' => 277,
-                'laboratotio_id' => 103,
+                'laboratorio_id' => 103,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 22,
@@ -460,7 +460,7 @@ class MedicamentosTableSeeder extends Seeder
             22 => 
             array (
                 'id' => 278,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 23,
@@ -480,7 +480,7 @@ class MedicamentosTableSeeder extends Seeder
             23 => 
             array (
                 'id' => 279,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 24,
@@ -500,7 +500,7 @@ class MedicamentosTableSeeder extends Seeder
             24 => 
             array (
                 'id' => 280,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 25,
@@ -520,7 +520,7 @@ class MedicamentosTableSeeder extends Seeder
             25 => 
             array (
                 'id' => 281,
-                'laboratotio_id' => 124,
+                'laboratorio_id' => 124,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 26,
@@ -540,7 +540,7 @@ class MedicamentosTableSeeder extends Seeder
             26 => 
             array (
                 'id' => 282,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 27,
@@ -560,7 +560,7 @@ class MedicamentosTableSeeder extends Seeder
             27 => 
             array (
                 'id' => 283,
-                'laboratotio_id' => 73,
+                'laboratorio_id' => 73,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 28,
@@ -580,7 +580,7 @@ class MedicamentosTableSeeder extends Seeder
             28 => 
             array (
                 'id' => 284,
-                'laboratotio_id' => 73,
+                'laboratorio_id' => 73,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 29,
@@ -600,7 +600,7 @@ class MedicamentosTableSeeder extends Seeder
             29 => 
             array (
                 'id' => 285,
-                'laboratotio_id' => 73,
+                'laboratorio_id' => 73,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 30,
@@ -620,7 +620,7 @@ class MedicamentosTableSeeder extends Seeder
             30 => 
             array (
                 'id' => 286,
-                'laboratotio_id' => 29,
+                'laboratorio_id' => 29,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 31,
@@ -640,7 +640,7 @@ class MedicamentosTableSeeder extends Seeder
             31 => 
             array (
                 'id' => 287,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 32,
@@ -660,7 +660,7 @@ class MedicamentosTableSeeder extends Seeder
             32 => 
             array (
                 'id' => 288,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 33,
@@ -680,7 +680,7 @@ class MedicamentosTableSeeder extends Seeder
             33 => 
             array (
                 'id' => 289,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 34,
@@ -700,7 +700,7 @@ class MedicamentosTableSeeder extends Seeder
             34 => 
             array (
                 'id' => 290,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 35,
@@ -720,7 +720,7 @@ class MedicamentosTableSeeder extends Seeder
             35 => 
             array (
                 'id' => 291,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 36,
@@ -740,7 +740,7 @@ class MedicamentosTableSeeder extends Seeder
             36 => 
             array (
                 'id' => 292,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 38,
@@ -760,7 +760,7 @@ class MedicamentosTableSeeder extends Seeder
             37 => 
             array (
                 'id' => 293,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 39,
@@ -780,7 +780,7 @@ class MedicamentosTableSeeder extends Seeder
             38 => 
             array (
                 'id' => 294,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 40,
@@ -800,7 +800,7 @@ class MedicamentosTableSeeder extends Seeder
             39 => 
             array (
                 'id' => 295,
-                'laboratotio_id' => 63,
+                'laboratorio_id' => 63,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 41,
@@ -820,7 +820,7 @@ class MedicamentosTableSeeder extends Seeder
             40 => 
             array (
                 'id' => 296,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 42,
@@ -840,7 +840,7 @@ class MedicamentosTableSeeder extends Seeder
             41 => 
             array (
                 'id' => 297,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 43,
@@ -860,7 +860,7 @@ class MedicamentosTableSeeder extends Seeder
             42 => 
             array (
                 'id' => 298,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 44,
@@ -880,7 +880,7 @@ class MedicamentosTableSeeder extends Seeder
             43 => 
             array (
                 'id' => 299,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 45,
@@ -900,7 +900,7 @@ class MedicamentosTableSeeder extends Seeder
             44 => 
             array (
                 'id' => 300,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 46,
@@ -920,7 +920,7 @@ class MedicamentosTableSeeder extends Seeder
             45 => 
             array (
                 'id' => 301,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 47,
@@ -940,7 +940,7 @@ class MedicamentosTableSeeder extends Seeder
             46 => 
             array (
                 'id' => 302,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 48,
@@ -960,7 +960,7 @@ class MedicamentosTableSeeder extends Seeder
             47 => 
             array (
                 'id' => 303,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 49,
@@ -980,7 +980,7 @@ class MedicamentosTableSeeder extends Seeder
             48 => 
             array (
                 'id' => 304,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 50,
@@ -1000,7 +1000,7 @@ class MedicamentosTableSeeder extends Seeder
             49 => 
             array (
                 'id' => 305,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 51,
@@ -1020,7 +1020,7 @@ class MedicamentosTableSeeder extends Seeder
             50 => 
             array (
                 'id' => 306,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 52,
@@ -1040,7 +1040,7 @@ class MedicamentosTableSeeder extends Seeder
             51 => 
             array (
                 'id' => 307,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 53,
@@ -1060,7 +1060,7 @@ class MedicamentosTableSeeder extends Seeder
             52 => 
             array (
                 'id' => 308,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 54,
@@ -1080,7 +1080,7 @@ class MedicamentosTableSeeder extends Seeder
             53 => 
             array (
                 'id' => 309,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 55,
@@ -1100,7 +1100,7 @@ class MedicamentosTableSeeder extends Seeder
             54 => 
             array (
                 'id' => 310,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 56,
@@ -1121,7 +1121,7 @@ class MedicamentosTableSeeder extends Seeder
             55 => 
             array (
                 'id' => 311,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 57,
@@ -1141,7 +1141,7 @@ class MedicamentosTableSeeder extends Seeder
             56 => 
             array (
                 'id' => 312,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 58,
@@ -1161,7 +1161,7 @@ class MedicamentosTableSeeder extends Seeder
             57 => 
             array (
                 'id' => 313,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 59,
@@ -1181,7 +1181,7 @@ class MedicamentosTableSeeder extends Seeder
             58 => 
             array (
                 'id' => 314,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 60,
@@ -1201,7 +1201,7 @@ class MedicamentosTableSeeder extends Seeder
             59 => 
             array (
                 'id' => 315,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 61,
@@ -1221,7 +1221,7 @@ class MedicamentosTableSeeder extends Seeder
             60 => 
             array (
                 'id' => 316,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 62,
@@ -1241,7 +1241,7 @@ class MedicamentosTableSeeder extends Seeder
             61 => 
             array (
                 'id' => 317,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 63,
@@ -1261,7 +1261,7 @@ class MedicamentosTableSeeder extends Seeder
             62 => 
             array (
                 'id' => 318,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 64,
@@ -1281,7 +1281,7 @@ class MedicamentosTableSeeder extends Seeder
             63 => 
             array (
                 'id' => 319,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 65,
@@ -1301,7 +1301,7 @@ class MedicamentosTableSeeder extends Seeder
             64 => 
             array (
                 'id' => 320,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 66,
@@ -1321,7 +1321,7 @@ class MedicamentosTableSeeder extends Seeder
             65 => 
             array (
                 'id' => 321,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 67,
@@ -1341,7 +1341,7 @@ class MedicamentosTableSeeder extends Seeder
             66 => 
             array (
                 'id' => 322,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 68,
@@ -1361,7 +1361,7 @@ class MedicamentosTableSeeder extends Seeder
             67 => 
             array (
                 'id' => 323,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 69,
@@ -1381,7 +1381,7 @@ class MedicamentosTableSeeder extends Seeder
             68 => 
             array (
                 'id' => 324,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 70,
@@ -1401,7 +1401,7 @@ class MedicamentosTableSeeder extends Seeder
             69 => 
             array (
                 'id' => 325,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 71,
@@ -1421,7 +1421,7 @@ class MedicamentosTableSeeder extends Seeder
             70 => 
             array (
                 'id' => 326,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 72,
@@ -1441,7 +1441,7 @@ class MedicamentosTableSeeder extends Seeder
             71 => 
             array (
                 'id' => 327,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 73,
@@ -1461,7 +1461,7 @@ class MedicamentosTableSeeder extends Seeder
             72 => 
             array (
                 'id' => 328,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 74,
@@ -1481,7 +1481,7 @@ class MedicamentosTableSeeder extends Seeder
             73 => 
             array (
                 'id' => 329,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 75,
@@ -1501,7 +1501,7 @@ class MedicamentosTableSeeder extends Seeder
             74 => 
             array (
                 'id' => 330,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 76,
@@ -1521,7 +1521,7 @@ class MedicamentosTableSeeder extends Seeder
             75 => 
             array (
                 'id' => 331,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 77,
@@ -1541,7 +1541,7 @@ class MedicamentosTableSeeder extends Seeder
             76 => 
             array (
                 'id' => 332,
-                'laboratotio_id' => 125,
+                'laboratorio_id' => 125,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 78,
@@ -1561,7 +1561,7 @@ class MedicamentosTableSeeder extends Seeder
             77 => 
             array (
                 'id' => 333,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 79,
@@ -1581,7 +1581,7 @@ class MedicamentosTableSeeder extends Seeder
             78 => 
             array (
                 'id' => 334,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 80,
@@ -1601,7 +1601,7 @@ class MedicamentosTableSeeder extends Seeder
             79 => 
             array (
                 'id' => 335,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 81,
@@ -1621,7 +1621,7 @@ class MedicamentosTableSeeder extends Seeder
             80 => 
             array (
                 'id' => 336,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 82,
@@ -1641,7 +1641,7 @@ class MedicamentosTableSeeder extends Seeder
             81 => 
             array (
                 'id' => 337,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 83,
@@ -1661,7 +1661,7 @@ class MedicamentosTableSeeder extends Seeder
             82 => 
             array (
                 'id' => 338,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 84,
@@ -1681,7 +1681,7 @@ class MedicamentosTableSeeder extends Seeder
             83 => 
             array (
                 'id' => 339,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 85,
@@ -1701,7 +1701,7 @@ class MedicamentosTableSeeder extends Seeder
             84 => 
             array (
                 'id' => 340,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 86,
@@ -1721,7 +1721,7 @@ class MedicamentosTableSeeder extends Seeder
             85 => 
             array (
                 'id' => 341,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 87,
@@ -1741,7 +1741,7 @@ class MedicamentosTableSeeder extends Seeder
             86 => 
             array (
                 'id' => 342,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 88,
@@ -1761,7 +1761,7 @@ class MedicamentosTableSeeder extends Seeder
             87 => 
             array (
                 'id' => 343,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 89,
@@ -1781,7 +1781,7 @@ class MedicamentosTableSeeder extends Seeder
             88 => 
             array (
                 'id' => 344,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 90,
@@ -1801,7 +1801,7 @@ class MedicamentosTableSeeder extends Seeder
             89 => 
             array (
                 'id' => 345,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 91,
@@ -1821,7 +1821,7 @@ class MedicamentosTableSeeder extends Seeder
             90 => 
             array (
                 'id' => 346,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 92,
@@ -1841,7 +1841,7 @@ class MedicamentosTableSeeder extends Seeder
             91 => 
             array (
                 'id' => 347,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 93,
@@ -1861,7 +1861,7 @@ class MedicamentosTableSeeder extends Seeder
             92 => 
             array (
                 'id' => 348,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 94,
@@ -1881,7 +1881,7 @@ class MedicamentosTableSeeder extends Seeder
             93 => 
             array (
                 'id' => 349,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 95,
@@ -1901,7 +1901,7 @@ class MedicamentosTableSeeder extends Seeder
             94 => 
             array (
                 'id' => 350,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 96,
@@ -1921,7 +1921,7 @@ class MedicamentosTableSeeder extends Seeder
             95 => 
             array (
                 'id' => 351,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 97,
@@ -1941,7 +1941,7 @@ class MedicamentosTableSeeder extends Seeder
             96 => 
             array (
                 'id' => 352,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 98,
@@ -1961,7 +1961,7 @@ class MedicamentosTableSeeder extends Seeder
             97 => 
             array (
                 'id' => 353,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 99,
@@ -1981,7 +1981,7 @@ class MedicamentosTableSeeder extends Seeder
             98 => 
             array (
                 'id' => 354,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 100,
@@ -2001,7 +2001,7 @@ class MedicamentosTableSeeder extends Seeder
             99 => 
             array (
                 'id' => 355,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 101,
@@ -2021,7 +2021,7 @@ class MedicamentosTableSeeder extends Seeder
             100 => 
             array (
                 'id' => 356,
-                'laboratotio_id' => 113,
+                'laboratorio_id' => 113,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 102,
@@ -2041,7 +2041,7 @@ class MedicamentosTableSeeder extends Seeder
             101 => 
             array (
                 'id' => 357,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 103,
@@ -2061,7 +2061,7 @@ class MedicamentosTableSeeder extends Seeder
             102 => 
             array (
                 'id' => 358,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 104,
@@ -2081,7 +2081,7 @@ class MedicamentosTableSeeder extends Seeder
             103 => 
             array (
                 'id' => 359,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 105,
@@ -2101,7 +2101,7 @@ class MedicamentosTableSeeder extends Seeder
             104 => 
             array (
                 'id' => 360,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 106,
@@ -2121,7 +2121,7 @@ class MedicamentosTableSeeder extends Seeder
             105 => 
             array (
                 'id' => 361,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 107,
@@ -2141,7 +2141,7 @@ class MedicamentosTableSeeder extends Seeder
             106 => 
             array (
                 'id' => 362,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 108,
@@ -2161,7 +2161,7 @@ class MedicamentosTableSeeder extends Seeder
             107 => 
             array (
                 'id' => 363,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 109,
@@ -2181,7 +2181,7 @@ class MedicamentosTableSeeder extends Seeder
             108 => 
             array (
                 'id' => 364,
-                'laboratotio_id' => 30,
+                'laboratorio_id' => 30,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 110,
@@ -2202,7 +2202,7 @@ class MedicamentosTableSeeder extends Seeder
             109 => 
             array (
                 'id' => 365,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 111,
@@ -2222,7 +2222,7 @@ class MedicamentosTableSeeder extends Seeder
             110 => 
             array (
                 'id' => 366,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 112,
@@ -2242,7 +2242,7 @@ class MedicamentosTableSeeder extends Seeder
             111 => 
             array (
                 'id' => 367,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 113,
@@ -2262,7 +2262,7 @@ class MedicamentosTableSeeder extends Seeder
             112 => 
             array (
                 'id' => 368,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 114,
@@ -2282,7 +2282,7 @@ class MedicamentosTableSeeder extends Seeder
             113 => 
             array (
                 'id' => 369,
-                'laboratotio_id' => 47,
+                'laboratorio_id' => 47,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 115,
@@ -2302,7 +2302,7 @@ class MedicamentosTableSeeder extends Seeder
             114 => 
             array (
                 'id' => 370,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 116,
@@ -2322,7 +2322,7 @@ class MedicamentosTableSeeder extends Seeder
             115 => 
             array (
                 'id' => 371,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 117,
@@ -2342,7 +2342,7 @@ class MedicamentosTableSeeder extends Seeder
             116 => 
             array (
                 'id' => 372,
-                'laboratotio_id' => 30,
+                'laboratorio_id' => 30,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 118,
@@ -2362,7 +2362,7 @@ class MedicamentosTableSeeder extends Seeder
             117 => 
             array (
                 'id' => 373,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 119,
@@ -2382,7 +2382,7 @@ class MedicamentosTableSeeder extends Seeder
             118 => 
             array (
                 'id' => 374,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 121,
@@ -2402,7 +2402,7 @@ class MedicamentosTableSeeder extends Seeder
             119 => 
             array (
                 'id' => 375,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 122,
@@ -2422,7 +2422,7 @@ class MedicamentosTableSeeder extends Seeder
             120 => 
             array (
                 'id' => 376,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 123,
@@ -2442,7 +2442,7 @@ class MedicamentosTableSeeder extends Seeder
             121 => 
             array (
                 'id' => 377,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 124,
@@ -2462,7 +2462,7 @@ class MedicamentosTableSeeder extends Seeder
             122 => 
             array (
                 'id' => 378,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 125,
@@ -2482,7 +2482,7 @@ class MedicamentosTableSeeder extends Seeder
             123 => 
             array (
                 'id' => 379,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 126,
@@ -2502,7 +2502,7 @@ class MedicamentosTableSeeder extends Seeder
             124 => 
             array (
                 'id' => 380,
-                'laboratotio_id' => 29,
+                'laboratorio_id' => 29,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 127,
@@ -2522,7 +2522,7 @@ class MedicamentosTableSeeder extends Seeder
             125 => 
             array (
                 'id' => 381,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 128,
@@ -2542,7 +2542,7 @@ class MedicamentosTableSeeder extends Seeder
             126 => 
             array (
                 'id' => 382,
-                'laboratotio_id' => 29,
+                'laboratorio_id' => 29,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 129,
@@ -2562,7 +2562,7 @@ class MedicamentosTableSeeder extends Seeder
             127 => 
             array (
                 'id' => 383,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 130,
@@ -2582,7 +2582,7 @@ class MedicamentosTableSeeder extends Seeder
             128 => 
             array (
                 'id' => 384,
-                'laboratotio_id' => 91,
+                'laboratorio_id' => 91,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 131,
@@ -2602,7 +2602,7 @@ class MedicamentosTableSeeder extends Seeder
             129 => 
             array (
                 'id' => 385,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 132,
@@ -2622,7 +2622,7 @@ class MedicamentosTableSeeder extends Seeder
             130 => 
             array (
                 'id' => 386,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 133,
@@ -2642,7 +2642,7 @@ class MedicamentosTableSeeder extends Seeder
             131 => 
             array (
                 'id' => 387,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 134,
@@ -2662,7 +2662,7 @@ class MedicamentosTableSeeder extends Seeder
             132 => 
             array (
                 'id' => 388,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 135,
@@ -2682,7 +2682,7 @@ class MedicamentosTableSeeder extends Seeder
             133 => 
             array (
                 'id' => 389,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 136,
@@ -2702,7 +2702,7 @@ class MedicamentosTableSeeder extends Seeder
             134 => 
             array (
                 'id' => 390,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 137,
@@ -2722,7 +2722,7 @@ class MedicamentosTableSeeder extends Seeder
             135 => 
             array (
                 'id' => 391,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 138,
@@ -2742,7 +2742,7 @@ class MedicamentosTableSeeder extends Seeder
             136 => 
             array (
                 'id' => 392,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 139,
@@ -2762,7 +2762,7 @@ class MedicamentosTableSeeder extends Seeder
             137 => 
             array (
                 'id' => 393,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 140,
@@ -2782,7 +2782,7 @@ class MedicamentosTableSeeder extends Seeder
             138 => 
             array (
                 'id' => 394,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 141,
@@ -2802,7 +2802,7 @@ class MedicamentosTableSeeder extends Seeder
             139 => 
             array (
                 'id' => 395,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 142,
@@ -2822,7 +2822,7 @@ class MedicamentosTableSeeder extends Seeder
             140 => 
             array (
                 'id' => 396,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 143,
@@ -2842,7 +2842,7 @@ class MedicamentosTableSeeder extends Seeder
             141 => 
             array (
                 'id' => 397,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 144,
@@ -2862,7 +2862,7 @@ class MedicamentosTableSeeder extends Seeder
             142 => 
             array (
                 'id' => 398,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 145,
@@ -2882,7 +2882,7 @@ class MedicamentosTableSeeder extends Seeder
             143 => 
             array (
                 'id' => 399,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 146,
@@ -2902,7 +2902,7 @@ class MedicamentosTableSeeder extends Seeder
             144 => 
             array (
                 'id' => 400,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 147,
@@ -2922,7 +2922,7 @@ class MedicamentosTableSeeder extends Seeder
             145 => 
             array (
                 'id' => 401,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 148,
@@ -2942,7 +2942,7 @@ class MedicamentosTableSeeder extends Seeder
             146 => 
             array (
                 'id' => 402,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 149,
@@ -2962,7 +2962,7 @@ class MedicamentosTableSeeder extends Seeder
             147 => 
             array (
                 'id' => 403,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 150,
@@ -2982,7 +2982,7 @@ class MedicamentosTableSeeder extends Seeder
             148 => 
             array (
                 'id' => 404,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 151,
@@ -3002,7 +3002,7 @@ class MedicamentosTableSeeder extends Seeder
             149 => 
             array (
                 'id' => 405,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 152,
@@ -3022,7 +3022,7 @@ class MedicamentosTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 406,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 153,
@@ -3042,7 +3042,7 @@ class MedicamentosTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 407,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 154,
@@ -3062,7 +3062,7 @@ class MedicamentosTableSeeder extends Seeder
             152 => 
             array (
                 'id' => 408,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 155,
@@ -3082,7 +3082,7 @@ class MedicamentosTableSeeder extends Seeder
             153 => 
             array (
                 'id' => 409,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 156,
@@ -3102,7 +3102,7 @@ class MedicamentosTableSeeder extends Seeder
             154 => 
             array (
                 'id' => 410,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 157,
@@ -3122,7 +3122,7 @@ class MedicamentosTableSeeder extends Seeder
             155 => 
             array (
                 'id' => 411,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 158,
@@ -3142,7 +3142,7 @@ class MedicamentosTableSeeder extends Seeder
             156 => 
             array (
                 'id' => 412,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 160,
@@ -3162,7 +3162,7 @@ class MedicamentosTableSeeder extends Seeder
             157 => 
             array (
                 'id' => 413,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 161,
@@ -3182,7 +3182,7 @@ class MedicamentosTableSeeder extends Seeder
             158 => 
             array (
                 'id' => 414,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 162,
@@ -3202,7 +3202,7 @@ class MedicamentosTableSeeder extends Seeder
             159 => 
             array (
                 'id' => 415,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 164,
@@ -3222,7 +3222,7 @@ class MedicamentosTableSeeder extends Seeder
             160 => 
             array (
                 'id' => 416,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 165,
@@ -3242,7 +3242,7 @@ class MedicamentosTableSeeder extends Seeder
             161 => 
             array (
                 'id' => 417,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 166,
@@ -3262,7 +3262,7 @@ class MedicamentosTableSeeder extends Seeder
             162 => 
             array (
                 'id' => 418,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 167,
@@ -3282,7 +3282,7 @@ class MedicamentosTableSeeder extends Seeder
             163 => 
             array (
                 'id' => 419,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 168,
@@ -3302,7 +3302,7 @@ class MedicamentosTableSeeder extends Seeder
             164 => 
             array (
                 'id' => 420,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 169,
@@ -3322,7 +3322,7 @@ class MedicamentosTableSeeder extends Seeder
             165 => 
             array (
                 'id' => 421,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 170,
@@ -3342,7 +3342,7 @@ class MedicamentosTableSeeder extends Seeder
             166 => 
             array (
                 'id' => 422,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 171,
@@ -3362,7 +3362,7 @@ class MedicamentosTableSeeder extends Seeder
             167 => 
             array (
                 'id' => 423,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 172,
@@ -3382,7 +3382,7 @@ class MedicamentosTableSeeder extends Seeder
             168 => 
             array (
                 'id' => 424,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 173,
@@ -3403,7 +3403,7 @@ class MedicamentosTableSeeder extends Seeder
             169 => 
             array (
                 'id' => 425,
-                'laboratotio_id' => 117,
+                'laboratorio_id' => 117,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 174,
@@ -3423,7 +3423,7 @@ class MedicamentosTableSeeder extends Seeder
             170 => 
             array (
                 'id' => 426,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 175,
@@ -3443,7 +3443,7 @@ class MedicamentosTableSeeder extends Seeder
             171 => 
             array (
                 'id' => 427,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 176,
@@ -3463,7 +3463,7 @@ class MedicamentosTableSeeder extends Seeder
             172 => 
             array (
                 'id' => 428,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 177,
@@ -3483,7 +3483,7 @@ class MedicamentosTableSeeder extends Seeder
             173 => 
             array (
                 'id' => 429,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 178,
@@ -3503,7 +3503,7 @@ class MedicamentosTableSeeder extends Seeder
             174 => 
             array (
                 'id' => 430,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 179,
@@ -3523,7 +3523,7 @@ class MedicamentosTableSeeder extends Seeder
             175 => 
             array (
                 'id' => 431,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 180,
@@ -3543,7 +3543,7 @@ class MedicamentosTableSeeder extends Seeder
             176 => 
             array (
                 'id' => 432,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 181,
@@ -3563,7 +3563,7 @@ class MedicamentosTableSeeder extends Seeder
             177 => 
             array (
                 'id' => 433,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 182,
@@ -3583,7 +3583,7 @@ class MedicamentosTableSeeder extends Seeder
             178 => 
             array (
                 'id' => 434,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 183,
@@ -3603,7 +3603,7 @@ class MedicamentosTableSeeder extends Seeder
             179 => 
             array (
                 'id' => 435,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 185,
@@ -3623,7 +3623,7 @@ class MedicamentosTableSeeder extends Seeder
             180 => 
             array (
                 'id' => 436,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 186,
@@ -3643,7 +3643,7 @@ class MedicamentosTableSeeder extends Seeder
             181 => 
             array (
                 'id' => 437,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 187,
@@ -3663,7 +3663,7 @@ class MedicamentosTableSeeder extends Seeder
             182 => 
             array (
                 'id' => 438,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 188,
@@ -3683,7 +3683,7 @@ class MedicamentosTableSeeder extends Seeder
             183 => 
             array (
                 'id' => 439,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 189,
@@ -3703,7 +3703,7 @@ class MedicamentosTableSeeder extends Seeder
             184 => 
             array (
                 'id' => 440,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 190,
@@ -3723,7 +3723,7 @@ class MedicamentosTableSeeder extends Seeder
             185 => 
             array (
                 'id' => 441,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 191,
@@ -3744,7 +3744,7 @@ class MedicamentosTableSeeder extends Seeder
             186 => 
             array (
                 'id' => 442,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 192,
@@ -3764,7 +3764,7 @@ class MedicamentosTableSeeder extends Seeder
             187 => 
             array (
                 'id' => 443,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 193,
@@ -3784,7 +3784,7 @@ class MedicamentosTableSeeder extends Seeder
             188 => 
             array (
                 'id' => 444,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 194,
@@ -3804,7 +3804,7 @@ class MedicamentosTableSeeder extends Seeder
             189 => 
             array (
                 'id' => 445,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 195,
@@ -3824,7 +3824,7 @@ class MedicamentosTableSeeder extends Seeder
             190 => 
             array (
                 'id' => 446,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 196,
@@ -3844,7 +3844,7 @@ class MedicamentosTableSeeder extends Seeder
             191 => 
             array (
                 'id' => 447,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 197,
@@ -3864,7 +3864,7 @@ class MedicamentosTableSeeder extends Seeder
             192 => 
             array (
                 'id' => 448,
-                'laboratotio_id' => 74,
+                'laboratorio_id' => 74,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 198,
@@ -3884,7 +3884,7 @@ class MedicamentosTableSeeder extends Seeder
             193 => 
             array (
                 'id' => 449,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 199,
@@ -3904,7 +3904,7 @@ class MedicamentosTableSeeder extends Seeder
             194 => 
             array (
                 'id' => 450,
-                'laboratotio_id' => 74,
+                'laboratorio_id' => 74,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 200,
@@ -3924,7 +3924,7 @@ class MedicamentosTableSeeder extends Seeder
             195 => 
             array (
                 'id' => 451,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 201,
@@ -3944,7 +3944,7 @@ class MedicamentosTableSeeder extends Seeder
             196 => 
             array (
                 'id' => 452,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 202,
@@ -3964,7 +3964,7 @@ class MedicamentosTableSeeder extends Seeder
             197 => 
             array (
                 'id' => 453,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 203,
@@ -3984,7 +3984,7 @@ class MedicamentosTableSeeder extends Seeder
             198 => 
             array (
                 'id' => 454,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 204,
@@ -4004,7 +4004,7 @@ class MedicamentosTableSeeder extends Seeder
             199 => 
             array (
                 'id' => 455,
-                'laboratotio_id' => 89,
+                'laboratorio_id' => 89,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 205,
@@ -4024,7 +4024,7 @@ class MedicamentosTableSeeder extends Seeder
             200 => 
             array (
                 'id' => 456,
-                'laboratotio_id' => 130,
+                'laboratorio_id' => 130,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 206,
@@ -4044,7 +4044,7 @@ class MedicamentosTableSeeder extends Seeder
             201 => 
             array (
                 'id' => 457,
-                'laboratotio_id' => 49,
+                'laboratorio_id' => 49,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 207,
@@ -4064,7 +4064,7 @@ class MedicamentosTableSeeder extends Seeder
             202 => 
             array (
                 'id' => 458,
-                'laboratotio_id' => 130,
+                'laboratorio_id' => 130,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 208,
@@ -4084,7 +4084,7 @@ class MedicamentosTableSeeder extends Seeder
             203 => 
             array (
                 'id' => 459,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 209,
@@ -4104,7 +4104,7 @@ class MedicamentosTableSeeder extends Seeder
             204 => 
             array (
                 'id' => 460,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 210,
@@ -4124,7 +4124,7 @@ class MedicamentosTableSeeder extends Seeder
             205 => 
             array (
                 'id' => 461,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 211,
@@ -4144,7 +4144,7 @@ class MedicamentosTableSeeder extends Seeder
             206 => 
             array (
                 'id' => 462,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 212,
@@ -4164,7 +4164,7 @@ class MedicamentosTableSeeder extends Seeder
             207 => 
             array (
                 'id' => 463,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 213,
@@ -4184,7 +4184,7 @@ class MedicamentosTableSeeder extends Seeder
             208 => 
             array (
                 'id' => 464,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 214,
@@ -4204,7 +4204,7 @@ class MedicamentosTableSeeder extends Seeder
             209 => 
             array (
                 'id' => 465,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 215,
@@ -4224,7 +4224,7 @@ class MedicamentosTableSeeder extends Seeder
             210 => 
             array (
                 'id' => 466,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 216,
@@ -4244,7 +4244,7 @@ class MedicamentosTableSeeder extends Seeder
             211 => 
             array (
                 'id' => 467,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 217,
@@ -4264,7 +4264,7 @@ class MedicamentosTableSeeder extends Seeder
             212 => 
             array (
                 'id' => 468,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 218,
@@ -4285,7 +4285,7 @@ class MedicamentosTableSeeder extends Seeder
             213 => 
             array (
                 'id' => 469,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 219,
@@ -4305,7 +4305,7 @@ class MedicamentosTableSeeder extends Seeder
             214 => 
             array (
                 'id' => 470,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 220,
@@ -4325,7 +4325,7 @@ class MedicamentosTableSeeder extends Seeder
             215 => 
             array (
                 'id' => 471,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 221,
@@ -4345,7 +4345,7 @@ class MedicamentosTableSeeder extends Seeder
             216 => 
             array (
                 'id' => 472,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 222,
@@ -4365,7 +4365,7 @@ class MedicamentosTableSeeder extends Seeder
             217 => 
             array (
                 'id' => 473,
-                'laboratotio_id' => 130,
+                'laboratorio_id' => 130,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 223,
@@ -4385,7 +4385,7 @@ class MedicamentosTableSeeder extends Seeder
             218 => 
             array (
                 'id' => 474,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 224,
@@ -4405,7 +4405,7 @@ class MedicamentosTableSeeder extends Seeder
             219 => 
             array (
                 'id' => 475,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 225,
@@ -4425,7 +4425,7 @@ class MedicamentosTableSeeder extends Seeder
             220 => 
             array (
                 'id' => 476,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 226,
@@ -4446,7 +4446,7 @@ class MedicamentosTableSeeder extends Seeder
             221 => 
             array (
                 'id' => 477,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 227,
@@ -4466,7 +4466,7 @@ class MedicamentosTableSeeder extends Seeder
             222 => 
             array (
                 'id' => 478,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 228,
@@ -4486,7 +4486,7 @@ class MedicamentosTableSeeder extends Seeder
             223 => 
             array (
                 'id' => 479,
-                'laboratotio_id' => 13,
+                'laboratorio_id' => 13,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 229,
@@ -4506,7 +4506,7 @@ class MedicamentosTableSeeder extends Seeder
             224 => 
             array (
                 'id' => 480,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 230,
@@ -4528,7 +4528,7 @@ class MedicamentosTableSeeder extends Seeder
             225 => 
             array (
                 'id' => 481,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 231,
@@ -4548,7 +4548,7 @@ class MedicamentosTableSeeder extends Seeder
             226 => 
             array (
                 'id' => 482,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 232,
@@ -4568,7 +4568,7 @@ class MedicamentosTableSeeder extends Seeder
             227 => 
             array (
                 'id' => 483,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 233,
@@ -4588,7 +4588,7 @@ class MedicamentosTableSeeder extends Seeder
             228 => 
             array (
                 'id' => 484,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 234,
@@ -4609,7 +4609,7 @@ class MedicamentosTableSeeder extends Seeder
             229 => 
             array (
                 'id' => 485,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 235,
@@ -4629,7 +4629,7 @@ class MedicamentosTableSeeder extends Seeder
             230 => 
             array (
                 'id' => 486,
-                'laboratotio_id' => 45,
+                'laboratorio_id' => 45,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 236,
@@ -4649,7 +4649,7 @@ class MedicamentosTableSeeder extends Seeder
             231 => 
             array (
                 'id' => 487,
-                'laboratotio_id' => 48,
+                'laboratorio_id' => 48,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 237,
@@ -4669,7 +4669,7 @@ class MedicamentosTableSeeder extends Seeder
             232 => 
             array (
                 'id' => 488,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 238,
@@ -4689,7 +4689,7 @@ class MedicamentosTableSeeder extends Seeder
             233 => 
             array (
                 'id' => 489,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 239,
@@ -4709,7 +4709,7 @@ class MedicamentosTableSeeder extends Seeder
             234 => 
             array (
                 'id' => 490,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 240,
@@ -4729,7 +4729,7 @@ class MedicamentosTableSeeder extends Seeder
             235 => 
             array (
                 'id' => 491,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 241,
@@ -4749,7 +4749,7 @@ class MedicamentosTableSeeder extends Seeder
             236 => 
             array (
                 'id' => 492,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 242,
@@ -4769,7 +4769,7 @@ class MedicamentosTableSeeder extends Seeder
             237 => 
             array (
                 'id' => 493,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 243,
@@ -4789,7 +4789,7 @@ class MedicamentosTableSeeder extends Seeder
             238 => 
             array (
                 'id' => 494,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 244,
@@ -4809,7 +4809,7 @@ class MedicamentosTableSeeder extends Seeder
             239 => 
             array (
                 'id' => 495,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 245,
@@ -4829,7 +4829,7 @@ class MedicamentosTableSeeder extends Seeder
             240 => 
             array (
                 'id' => 496,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 246,
@@ -4849,7 +4849,7 @@ class MedicamentosTableSeeder extends Seeder
             241 => 
             array (
                 'id' => 497,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 247,
@@ -4869,7 +4869,7 @@ class MedicamentosTableSeeder extends Seeder
             242 => 
             array (
                 'id' => 498,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 248,
@@ -4889,7 +4889,7 @@ class MedicamentosTableSeeder extends Seeder
             243 => 
             array (
                 'id' => 499,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 249,
@@ -4909,7 +4909,7 @@ class MedicamentosTableSeeder extends Seeder
             244 => 
             array (
                 'id' => 500,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 250,
@@ -4929,7 +4929,7 @@ class MedicamentosTableSeeder extends Seeder
             245 => 
             array (
                 'id' => 501,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 251,
@@ -4949,7 +4949,7 @@ class MedicamentosTableSeeder extends Seeder
             246 => 
             array (
                 'id' => 502,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 252,
@@ -4969,7 +4969,7 @@ class MedicamentosTableSeeder extends Seeder
             247 => 
             array (
                 'id' => 503,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 253,
@@ -4989,7 +4989,7 @@ class MedicamentosTableSeeder extends Seeder
             248 => 
             array (
                 'id' => 504,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 254,
@@ -5009,7 +5009,7 @@ class MedicamentosTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 505,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 255,
@@ -5029,7 +5029,7 @@ class MedicamentosTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 506,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 256,
@@ -5049,7 +5049,7 @@ class MedicamentosTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 507,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 257,
@@ -5069,7 +5069,7 @@ class MedicamentosTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 508,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 258,
@@ -5089,7 +5089,7 @@ class MedicamentosTableSeeder extends Seeder
             253 => 
             array (
                 'id' => 509,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 259,
@@ -5109,7 +5109,7 @@ class MedicamentosTableSeeder extends Seeder
             254 => 
             array (
                 'id' => 510,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 260,
@@ -5129,7 +5129,7 @@ class MedicamentosTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 511,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 261,
@@ -5149,7 +5149,7 @@ class MedicamentosTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 512,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 262,
@@ -5169,7 +5169,7 @@ class MedicamentosTableSeeder extends Seeder
             257 => 
             array (
                 'id' => 513,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 263,
@@ -5189,7 +5189,7 @@ class MedicamentosTableSeeder extends Seeder
             258 => 
             array (
                 'id' => 514,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 264,
@@ -5209,7 +5209,7 @@ class MedicamentosTableSeeder extends Seeder
             259 => 
             array (
                 'id' => 515,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 265,
@@ -5229,7 +5229,7 @@ class MedicamentosTableSeeder extends Seeder
             260 => 
             array (
                 'id' => 516,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 266,
@@ -5249,7 +5249,7 @@ class MedicamentosTableSeeder extends Seeder
             261 => 
             array (
                 'id' => 517,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 267,
@@ -5269,7 +5269,7 @@ class MedicamentosTableSeeder extends Seeder
             262 => 
             array (
                 'id' => 518,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 268,
@@ -5289,7 +5289,7 @@ class MedicamentosTableSeeder extends Seeder
             263 => 
             array (
                 'id' => 519,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 269,
@@ -5309,7 +5309,7 @@ class MedicamentosTableSeeder extends Seeder
             264 => 
             array (
                 'id' => 520,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 270,
@@ -5329,7 +5329,7 @@ class MedicamentosTableSeeder extends Seeder
             265 => 
             array (
                 'id' => 521,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 271,
@@ -5349,7 +5349,7 @@ class MedicamentosTableSeeder extends Seeder
             266 => 
             array (
                 'id' => 522,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 272,
@@ -5369,7 +5369,7 @@ class MedicamentosTableSeeder extends Seeder
             267 => 
             array (
                 'id' => 523,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 273,
@@ -5389,7 +5389,7 @@ class MedicamentosTableSeeder extends Seeder
             268 => 
             array (
                 'id' => 524,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 274,
@@ -5409,7 +5409,7 @@ class MedicamentosTableSeeder extends Seeder
             269 => 
             array (
                 'id' => 525,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 275,
@@ -5429,7 +5429,7 @@ class MedicamentosTableSeeder extends Seeder
             270 => 
             array (
                 'id' => 526,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 276,
@@ -5449,7 +5449,7 @@ class MedicamentosTableSeeder extends Seeder
             271 => 
             array (
                 'id' => 527,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 277,
@@ -5469,7 +5469,7 @@ class MedicamentosTableSeeder extends Seeder
             272 => 
             array (
                 'id' => 528,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 278,
@@ -5489,7 +5489,7 @@ class MedicamentosTableSeeder extends Seeder
             273 => 
             array (
                 'id' => 529,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 279,
@@ -5509,7 +5509,7 @@ class MedicamentosTableSeeder extends Seeder
             274 => 
             array (
                 'id' => 530,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 280,
@@ -5529,7 +5529,7 @@ class MedicamentosTableSeeder extends Seeder
             275 => 
             array (
                 'id' => 531,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 281,
@@ -5549,7 +5549,7 @@ class MedicamentosTableSeeder extends Seeder
             276 => 
             array (
                 'id' => 532,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 282,
@@ -5569,7 +5569,7 @@ class MedicamentosTableSeeder extends Seeder
             277 => 
             array (
                 'id' => 533,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 283,
@@ -5589,7 +5589,7 @@ class MedicamentosTableSeeder extends Seeder
             278 => 
             array (
                 'id' => 534,
-                'laboratotio_id' => 2,
+                'laboratorio_id' => 2,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 284,
@@ -5609,7 +5609,7 @@ class MedicamentosTableSeeder extends Seeder
             279 => 
             array (
                 'id' => 535,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 285,
@@ -5629,7 +5629,7 @@ class MedicamentosTableSeeder extends Seeder
             280 => 
             array (
                 'id' => 536,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 286,
@@ -5649,7 +5649,7 @@ class MedicamentosTableSeeder extends Seeder
             281 => 
             array (
                 'id' => 537,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 287,
@@ -5669,7 +5669,7 @@ class MedicamentosTableSeeder extends Seeder
             282 => 
             array (
                 'id' => 538,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 288,
@@ -5689,7 +5689,7 @@ class MedicamentosTableSeeder extends Seeder
             283 => 
             array (
                 'id' => 539,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 289,
@@ -5709,7 +5709,7 @@ class MedicamentosTableSeeder extends Seeder
             284 => 
             array (
                 'id' => 540,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 290,
@@ -5729,7 +5729,7 @@ class MedicamentosTableSeeder extends Seeder
             285 => 
             array (
                 'id' => 541,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 291,
@@ -5750,7 +5750,7 @@ class MedicamentosTableSeeder extends Seeder
             286 => 
             array (
                 'id' => 542,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 292,
@@ -5770,7 +5770,7 @@ class MedicamentosTableSeeder extends Seeder
             287 => 
             array (
                 'id' => 543,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 293,
@@ -5790,7 +5790,7 @@ class MedicamentosTableSeeder extends Seeder
             288 => 
             array (
                 'id' => 544,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 294,
@@ -5810,7 +5810,7 @@ class MedicamentosTableSeeder extends Seeder
             289 => 
             array (
                 'id' => 545,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 295,
@@ -5831,7 +5831,7 @@ class MedicamentosTableSeeder extends Seeder
             290 => 
             array (
                 'id' => 546,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 296,
@@ -5851,7 +5851,7 @@ class MedicamentosTableSeeder extends Seeder
             291 => 
             array (
                 'id' => 547,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 297,
@@ -5871,7 +5871,7 @@ class MedicamentosTableSeeder extends Seeder
             292 => 
             array (
                 'id' => 548,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 298,
@@ -5891,7 +5891,7 @@ class MedicamentosTableSeeder extends Seeder
                 293 => 
                 array (
                     'id' => 549,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 299,
@@ -5911,7 +5911,7 @@ class MedicamentosTableSeeder extends Seeder
                 294 => 
                 array (
                     'id' => 550,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 300,
@@ -5931,7 +5931,7 @@ class MedicamentosTableSeeder extends Seeder
                 295 => 
                 array (
                     'id' => 551,
-                    'laboratotio_id' => 47,
+                    'laboratorio_id' => 47,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 301,
@@ -5951,7 +5951,7 @@ class MedicamentosTableSeeder extends Seeder
                 296 => 
                 array (
                     'id' => 552,
-                    'laboratotio_id' => 131,
+                    'laboratorio_id' => 131,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 302,
@@ -5971,7 +5971,7 @@ class MedicamentosTableSeeder extends Seeder
                 297 => 
                 array (
                     'id' => 553,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 303,
@@ -5991,7 +5991,7 @@ class MedicamentosTableSeeder extends Seeder
                 298 => 
                 array (
                     'id' => 554,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 304,
@@ -6011,7 +6011,7 @@ class MedicamentosTableSeeder extends Seeder
                 299 => 
                 array (
                     'id' => 555,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 305,
@@ -6036,7 +6036,7 @@ Garantizan alta calidad de leche materna',
                 300 => 
                 array (
                     'id' => 556,
-                    'laboratotio_id' => 73,
+                    'laboratorio_id' => 73,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 306,
@@ -6056,7 +6056,7 @@ Garantizan alta calidad de leche materna',
                 301 => 
                 array (
                     'id' => 557,
-                    'laboratotio_id' => 90,
+                    'laboratorio_id' => 90,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 307,
@@ -6076,7 +6076,7 @@ Garantizan alta calidad de leche materna',
                 302 => 
                 array (
                     'id' => 558,
-                    'laboratotio_id' => 142,
+                    'laboratorio_id' => 142,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 308,
@@ -6096,7 +6096,7 @@ Garantizan alta calidad de leche materna',
                 303 => 
                 array (
                     'id' => 559,
-                    'laboratotio_id' => 66,
+                    'laboratorio_id' => 66,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 309,
@@ -6116,7 +6116,7 @@ Garantizan alta calidad de leche materna',
                 304 => 
                 array (
                     'id' => 560,
-                    'laboratotio_id' => 72,
+                    'laboratorio_id' => 72,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 310,
@@ -6136,7 +6136,7 @@ Garantizan alta calidad de leche materna',
                 305 => 
                 array (
                     'id' => 561,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 311,
@@ -6156,7 +6156,7 @@ Garantizan alta calidad de leche materna',
                 306 => 
                 array (
                     'id' => 562,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 312,
@@ -6176,7 +6176,7 @@ Garantizan alta calidad de leche materna',
                 307 => 
                 array (
                     'id' => 563,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 313,
@@ -6196,7 +6196,7 @@ Garantizan alta calidad de leche materna',
                 308 => 
                 array (
                     'id' => 564,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 314,
@@ -6216,7 +6216,7 @@ Garantizan alta calidad de leche materna',
                 309 => 
                 array (
                     'id' => 565,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 315,
@@ -6236,7 +6236,7 @@ Garantizan alta calidad de leche materna',
                 310 => 
                 array (
                     'id' => 566,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 316,
@@ -6256,7 +6256,7 @@ Garantizan alta calidad de leche materna',
                 311 => 
                 array (
                     'id' => 567,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 317,
@@ -6276,7 +6276,7 @@ Garantizan alta calidad de leche materna',
                 312 => 
                 array (
                     'id' => 568,
-                    'laboratotio_id' => 76,
+                    'laboratorio_id' => 76,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 318,
@@ -6296,7 +6296,7 @@ Garantizan alta calidad de leche materna',
                 313 => 
                 array (
                     'id' => 569,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 319,
@@ -6316,7 +6316,7 @@ Garantizan alta calidad de leche materna',
                 314 => 
                 array (
                     'id' => 570,
-                    'laboratotio_id' => 111,
+                    'laboratorio_id' => 111,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 320,
@@ -6336,7 +6336,7 @@ Garantizan alta calidad de leche materna',
                 315 => 
                 array (
                     'id' => 571,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 321,
@@ -6356,7 +6356,7 @@ Garantizan alta calidad de leche materna',
                 316 => 
                 array (
                     'id' => 572,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 322,
@@ -6376,7 +6376,7 @@ Garantizan alta calidad de leche materna',
                 317 => 
                 array (
                     'id' => 573,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 323,
@@ -6396,7 +6396,7 @@ Garantizan alta calidad de leche materna',
                 318 => 
                 array (
                     'id' => 574,
-                    'laboratotio_id' => 8,
+                    'laboratorio_id' => 8,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 324,
@@ -6416,7 +6416,7 @@ Garantizan alta calidad de leche materna',
                 319 => 
                 array (
                     'id' => 575,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 325,
@@ -6436,7 +6436,7 @@ Garantizan alta calidad de leche materna',
                 320 => 
                 array (
                     'id' => 576,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 326,
@@ -6456,7 +6456,7 @@ Garantizan alta calidad de leche materna',
                 321 => 
                 array (
                     'id' => 577,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 327,
@@ -6476,7 +6476,7 @@ Garantizan alta calidad de leche materna',
                 322 => 
                 array (
                     'id' => 578,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 328,
@@ -6496,7 +6496,7 @@ Garantizan alta calidad de leche materna',
                 323 => 
                 array (
                     'id' => 579,
-                    'laboratotio_id' => 116,
+                    'laboratorio_id' => 116,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 329,
@@ -6516,7 +6516,7 @@ Garantizan alta calidad de leche materna',
                 324 => 
                 array (
                     'id' => 580,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 330,
@@ -6536,7 +6536,7 @@ Garantizan alta calidad de leche materna',
                 325 => 
                 array (
                     'id' => 581,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 331,
@@ -6556,7 +6556,7 @@ Garantizan alta calidad de leche materna',
                 326 => 
                 array (
                     'id' => 582,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 332,
@@ -6576,7 +6576,7 @@ Garantizan alta calidad de leche materna',
                 327 => 
                 array (
                     'id' => 583,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 333,
@@ -6596,7 +6596,7 @@ Garantizan alta calidad de leche materna',
                 328 => 
                 array (
                     'id' => 584,
-                    'laboratotio_id' => 54,
+                    'laboratorio_id' => 54,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 334,
@@ -6616,7 +6616,7 @@ Garantizan alta calidad de leche materna',
                 329 => 
                 array (
                     'id' => 585,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 335,
@@ -6637,7 +6637,7 @@ Garantizan alta calidad de leche materna',
                 330 => 
                 array (
                     'id' => 586,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 336,
@@ -6657,7 +6657,7 @@ Garantizan alta calidad de leche materna',
                 331 => 
                 array (
                     'id' => 587,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 337,
@@ -6677,7 +6677,7 @@ Garantizan alta calidad de leche materna',
                 332 => 
                 array (
                     'id' => 588,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 338,
@@ -6697,7 +6697,7 @@ Garantizan alta calidad de leche materna',
                 333 => 
                 array (
                     'id' => 589,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 339,
@@ -6717,7 +6717,7 @@ Garantizan alta calidad de leche materna',
                 334 => 
                 array (
                     'id' => 590,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 340,
@@ -6738,7 +6738,7 @@ Garantizan alta calidad de leche materna',
                 335 => 
                 array (
                     'id' => 591,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 341,
@@ -6759,7 +6759,7 @@ Garantizan alta calidad de leche materna',
                 336 => 
                 array (
                     'id' => 592,
-                    'laboratotio_id' => 3,
+                    'laboratorio_id' => 3,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 342,
@@ -6779,7 +6779,7 @@ Garantizan alta calidad de leche materna',
                 337 => 
                 array (
                     'id' => 593,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 343,
@@ -6799,7 +6799,7 @@ Garantizan alta calidad de leche materna',
                 338 => 
                 array (
                     'id' => 594,
-                    'laboratotio_id' => 111,
+                    'laboratorio_id' => 111,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 344,
@@ -6819,7 +6819,7 @@ Garantizan alta calidad de leche materna',
                 339 => 
                 array (
                     'id' => 595,
-                    'laboratotio_id' => 111,
+                    'laboratorio_id' => 111,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 345,
@@ -6839,7 +6839,7 @@ Garantizan alta calidad de leche materna',
                 340 => 
                 array (
                     'id' => 596,
-                    'laboratotio_id' => 51,
+                    'laboratorio_id' => 51,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 346,
@@ -6859,7 +6859,7 @@ Garantizan alta calidad de leche materna',
                 341 => 
                 array (
                     'id' => 597,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 347,
@@ -6879,7 +6879,7 @@ Garantizan alta calidad de leche materna',
                 342 => 
                 array (
                     'id' => 598,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 348,
@@ -6899,7 +6899,7 @@ Garantizan alta calidad de leche materna',
                 343 => 
                 array (
                     'id' => 599,
-                    'laboratotio_id' => 95,
+                    'laboratorio_id' => 95,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 349,
@@ -6919,7 +6919,7 @@ Garantizan alta calidad de leche materna',
                 344 => 
                 array (
                     'id' => 600,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 350,
@@ -6939,7 +6939,7 @@ Garantizan alta calidad de leche materna',
                 345 => 
                 array (
                     'id' => 601,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 351,
@@ -6959,7 +6959,7 @@ Garantizan alta calidad de leche materna',
                 346 => 
                 array (
                     'id' => 602,
-                    'laboratotio_id' => 47,
+                    'laboratorio_id' => 47,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 352,
@@ -6979,7 +6979,7 @@ Garantizan alta calidad de leche materna',
                 347 => 
                 array (
                     'id' => 603,
-                    'laboratotio_id' => 111,
+                    'laboratorio_id' => 111,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 353,
@@ -6999,7 +6999,7 @@ Garantizan alta calidad de leche materna',
                 348 => 
                 array (
                     'id' => 604,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 354,
@@ -7019,7 +7019,7 @@ Garantizan alta calidad de leche materna',
                 349 => 
                 array (
                     'id' => 605,
-                    'laboratotio_id' => 111,
+                    'laboratorio_id' => 111,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 355,
@@ -7039,7 +7039,7 @@ Garantizan alta calidad de leche materna',
                 350 => 
                 array (
                     'id' => 606,
-                    'laboratotio_id' => 58,
+                    'laboratorio_id' => 58,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 356,
@@ -7059,7 +7059,7 @@ Garantizan alta calidad de leche materna',
                 351 => 
                 array (
                     'id' => 607,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 357,
@@ -7079,7 +7079,7 @@ Garantizan alta calidad de leche materna',
                 352 => 
                 array (
                     'id' => 608,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 358,
@@ -7099,7 +7099,7 @@ Garantizan alta calidad de leche materna',
                 353 => 
                 array (
                     'id' => 609,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 359,
@@ -7119,7 +7119,7 @@ Garantizan alta calidad de leche materna',
                 354 => 
                 array (
                     'id' => 610,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 360,
@@ -7139,7 +7139,7 @@ Garantizan alta calidad de leche materna',
                 355 => 
                 array (
                     'id' => 611,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 362,
@@ -7159,7 +7159,7 @@ Garantizan alta calidad de leche materna',
                 356 => 
                 array (
                     'id' => 612,
-                    'laboratotio_id' => 80,
+                    'laboratorio_id' => 80,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 363,
@@ -7179,7 +7179,7 @@ Garantizan alta calidad de leche materna',
                 357 => 
                 array (
                     'id' => 613,
-                    'laboratotio_id' => 93,
+                    'laboratorio_id' => 93,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 364,
@@ -7199,7 +7199,7 @@ Garantizan alta calidad de leche materna',
                 358 => 
                 array (
                     'id' => 614,
-                    'laboratotio_id' => 16,
+                    'laboratorio_id' => 16,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 365,
@@ -7219,7 +7219,7 @@ Garantizan alta calidad de leche materna',
                 359 => 
                 array (
                     'id' => 615,
-                    'laboratotio_id' => 44,
+                    'laboratorio_id' => 44,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 366,
@@ -7239,7 +7239,7 @@ Garantizan alta calidad de leche materna',
                 360 => 
                 array (
                     'id' => 616,
-                    'laboratotio_id' => 76,
+                    'laboratorio_id' => 76,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 367,
@@ -7259,7 +7259,7 @@ Garantizan alta calidad de leche materna',
                 361 => 
                 array (
                     'id' => 617,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 368,
@@ -7279,7 +7279,7 @@ Garantizan alta calidad de leche materna',
                 362 => 
                 array (
                     'id' => 618,
-                    'laboratotio_id' => 63,
+                    'laboratorio_id' => 63,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 369,
@@ -7299,7 +7299,7 @@ Garantizan alta calidad de leche materna',
                 363 => 
                 array (
                     'id' => 619,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 370,
@@ -7319,7 +7319,7 @@ Garantizan alta calidad de leche materna',
                 364 => 
                 array (
                     'id' => 620,
-                    'laboratotio_id' => 47,
+                    'laboratorio_id' => 47,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 371,
@@ -7339,7 +7339,7 @@ Garantizan alta calidad de leche materna',
                 365 => 
                 array (
                     'id' => 621,
-                    'laboratotio_id' => 64,
+                    'laboratorio_id' => 64,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 372,
@@ -7359,7 +7359,7 @@ Garantizan alta calidad de leche materna',
                 366 => 
                 array (
                     'id' => 622,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 373,
@@ -7379,7 +7379,7 @@ Garantizan alta calidad de leche materna',
                 367 => 
                 array (
                     'id' => 623,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 374,
@@ -7399,7 +7399,7 @@ Garantizan alta calidad de leche materna',
                 368 => 
                 array (
                     'id' => 624,
-                    'laboratotio_id' => 57,
+                    'laboratorio_id' => 57,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 375,
@@ -7419,7 +7419,7 @@ Garantizan alta calidad de leche materna',
                 369 => 
                 array (
                     'id' => 625,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 376,
@@ -7439,7 +7439,7 @@ Garantizan alta calidad de leche materna',
                 370 => 
                 array (
                     'id' => 626,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 378,
@@ -7459,7 +7459,7 @@ Garantizan alta calidad de leche materna',
                 371 => 
                 array (
                     'id' => 627,
-                    'laboratotio_id' => 86,
+                    'laboratorio_id' => 86,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 379,
@@ -7479,7 +7479,7 @@ Garantizan alta calidad de leche materna',
                 372 => 
                 array (
                     'id' => 628,
-                    'laboratotio_id' => 86,
+                    'laboratorio_id' => 86,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 380,
@@ -7499,7 +7499,7 @@ Garantizan alta calidad de leche materna',
                 373 => 
                 array (
                     'id' => 629,
-                    'laboratotio_id' => 105,
+                    'laboratorio_id' => 105,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 381,
@@ -7519,7 +7519,7 @@ Garantizan alta calidad de leche materna',
                 374 => 
                 array (
                     'id' => 630,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 382,
@@ -7539,7 +7539,7 @@ Garantizan alta calidad de leche materna',
                 375 => 
                 array (
                     'id' => 631,
-                    'laboratotio_id' => 97,
+                    'laboratorio_id' => 97,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 383,
@@ -7559,7 +7559,7 @@ Garantizan alta calidad de leche materna',
                 376 => 
                 array (
                     'id' => 632,
-                    'laboratotio_id' => 58,
+                    'laboratorio_id' => 58,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 384,
@@ -7579,7 +7579,7 @@ Garantizan alta calidad de leche materna',
                 377 => 
                 array (
                     'id' => 633,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 385,
@@ -7599,7 +7599,7 @@ Garantizan alta calidad de leche materna',
                 378 => 
                 array (
                     'id' => 634,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 386,
@@ -7619,7 +7619,7 @@ Garantizan alta calidad de leche materna',
                 379 => 
                 array (
                     'id' => 635,
-                    'laboratotio_id' => 97,
+                    'laboratorio_id' => 97,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 387,
@@ -7639,7 +7639,7 @@ Garantizan alta calidad de leche materna',
                 380 => 
                 array (
                     'id' => 636,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 388,
@@ -7659,7 +7659,7 @@ Garantizan alta calidad de leche materna',
                 381 => 
                 array (
                     'id' => 637,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 389,
@@ -7679,7 +7679,7 @@ Garantizan alta calidad de leche materna',
                 382 => 
                 array (
                     'id' => 638,
-                    'laboratotio_id' => 47,
+                    'laboratorio_id' => 47,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 390,
@@ -7699,7 +7699,7 @@ Garantizan alta calidad de leche materna',
                 383 => 
                 array (
                     'id' => 639,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 391,
@@ -7719,7 +7719,7 @@ Garantizan alta calidad de leche materna',
                 384 => 
                 array (
                     'id' => 640,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 392,
@@ -7739,7 +7739,7 @@ Garantizan alta calidad de leche materna',
                 385 => 
                 array (
                     'id' => 641,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 393,
@@ -7759,7 +7759,7 @@ Garantizan alta calidad de leche materna',
                 386 => 
                 array (
                     'id' => 642,
-                    'laboratotio_id' => 73,
+                    'laboratorio_id' => 73,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 394,
@@ -7779,7 +7779,7 @@ Garantizan alta calidad de leche materna',
                 387 => 
                 array (
                     'id' => 643,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 395,
@@ -7799,7 +7799,7 @@ Garantizan alta calidad de leche materna',
                 388 => 
                 array (
                     'id' => 644,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 396,
@@ -7819,7 +7819,7 @@ Garantizan alta calidad de leche materna',
                 389 => 
                 array (
                     'id' => 645,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 397,
@@ -7839,7 +7839,7 @@ Garantizan alta calidad de leche materna',
                 390 => 
                 array (
                     'id' => 646,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 398,
@@ -7859,7 +7859,7 @@ Garantizan alta calidad de leche materna',
                 391 => 
                 array (
                     'id' => 647,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 399,
@@ -7879,7 +7879,7 @@ Garantizan alta calidad de leche materna',
                 392 => 
                 array (
                     'id' => 648,
-                    'laboratotio_id' => 143,
+                    'laboratorio_id' => 143,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 400,
@@ -7899,7 +7899,7 @@ Garantizan alta calidad de leche materna',
                 393 => 
                 array (
                     'id' => 649,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 401,
@@ -7919,7 +7919,7 @@ Garantizan alta calidad de leche materna',
                 394 => 
                 array (
                     'id' => 650,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 402,
@@ -7939,7 +7939,7 @@ Garantizan alta calidad de leche materna',
                 395 => 
                 array (
                     'id' => 651,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 403,
@@ -7959,7 +7959,7 @@ Garantizan alta calidad de leche materna',
                 396 => 
                 array (
                     'id' => 652,
-                    'laboratotio_id' => 34,
+                    'laboratorio_id' => 34,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 404,
@@ -7979,7 +7979,7 @@ Garantizan alta calidad de leche materna',
                 397 => 
                 array (
                     'id' => 653,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 405,
@@ -7999,7 +7999,7 @@ Garantizan alta calidad de leche materna',
                 398 => 
                 array (
                     'id' => 654,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 406,
@@ -8019,7 +8019,7 @@ Garantizan alta calidad de leche materna',
                 399 => 
                 array (
                     'id' => 655,
-                    'laboratotio_id' => 70,
+                    'laboratorio_id' => 70,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 408,
@@ -8039,7 +8039,7 @@ Garantizan alta calidad de leche materna',
                 400 => 
                 array (
                     'id' => 656,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 409,
@@ -8059,7 +8059,7 @@ Garantizan alta calidad de leche materna',
                 401 => 
                 array (
                     'id' => 657,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 410,
@@ -8079,7 +8079,7 @@ Garantizan alta calidad de leche materna',
                 402 => 
                 array (
                     'id' => 658,
-                    'laboratotio_id' => 76,
+                    'laboratorio_id' => 76,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 411,
@@ -8099,7 +8099,7 @@ Garantizan alta calidad de leche materna',
                 403 => 
                 array (
                     'id' => 659,
-                    'laboratotio_id' => 40,
+                    'laboratorio_id' => 40,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 412,
@@ -8119,7 +8119,7 @@ Garantizan alta calidad de leche materna',
                 404 => 
                 array (
                     'id' => 660,
-                    'laboratotio_id' => 40,
+                    'laboratorio_id' => 40,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 413,
@@ -8139,7 +8139,7 @@ Garantizan alta calidad de leche materna',
                 405 => 
                 array (
                     'id' => 661,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 414,
@@ -8159,7 +8159,7 @@ Garantizan alta calidad de leche materna',
                 406 => 
                 array (
                     'id' => 662,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 415,
@@ -8179,7 +8179,7 @@ Garantizan alta calidad de leche materna',
                 407 => 
                 array (
                     'id' => 663,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 416,
@@ -8199,7 +8199,7 @@ Garantizan alta calidad de leche materna',
                 408 => 
                 array (
                     'id' => 664,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 417,
@@ -8219,7 +8219,7 @@ Garantizan alta calidad de leche materna',
                 409 => 
                 array (
                     'id' => 665,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 418,
@@ -8239,7 +8239,7 @@ Garantizan alta calidad de leche materna',
                 410 => 
                 array (
                     'id' => 666,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 419,
@@ -8259,7 +8259,7 @@ Garantizan alta calidad de leche materna',
                 411 => 
                 array (
                     'id' => 667,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 420,
@@ -8279,7 +8279,7 @@ Garantizan alta calidad de leche materna',
                 412 => 
                 array (
                     'id' => 668,
-                    'laboratotio_id' => 76,
+                    'laboratorio_id' => 76,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 421,
@@ -8299,7 +8299,7 @@ Garantizan alta calidad de leche materna',
                 413 => 
                 array (
                     'id' => 669,
-                    'laboratotio_id' => 39,
+                    'laboratorio_id' => 39,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 422,
@@ -8319,7 +8319,7 @@ Garantizan alta calidad de leche materna',
                 414 => 
                 array (
                     'id' => 670,
-                    'laboratotio_id' => 76,
+                    'laboratorio_id' => 76,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 423,
@@ -8339,7 +8339,7 @@ Garantizan alta calidad de leche materna',
                 415 => 
                 array (
                     'id' => 671,
-                    'laboratotio_id' => 75,
+                    'laboratorio_id' => 75,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 424,
@@ -8359,7 +8359,7 @@ Garantizan alta calidad de leche materna',
                 416 => 
                 array (
                     'id' => 672,
-                    'laboratotio_id' => 70,
+                    'laboratorio_id' => 70,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 425,
@@ -8379,7 +8379,7 @@ Garantizan alta calidad de leche materna',
                 417 => 
                 array (
                     'id' => 673,
-                    'laboratotio_id' => 140,
+                    'laboratorio_id' => 140,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 426,
@@ -8399,7 +8399,7 @@ Garantizan alta calidad de leche materna',
                 418 => 
                 array (
                     'id' => 674,
-                    'laboratotio_id' => 53,
+                    'laboratorio_id' => 53,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 427,
@@ -8419,7 +8419,7 @@ Garantizan alta calidad de leche materna',
                 419 => 
                 array (
                     'id' => 675,
-                    'laboratotio_id' => 140,
+                    'laboratorio_id' => 140,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 428,
@@ -8439,7 +8439,7 @@ Garantizan alta calidad de leche materna',
                 420 => 
                 array (
                     'id' => 676,
-                    'laboratotio_id' => 139,
+                    'laboratorio_id' => 139,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 429,
@@ -8459,7 +8459,7 @@ Garantizan alta calidad de leche materna',
                 421 => 
                 array (
                     'id' => 677,
-                    'laboratotio_id' => 3,
+                    'laboratorio_id' => 3,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 430,
@@ -8479,7 +8479,7 @@ Garantizan alta calidad de leche materna',
                 422 => 
                 array (
                     'id' => 678,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 431,
@@ -8499,7 +8499,7 @@ Garantizan alta calidad de leche materna',
                 423 => 
                 array (
                     'id' => 679,
-                    'laboratotio_id' => 84,
+                    'laboratorio_id' => 84,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 432,
@@ -8519,7 +8519,7 @@ Garantizan alta calidad de leche materna',
                 424 => 
                 array (
                     'id' => 680,
-                    'laboratotio_id' => 65,
+                    'laboratorio_id' => 65,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 433,
@@ -8539,7 +8539,7 @@ Garantizan alta calidad de leche materna',
                 425 => 
                 array (
                     'id' => 681,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 434,
@@ -8559,7 +8559,7 @@ Garantizan alta calidad de leche materna',
                 426 => 
                 array (
                     'id' => 682,
-                    'laboratotio_id' => 84,
+                    'laboratorio_id' => 84,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 435,
@@ -8579,7 +8579,7 @@ Garantizan alta calidad de leche materna',
                 427 => 
                 array (
                     'id' => 683,
-                    'laboratotio_id' => 91,
+                    'laboratorio_id' => 91,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 436,
@@ -8600,7 +8600,7 @@ Garantizan alta calidad de leche materna',
                 428 => 
                 array (
                     'id' => 684,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 437,
@@ -8620,7 +8620,7 @@ Garantizan alta calidad de leche materna',
                 429 => 
                 array (
                     'id' => 685,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 438,
@@ -8640,7 +8640,7 @@ Garantizan alta calidad de leche materna',
                 430 => 
                 array (
                     'id' => 686,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 439,
@@ -8660,7 +8660,7 @@ Garantizan alta calidad de leche materna',
                 431 => 
                 array (
                     'id' => 687,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 440,
@@ -8680,7 +8680,7 @@ Garantizan alta calidad de leche materna',
                 432 => 
                 array (
                     'id' => 688,
-                    'laboratotio_id' => 95,
+                    'laboratorio_id' => 95,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 441,
@@ -8700,7 +8700,7 @@ Garantizan alta calidad de leche materna',
                 433 => 
                 array (
                     'id' => 689,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 442,
@@ -8720,7 +8720,7 @@ Garantizan alta calidad de leche materna',
                 434 => 
                 array (
                     'id' => 690,
-                    'laboratotio_id' => 95,
+                    'laboratorio_id' => 95,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 443,
@@ -8740,7 +8740,7 @@ Garantizan alta calidad de leche materna',
                 435 => 
                 array (
                     'id' => 691,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 444,
@@ -8760,7 +8760,7 @@ Garantizan alta calidad de leche materna',
                 436 => 
                 array (
                     'id' => 692,
-                    'laboratotio_id' => 84,
+                    'laboratorio_id' => 84,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 445,
@@ -8780,7 +8780,7 @@ Garantizan alta calidad de leche materna',
                 437 => 
                 array (
                     'id' => 693,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 446,
@@ -8800,7 +8800,7 @@ Garantizan alta calidad de leche materna',
                 438 => 
                 array (
                     'id' => 694,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 447,
@@ -8820,7 +8820,7 @@ Garantizan alta calidad de leche materna',
                 439 => 
                 array (
                     'id' => 695,
-                    'laboratotio_id' => 127,
+                    'laboratorio_id' => 127,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 448,
@@ -8840,7 +8840,7 @@ Garantizan alta calidad de leche materna',
                 440 => 
                 array (
                     'id' => 696,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 449,
@@ -8860,7 +8860,7 @@ Garantizan alta calidad de leche materna',
                 441 => 
                 array (
                     'id' => 697,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 450,
@@ -8880,7 +8880,7 @@ Garantizan alta calidad de leche materna',
                 442 => 
                 array (
                     'id' => 698,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 451,
@@ -8900,7 +8900,7 @@ Garantizan alta calidad de leche materna',
                 443 => 
                 array (
                     'id' => 699,
-                    'laboratotio_id' => 133,
+                    'laboratorio_id' => 133,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 452,
@@ -8920,7 +8920,7 @@ Garantizan alta calidad de leche materna',
                 444 => 
                 array (
                     'id' => 700,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 453,
@@ -8940,7 +8940,7 @@ Garantizan alta calidad de leche materna',
                 445 => 
                 array (
                     'id' => 701,
-                    'laboratotio_id' => 127,
+                    'laboratorio_id' => 127,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 454,
@@ -8960,7 +8960,7 @@ Garantizan alta calidad de leche materna',
                 446 => 
                 array (
                     'id' => 702,
-                    'laboratotio_id' => 117,
+                    'laboratorio_id' => 117,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 455,
@@ -8980,7 +8980,7 @@ Garantizan alta calidad de leche materna',
                 447 => 
                 array (
                     'id' => 703,
-                    'laboratotio_id' => 133,
+                    'laboratorio_id' => 133,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 456,
@@ -9000,7 +9000,7 @@ Garantizan alta calidad de leche materna',
                 448 => 
                 array (
                     'id' => 704,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 458,
@@ -9020,7 +9020,7 @@ Garantizan alta calidad de leche materna',
                 449 => 
                 array (
                     'id' => 705,
-                    'laboratotio_id' => 40,
+                    'laboratorio_id' => 40,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 459,
@@ -9040,7 +9040,7 @@ Garantizan alta calidad de leche materna',
                 450 => 
                 array (
                     'id' => 706,
-                    'laboratotio_id' => 133,
+                    'laboratorio_id' => 133,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 460,
@@ -9060,7 +9060,7 @@ Garantizan alta calidad de leche materna',
                 451 => 
                 array (
                     'id' => 707,
-                    'laboratotio_id' => 43,
+                    'laboratorio_id' => 43,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 462,
@@ -9080,7 +9080,7 @@ Garantizan alta calidad de leche materna',
                 452 => 
                 array (
                     'id' => 708,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 463,
@@ -9100,7 +9100,7 @@ Garantizan alta calidad de leche materna',
                 453 => 
                 array (
                     'id' => 709,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 464,
@@ -9120,7 +9120,7 @@ Garantizan alta calidad de leche materna',
                 454 => 
                 array (
                     'id' => 710,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 465,
@@ -9140,7 +9140,7 @@ Garantizan alta calidad de leche materna',
                 455 => 
                 array (
                     'id' => 711,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 466,
@@ -9160,7 +9160,7 @@ Garantizan alta calidad de leche materna',
                 456 => 
                 array (
                     'id' => 712,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 468,
@@ -9180,7 +9180,7 @@ Garantizan alta calidad de leche materna',
                 457 => 
                 array (
                     'id' => 713,
-                    'laboratotio_id' => 43,
+                    'laboratorio_id' => 43,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 469,
@@ -9200,7 +9200,7 @@ Garantizan alta calidad de leche materna',
                 458 => 
                 array (
                     'id' => 714,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 470,
@@ -9220,7 +9220,7 @@ Garantizan alta calidad de leche materna',
                 459 => 
                 array (
                     'id' => 715,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 471,
@@ -9240,7 +9240,7 @@ Garantizan alta calidad de leche materna',
                 460 => 
                 array (
                     'id' => 716,
-                    'laboratotio_id' => 46,
+                    'laboratorio_id' => 46,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 472,
@@ -9260,7 +9260,7 @@ Garantizan alta calidad de leche materna',
                 461 => 
                 array (
                     'id' => 717,
-                    'laboratotio_id' => 104,
+                    'laboratorio_id' => 104,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 473,
@@ -9280,7 +9280,7 @@ Garantizan alta calidad de leche materna',
                 462 => 
                 array (
                     'id' => 718,
-                    'laboratotio_id' => 127,
+                    'laboratorio_id' => 127,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 474,
@@ -9300,7 +9300,7 @@ Garantizan alta calidad de leche materna',
                 463 => 
                 array (
                     'id' => 719,
-                    'laboratotio_id' => 43,
+                    'laboratorio_id' => 43,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 475,
@@ -9320,7 +9320,7 @@ Garantizan alta calidad de leche materna',
                 464 => 
                 array (
                     'id' => 720,
-                    'laboratotio_id' => 104,
+                    'laboratorio_id' => 104,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 476,
@@ -9340,7 +9340,7 @@ Garantizan alta calidad de leche materna',
                 465 => 
                 array (
                     'id' => 721,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 477,
@@ -9360,7 +9360,7 @@ Garantizan alta calidad de leche materna',
                 466 => 
                 array (
                     'id' => 722,
-                    'laboratotio_id' => 127,
+                    'laboratorio_id' => 127,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 478,
@@ -9380,7 +9380,7 @@ Garantizan alta calidad de leche materna',
                 467 => 
                 array (
                     'id' => 723,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 479,
@@ -9400,7 +9400,7 @@ Garantizan alta calidad de leche materna',
                 468 => 
                 array (
                     'id' => 724,
-                    'laboratotio_id' => 46,
+                    'laboratorio_id' => 46,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 480,
@@ -9420,7 +9420,7 @@ Garantizan alta calidad de leche materna',
                 469 => 
                 array (
                     'id' => 725,
-                    'laboratotio_id' => 39,
+                    'laboratorio_id' => 39,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 481,
@@ -9440,7 +9440,7 @@ Garantizan alta calidad de leche materna',
                 470 => 
                 array (
                     'id' => 726,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 482,
@@ -9460,7 +9460,7 @@ Garantizan alta calidad de leche materna',
                 471 => 
                 array (
                     'id' => 727,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 483,
@@ -9480,7 +9480,7 @@ Garantizan alta calidad de leche materna',
                 472 => 
                 array (
                     'id' => 728,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 484,
@@ -9500,7 +9500,7 @@ Garantizan alta calidad de leche materna',
                 473 => 
                 array (
                     'id' => 729,
-                    'laboratotio_id' => 127,
+                    'laboratorio_id' => 127,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 485,
@@ -9520,7 +9520,7 @@ Garantizan alta calidad de leche materna',
                 474 => 
                 array (
                     'id' => 730,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 486,
@@ -9540,7 +9540,7 @@ Garantizan alta calidad de leche materna',
                 475 => 
                 array (
                     'id' => 731,
-                    'laboratotio_id' => 13,
+                    'laboratorio_id' => 13,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 487,
@@ -9560,7 +9560,7 @@ Garantizan alta calidad de leche materna',
                 476 => 
                 array (
                     'id' => 732,
-                    'laboratotio_id' => 112,
+                    'laboratorio_id' => 112,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 488,
@@ -9580,7 +9580,7 @@ Garantizan alta calidad de leche materna',
                 477 => 
                 array (
                     'id' => 733,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 489,
@@ -9600,7 +9600,7 @@ Garantizan alta calidad de leche materna',
                 478 => 
                 array (
                     'id' => 734,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 490,
@@ -9620,7 +9620,7 @@ Garantizan alta calidad de leche materna',
                 479 => 
                 array (
                     'id' => 735,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 492,
@@ -9640,7 +9640,7 @@ Garantizan alta calidad de leche materna',
                 480 => 
                 array (
                     'id' => 736,
-                    'laboratotio_id' => 52,
+                    'laboratorio_id' => 52,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 494,
@@ -9660,7 +9660,7 @@ Garantizan alta calidad de leche materna',
                 481 => 
                 array (
                     'id' => 737,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 495,
@@ -9680,7 +9680,7 @@ Garantizan alta calidad de leche materna',
                 482 => 
                 array (
                     'id' => 738,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 496,
@@ -9700,7 +9700,7 @@ Garantizan alta calidad de leche materna',
                 483 => 
                 array (
                     'id' => 739,
-                    'laboratotio_id' => 112,
+                    'laboratorio_id' => 112,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 498,
@@ -9720,7 +9720,7 @@ Garantizan alta calidad de leche materna',
                 484 => 
                 array (
                     'id' => 740,
-                    'laboratotio_id' => 29,
+                    'laboratorio_id' => 29,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 499,
@@ -9740,7 +9740,7 @@ Garantizan alta calidad de leche materna',
                 485 => 
                 array (
                     'id' => 741,
-                    'laboratotio_id' => 102,
+                    'laboratorio_id' => 102,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 500,
@@ -9760,7 +9760,7 @@ Garantizan alta calidad de leche materna',
                 486 => 
                 array (
                     'id' => 742,
-                    'laboratotio_id' => 112,
+                    'laboratorio_id' => 112,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 501,
@@ -9780,7 +9780,7 @@ Garantizan alta calidad de leche materna',
                 487 => 
                 array (
                     'id' => 743,
-                    'laboratotio_id' => 112,
+                    'laboratorio_id' => 112,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 503,
@@ -9800,7 +9800,7 @@ Garantizan alta calidad de leche materna',
                 488 => 
                 array (
                     'id' => 744,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 504,
@@ -9820,7 +9820,7 @@ Garantizan alta calidad de leche materna',
                 489 => 
                 array (
                     'id' => 745,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 505,
@@ -9840,7 +9840,7 @@ Garantizan alta calidad de leche materna',
                 490 => 
                 array (
                     'id' => 746,
-                    'laboratotio_id' => 117,
+                    'laboratorio_id' => 117,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 506,
@@ -9860,7 +9860,7 @@ Garantizan alta calidad de leche materna',
                 491 => 
                 array (
                     'id' => 747,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 507,
@@ -9880,7 +9880,7 @@ Garantizan alta calidad de leche materna',
                 492 => 
                 array (
                     'id' => 748,
-                    'laboratotio_id' => 54,
+                    'laboratorio_id' => 54,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 508,
@@ -9900,7 +9900,7 @@ Garantizan alta calidad de leche materna',
                 493 => 
                 array (
                     'id' => 749,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 509,
@@ -9920,7 +9920,7 @@ Garantizan alta calidad de leche materna',
                 494 => 
                 array (
                     'id' => 750,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 510,
@@ -9940,7 +9940,7 @@ Garantizan alta calidad de leche materna',
                 495 => 
                 array (
                     'id' => 751,
-                    'laboratotio_id' => 61,
+                    'laboratorio_id' => 61,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 511,
@@ -9960,7 +9960,7 @@ Garantizan alta calidad de leche materna',
                 496 => 
                 array (
                     'id' => 752,
-                    'laboratotio_id' => 112,
+                    'laboratorio_id' => 112,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 512,
@@ -9980,7 +9980,7 @@ Garantizan alta calidad de leche materna',
                 497 => 
                 array (
                     'id' => 753,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 513,
@@ -10000,7 +10000,7 @@ Garantizan alta calidad de leche materna',
                 498 => 
                 array (
                     'id' => 754,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 514,
@@ -10020,7 +10020,7 @@ Garantizan alta calidad de leche materna',
                 499 => 
                 array (
                     'id' => 755,
-                    'laboratotio_id' => 14,
+                    'laboratorio_id' => 14,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 515,
@@ -10042,7 +10042,7 @@ Garantizan alta calidad de leche materna',
             0 => 
             array (
                 'id' => 756,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 516,
@@ -10062,7 +10062,7 @@ Garantizan alta calidad de leche materna',
             1 => 
             array (
                 'id' => 757,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 517,
@@ -10086,7 +10086,7 @@ y/o hepática severa',
             2 => 
             array (
                 'id' => 758,
-                'laboratotio_id' => 73,
+                'laboratorio_id' => 73,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 518,
@@ -10106,7 +10106,7 @@ y/o hepática severa',
             3 => 
             array (
                 'id' => 759,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 519,
@@ -10126,7 +10126,7 @@ y/o hepática severa',
             4 => 
             array (
                 'id' => 760,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 520,
@@ -10146,7 +10146,7 @@ y/o hepática severa',
             5 => 
             array (
                 'id' => 761,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 521,
@@ -10166,7 +10166,7 @@ y/o hepática severa',
             6 => 
             array (
                 'id' => 762,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 522,
@@ -10186,7 +10186,7 @@ y/o hepática severa',
             7 => 
             array (
                 'id' => 763,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 523,
@@ -10206,7 +10206,7 @@ y/o hepática severa',
             8 => 
             array (
                 'id' => 764,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 524,
@@ -10226,7 +10226,7 @@ y/o hepática severa',
             9 => 
             array (
                 'id' => 765,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 525,
@@ -10246,7 +10246,7 @@ y/o hepática severa',
             10 => 
             array (
                 'id' => 766,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 526,
@@ -10266,7 +10266,7 @@ y/o hepática severa',
             11 => 
             array (
                 'id' => 767,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 527,
@@ -10286,7 +10286,7 @@ y/o hepática severa',
             12 => 
             array (
                 'id' => 768,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 528,
@@ -10306,7 +10306,7 @@ y/o hepática severa',
             13 => 
             array (
                 'id' => 769,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 529,
@@ -10326,7 +10326,7 @@ y/o hepática severa',
             14 => 
             array (
                 'id' => 770,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 530,
@@ -10346,7 +10346,7 @@ y/o hepática severa',
             15 => 
             array (
                 'id' => 771,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 531,
@@ -10366,7 +10366,7 @@ y/o hepática severa',
             16 => 
             array (
                 'id' => 772,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 532,
@@ -10386,7 +10386,7 @@ y/o hepática severa',
             17 => 
             array (
                 'id' => 773,
-                'laboratotio_id' => 29,
+                'laboratorio_id' => 29,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 533,
@@ -10406,7 +10406,7 @@ y/o hepática severa',
             18 => 
             array (
                 'id' => 774,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 534,
@@ -10426,7 +10426,7 @@ y/o hepática severa',
             19 => 
             array (
                 'id' => 775,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 535,
@@ -10446,7 +10446,7 @@ y/o hepática severa',
             20 => 
             array (
                 'id' => 776,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 536,
@@ -10466,7 +10466,7 @@ y/o hepática severa',
             21 => 
             array (
                 'id' => 777,
-                'laboratotio_id' => 21,
+                'laboratorio_id' => 21,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 538,
@@ -10486,7 +10486,7 @@ y/o hepática severa',
             22 => 
             array (
                 'id' => 778,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 539,
@@ -10506,7 +10506,7 @@ y/o hepática severa',
             23 => 
             array (
                 'id' => 779,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 540,
@@ -10526,7 +10526,7 @@ y/o hepática severa',
             24 => 
             array (
                 'id' => 780,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 541,
@@ -10548,7 +10548,7 @@ y/o hepática severa',
             25 => 
             array (
                 'id' => 781,
-                'laboratotio_id' => 91,
+                'laboratorio_id' => 91,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 542,
@@ -10568,7 +10568,7 @@ y/o hepática severa',
             26 => 
             array (
                 'id' => 782,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 543,
@@ -10588,7 +10588,7 @@ y/o hepática severa',
             27 => 
             array (
                 'id' => 783,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 544,
@@ -10608,7 +10608,7 @@ y/o hepática severa',
             28 => 
             array (
                 'id' => 784,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 546,
@@ -10628,7 +10628,7 @@ y/o hepática severa',
             29 => 
             array (
                 'id' => 785,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 547,
@@ -10648,7 +10648,7 @@ y/o hepática severa',
             30 => 
             array (
                 'id' => 786,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 548,
@@ -10668,7 +10668,7 @@ y/o hepática severa',
             31 => 
             array (
                 'id' => 787,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 549,
@@ -10688,7 +10688,7 @@ y/o hepática severa',
             32 => 
             array (
                 'id' => 788,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 550,
@@ -10708,7 +10708,7 @@ y/o hepática severa',
             33 => 
             array (
                 'id' => 789,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 551,
@@ -10728,7 +10728,7 @@ y/o hepática severa',
             34 => 
             array (
                 'id' => 790,
-                'laboratotio_id' => 48,
+                'laboratorio_id' => 48,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 552,
@@ -10748,7 +10748,7 @@ y/o hepática severa',
             35 => 
             array (
                 'id' => 791,
-                'laboratotio_id' => 119,
+                'laboratorio_id' => 119,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 553,
@@ -10768,7 +10768,7 @@ y/o hepática severa',
             36 => 
             array (
                 'id' => 792,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 554,
@@ -10788,7 +10788,7 @@ y/o hepática severa',
             37 => 
             array (
                 'id' => 793,
-                'laboratotio_id' => 81,
+                'laboratorio_id' => 81,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 555,
@@ -10808,7 +10808,7 @@ y/o hepática severa',
             38 => 
             array (
                 'id' => 794,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 556,
@@ -10828,7 +10828,7 @@ y/o hepática severa',
             39 => 
             array (
                 'id' => 795,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 557,
@@ -10848,7 +10848,7 @@ y/o hepática severa',
             40 => 
             array (
                 'id' => 796,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 558,
@@ -10868,7 +10868,7 @@ y/o hepática severa',
             41 => 
             array (
                 'id' => 797,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 559,
@@ -10888,7 +10888,7 @@ y/o hepática severa',
             42 => 
             array (
                 'id' => 798,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 560,
@@ -10908,7 +10908,7 @@ y/o hepática severa',
             43 => 
             array (
                 'id' => 799,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 561,
@@ -10928,7 +10928,7 @@ y/o hepática severa',
             44 => 
             array (
                 'id' => 800,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 562,
@@ -10948,7 +10948,7 @@ y/o hepática severa',
             45 => 
             array (
                 'id' => 801,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 563,
@@ -10968,7 +10968,7 @@ y/o hepática severa',
             46 => 
             array (
                 'id' => 802,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 564,
@@ -10988,7 +10988,7 @@ y/o hepática severa',
             47 => 
             array (
                 'id' => 803,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 565,
@@ -11008,7 +11008,7 @@ y/o hepática severa',
             48 => 
             array (
                 'id' => 804,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 566,
@@ -11030,7 +11030,7 @@ y/o hepática severa',
             49 => 
             array (
                 'id' => 805,
-                'laboratotio_id' => 55,
+                'laboratorio_id' => 55,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 567,
@@ -11050,7 +11050,7 @@ y/o hepática severa',
             50 => 
             array (
                 'id' => 806,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 568,
@@ -11070,7 +11070,7 @@ y/o hepática severa',
             51 => 
             array (
                 'id' => 807,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 569,
@@ -11090,7 +11090,7 @@ y/o hepática severa',
             52 => 
             array (
                 'id' => 808,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 570,
@@ -11110,7 +11110,7 @@ y/o hepática severa',
             53 => 
             array (
                 'id' => 809,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 571,
@@ -11130,7 +11130,7 @@ y/o hepática severa',
             54 => 
             array (
                 'id' => 810,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 572,
@@ -11150,7 +11150,7 @@ y/o hepática severa',
             55 => 
             array (
                 'id' => 811,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 573,
@@ -11170,7 +11170,7 @@ y/o hepática severa',
             56 => 
             array (
                 'id' => 812,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 574,
@@ -11190,7 +11190,7 @@ y/o hepática severa',
             57 => 
             array (
                 'id' => 813,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 575,
@@ -11210,7 +11210,7 @@ y/o hepática severa',
             58 => 
             array (
                 'id' => 814,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 576,
@@ -11230,7 +11230,7 @@ y/o hepática severa',
             59 => 
             array (
                 'id' => 815,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 577,
@@ -11250,7 +11250,7 @@ y/o hepática severa',
             60 => 
             array (
                 'id' => 816,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 578,
@@ -11270,7 +11270,7 @@ y/o hepática severa',
             61 => 
             array (
                 'id' => 817,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 579,
@@ -11290,7 +11290,7 @@ y/o hepática severa',
             62 => 
             array (
                 'id' => 818,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 580,
@@ -11310,7 +11310,7 @@ y/o hepática severa',
             63 => 
             array (
                 'id' => 819,
-                'laboratotio_id' => 20,
+                'laboratorio_id' => 20,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 581,
@@ -11330,7 +11330,7 @@ y/o hepática severa',
             64 => 
             array (
                 'id' => 820,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 582,
@@ -11350,7 +11350,7 @@ y/o hepática severa',
             65 => 
             array (
                 'id' => 821,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 583,
@@ -11370,7 +11370,7 @@ y/o hepática severa',
             66 => 
             array (
                 'id' => 822,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 584,
@@ -11390,7 +11390,7 @@ y/o hepática severa',
             67 => 
             array (
                 'id' => 823,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 585,
@@ -11410,7 +11410,7 @@ y/o hepática severa',
             68 => 
             array (
                 'id' => 824,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 586,
@@ -11430,7 +11430,7 @@ y/o hepática severa',
             69 => 
             array (
                 'id' => 825,
-                'laboratotio_id' => 127,
+                'laboratorio_id' => 127,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 587,
@@ -11450,7 +11450,7 @@ y/o hepática severa',
             70 => 
             array (
                 'id' => 826,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 588,
@@ -11470,7 +11470,7 @@ y/o hepática severa',
             71 => 
             array (
                 'id' => 827,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 589,
@@ -11490,7 +11490,7 @@ y/o hepática severa',
             72 => 
             array (
                 'id' => 828,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 590,
@@ -11511,7 +11511,7 @@ y/o hepática severa',
             73 => 
             array (
                 'id' => 829,
-                'laboratotio_id' => 20,
+                'laboratorio_id' => 20,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 591,
@@ -11531,7 +11531,7 @@ y/o hepática severa',
             74 => 
             array (
                 'id' => 830,
-                'laboratotio_id' => 42,
+                'laboratorio_id' => 42,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 592,
@@ -11551,7 +11551,7 @@ y/o hepática severa',
             75 => 
             array (
                 'id' => 831,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 593,
@@ -11571,7 +11571,7 @@ y/o hepática severa',
             76 => 
             array (
                 'id' => 832,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 594,
@@ -11591,7 +11591,7 @@ y/o hepática severa',
             77 => 
             array (
                 'id' => 833,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 595,
@@ -11611,7 +11611,7 @@ y/o hepática severa',
             78 => 
             array (
                 'id' => 834,
-                'laboratotio_id' => 20,
+                'laboratorio_id' => 20,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 596,
@@ -11631,7 +11631,7 @@ y/o hepática severa',
             79 => 
             array (
                 'id' => 835,
-                'laboratotio_id' => 20,
+                'laboratorio_id' => 20,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 597,
@@ -11651,7 +11651,7 @@ y/o hepática severa',
             80 => 
             array (
                 'id' => 836,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 598,
@@ -11672,7 +11672,7 @@ y/o hepática severa',
             81 => 
             array (
                 'id' => 837,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 599,
@@ -11692,7 +11692,7 @@ y/o hepática severa',
             82 => 
             array (
                 'id' => 838,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 600,
@@ -11712,7 +11712,7 @@ y/o hepática severa',
             83 => 
             array (
                 'id' => 839,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 601,
@@ -11732,7 +11732,7 @@ y/o hepática severa',
             84 => 
             array (
                 'id' => 840,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 602,
@@ -11752,7 +11752,7 @@ y/o hepática severa',
             85 => 
             array (
                 'id' => 841,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 603,
@@ -11772,7 +11772,7 @@ y/o hepática severa',
             86 => 
             array (
                 'id' => 842,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 604,
@@ -11793,7 +11793,7 @@ y/o hepática severa',
             87 => 
             array (
                 'id' => 843,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 605,
@@ -11813,7 +11813,7 @@ y/o hepática severa',
             88 => 
             array (
                 'id' => 844,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 606,
@@ -11833,7 +11833,7 @@ y/o hepática severa',
             89 => 
             array (
                 'id' => 845,
-                'laboratotio_id' => 43,
+                'laboratorio_id' => 43,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 607,
@@ -11853,7 +11853,7 @@ y/o hepática severa',
             90 => 
             array (
                 'id' => 846,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 608,
@@ -11875,7 +11875,7 @@ y/o hepática severa',
             91 => 
             array (
                 'id' => 847,
-                'laboratotio_id' => 126,
+                'laboratorio_id' => 126,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 609,
@@ -11895,7 +11895,7 @@ y/o hepática severa',
             92 => 
             array (
                 'id' => 848,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 610,
@@ -11915,7 +11915,7 @@ y/o hepática severa',
             93 => 
             array (
                 'id' => 849,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 611,
@@ -11935,7 +11935,7 @@ y/o hepática severa',
             94 => 
             array (
                 'id' => 850,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 612,
@@ -11955,7 +11955,7 @@ y/o hepática severa',
             95 => 
             array (
                 'id' => 851,
-                'laboratotio_id' => 31,
+                'laboratorio_id' => 31,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 613,
@@ -11975,7 +11975,7 @@ y/o hepática severa',
             96 => 
             array (
                 'id' => 852,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 614,
@@ -11995,7 +11995,7 @@ y/o hepática severa',
             97 => 
             array (
                 'id' => 853,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 615,
@@ -12015,7 +12015,7 @@ y/o hepática severa',
             98 => 
             array (
                 'id' => 854,
-                'laboratotio_id' => 79,
+                'laboratorio_id' => 79,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 616,
@@ -12035,7 +12035,7 @@ y/o hepática severa',
             99 => 
             array (
                 'id' => 855,
-                'laboratotio_id' => 79,
+                'laboratorio_id' => 79,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 617,
@@ -12055,7 +12055,7 @@ y/o hepática severa',
             100 => 
             array (
                 'id' => 856,
-                'laboratotio_id' => 115,
+                'laboratorio_id' => 115,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 618,
@@ -12075,7 +12075,7 @@ y/o hepática severa',
             101 => 
             array (
                 'id' => 857,
-                'laboratotio_id' => 50,
+                'laboratorio_id' => 50,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 619,
@@ -12095,7 +12095,7 @@ y/o hepática severa',
             102 => 
             array (
                 'id' => 858,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 620,
@@ -12115,7 +12115,7 @@ y/o hepática severa',
             103 => 
             array (
                 'id' => 859,
-                'laboratotio_id' => 109,
+                'laboratorio_id' => 109,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 621,
@@ -12135,7 +12135,7 @@ y/o hepática severa',
             104 => 
             array (
                 'id' => 860,
-                'laboratotio_id' => 109,
+                'laboratorio_id' => 109,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 622,
@@ -12155,7 +12155,7 @@ y/o hepática severa',
             105 => 
             array (
                 'id' => 861,
-                'laboratotio_id' => 91,
+                'laboratorio_id' => 91,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 623,
@@ -12175,7 +12175,7 @@ y/o hepática severa',
             106 => 
             array (
                 'id' => 862,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 624,
@@ -12195,7 +12195,7 @@ y/o hepática severa',
             107 => 
             array (
                 'id' => 863,
-                'laboratotio_id' => 82,
+                'laboratorio_id' => 82,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 625,
@@ -12215,7 +12215,7 @@ y/o hepática severa',
             108 => 
             array (
                 'id' => 864,
-                'laboratotio_id' => 109,
+                'laboratorio_id' => 109,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 626,
@@ -12235,7 +12235,7 @@ y/o hepática severa',
             109 => 
             array (
                 'id' => 865,
-                'laboratotio_id' => 82,
+                'laboratorio_id' => 82,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 627,
@@ -12255,7 +12255,7 @@ y/o hepática severa',
             110 => 
             array (
                 'id' => 866,
-                'laboratotio_id' => 106,
+                'laboratorio_id' => 106,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 628,
@@ -12275,7 +12275,7 @@ y/o hepática severa',
             111 => 
             array (
                 'id' => 867,
-                'laboratotio_id' => 109,
+                'laboratorio_id' => 109,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 629,
@@ -12295,7 +12295,7 @@ y/o hepática severa',
             112 => 
             array (
                 'id' => 868,
-                'laboratotio_id' => 106,
+                'laboratorio_id' => 106,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 630,
@@ -12315,7 +12315,7 @@ y/o hepática severa',
             113 => 
             array (
                 'id' => 869,
-                'laboratotio_id' => 106,
+                'laboratorio_id' => 106,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 631,
@@ -12335,7 +12335,7 @@ y/o hepática severa',
             114 => 
             array (
                 'id' => 870,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 632,
@@ -12355,7 +12355,7 @@ y/o hepática severa',
             115 => 
             array (
                 'id' => 871,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 633,
@@ -12375,7 +12375,7 @@ y/o hepática severa',
             116 => 
             array (
                 'id' => 872,
-                'laboratotio_id' => 33,
+                'laboratorio_id' => 33,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 634,
@@ -12395,7 +12395,7 @@ y/o hepática severa',
             117 => 
             array (
                 'id' => 873,
-                'laboratotio_id' => 91,
+                'laboratorio_id' => 91,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 635,
@@ -12415,7 +12415,7 @@ y/o hepática severa',
             118 => 
             array (
                 'id' => 874,
-                'laboratotio_id' => 33,
+                'laboratorio_id' => 33,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 636,
@@ -12435,7 +12435,7 @@ y/o hepática severa',
             119 => 
             array (
                 'id' => 875,
-                'laboratotio_id' => 119,
+                'laboratorio_id' => 119,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 637,
@@ -12455,7 +12455,7 @@ y/o hepática severa',
             120 => 
             array (
                 'id' => 876,
-                'laboratotio_id' => 119,
+                'laboratorio_id' => 119,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 638,
@@ -12475,7 +12475,7 @@ y/o hepática severa',
             121 => 
             array (
                 'id' => 877,
-                'laboratotio_id' => 4,
+                'laboratorio_id' => 4,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 639,
@@ -12495,7 +12495,7 @@ y/o hepática severa',
             122 => 
             array (
                 'id' => 878,
-                'laboratotio_id' => 83,
+                'laboratorio_id' => 83,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 640,
@@ -12515,7 +12515,7 @@ y/o hepática severa',
             123 => 
             array (
                 'id' => 879,
-                'laboratotio_id' => 83,
+                'laboratorio_id' => 83,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 641,
@@ -12535,7 +12535,7 @@ y/o hepática severa',
             124 => 
             array (
                 'id' => 880,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 642,
@@ -12555,7 +12555,7 @@ y/o hepática severa',
             125 => 
             array (
                 'id' => 881,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 644,
@@ -12575,7 +12575,7 @@ y/o hepática severa',
             126 => 
             array (
                 'id' => 882,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 645,
@@ -12595,7 +12595,7 @@ y/o hepática severa',
             127 => 
             array (
                 'id' => 883,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 646,
@@ -12615,7 +12615,7 @@ y/o hepática severa',
             128 => 
             array (
                 'id' => 884,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 647,
@@ -12635,7 +12635,7 @@ y/o hepática severa',
             129 => 
             array (
                 'id' => 885,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 648,
@@ -12655,7 +12655,7 @@ y/o hepática severa',
             130 => 
             array (
                 'id' => 886,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 649,
@@ -12675,7 +12675,7 @@ y/o hepática severa',
             131 => 
             array (
                 'id' => 887,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 650,
@@ -12695,7 +12695,7 @@ y/o hepática severa',
             132 => 
             array (
                 'id' => 888,
-                'laboratotio_id' => 116,
+                'laboratorio_id' => 116,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 651,
@@ -12715,7 +12715,7 @@ y/o hepática severa',
             133 => 
             array (
                 'id' => 889,
-                'laboratotio_id' => 121,
+                'laboratorio_id' => 121,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 652,
@@ -12735,7 +12735,7 @@ y/o hepática severa',
             134 => 
             array (
                 'id' => 890,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 653,
@@ -12755,7 +12755,7 @@ y/o hepática severa',
             135 => 
             array (
                 'id' => 891,
-                'laboratotio_id' => 56,
+                'laboratorio_id' => 56,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 654,
@@ -12775,7 +12775,7 @@ y/o hepática severa',
             136 => 
             array (
                 'id' => 892,
-                'laboratotio_id' => 16,
+                'laboratorio_id' => 16,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 655,
@@ -12795,7 +12795,7 @@ y/o hepática severa',
             137 => 
             array (
                 'id' => 893,
-                'laboratotio_id' => 16,
+                'laboratorio_id' => 16,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 656,
@@ -12815,7 +12815,7 @@ y/o hepática severa',
             138 => 
             array (
                 'id' => 894,
-                'laboratotio_id' => 92,
+                'laboratorio_id' => 92,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 657,
@@ -12835,7 +12835,7 @@ y/o hepática severa',
             139 => 
             array (
                 'id' => 895,
-                'laboratotio_id' => 92,
+                'laboratorio_id' => 92,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 658,
@@ -12855,7 +12855,7 @@ y/o hepática severa',
             140 => 
             array (
                 'id' => 896,
-                'laboratotio_id' => 16,
+                'laboratorio_id' => 16,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 659,
@@ -12875,7 +12875,7 @@ y/o hepática severa',
             141 => 
             array (
                 'id' => 897,
-                'laboratotio_id' => 92,
+                'laboratorio_id' => 92,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 660,
@@ -12895,7 +12895,7 @@ y/o hepática severa',
             142 => 
             array (
                 'id' => 898,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 661,
@@ -12915,7 +12915,7 @@ y/o hepática severa',
             143 => 
             array (
                 'id' => 899,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 662,
@@ -12935,7 +12935,7 @@ y/o hepática severa',
             144 => 
             array (
                 'id' => 900,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 663,
@@ -12955,7 +12955,7 @@ y/o hepática severa',
             145 => 
             array (
                 'id' => 901,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 664,
@@ -12975,7 +12975,7 @@ y/o hepática severa',
             146 => 
             array (
                 'id' => 902,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 665,
@@ -12995,7 +12995,7 @@ y/o hepática severa',
             147 => 
             array (
                 'id' => 903,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 666,
@@ -13015,7 +13015,7 @@ y/o hepática severa',
             148 => 
             array (
                 'id' => 904,
-                'laboratotio_id' => 54,
+                'laboratorio_id' => 54,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 667,
@@ -13035,7 +13035,7 @@ y/o hepática severa',
             149 => 
             array (
                 'id' => 905,
-                'laboratotio_id' => 13,
+                'laboratorio_id' => 13,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 668,
@@ -13055,7 +13055,7 @@ y/o hepática severa',
             150 => 
             array (
                 'id' => 906,
-                'laboratotio_id' => 13,
+                'laboratorio_id' => 13,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 669,
@@ -13075,7 +13075,7 @@ y/o hepática severa',
             151 => 
             array (
                 'id' => 907,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 670,
@@ -13095,7 +13095,7 @@ y/o hepática severa',
             152 => 
             array (
                 'id' => 908,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 671,
@@ -13115,7 +13115,7 @@ y/o hepática severa',
             153 => 
             array (
                 'id' => 909,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 672,
@@ -13135,7 +13135,7 @@ y/o hepática severa',
             154 => 
             array (
                 'id' => 910,
-                'laboratotio_id' => 27,
+                'laboratorio_id' => 27,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 673,
@@ -13155,7 +13155,7 @@ y/o hepática severa',
             155 => 
             array (
                 'id' => 911,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 674,
@@ -13175,7 +13175,7 @@ y/o hepática severa',
             156 => 
             array (
                 'id' => 912,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 675,
@@ -13195,7 +13195,7 @@ y/o hepática severa',
             157 => 
             array (
                 'id' => 913,
-                'laboratotio_id' => 27,
+                'laboratorio_id' => 27,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 676,
@@ -13215,7 +13215,7 @@ y/o hepática severa',
             158 => 
             array (
                 'id' => 914,
-                'laboratotio_id' => 27,
+                'laboratorio_id' => 27,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 677,
@@ -13235,7 +13235,7 @@ y/o hepática severa',
             159 => 
             array (
                 'id' => 915,
-                'laboratotio_id' => 27,
+                'laboratorio_id' => 27,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 678,
@@ -13255,7 +13255,7 @@ y/o hepática severa',
             160 => 
             array (
                 'id' => 916,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 679,
@@ -13275,7 +13275,7 @@ y/o hepática severa',
             161 => 
             array (
                 'id' => 917,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 680,
@@ -13295,7 +13295,7 @@ y/o hepática severa',
             162 => 
             array (
                 'id' => 918,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 681,
@@ -13315,7 +13315,7 @@ y/o hepática severa',
             163 => 
             array (
                 'id' => 919,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 682,
@@ -13335,7 +13335,7 @@ y/o hepática severa',
             164 => 
             array (
                 'id' => 920,
-                'laboratotio_id' => 131,
+                'laboratorio_id' => 131,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 683,
@@ -13355,7 +13355,7 @@ y/o hepática severa',
             165 => 
             array (
                 'id' => 921,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 684,
@@ -13375,7 +13375,7 @@ y/o hepática severa',
             166 => 
             array (
                 'id' => 922,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 685,
@@ -13395,7 +13395,7 @@ y/o hepática severa',
             167 => 
             array (
                 'id' => 923,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 686,
@@ -13415,7 +13415,7 @@ y/o hepática severa',
             168 => 
             array (
                 'id' => 924,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 687,
@@ -13435,7 +13435,7 @@ y/o hepática severa',
             169 => 
             array (
                 'id' => 925,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 688,
@@ -13455,7 +13455,7 @@ y/o hepática severa',
             170 => 
             array (
                 'id' => 926,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 689,
@@ -13475,7 +13475,7 @@ y/o hepática severa',
             171 => 
             array (
                 'id' => 927,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 690,
@@ -13495,7 +13495,7 @@ y/o hepática severa',
             172 => 
             array (
                 'id' => 928,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 691,
@@ -13515,7 +13515,7 @@ y/o hepática severa',
             173 => 
             array (
                 'id' => 929,
-                'laboratotio_id' => 3,
+                'laboratorio_id' => 3,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 692,
@@ -13535,7 +13535,7 @@ y/o hepática severa',
             174 => 
             array (
                 'id' => 930,
-                'laboratotio_id' => 130,
+                'laboratorio_id' => 130,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 693,
@@ -13556,7 +13556,7 @@ y/o hepática severa',
             175 => 
             array (
                 'id' => 931,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 694,
@@ -13576,7 +13576,7 @@ y/o hepática severa',
             176 => 
             array (
                 'id' => 932,
-                'laboratotio_id' => 67,
+                'laboratorio_id' => 67,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 695,
@@ -13596,7 +13596,7 @@ y/o hepática severa',
             177 => 
             array (
                 'id' => 933,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 696,
@@ -13616,7 +13616,7 @@ y/o hepática severa',
             178 => 
             array (
                 'id' => 934,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 697,
@@ -13636,7 +13636,7 @@ y/o hepática severa',
             179 => 
             array (
                 'id' => 935,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 698,
@@ -13656,7 +13656,7 @@ y/o hepática severa',
             180 => 
             array (
                 'id' => 936,
-                'laboratotio_id' => 95,
+                'laboratorio_id' => 95,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 699,
@@ -13676,7 +13676,7 @@ y/o hepática severa',
             181 => 
             array (
                 'id' => 937,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 700,
@@ -13696,7 +13696,7 @@ y/o hepática severa',
             182 => 
             array (
                 'id' => 938,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 701,
@@ -13716,7 +13716,7 @@ y/o hepática severa',
             183 => 
             array (
                 'id' => 939,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 702,
@@ -13736,7 +13736,7 @@ y/o hepática severa',
             184 => 
             array (
                 'id' => 940,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 703,
@@ -13756,7 +13756,7 @@ y/o hepática severa',
             185 => 
             array (
                 'id' => 941,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 704,
@@ -13776,7 +13776,7 @@ y/o hepática severa',
             186 => 
             array (
                 'id' => 942,
-                'laboratotio_id' => 25,
+                'laboratorio_id' => 25,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 705,
@@ -13796,7 +13796,7 @@ y/o hepática severa',
             187 => 
             array (
                 'id' => 943,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 706,
@@ -13816,7 +13816,7 @@ y/o hepática severa',
             188 => 
             array (
                 'id' => 944,
-                'laboratotio_id' => 75,
+                'laboratorio_id' => 75,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 707,
@@ -13836,7 +13836,7 @@ y/o hepática severa',
             189 => 
             array (
                 'id' => 945,
-                'laboratotio_id' => 11,
+                'laboratorio_id' => 11,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 708,
@@ -13856,7 +13856,7 @@ y/o hepática severa',
             190 => 
             array (
                 'id' => 946,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 709,
@@ -13876,7 +13876,7 @@ y/o hepática severa',
             191 => 
             array (
                 'id' => 947,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 710,
@@ -13896,7 +13896,7 @@ y/o hepática severa',
             192 => 
             array (
                 'id' => 948,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 711,
@@ -13916,7 +13916,7 @@ y/o hepática severa',
             193 => 
             array (
                 'id' => 949,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 712,
@@ -13936,7 +13936,7 @@ y/o hepática severa',
             194 => 
             array (
                 'id' => 950,
-                'laboratotio_id' => 58,
+                'laboratorio_id' => 58,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 713,
@@ -13956,7 +13956,7 @@ y/o hepática severa',
             195 => 
             array (
                 'id' => 951,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 714,
@@ -13976,7 +13976,7 @@ y/o hepática severa',
             196 => 
             array (
                 'id' => 952,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 715,
@@ -13996,7 +13996,7 @@ y/o hepática severa',
             197 => 
             array (
                 'id' => 953,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 716,
@@ -14016,7 +14016,7 @@ y/o hepática severa',
             198 => 
             array (
                 'id' => 954,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 717,
@@ -14036,7 +14036,7 @@ y/o hepática severa',
             199 => 
             array (
                 'id' => 955,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 718,
@@ -14056,7 +14056,7 @@ y/o hepática severa',
             200 => 
             array (
                 'id' => 956,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 719,
@@ -14076,7 +14076,7 @@ y/o hepática severa',
             201 => 
             array (
                 'id' => 957,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 720,
@@ -14096,7 +14096,7 @@ y/o hepática severa',
             202 => 
             array (
                 'id' => 958,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 721,
@@ -14117,7 +14117,7 @@ y/o hepática severa',
             203 => 
             array (
                 'id' => 959,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 722,
@@ -14137,7 +14137,7 @@ y/o hepática severa',
             204 => 
             array (
                 'id' => 960,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 723,
@@ -14157,7 +14157,7 @@ y/o hepática severa',
             205 => 
             array (
                 'id' => 961,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 724,
@@ -14177,7 +14177,7 @@ y/o hepática severa',
             206 => 
             array (
                 'id' => 962,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 725,
@@ -14197,7 +14197,7 @@ y/o hepática severa',
             207 => 
             array (
                 'id' => 963,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 726,
@@ -14217,7 +14217,7 @@ y/o hepática severa',
             208 => 
             array (
                 'id' => 964,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 727,
@@ -14237,7 +14237,7 @@ y/o hepática severa',
             209 => 
             array (
                 'id' => 965,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 728,
@@ -14257,7 +14257,7 @@ y/o hepática severa',
             210 => 
             array (
                 'id' => 966,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 729,
@@ -14277,7 +14277,7 @@ y/o hepática severa',
             211 => 
             array (
                 'id' => 967,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 730,
@@ -14297,7 +14297,7 @@ y/o hepática severa',
             212 => 
             array (
                 'id' => 968,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 732,
@@ -14317,7 +14317,7 @@ y/o hepática severa',
             213 => 
             array (
                 'id' => 969,
-                'laboratotio_id' => 87,
+                'laboratorio_id' => 87,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 733,
@@ -14337,7 +14337,7 @@ y/o hepática severa',
             214 => 
             array (
                 'id' => 970,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 734,
@@ -14357,7 +14357,7 @@ y/o hepática severa',
             215 => 
             array (
                 'id' => 971,
-                'laboratotio_id' => 44,
+                'laboratorio_id' => 44,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 735,
@@ -14377,7 +14377,7 @@ y/o hepática severa',
             216 => 
             array (
                 'id' => 972,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 736,
@@ -14397,7 +14397,7 @@ y/o hepática severa',
             217 => 
             array (
                 'id' => 973,
-                'laboratotio_id' => 24,
+                'laboratorio_id' => 24,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 737,
@@ -14417,7 +14417,7 @@ y/o hepática severa',
             218 => 
             array (
                 'id' => 974,
-                'laboratotio_id' => 22,
+                'laboratorio_id' => 22,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 738,
@@ -14437,7 +14437,7 @@ y/o hepática severa',
             219 => 
             array (
                 'id' => 975,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 739,
@@ -14457,7 +14457,7 @@ y/o hepática severa',
             220 => 
             array (
                 'id' => 976,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 740,
@@ -14477,7 +14477,7 @@ y/o hepática severa',
             221 => 
             array (
                 'id' => 977,
-                'laboratotio_id' => 11,
+                'laboratorio_id' => 11,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 741,
@@ -14497,7 +14497,7 @@ y/o hepática severa',
             222 => 
             array (
                 'id' => 978,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 742,
@@ -14517,7 +14517,7 @@ y/o hepática severa',
             223 => 
             array (
                 'id' => 979,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 743,
@@ -14537,7 +14537,7 @@ y/o hepática severa',
             224 => 
             array (
                 'id' => 980,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 744,
@@ -14557,7 +14557,7 @@ y/o hepática severa',
             225 => 
             array (
                 'id' => 981,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 745,
@@ -14577,7 +14577,7 @@ y/o hepática severa',
             226 => 
             array (
                 'id' => 982,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 746,
@@ -14597,7 +14597,7 @@ y/o hepática severa',
             227 => 
             array (
                 'id' => 983,
-                'laboratotio_id' => 72,
+                'laboratorio_id' => 72,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 747,
@@ -14617,7 +14617,7 @@ y/o hepática severa',
             228 => 
             array (
                 'id' => 984,
-                'laboratotio_id' => 77,
+                'laboratorio_id' => 77,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 748,
@@ -14638,7 +14638,7 @@ y/o hepática severa',
             229 => 
             array (
                 'id' => 985,
-                'laboratotio_id' => 77,
+                'laboratorio_id' => 77,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 749,
@@ -14658,7 +14658,7 @@ y/o hepática severa',
             230 => 
             array (
                 'id' => 986,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 750,
@@ -14678,7 +14678,7 @@ y/o hepática severa',
             231 => 
             array (
                 'id' => 987,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 751,
@@ -14698,7 +14698,7 @@ y/o hepática severa',
             232 => 
             array (
                 'id' => 988,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 752,
@@ -14718,7 +14718,7 @@ y/o hepática severa',
             233 => 
             array (
                 'id' => 989,
-                'laboratotio_id' => 128,
+                'laboratorio_id' => 128,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 753,
@@ -14739,7 +14739,7 @@ y/o hepática severa',
             234 => 
             array (
                 'id' => 990,
-                'laboratotio_id' => 28,
+                'laboratorio_id' => 28,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 754,
@@ -14759,7 +14759,7 @@ y/o hepática severa',
             235 => 
             array (
                 'id' => 991,
-                'laboratotio_id' => 91,
+                'laboratorio_id' => 91,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 755,
@@ -14779,7 +14779,7 @@ y/o hepática severa',
             236 => 
             array (
                 'id' => 992,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 756,
@@ -14799,7 +14799,7 @@ y/o hepática severa',
             237 => 
             array (
                 'id' => 993,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 757,
@@ -14819,7 +14819,7 @@ y/o hepática severa',
             238 => 
             array (
                 'id' => 994,
-                'laboratotio_id' => 35,
+                'laboratorio_id' => 35,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 758,
@@ -14839,7 +14839,7 @@ y/o hepática severa',
             239 => 
             array (
                 'id' => 995,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 759,
@@ -14859,7 +14859,7 @@ y/o hepática severa',
             240 => 
             array (
                 'id' => 996,
-                'laboratotio_id' => 53,
+                'laboratorio_id' => 53,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 760,
@@ -14879,7 +14879,7 @@ y/o hepática severa',
             241 => 
             array (
                 'id' => 997,
-                'laboratotio_id' => 53,
+                'laboratorio_id' => 53,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 761,
@@ -14899,7 +14899,7 @@ y/o hepática severa',
             242 => 
             array (
                 'id' => 998,
-                'laboratotio_id' => 81,
+                'laboratorio_id' => 81,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 762,
@@ -14919,7 +14919,7 @@ y/o hepática severa',
             243 => 
             array (
                 'id' => 999,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 763,
@@ -14939,7 +14939,7 @@ y/o hepática severa',
             244 => 
             array (
                 'id' => 1000,
-                'laboratotio_id' => 82,
+                'laboratorio_id' => 82,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 764,
@@ -14959,7 +14959,7 @@ y/o hepática severa',
             245 => 
             array (
                 'id' => 1001,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 765,
@@ -14979,7 +14979,7 @@ y/o hepática severa',
             246 => 
             array (
                 'id' => 1002,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 766,
@@ -14999,7 +14999,7 @@ y/o hepática severa',
             247 => 
             array (
                 'id' => 1003,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 767,
@@ -15019,7 +15019,7 @@ y/o hepática severa',
             248 => 
             array (
                 'id' => 1004,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 768,
@@ -15039,7 +15039,7 @@ y/o hepática severa',
             249 => 
             array (
                 'id' => 1005,
-                'laboratotio_id' => 98,
+                'laboratorio_id' => 98,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 769,
@@ -15059,7 +15059,7 @@ y/o hepática severa',
             250 => 
             array (
                 'id' => 1006,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 770,
@@ -15079,7 +15079,7 @@ y/o hepática severa',
             251 => 
             array (
                 'id' => 1007,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 771,
@@ -15099,7 +15099,7 @@ y/o hepática severa',
             252 => 
             array (
                 'id' => 1008,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 772,
@@ -15119,7 +15119,7 @@ y/o hepática severa',
             253 => 
             array (
                 'id' => 1009,
-                'laboratotio_id' => 82,
+                'laboratorio_id' => 82,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 773,
@@ -15139,7 +15139,7 @@ y/o hepática severa',
             254 => 
             array (
                 'id' => 1010,
-                'laboratotio_id' => 41,
+                'laboratorio_id' => 41,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 774,
@@ -15159,7 +15159,7 @@ y/o hepática severa',
             255 => 
             array (
                 'id' => 1011,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 775,
@@ -15179,7 +15179,7 @@ y/o hepática severa',
             256 => 
             array (
                 'id' => 1012,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 776,
@@ -15199,7 +15199,7 @@ y/o hepática severa',
             257 => 
             array (
                 'id' => 1013,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 777,
@@ -15219,7 +15219,7 @@ y/o hepática severa',
             258 => 
             array (
                 'id' => 1014,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 778,
@@ -15239,7 +15239,7 @@ y/o hepática severa',
             259 => 
             array (
                 'id' => 1015,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 779,
@@ -15259,7 +15259,7 @@ y/o hepática severa',
             260 => 
             array (
                 'id' => 1016,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 780,
@@ -15279,7 +15279,7 @@ y/o hepática severa',
             261 => 
             array (
                 'id' => 1017,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 781,
@@ -15299,7 +15299,7 @@ y/o hepática severa',
             262 => 
             array (
                 'id' => 1018,
-                'laboratotio_id' => 133,
+                'laboratorio_id' => 133,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 782,
@@ -15319,7 +15319,7 @@ y/o hepática severa',
             263 => 
             array (
                 'id' => 1019,
-                'laboratotio_id' => 133,
+                'laboratorio_id' => 133,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 783,
@@ -15339,7 +15339,7 @@ y/o hepática severa',
             264 => 
             array (
                 'id' => 1020,
-                'laboratotio_id' => 133,
+                'laboratorio_id' => 133,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 784,
@@ -15359,7 +15359,7 @@ y/o hepática severa',
             265 => 
             array (
                 'id' => 1021,
-                'laboratotio_id' => 133,
+                'laboratorio_id' => 133,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 785,
@@ -15379,7 +15379,7 @@ y/o hepática severa',
             266 => 
             array (
                 'id' => 1022,
-                'laboratotio_id' => 133,
+                'laboratorio_id' => 133,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 786,
@@ -15399,7 +15399,7 @@ y/o hepática severa',
             267 => 
             array (
                 'id' => 1023,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 787,
@@ -15419,7 +15419,7 @@ y/o hepática severa',
             268 => 
             array (
                 'id' => 1024,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 788,
@@ -15439,7 +15439,7 @@ y/o hepática severa',
             269 => 
             array (
                 'id' => 1025,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 789,
@@ -15459,7 +15459,7 @@ y/o hepática severa',
             270 => 
             array (
                 'id' => 1026,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 790,
@@ -15479,7 +15479,7 @@ y/o hepática severa',
             271 => 
             array (
                 'id' => 1027,
-                'laboratotio_id' => 7,
+                'laboratorio_id' => 7,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 791,
@@ -15499,7 +15499,7 @@ y/o hepática severa',
             272 => 
             array (
                 'id' => 1028,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 792,
@@ -15519,7 +15519,7 @@ y/o hepática severa',
             273 => 
             array (
                 'id' => 1029,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 793,
@@ -15539,7 +15539,7 @@ y/o hepática severa',
             274 => 
             array (
                 'id' => 1030,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 794,
@@ -15559,7 +15559,7 @@ y/o hepática severa',
             275 => 
             array (
                 'id' => 1031,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 795,
@@ -15579,7 +15579,7 @@ y/o hepática severa',
             276 => 
             array (
                 'id' => 1032,
-                'laboratotio_id' => 37,
+                'laboratorio_id' => 37,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 796,
@@ -15599,7 +15599,7 @@ y/o hepática severa',
             277 => 
             array (
                 'id' => 1033,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 797,
@@ -15619,7 +15619,7 @@ y/o hepática severa',
             278 => 
             array (
                 'id' => 1034,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 798,
@@ -15640,7 +15640,7 @@ y/o hepática severa',
             279 => 
             array (
                 'id' => 1035,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 799,
@@ -15660,7 +15660,7 @@ y/o hepática severa',
             280 => 
             array (
                 'id' => 1036,
-                'laboratotio_id' => 78,
+                'laboratorio_id' => 78,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 800,
@@ -15680,7 +15680,7 @@ y/o hepática severa',
             281 => 
             array (
                 'id' => 1037,
-                'laboratotio_id' => 78,
+                'laboratorio_id' => 78,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 801,
@@ -15701,7 +15701,7 @@ y/o hepática severa',
             282 => 
             array (
                 'id' => 1038,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 802,
@@ -15721,7 +15721,7 @@ y/o hepática severa',
             283 => 
             array (
                 'id' => 1039,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 803,
@@ -15741,7 +15741,7 @@ y/o hepática severa',
             284 => 
             array (
                 'id' => 1040,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 804,
@@ -15761,7 +15761,7 @@ y/o hepática severa',
             285 => 
             array (
                 'id' => 1041,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 805,
@@ -15781,7 +15781,7 @@ y/o hepática severa',
             286 => 
             array (
                 'id' => 1042,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 806,
@@ -15801,7 +15801,7 @@ y/o hepática severa',
             287 => 
             array (
                 'id' => 1043,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 807,
@@ -15821,7 +15821,7 @@ y/o hepática severa',
             288 => 
             array (
                 'id' => 1044,
-                'laboratotio_id' => 61,
+                'laboratorio_id' => 61,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 808,
@@ -15841,7 +15841,7 @@ y/o hepática severa',
             289 => 
             array (
                 'id' => 1045,
-                'laboratotio_id' => 46,
+                'laboratorio_id' => 46,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 809,
@@ -15861,7 +15861,7 @@ y/o hepática severa',
             290 => 
             array (
                 'id' => 1046,
-                'laboratotio_id' => 43,
+                'laboratorio_id' => 43,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 810,
@@ -15881,7 +15881,7 @@ y/o hepática severa',
             291 => 
             array (
                 'id' => 1047,
-                'laboratotio_id' => 25,
+                'laboratorio_id' => 25,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 811,
@@ -15901,7 +15901,7 @@ y/o hepática severa',
             292 => 
             array (
                 'id' => 1048,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 812,
@@ -15921,7 +15921,7 @@ y/o hepática severa',
             293 => 
             array (
                 'id' => 1049,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 813,
@@ -15941,7 +15941,7 @@ y/o hepática severa',
             294 => 
             array (
                 'id' => 1050,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 814,
@@ -15961,7 +15961,7 @@ y/o hepática severa',
             295 => 
             array (
                 'id' => 1051,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 815,
@@ -15981,7 +15981,7 @@ y/o hepática severa',
             296 => 
             array (
                 'id' => 1052,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 816,
@@ -16001,7 +16001,7 @@ y/o hepática severa',
             297 => 
             array (
                 'id' => 1053,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 817,
@@ -16021,7 +16021,7 @@ y/o hepática severa',
             298 => 
             array (
                 'id' => 1054,
-                'laboratotio_id' => 43,
+                'laboratorio_id' => 43,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 818,
@@ -16041,7 +16041,7 @@ y/o hepática severa',
             299 => 
             array (
                 'id' => 1055,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 819,
@@ -16061,7 +16061,7 @@ y/o hepática severa',
             300 => 
             array (
                 'id' => 1056,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 820,
@@ -16081,7 +16081,7 @@ y/o hepática severa',
             301 => 
             array (
                 'id' => 1057,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 821,
@@ -16101,7 +16101,7 @@ y/o hepática severa',
             302 => 
             array (
                 'id' => 1058,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 822,
@@ -16121,7 +16121,7 @@ y/o hepática severa',
             303 => 
             array (
                 'id' => 1059,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 823,
@@ -16141,7 +16141,7 @@ y/o hepática severa',
             304 => 
             array (
                 'id' => 1060,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 824,
@@ -16161,7 +16161,7 @@ y/o hepática severa',
             305 => 
             array (
                 'id' => 1061,
-                'laboratotio_id' => 134,
+                'laboratorio_id' => 134,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 825,
@@ -16181,7 +16181,7 @@ y/o hepática severa',
             306 => 
             array (
                 'id' => 1062,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 826,
@@ -16201,7 +16201,7 @@ y/o hepática severa',
             307 => 
             array (
                 'id' => 1063,
-                'laboratotio_id' => 14,
+                'laboratorio_id' => 14,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 827,
@@ -16221,7 +16221,7 @@ y/o hepática severa',
             308 => 
             array (
                 'id' => 1064,
-                'laboratotio_id' => 14,
+                'laboratorio_id' => 14,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 828,
@@ -16241,7 +16241,7 @@ y/o hepática severa',
             309 => 
             array (
                 'id' => 1065,
-                'laboratotio_id' => 14,
+                'laboratorio_id' => 14,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 829,
@@ -16261,7 +16261,7 @@ y/o hepática severa',
             310 => 
             array (
                 'id' => 1066,
-                'laboratotio_id' => 14,
+                'laboratorio_id' => 14,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 830,
@@ -16281,7 +16281,7 @@ y/o hepática severa',
             311 => 
             array (
                 'id' => 1067,
-                'laboratotio_id' => 58,
+                'laboratorio_id' => 58,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 831,
@@ -16301,7 +16301,7 @@ y/o hepática severa',
             312 => 
             array (
                 'id' => 1068,
-                'laboratotio_id' => 48,
+                'laboratorio_id' => 48,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 832,
@@ -16321,7 +16321,7 @@ y/o hepática severa',
             313 => 
             array (
                 'id' => 1069,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 833,
@@ -16341,7 +16341,7 @@ y/o hepática severa',
             314 => 
             array (
                 'id' => 1070,
-                'laboratotio_id' => 127,
+                'laboratorio_id' => 127,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 834,
@@ -16361,7 +16361,7 @@ y/o hepática severa',
             315 => 
             array (
                 'id' => 1071,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 836,
@@ -16381,7 +16381,7 @@ y/o hepática severa',
             316 => 
             array (
                 'id' => 1072,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 837,
@@ -16401,7 +16401,7 @@ y/o hepática severa',
             317 => 
             array (
                 'id' => 1073,
-                'laboratotio_id' => 64,
+                'laboratorio_id' => 64,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 838,
@@ -16421,7 +16421,7 @@ y/o hepática severa',
             318 => 
             array (
                 'id' => 1074,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 839,
@@ -16441,7 +16441,7 @@ y/o hepática severa',
             319 => 
             array (
                 'id' => 1075,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 840,
@@ -16461,7 +16461,7 @@ y/o hepática severa',
             320 => 
             array (
                 'id' => 1076,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 841,
@@ -16481,7 +16481,7 @@ y/o hepática severa',
             321 => 
             array (
                 'id' => 1077,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 842,
@@ -16501,7 +16501,7 @@ y/o hepática severa',
             322 => 
             array (
                 'id' => 1078,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 843,
@@ -16521,7 +16521,7 @@ y/o hepática severa',
             323 => 
             array (
                 'id' => 1079,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 844,
@@ -16541,7 +16541,7 @@ y/o hepática severa',
             324 => 
             array (
                 'id' => 1080,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 845,
@@ -16561,7 +16561,7 @@ y/o hepática severa',
             325 => 
             array (
                 'id' => 1081,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 846,
@@ -16581,7 +16581,7 @@ y/o hepática severa',
             326 => 
             array (
                 'id' => 1082,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 847,
@@ -16601,7 +16601,7 @@ y/o hepática severa',
             327 => 
             array (
                 'id' => 1083,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 848,
@@ -16621,7 +16621,7 @@ y/o hepática severa',
             328 => 
             array (
                 'id' => 1084,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 849,
@@ -16641,7 +16641,7 @@ y/o hepática severa',
             329 => 
             array (
                 'id' => 1085,
-                'laboratotio_id' => 66,
+                'laboratorio_id' => 66,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 850,
@@ -16661,7 +16661,7 @@ y/o hepática severa',
             330 => 
             array (
                 'id' => 1086,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 851,
@@ -16681,7 +16681,7 @@ y/o hepática severa',
             331 => 
             array (
                 'id' => 1087,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 852,
@@ -16701,7 +16701,7 @@ y/o hepática severa',
             332 => 
             array (
                 'id' => 1088,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 853,
@@ -16721,7 +16721,7 @@ y/o hepática severa',
             333 => 
             array (
                 'id' => 1089,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 854,
@@ -16741,7 +16741,7 @@ y/o hepática severa',
             334 => 
             array (
                 'id' => 1090,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 855,
@@ -16761,7 +16761,7 @@ y/o hepática severa',
             335 => 
             array (
                 'id' => 1091,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 856,
@@ -16781,7 +16781,7 @@ y/o hepática severa',
             336 => 
             array (
                 'id' => 1092,
-                'laboratotio_id' => 142,
+                'laboratorio_id' => 142,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 857,
@@ -16801,7 +16801,7 @@ y/o hepática severa',
             337 => 
             array (
                 'id' => 1093,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 858,
@@ -16821,7 +16821,7 @@ y/o hepática severa',
             338 => 
             array (
                 'id' => 1094,
-                'laboratotio_id' => 9,
+                'laboratorio_id' => 9,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 859,
@@ -16841,7 +16841,7 @@ y/o hepática severa',
             339 => 
             array (
                 'id' => 1095,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 860,
@@ -16862,7 +16862,7 @@ y/o hepática severa',
             340 => 
             array (
                 'id' => 1096,
-                'laboratotio_id' => 58,
+                'laboratorio_id' => 58,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 861,
@@ -16882,7 +16882,7 @@ y/o hepática severa',
             341 => 
             array (
                 'id' => 1097,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 863,
@@ -16904,7 +16904,7 @@ y/o hepática severa',
             342 => 
             array (
                 'id' => 1098,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 864,
@@ -16924,7 +16924,7 @@ y/o hepática severa',
             343 => 
             array (
                 'id' => 1099,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 866,
@@ -16944,7 +16944,7 @@ y/o hepática severa',
             344 => 
             array (
                 'id' => 1100,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 867,
@@ -16964,7 +16964,7 @@ y/o hepática severa',
             345 => 
             array (
                 'id' => 1101,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 868,
@@ -16984,7 +16984,7 @@ y/o hepática severa',
             346 => 
             array (
                 'id' => 1102,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 869,
@@ -17004,7 +17004,7 @@ y/o hepática severa',
             347 => 
             array (
                 'id' => 1103,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 870,
@@ -17024,7 +17024,7 @@ y/o hepática severa',
             348 => 
             array (
                 'id' => 1104,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 871,
@@ -17044,7 +17044,7 @@ y/o hepática severa',
             349 => 
             array (
                 'id' => 1105,
-                'laboratotio_id' => 63,
+                'laboratorio_id' => 63,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 872,
@@ -17064,7 +17064,7 @@ y/o hepática severa',
             350 => 
             array (
                 'id' => 1106,
-                'laboratotio_id' => 63,
+                'laboratorio_id' => 63,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 873,
@@ -17084,7 +17084,7 @@ y/o hepática severa',
             351 => 
             array (
                 'id' => 1107,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 874,
@@ -17105,7 +17105,7 @@ y/o hepática severa',
             352 => 
             array (
                 'id' => 1108,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 875,
@@ -17125,7 +17125,7 @@ y/o hepática severa',
             353 => 
             array (
                 'id' => 1109,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 876,
@@ -17145,7 +17145,7 @@ y/o hepática severa',
             354 => 
             array (
                 'id' => 1110,
-                'laboratotio_id' => 111,
+                'laboratorio_id' => 111,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 877,
@@ -17165,7 +17165,7 @@ y/o hepática severa',
             355 => 
             array (
                 'id' => 1111,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 878,
@@ -17185,7 +17185,7 @@ y/o hepática severa',
             356 => 
             array (
                 'id' => 1112,
-                'laboratotio_id' => 110,
+                'laboratorio_id' => 110,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 879,
@@ -17206,7 +17206,7 @@ y/o hepática severa',
             357 => 
             array (
                 'id' => 1113,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 880,
@@ -17226,7 +17226,7 @@ y/o hepática severa',
             358 => 
             array (
                 'id' => 1114,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 881,
@@ -17246,7 +17246,7 @@ y/o hepática severa',
             359 => 
             array (
                 'id' => 1115,
-                'laboratotio_id' => 38,
+                'laboratorio_id' => 38,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 882,
@@ -17266,7 +17266,7 @@ y/o hepática severa',
             360 => 
             array (
                 'id' => 1116,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 883,
@@ -17286,7 +17286,7 @@ y/o hepática severa',
             361 => 
             array (
                 'id' => 1117,
-                'laboratotio_id' => 76,
+                'laboratorio_id' => 76,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 884,
@@ -17306,7 +17306,7 @@ y/o hepática severa',
             362 => 
             array (
                 'id' => 1118,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 886,
@@ -17326,7 +17326,7 @@ y/o hepática severa',
             363 => 
             array (
                 'id' => 1119,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 887,
@@ -17346,7 +17346,7 @@ y/o hepática severa',
             364 => 
             array (
                 'id' => 1120,
-                'laboratotio_id' => 126,
+                'laboratorio_id' => 126,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 888,
@@ -17367,7 +17367,7 @@ y/o hepática severa',
             365 => 
             array (
                 'id' => 1121,
-                'laboratotio_id' => 126,
+                'laboratorio_id' => 126,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 889,
@@ -17387,7 +17387,7 @@ y/o hepática severa',
             366 => 
             array (
                 'id' => 1122,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 890,
@@ -17407,7 +17407,7 @@ y/o hepática severa',
             367 => 
             array (
                 'id' => 1123,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 891,
@@ -17427,7 +17427,7 @@ y/o hepática severa',
             368 => 
             array (
                 'id' => 1124,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 892,
@@ -17448,7 +17448,7 @@ y/o hepática severa',
             369 => 
             array (
                 'id' => 1125,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 893,
@@ -17468,7 +17468,7 @@ y/o hepática severa',
             370 => 
             array (
                 'id' => 1126,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 894,
@@ -17488,7 +17488,7 @@ y/o hepática severa',
             371 => 
             array (
                 'id' => 1127,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 895,
@@ -17508,7 +17508,7 @@ y/o hepática severa',
             372 => 
             array (
                 'id' => 1128,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 896,
@@ -17528,7 +17528,7 @@ y/o hepática severa',
             373 => 
             array (
                 'id' => 1129,
-                'laboratotio_id' => 32,
+                'laboratorio_id' => 32,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 897,
@@ -17548,7 +17548,7 @@ y/o hepática severa',
             374 => 
             array (
                 'id' => 1130,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 898,
@@ -17568,7 +17568,7 @@ y/o hepática severa',
             375 => 
             array (
                 'id' => 1131,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 900,
@@ -17588,7 +17588,7 @@ y/o hepática severa',
             376 => 
             array (
                 'id' => 1132,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 901,
@@ -17608,7 +17608,7 @@ y/o hepática severa',
             377 => 
             array (
                 'id' => 1133,
-                'laboratotio_id' => 62,
+                'laboratorio_id' => 62,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 902,
@@ -17628,7 +17628,7 @@ y/o hepática severa',
             378 => 
             array (
                 'id' => 1134,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 903,
@@ -17649,7 +17649,7 @@ y/o hepática severa',
             379 => 
             array (
                 'id' => 1135,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 904,
@@ -17669,7 +17669,7 @@ y/o hepática severa',
             380 => 
             array (
                 'id' => 1136,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 905,
@@ -17689,7 +17689,7 @@ y/o hepática severa',
             381 => 
             array (
                 'id' => 1137,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 906,
@@ -17709,7 +17709,7 @@ y/o hepática severa',
             382 => 
             array (
                 'id' => 1138,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 907,
@@ -17729,7 +17729,7 @@ y/o hepática severa',
             383 => 
             array (
                 'id' => 1139,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 908,
@@ -17749,7 +17749,7 @@ y/o hepática severa',
             384 => 
             array (
                 'id' => 1140,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 909,
@@ -17769,7 +17769,7 @@ y/o hepática severa',
             385 => 
             array (
                 'id' => 1141,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 910,
@@ -17789,7 +17789,7 @@ y/o hepática severa',
             386 => 
             array (
                 'id' => 1142,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 911,
@@ -17809,7 +17809,7 @@ y/o hepática severa',
             387 => 
             array (
                 'id' => 1143,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 912,
@@ -17829,7 +17829,7 @@ y/o hepática severa',
             388 => 
             array (
                 'id' => 1144,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 913,
@@ -17849,7 +17849,7 @@ y/o hepática severa',
             389 => 
             array (
                 'id' => 1145,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 914,
@@ -17869,7 +17869,7 @@ y/o hepática severa',
             390 => 
             array (
                 'id' => 1146,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 915,
@@ -17889,7 +17889,7 @@ y/o hepática severa',
             391 => 
             array (
                 'id' => 1147,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 916,
@@ -17909,7 +17909,7 @@ y/o hepática severa',
             392 => 
             array (
                 'id' => 1148,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 917,
@@ -17929,7 +17929,7 @@ y/o hepática severa',
             393 => 
             array (
                 'id' => 1149,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 918,
@@ -17949,7 +17949,7 @@ y/o hepática severa',
             394 => 
             array (
                 'id' => 1150,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 919,
@@ -17969,7 +17969,7 @@ y/o hepática severa',
             395 => 
             array (
                 'id' => 1151,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 920,
@@ -17989,7 +17989,7 @@ y/o hepática severa',
             396 => 
             array (
                 'id' => 1152,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 921,
@@ -18009,7 +18009,7 @@ y/o hepática severa',
             397 => 
             array (
                 'id' => 1153,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 922,
@@ -18029,7 +18029,7 @@ y/o hepática severa',
             398 => 
             array (
                 'id' => 1154,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 923,
@@ -18049,7 +18049,7 @@ y/o hepática severa',
             399 => 
             array (
                 'id' => 1155,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 924,
@@ -18069,7 +18069,7 @@ y/o hepática severa',
             400 => 
             array (
                 'id' => 1156,
-                'laboratotio_id' => 101,
+                'laboratorio_id' => 101,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 925,
@@ -18089,7 +18089,7 @@ y/o hepática severa',
             401 => 
             array (
                 'id' => 1157,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 926,
@@ -18109,7 +18109,7 @@ y/o hepática severa',
             402 => 
             array (
                 'id' => 1158,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 927,
@@ -18129,7 +18129,7 @@ y/o hepática severa',
             403 => 
             array (
                 'id' => 1159,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 928,
@@ -18149,7 +18149,7 @@ y/o hepática severa',
             404 => 
             array (
                 'id' => 1160,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 929,
@@ -18169,7 +18169,7 @@ y/o hepática severa',
             405 => 
             array (
                 'id' => 1161,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 930,
@@ -18189,7 +18189,7 @@ y/o hepática severa',
             406 => 
             array (
                 'id' => 1162,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 931,
@@ -18209,7 +18209,7 @@ y/o hepática severa',
             407 => 
             array (
                 'id' => 1163,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 932,
@@ -18229,7 +18229,7 @@ y/o hepática severa',
             408 => 
             array (
                 'id' => 1164,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 933,
@@ -18249,7 +18249,7 @@ y/o hepática severa',
             409 => 
             array (
                 'id' => 1165,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 934,
@@ -18269,7 +18269,7 @@ y/o hepática severa',
             410 => 
             array (
                 'id' => 1166,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 935,
@@ -18289,7 +18289,7 @@ y/o hepática severa',
             411 => 
             array (
                 'id' => 1167,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 936,
@@ -18309,7 +18309,7 @@ y/o hepática severa',
             412 => 
             array (
                 'id' => 1168,
-                'laboratotio_id' => 102,
+                'laboratorio_id' => 102,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 937,
@@ -18330,7 +18330,7 @@ y/o hepática severa',
             413 => 
             array (
                 'id' => 1169,
-                'laboratotio_id' => 119,
+                'laboratorio_id' => 119,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 938,
@@ -18351,7 +18351,7 @@ y/o hepática severa',
             414 => 
             array (
                 'id' => 1170,
-                'laboratotio_id' => 104,
+                'laboratorio_id' => 104,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 939,
@@ -18371,7 +18371,7 @@ y/o hepática severa',
             415 => 
             array (
                 'id' => 1171,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 940,
@@ -18391,7 +18391,7 @@ y/o hepática severa',
             416 => 
             array (
                 'id' => 1172,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 941,
@@ -18411,7 +18411,7 @@ y/o hepática severa',
             417 => 
             array (
                 'id' => 1173,
-                'laboratotio_id' => 139,
+                'laboratorio_id' => 139,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 942,
@@ -18432,7 +18432,7 @@ y/o hepática severa',
             418 => 
             array (
                 'id' => 1174,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 943,
@@ -18453,7 +18453,7 @@ y/o hepática severa',
             419 => 
             array (
                 'id' => 1175,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 944,
@@ -18473,7 +18473,7 @@ y/o hepática severa',
             420 => 
             array (
                 'id' => 1176,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 945,
@@ -18493,7 +18493,7 @@ y/o hepática severa',
             421 => 
             array (
                 'id' => 1177,
-                'laboratotio_id' => 51,
+                'laboratorio_id' => 51,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 946,
@@ -18513,7 +18513,7 @@ y/o hepática severa',
             422 => 
             array (
                 'id' => 1178,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 947,
@@ -18533,7 +18533,7 @@ y/o hepática severa',
             423 => 
             array (
                 'id' => 1179,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 948,
@@ -18553,7 +18553,7 @@ y/o hepática severa',
             424 => 
             array (
                 'id' => 1180,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 949,
@@ -18573,7 +18573,7 @@ y/o hepática severa',
             425 => 
             array (
                 'id' => 1181,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 950,
@@ -18593,7 +18593,7 @@ y/o hepática severa',
             426 => 
             array (
                 'id' => 1182,
-                'laboratotio_id' => 40,
+                'laboratorio_id' => 40,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 951,
@@ -18613,7 +18613,7 @@ y/o hepática severa',
             427 => 
             array (
                 'id' => 1183,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 952,
@@ -18633,7 +18633,7 @@ y/o hepática severa',
             428 => 
             array (
                 'id' => 1184,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 953,
@@ -18653,7 +18653,7 @@ y/o hepática severa',
             429 => 
             array (
                 'id' => 1185,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 954,
@@ -18673,7 +18673,7 @@ y/o hepática severa',
             430 => 
             array (
                 'id' => 1186,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 955,
@@ -18693,7 +18693,7 @@ y/o hepática severa',
             431 => 
             array (
                 'id' => 1187,
-                'laboratotio_id' => 114,
+                'laboratorio_id' => 114,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 956,
@@ -18713,7 +18713,7 @@ y/o hepática severa',
             432 => 
             array (
                 'id' => 1188,
-                'laboratotio_id' => 114,
+                'laboratorio_id' => 114,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 957,
@@ -18733,7 +18733,7 @@ y/o hepática severa',
             433 => 
             array (
                 'id' => 1189,
-                'laboratotio_id' => 108,
+                'laboratorio_id' => 108,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 958,
@@ -18753,7 +18753,7 @@ y/o hepática severa',
             434 => 
             array (
                 'id' => 1190,
-                'laboratotio_id' => 122,
+                'laboratorio_id' => 122,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 959,
@@ -18773,7 +18773,7 @@ y/o hepática severa',
             435 => 
             array (
                 'id' => 1191,
-                'laboratotio_id' => 129,
+                'laboratorio_id' => 129,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 960,
@@ -18793,7 +18793,7 @@ y/o hepática severa',
             436 => 
             array (
                 'id' => 1192,
-                'laboratotio_id' => 129,
+                'laboratorio_id' => 129,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 961,
@@ -18813,7 +18813,7 @@ y/o hepática severa',
             437 => 
             array (
                 'id' => 1193,
-                'laboratotio_id' => 129,
+                'laboratorio_id' => 129,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 962,
@@ -18833,7 +18833,7 @@ y/o hepática severa',
             438 => 
             array (
                 'id' => 1194,
-                'laboratotio_id' => 129,
+                'laboratorio_id' => 129,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 963,
@@ -18853,7 +18853,7 @@ y/o hepática severa',
             439 => 
             array (
                 'id' => 1195,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 964,
@@ -18873,7 +18873,7 @@ y/o hepática severa',
             440 => 
             array (
                 'id' => 1196,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 965,
@@ -18893,7 +18893,7 @@ y/o hepática severa',
             441 => 
             array (
                 'id' => 1197,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 966,
@@ -18913,7 +18913,7 @@ y/o hepática severa',
             442 => 
             array (
                 'id' => 1198,
-                'laboratotio_id' => 71,
+                'laboratorio_id' => 71,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 967,
@@ -18933,7 +18933,7 @@ y/o hepática severa',
             443 => 
             array (
                 'id' => 1199,
-                'laboratotio_id' => 6,
+                'laboratorio_id' => 6,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 968,
@@ -18953,7 +18953,7 @@ y/o hepática severa',
             444 => 
             array (
                 'id' => 1200,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 969,
@@ -18973,7 +18973,7 @@ y/o hepática severa',
             445 => 
             array (
                 'id' => 1201,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 970,
@@ -18993,7 +18993,7 @@ y/o hepática severa',
             446 => 
             array (
                 'id' => 1202,
-                'laboratotio_id' => 137,
+                'laboratorio_id' => 137,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 971,
@@ -19013,7 +19013,7 @@ y/o hepática severa',
             447 => 
             array (
                 'id' => 1203,
-                'laboratotio_id' => 137,
+                'laboratorio_id' => 137,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 972,
@@ -19033,7 +19033,7 @@ y/o hepática severa',
             448 => 
             array (
                 'id' => 1204,
-                'laboratotio_id' => 137,
+                'laboratorio_id' => 137,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 973,
@@ -19053,7 +19053,7 @@ y/o hepática severa',
             449 => 
             array (
                 'id' => 1205,
-                'laboratotio_id' => 18,
+                'laboratorio_id' => 18,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 974,
@@ -19073,7 +19073,7 @@ y/o hepática severa',
             450 => 
             array (
                 'id' => 1206,
-                'laboratotio_id' => 123,
+                'laboratorio_id' => 123,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 975,
@@ -19093,7 +19093,7 @@ y/o hepática severa',
             451 => 
             array (
                 'id' => 1207,
-                'laboratotio_id' => 122,
+                'laboratorio_id' => 122,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 976,
@@ -19113,7 +19113,7 @@ y/o hepática severa',
             452 => 
             array (
                 'id' => 1208,
-                'laboratotio_id' => 122,
+                'laboratorio_id' => 122,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 977,
@@ -19133,7 +19133,7 @@ y/o hepática severa',
             453 => 
             array (
                 'id' => 1209,
-                'laboratotio_id' => 90,
+                'laboratorio_id' => 90,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 978,
@@ -19153,7 +19153,7 @@ y/o hepática severa',
             454 => 
             array (
                 'id' => 1210,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 979,
@@ -19173,7 +19173,7 @@ y/o hepática severa',
             455 => 
             array (
                 'id' => 1211,
-                'laboratotio_id' => 29,
+                'laboratorio_id' => 29,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 980,
@@ -19193,7 +19193,7 @@ y/o hepática severa',
             456 => 
             array (
                 'id' => 1212,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 981,
@@ -19214,7 +19214,7 @@ y/o hepática severa',
             457 => 
             array (
                 'id' => 1213,
-                'laboratotio_id' => 63,
+                'laboratorio_id' => 63,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 982,
@@ -19234,7 +19234,7 @@ y/o hepática severa',
             458 => 
             array (
                 'id' => 1214,
-                'laboratotio_id' => 138,
+                'laboratorio_id' => 138,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 983,
@@ -19254,7 +19254,7 @@ y/o hepática severa',
             459 => 
             array (
                 'id' => 1215,
-                'laboratotio_id' => 138,
+                'laboratorio_id' => 138,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 984,
@@ -19274,7 +19274,7 @@ y/o hepática severa',
             460 => 
             array (
                 'id' => 1216,
-                'laboratotio_id' => 138,
+                'laboratorio_id' => 138,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 985,
@@ -19294,7 +19294,7 @@ y/o hepática severa',
             461 => 
             array (
                 'id' => 1217,
-                'laboratotio_id' => 43,
+                'laboratorio_id' => 43,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 986,
@@ -19314,7 +19314,7 @@ y/o hepática severa',
             462 => 
             array (
                 'id' => 1218,
-                'laboratotio_id' => 86,
+                'laboratorio_id' => 86,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 987,
@@ -19334,7 +19334,7 @@ y/o hepática severa',
             463 => 
             array (
                 'id' => 1219,
-                'laboratotio_id' => 34,
+                'laboratorio_id' => 34,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 988,
@@ -19355,7 +19355,7 @@ y/o hepática severa',
             464 => 
             array (
                 'id' => 1220,
-                'laboratotio_id' => 1,
+                'laboratorio_id' => 1,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 989,
@@ -19375,7 +19375,7 @@ y/o hepática severa',
             465 => 
             array (
                 'id' => 1221,
-                'laboratotio_id' => 58,
+                'laboratorio_id' => 58,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 990,
@@ -19395,7 +19395,7 @@ y/o hepática severa',
                 466 => 
                 array (
                     'id' => 1222,
-                    'laboratotio_id' => 58,
+                    'laboratorio_id' => 58,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 991,
@@ -19415,7 +19415,7 @@ y/o hepática severa',
                 467 => 
                 array (
                     'id' => 1223,
-                    'laboratotio_id' => 135,
+                    'laboratorio_id' => 135,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 992,
@@ -19435,7 +19435,7 @@ y/o hepática severa',
                 468 => 
                 array (
                     'id' => 1224,
-                    'laboratotio_id' => 99,
+                    'laboratorio_id' => 99,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 993,
@@ -19455,7 +19455,7 @@ y/o hepática severa',
                 469 => 
                 array (
                     'id' => 1225,
-                    'laboratotio_id' => 99,
+                    'laboratorio_id' => 99,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 994,
@@ -19475,7 +19475,7 @@ y/o hepática severa',
                 470 => 
                 array (
                     'id' => 1226,
-                    'laboratotio_id' => 99,
+                    'laboratorio_id' => 99,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 995,
@@ -19495,7 +19495,7 @@ y/o hepática severa',
                 471 => 
                 array (
                     'id' => 1227,
-                    'laboratotio_id' => 100,
+                    'laboratorio_id' => 100,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 996,
@@ -19515,7 +19515,7 @@ y/o hepática severa',
                 472 => 
                 array (
                     'id' => 1228,
-                    'laboratotio_id' => 100,
+                    'laboratorio_id' => 100,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 997,
@@ -19535,7 +19535,7 @@ y/o hepática severa',
                 473 => 
                 array (
                     'id' => 1229,
-                    'laboratotio_id' => 100,
+                    'laboratorio_id' => 100,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 998,
@@ -19555,7 +19555,7 @@ y/o hepática severa',
                 474 => 
                 array (
                     'id' => 1230,
-                    'laboratotio_id' => 39,
+                    'laboratorio_id' => 39,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 999,
@@ -19576,7 +19576,7 @@ y/o hepática severa',
                 475 => 
                 array (
                     'id' => 1231,
-                    'laboratotio_id' => 71,
+                    'laboratorio_id' => 71,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1000,
@@ -19596,7 +19596,7 @@ y/o hepática severa',
                 476 => 
                 array (
                     'id' => 1232,
-                    'laboratotio_id' => 71,
+                    'laboratorio_id' => 71,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1001,
@@ -19616,7 +19616,7 @@ y/o hepática severa',
                 477 => 
                 array (
                     'id' => 1233,
-                    'laboratotio_id' => 59,
+                    'laboratorio_id' => 59,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1002,
@@ -19636,7 +19636,7 @@ y/o hepática severa',
                 478 => 
                 array (
                     'id' => 1234,
-                    'laboratotio_id' => 59,
+                    'laboratorio_id' => 59,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1003,
@@ -19656,7 +19656,7 @@ y/o hepática severa',
                 479 => 
                 array (
                     'id' => 1235,
-                    'laboratotio_id' => 71,
+                    'laboratorio_id' => 71,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1004,
@@ -19676,7 +19676,7 @@ y/o hepática severa',
                 480 => 
                 array (
                     'id' => 1236,
-                    'laboratotio_id' => 71,
+                    'laboratorio_id' => 71,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1005,
@@ -19696,7 +19696,7 @@ y/o hepática severa',
                 481 => 
                 array (
                     'id' => 1237,
-                    'laboratotio_id' => 59,
+                    'laboratorio_id' => 59,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1006,
@@ -19716,7 +19716,7 @@ y/o hepática severa',
                 482 => 
                 array (
                     'id' => 1238,
-                    'laboratotio_id' => 59,
+                    'laboratorio_id' => 59,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1007,
@@ -19736,7 +19736,7 @@ y/o hepática severa',
                 483 => 
                 array (
                     'id' => 1239,
-                    'laboratotio_id' => 59,
+                    'laboratorio_id' => 59,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1008,
@@ -19756,7 +19756,7 @@ y/o hepática severa',
                 484 => 
                 array (
                     'id' => 1240,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1009,
@@ -19776,7 +19776,7 @@ y/o hepática severa',
                 485 => 
                 array (
                     'id' => 1241,
-                    'laboratotio_id' => 85,
+                    'laboratorio_id' => 85,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1010,
@@ -19797,7 +19797,7 @@ y/o hepática severa',
                 486 => 
                 array (
                     'id' => 1242,
-                    'laboratotio_id' => 94,
+                    'laboratorio_id' => 94,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1011,
@@ -19818,7 +19818,7 @@ y/o hepática severa',
                 487 => 
                 array (
                     'id' => 1243,
-                    'laboratotio_id' => 15,
+                    'laboratorio_id' => 15,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1012,
@@ -19838,7 +19838,7 @@ y/o hepática severa',
                 488 => 
                 array (
                     'id' => 1244,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1013,
@@ -19858,7 +19858,7 @@ y/o hepática severa',
                 489 => 
                 array (
                     'id' => 1245,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1014,
@@ -19878,7 +19878,7 @@ y/o hepática severa',
                 490 => 
                 array (
                     'id' => 1246,
-                    'laboratotio_id' => 70,
+                    'laboratorio_id' => 70,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1015,
@@ -19898,7 +19898,7 @@ y/o hepática severa',
                 491 => 
                 array (
                     'id' => 1247,
-                    'laboratotio_id' => 97,
+                    'laboratorio_id' => 97,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1016,
@@ -19918,7 +19918,7 @@ y/o hepática severa',
                 492 => 
                 array (
                     'id' => 1248,
-                    'laboratotio_id' => 138,
+                    'laboratorio_id' => 138,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1017,
@@ -19938,7 +19938,7 @@ y/o hepática severa',
                 493 => 
                 array (
                     'id' => 1249,
-                    'laboratotio_id' => 103,
+                    'laboratorio_id' => 103,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1018,
@@ -19958,7 +19958,7 @@ y/o hepática severa',
                 494 => 
                 array (
                     'id' => 1250,
-                    'laboratotio_id' => 19,
+                    'laboratorio_id' => 19,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1019,
@@ -19978,7 +19978,7 @@ y/o hepática severa',
                 495 => 
                 array (
                     'id' => 1251,
-                    'laboratotio_id' => 39,
+                    'laboratorio_id' => 39,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1020,
@@ -19998,7 +19998,7 @@ y/o hepática severa',
                 496 => 
                 array (
                     'id' => 1252,
-                    'laboratotio_id' => 60,
+                    'laboratorio_id' => 60,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1021,
@@ -20018,7 +20018,7 @@ y/o hepática severa',
                 497 => 
                 array (
                     'id' => 1253,
-                    'laboratotio_id' => 16,
+                    'laboratorio_id' => 16,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1022,
@@ -20039,7 +20039,7 @@ y/o hepática severa',
                 498 => 
                 array (
                     'id' => 1254,
-                    'laboratotio_id' => 39,
+                    'laboratorio_id' => 39,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1023,
@@ -20059,7 +20059,7 @@ y/o hepática severa',
                 499 => 
                 array (
                     'id' => 1255,
-                    'laboratotio_id' => 36,
+                    'laboratorio_id' => 36,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1024,
@@ -20081,7 +20081,7 @@ y/o hepática severa',
             0 => 
             array (
                 'id' => 1256,
-                'laboratotio_id' => 4,
+                'laboratorio_id' => 4,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1025,
@@ -20102,7 +20102,7 @@ y/o hepática severa',
             1 => 
             array (
                 'id' => 1257,
-                'laboratotio_id' => 4,
+                'laboratorio_id' => 4,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1026,
@@ -20123,7 +20123,7 @@ y/o hepática severa',
             2 => 
             array (
                 'id' => 1258,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1027,
@@ -20143,7 +20143,7 @@ y/o hepática severa',
             3 => 
             array (
                 'id' => 1259,
-                'laboratotio_id' => 5,
+                'laboratorio_id' => 5,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1028,
@@ -20163,7 +20163,7 @@ y/o hepática severa',
             4 => 
             array (
                 'id' => 1260,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1029,
@@ -20183,7 +20183,7 @@ y/o hepática severa',
             5 => 
             array (
                 'id' => 1261,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1030,
@@ -20203,7 +20203,7 @@ y/o hepática severa',
             6 => 
             array (
                 'id' => 1262,
-                'laboratotio_id' => 39,
+                'laboratorio_id' => 39,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1031,
@@ -20223,7 +20223,7 @@ y/o hepática severa',
             7 => 
             array (
                 'id' => 1263,
-                'laboratotio_id' => 19,
+                'laboratorio_id' => 19,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1032,
@@ -20243,7 +20243,7 @@ y/o hepática severa',
             8 => 
             array (
                 'id' => 1264,
-                'laboratotio_id' => 70,
+                'laboratorio_id' => 70,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1033,
@@ -20263,7 +20263,7 @@ y/o hepática severa',
             9 => 
             array (
                 'id' => 1265,
-                'laboratotio_id' => 12,
+                'laboratorio_id' => 12,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1035,
@@ -20283,7 +20283,7 @@ y/o hepática severa',
             10 => 
             array (
                 'id' => 1266,
-                'laboratotio_id' => 12,
+                'laboratorio_id' => 12,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1036,
@@ -20303,7 +20303,7 @@ y/o hepática severa',
             11 => 
             array (
                 'id' => 1267,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1037,
@@ -20323,7 +20323,7 @@ y/o hepática severa',
             12 => 
             array (
                 'id' => 1268,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1038,
@@ -20343,7 +20343,7 @@ y/o hepática severa',
             13 => 
             array (
                 'id' => 1269,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1039,
@@ -20363,7 +20363,7 @@ y/o hepática severa',
             14 => 
             array (
                 'id' => 1270,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1040,
@@ -20383,7 +20383,7 @@ y/o hepática severa',
             15 => 
             array (
                 'id' => 1271,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1041,
@@ -20403,7 +20403,7 @@ y/o hepática severa',
             16 => 
             array (
                 'id' => 1272,
-                'laboratotio_id' => 68,
+                'laboratorio_id' => 68,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1042,
@@ -20423,7 +20423,7 @@ y/o hepática severa',
             17 => 
             array (
                 'id' => 1273,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1043,
@@ -20443,7 +20443,7 @@ y/o hepática severa',
             18 => 
             array (
                 'id' => 1274,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1044,
@@ -20463,7 +20463,7 @@ y/o hepática severa',
             19 => 
             array (
                 'id' => 1275,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1045,
@@ -20484,7 +20484,7 @@ y/o hepática severa',
             20 => 
             array (
                 'id' => 1276,
-                'laboratotio_id' => 141,
+                'laboratorio_id' => 141,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1046,
@@ -20505,7 +20505,7 @@ y/o hepática severa',
             21 => 
             array (
                 'id' => 1277,
-                'laboratotio_id' => 10,
+                'laboratorio_id' => 10,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1047,
@@ -20525,7 +20525,7 @@ y/o hepática severa',
             22 => 
             array (
                 'id' => 1278,
-                'laboratotio_id' => 10,
+                'laboratorio_id' => 10,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1048,
@@ -20545,7 +20545,7 @@ y/o hepática severa',
             23 => 
             array (
                 'id' => 1279,
-                'laboratotio_id' => 93,
+                'laboratorio_id' => 93,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1049,
@@ -20565,7 +20565,7 @@ y/o hepática severa',
             24 => 
             array (
                 'id' => 1280,
-                'laboratotio_id' => 143,
+                'laboratorio_id' => 143,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1050,
@@ -20585,7 +20585,7 @@ y/o hepática severa',
             25 => 
             array (
                 'id' => 1281,
-                'laboratotio_id' => 130,
+                'laboratorio_id' => 130,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1051,
@@ -20606,7 +20606,7 @@ y/o hepática severa',
             26 => 
             array (
                 'id' => 1282,
-                'laboratotio_id' => 112,
+                'laboratorio_id' => 112,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1052,
@@ -20626,7 +20626,7 @@ y/o hepática severa',
             27 => 
             array (
                 'id' => 1283,
-                'laboratotio_id' => 118,
+                'laboratorio_id' => 118,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1053,
@@ -20647,7 +20647,7 @@ y/o hepática severa',
             28 => 
             array (
                 'id' => 1284,
-                'laboratotio_id' => 118,
+                'laboratorio_id' => 118,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1054,
@@ -20667,7 +20667,7 @@ y/o hepática severa',
             29 => 
             array (
                 'id' => 1285,
-                'laboratotio_id' => 13,
+                'laboratorio_id' => 13,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1055,
@@ -20687,7 +20687,7 @@ y/o hepática severa',
             30 => 
             array (
                 'id' => 1286,
-                'laboratotio_id' => 72,
+                'laboratorio_id' => 72,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1056,
@@ -20709,7 +20709,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             31 => 
             array (
                 'id' => 1287,
-                'laboratotio_id' => 96,
+                'laboratorio_id' => 96,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1057,
@@ -20729,7 +20729,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             32 => 
             array (
                 'id' => 1288,
-                'laboratotio_id' => 93,
+                'laboratorio_id' => 93,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1058,
@@ -20749,7 +20749,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             33 => 
             array (
                 'id' => 1289,
-                'laboratotio_id' => 69,
+                'laboratorio_id' => 69,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1059,
@@ -20769,7 +20769,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             34 => 
             array (
                 'id' => 1290,
-                'laboratotio_id' => 69,
+                'laboratorio_id' => 69,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1060,
@@ -20789,7 +20789,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             35 => 
             array (
                 'id' => 1291,
-                'laboratotio_id' => 69,
+                'laboratorio_id' => 69,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1061,
@@ -20809,7 +20809,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             36 => 
             array (
                 'id' => 1292,
-                'laboratotio_id' => 23,
+                'laboratorio_id' => 23,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1062,
@@ -20829,7 +20829,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             37 => 
             array (
                 'id' => 1293,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1063,
@@ -20849,7 +20849,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             38 => 
             array (
                 'id' => 1294,
-                'laboratotio_id' => 132,
+                'laboratorio_id' => 132,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1064,
@@ -20869,7 +20869,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             39 => 
             array (
                 'id' => 1295,
-                'laboratotio_id' => 36,
+                'laboratorio_id' => 36,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1065,
@@ -20889,7 +20889,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             40 => 
             array (
                 'id' => 1296,
-                'laboratotio_id' => 57,
+                'laboratorio_id' => 57,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1066,
@@ -20909,7 +20909,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             41 => 
             array (
                 'id' => 1297,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1067,
@@ -20929,7 +20929,7 @@ PARA PERSONAS SENSIBLES O ALERGICAS, CONTIENEN AMARILLO FD Y C 5 TARTRAZINA
             42 => 
             array (
                 'id' => 1298,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1068,
@@ -20951,7 +20951,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             43 => 
             array (
                 'id' => 1299,
-                'laboratotio_id' => 26,
+                'laboratorio_id' => 26,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1069,
@@ -20971,7 +20971,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             44 => 
             array (
                 'id' => 1300,
-                'laboratotio_id' => 120,
+                'laboratorio_id' => 120,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1070,
@@ -20991,7 +20991,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             45 => 
             array (
                 'id' => 1301,
-                'laboratotio_id' => 136,
+                'laboratorio_id' => 136,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1071,
@@ -21011,7 +21011,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             46 => 
             array (
                 'id' => 1302,
-                'laboratotio_id' => 60,
+                'laboratorio_id' => 60,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1072,
@@ -21031,7 +21031,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             47 => 
             array (
                 'id' => 1303,
-                'laboratotio_id' => 15,
+                'laboratorio_id' => 15,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1073,
@@ -21051,7 +21051,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             48 => 
             array (
                 'id' => 1304,
-                'laboratotio_id' => 107,
+                'laboratorio_id' => 107,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1074,
@@ -21071,7 +21071,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
             49 => 
             array (
                 'id' => 1305,
-                'laboratotio_id' => 84,
+                'laboratorio_id' => 84,
                 'clasificacion_id' => NULL,
                 'unimed_id' => 1,
                 'item_id' => 1075,
@@ -21091,7 +21091,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
                 50 => 
                 array (
                     'id' => 1306,
-                    'laboratotio_id' => 96,
+                    'laboratorio_id' => 96,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1076,
@@ -21111,7 +21111,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
                 51 => 
                 array (
                     'id' => 1307,
-                    'laboratotio_id' => 90,
+                    'laboratorio_id' => 90,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1077,
@@ -21131,7 +21131,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
                 52 => 
                 array (
                     'id' => 1308,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1078,
@@ -21151,7 +21151,7 @@ INDICADO PARA EL TRATAMIENTO GASTRITIS O ULCERA PÉPTICA LEVE O MODERADA O COMO 
                 53 => 
                 array (
                     'id' => 1309,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1079,
@@ -21173,7 +21173,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 54 => 
                 array (
                     'id' => 1310,
-                    'laboratotio_id' => 69,
+                    'laboratorio_id' => 69,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1080,
@@ -21193,7 +21193,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 55 => 
                 array (
                     'id' => 1311,
-                    'laboratotio_id' => 120,
+                    'laboratorio_id' => 120,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1081,
@@ -21213,7 +21213,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 56 => 
                 array (
                     'id' => 1312,
-                    'laboratotio_id' => 132,
+                    'laboratorio_id' => 132,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1082,
@@ -21233,7 +21233,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 57 => 
                 array (
                     'id' => 1313,
-                    'laboratotio_id' => 126,
+                    'laboratorio_id' => 126,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1083,
@@ -21254,7 +21254,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 58 => 
                 array (
                     'id' => 1314,
-                    'laboratotio_id' => 107,
+                    'laboratorio_id' => 107,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1084,
@@ -21274,7 +21274,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 59 => 
                 array (
                     'id' => 1315,
-                    'laboratotio_id' => 7,
+                    'laboratorio_id' => 7,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1085,
@@ -21295,7 +21295,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 60 => 
                 array (
                     'id' => 1316,
-                    'laboratotio_id' => 17,
+                    'laboratorio_id' => 17,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1086,
@@ -21315,7 +21315,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 61 => 
                 array (
                     'id' => 1317,
-                    'laboratotio_id' => 17,
+                    'laboratorio_id' => 17,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1087,
@@ -21335,7 +21335,7 @@ ANTIHELMINTICO DE AMPLIO ESPECTRO. DESTRUYE Y EXPULSA A LAS LOMBRICES INTESTINAL
                 62 => 
                 array (
                     'id' => 1318,
-                    'laboratotio_id' => 17,
+                    'laboratorio_id' => 17,
                     'clasificacion_id' => NULL,
                     'unimed_id' => 1,
                     'item_id' => 1088,
