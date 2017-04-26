@@ -104,7 +104,7 @@ class Item extends Model
      **/
     public function medicamentos()
     {
-        return $this->hasMany(\App\Models\Medicamento::class);
+        return $this->hasOne(\App\Models\Medicamento::class);
     }
 
     /**
