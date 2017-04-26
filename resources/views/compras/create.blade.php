@@ -243,6 +243,8 @@
                     "@slot('nombre')"+state.nombre+ "@endslot"+
                     "@slot('descripcion')"+ state.descripcion+"@endslot"+
                     "@slot('um')"+ state.um+"@endslot"+
+                    "@slot('laboratorio')"+ state.laboratorio+"@endslot"+
+                    "@slot('precio')"+state.precio+"@endslot"+
                     "@endcomponent"
             );
 

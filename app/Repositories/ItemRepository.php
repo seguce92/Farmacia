@@ -12,6 +12,7 @@ class ItemRepository extends BaseRepository
      */
     protected $fieldSearchable = [
         'nombre' => 'like',
+        'descripcion' => 'like',
         'codigo' => 'like',
     ];
 

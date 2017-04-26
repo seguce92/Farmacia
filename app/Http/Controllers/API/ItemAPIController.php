@@ -46,6 +46,7 @@ class ItemAPIController extends AppBaseController
 
             $temp->um = $item->unimed->nombre;
             $temp->estado = $item->iestado->descripcion;
+            $temp->laboratorio = $item->medicamentos->laboratorio->nombre;
 
             $items2[] = $temp;
         }
