@@ -21,7 +21,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'nombre' => 'Glimepirida',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -38,7 +38,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 2,
                 'nombre' => 'AMOXICILINA',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 250 MG/5ML 60ML',
                 'precio' => '49.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -55,7 +55,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 3,
                 'nombre' => 'Gingkgo Biloba',
-                'descripcion' => '',
+                'descripcion' => 'Ampollas bebibles ',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -72,7 +72,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 4,
                 'nombre' => 'Amoxicilina ',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 250 mg / 5 ml  120 ML',
                 'precio' => '18.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -89,7 +89,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 5,
                 'nombre' => 'Amoxicilina ',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 250 MG/5 ML 60 ml ',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -106,7 +106,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 6,
                 'nombre' => 'Amoxicilina + Acido Clavulanico ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 875 mg + 125 mg ',
                 'precio' => '69.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -123,7 +123,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 7,
                 'nombre' => 'Ginseng Jalea Real',
-                'descripcion' => '',
+                'descripcion' => 'Ampollas Bebibles 10ML',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -140,7 +140,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 8,
                 'nombre' => 'Ginseng con Jalea Real',
-                'descripcion' => '',
+                'descripcion' => 'Ampollas Bebibles 10ML',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -157,7 +157,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 9,
                 'nombre' => 'Azitromicina ',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Suspensión 200 mg/ 5 ml 15MG',
                 'precio' => '24.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -174,7 +174,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 10,
                 'nombre' => 'Azitromicina ',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Suspensión 200 mg/ 5ml 30ml ',
                 'precio' => '19.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -191,7 +191,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 11,
                 'nombre' => 'VIRO GRIP',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe',
                 'precio' => '22.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -208,7 +208,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 12,
                 'nombre' => 'Claritromicina ',
-                'descripcion' => '',
+                'descripcion' => '250 mg / 5 ml 60ml',
                 'precio' => '48.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -225,7 +225,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 13,
                 'nombre' => 'HIDROCORTISONA 0.25%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 30 GM',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -242,7 +242,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 14,
                 'nombre' => 'Cefadroxilo ',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Suspension 250 mg/ 5 ml 60ml ',
                 'precio' => '14.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -259,7 +259,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 15,
                 'nombre' => 'Bacitricina + Neomicina',
-                'descripcion' => '',
+                'descripcion' => 'Antibiotico tópico 250 UI - 5 mg ungüento 20 g',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -276,7 +276,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 16,
                 'nombre' => 'Cefadroxilo ',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Suspension 250 mg/ 5 ml ',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -293,7 +293,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 17,
                 'nombre' => 'ACICLOVIR 5%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 15GR',
                 'precio' => '7.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -310,7 +310,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 18,
                 'nombre' => 'Cefixima',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Suspensión 100 mg/ 5 ml 50ml ',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -327,7 +327,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 19,
                 'nombre' => 'ACETATO DE HIDROCORTIZONA 1%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 15 GM',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -344,7 +344,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 20,
                 'nombre' => 'VIRO GRIP',
-                'descripcion' => '',
+                'descripcion' => 'Ampolla+2 capsulas ',
                 'precio' => '19.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -361,7 +361,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 21,
                 'nombre' => 'Saluprim ',
-                'descripcion' => '',
+                'descripcion' => 'Suspension 100 ml ',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -378,7 +378,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 22,
                 'nombre' => 'CLARITROMIZINA',
-                'descripcion' => '',
+                'descripcion' => 'Suspension Polvo 125 mg / 5 ml 60 ml',
                 'precio' => '59.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -395,7 +395,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 23,
                 'nombre' => 'ACICLOVIR 5%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 10GR',
                 'precio' => '8.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -412,7 +412,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 24,
                 'nombre' => 'Ancalmo -Calamina Antialergica',
-                'descripcion' => '',
+                'descripcion' => 'Loción tópica 120 ml',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -429,7 +429,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 25,
                 'nombre' => 'Calamina',
-                'descripcion' => '',
+                'descripcion' => 'loción 100 ml',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -446,7 +446,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 26,
                 'nombre' => 'Acetaminofen ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas de 500 mg ',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -463,7 +463,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 27,
                 'nombre' => 'Paracetamol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 750 mg',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -480,7 +480,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 28,
                 'nombre' => 'Mineravit COMPLEX Infantil',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 240 mL',
                 'precio' => '75.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -497,7 +497,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 29,
                 'nombre' => 'MINERAVIT SPORT',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS RECUBIERTAS',
                 'precio' => '36.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -514,7 +514,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 30,
                 'nombre' => 'MINERAVIT COMPLEX',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS RECUBIERTAS',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -531,7 +531,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 31,
                 'nombre' => 'HIGADO DE BACALAO',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas de gel',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -548,7 +548,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 32,
                 'nombre' => 'ROCEFORT ',
-                'descripcion' => '',
+                'descripcion' => 'Via intramuscular 1G I.M.',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -565,7 +565,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 33,
                 'nombre' => 'Lombri niños ',
-                'descripcion' => '',
+                'descripcion' => 'sobres de 5g de granulado ',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -582,7 +582,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 34,
                 'nombre' => 'Ceftriaxona',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 1G IM',
                 'precio' => '21.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -599,7 +599,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 35,
                 'nombre' => 'Asmaphin ',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 Tableta 130 mg ',
                 'precio' => '4.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -616,7 +616,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 36,
                 'nombre' => 'Perlas Azules',
-                'descripcion' => '',
+                'descripcion' => 'cápsulas de gel',
                 'precio' => '0.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -633,7 +633,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 38,
                 'nombre' => 'Ceftriaxona',
-                'descripcion' => '',
+                'descripcion' => 'Solucion Inyectable 1G IM',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -650,7 +650,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 39,
                 'nombre' => 'METRONIDAZOL Therfam',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -667,7 +667,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 40,
                 'nombre' => 'Cefalexina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -684,7 +684,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 41,
                 'nombre' => 'CEREBREX con complejo B y Ginkgo biloba',
-                'descripcion' => '',
+                'descripcion' => 'BLISTES X5 Cápsulas',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -701,7 +701,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 42,
                 'nombre' => 'Glibenclamida ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 5 mg ',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -718,7 +718,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 43,
                 'nombre' => 'Lombrizole',
-                'descripcion' => '',
+                'descripcion' => 'Suspención 5ml/100mg 30ml',
                 'precio' => '11.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -735,7 +735,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 44,
                 'nombre' => 'Cefadroxilo',
-                'descripcion' => '',
+                'descripcion' => ' Tableta 500 mg ',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -752,7 +752,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 45,
                 'nombre' => 'Principal R',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión + Agua Purificada 80mg/5ml',
                 'precio' => '100.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -769,7 +769,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 46,
                 'nombre' => 'MULTIVITAMINAS CON MINERALES',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -786,7 +786,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 47,
                 'nombre' => 'Ciprofloxanina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -803,7 +803,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 48,
                 'nombre' => 'MEDIZOL',
-                'descripcion' => '',
+                'descripcion' => 'Suspención 5mL/125mg 120mL',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -820,7 +820,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 49,
                 'nombre' => 'NEURO FORTAN niños',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 240 ml',
                 'precio' => '42.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -837,7 +837,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 50,
                 'nombre' => 'Penicilina Procaína Fortificada ',
-                'descripcion' => '',
+                'descripcion' => 'Solucion Inyectable 10 ml 4,000,000 UI',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -854,7 +854,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 51,
                 'nombre' => 'Principal Forte',
-                'descripcion' => '',
+                'descripcion' => 'Tableta ',
                 'precio' => '3.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -871,7 +871,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 52,
                 'nombre' => 'Amoxicilina + Clavunato Potasico ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 500 mg + 125 MG',
                 'precio' => '4.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -888,7 +888,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 53,
                 'nombre' => 'Dediacol',
-                'descripcion' => '',
+                'descripcion' => 'Solución 5mL/125mg 60mL',
                 'precio' => '71.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -905,7 +905,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 54,
                 'nombre' => 'Acetaminofen ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 500 mg ',
                 'precio' => '0.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -922,7 +922,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 55,
                 'nombre' => 'Prìncipal R',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas Recubiertas',
                 'precio' => '5.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -939,7 +939,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 56,
                 'nombre' => 'ASTROTON H4 con Ginseng y Maca',
-                'descripcion' => '',
+                'descripcion' => 'Capsulas',
                 'precio' => '2.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -956,7 +956,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 57,
                 'nombre' => 'Nistatina',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión gotas mL/100,000UI 30mL',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -973,7 +973,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 58,
                 'nombre' => 'BRONCO-GRIP',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 Tableta 300 mg ',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -990,7 +990,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 59,
                 'nombre' => 'ASTROTON FEM',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS RECUBIERTAS',
                 'precio' => '3.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1007,7 +1007,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 60,
                 'nombre' => 'METRONIDAZOL',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 5mL/125mg 120mL',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1024,7 +1024,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 61,
                 'nombre' => 'Secnidazol',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X4 TABLETAS 500 MG',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1041,7 +1041,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 62,
                 'nombre' => 'Secnidazol',
-                'descripcion' => '',
+                'descripcion' => 'Polvo para suspensión 5mL/125mg 30mL',
                 'precio' => '17.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1058,7 +1058,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 63,
                 'nombre' => 'Tinidazol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1075,7 +1075,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 64,
                 'nombre' => 'SUKROL VIGOR con licopeno mas arginina',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1092,7 +1092,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 65,
                 'nombre' => 'Mebendazol',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 5mL/100mg 30mL',
                 'precio' => '8.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1109,7 +1109,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 66,
                 'nombre' => 'SUKROL VIGOR Mujer, Reforzado con vitamina E',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1126,7 +1126,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 67,
                 'nombre' => 'Levofloxacina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1143,7 +1143,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 68,
                 'nombre' => 'SUKROL MEMORIA, ESTRÉS CONCENTRACION',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1160,7 +1160,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 69,
                 'nombre' => 'Norfloxacina ',
-                'descripcion' => '',
+                'descripcion' => 'tableta 400 mg ',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1177,7 +1177,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 70,
                 'nombre' => 'Albendazol',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 200MG/5ML 10ML',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1194,7 +1194,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 71,
                 'nombre' => 'Tramadol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 50 mg ',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1211,7 +1211,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 72,
                 'nombre' => 'SUKROL NEUROVITAMINICO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 12 Ml',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1228,7 +1228,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 73,
                 'nombre' => 'Diclofenaco + Neurotropas ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 350 mg ',
                 'precio' => '0.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1245,7 +1245,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 74,
                 'nombre' => 'Nitazoxanida',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X6 TABLETAS',
                 'precio' => '24.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1262,7 +1262,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 75,
                 'nombre' => 'HIGAVIT 5',
-                'descripcion' => '',
+                'descripcion' => 'Ampolla 10 ml',
                 'precio' => '11.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1279,7 +1279,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 76,
                 'nombre' => 'HEMOBEX',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 10 ML',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1296,7 +1296,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 77,
                 'nombre' => 'Nitazoxanida',
-                'descripcion' => '',
+                'descripcion' => 'Polvo para suspensión 5mL/100mg 30mL',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1313,7 +1313,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 78,
                 'nombre' => 'SIN SUEÑO',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 150 mg ',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1330,7 +1330,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 79,
                 'nombre' => 'Amoxicilina ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 500 mg ',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1347,7 +1347,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 80,
                 'nombre' => 'Albendazol',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X2 Tabletas 400 MG',
                 'precio' => '2.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1364,7 +1364,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 81,
                 'nombre' => 'COMPLEJO B SELECTAVIT',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 10 ML',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1381,7 +1381,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 82,
                 'nombre' => 'Tetraciclina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1398,7 +1398,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 83,
             'nombre' => 'Benzoato de Bencilo 25% (SARPIOL)',
-                'descripcion' => '',
+                'descripcion' => 'Loción',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1415,7 +1415,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 84,
                 'nombre' => 'TIAMINA ',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 100 mg/ 10 ml',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1432,7 +1432,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 85,
                 'nombre' => 'COBALEX',
-                'descripcion' => '',
+                'descripcion' => 'Ampolla 1,000 mcg/ml 10ml',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1449,7 +1449,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 86,
                 'nombre' => 'Albendazol',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 10mL/400mg 10mL',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1466,7 +1466,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 87,
                 'nombre' => 'PENETRACINA 3',
-                'descripcion' => '',
+                'descripcion' => 'Crema 15 gr',
                 'precio' => '38.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1483,7 +1483,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 88,
                 'nombre' => 'METFORMINA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 500 mg ',
                 'precio' => '8.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1500,7 +1500,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 89,
                 'nombre' => 'Lombrizole',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X6 TABLETA',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1517,7 +1517,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 90,
                 'nombre' => 'METFORMINA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 850 mg ',
                 'precio' => '11.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1534,7 +1534,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 91,
                 'nombre' => 'KETOCONAZOL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 2% 15GM',
                 'precio' => '8.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1551,7 +1551,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 92,
                 'nombre' => 'Piroxicam ',
-                'descripcion' => '',
+                'descripcion' => 'Capsula 20 mg ',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1568,7 +1568,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 93,
                 'nombre' => 'PANADOL ULTRA',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X 2 CAPLETAS',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1585,7 +1585,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 94,
                 'nombre' => 'NEUROFORTAN',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULAS',
                 'precio' => '1.05',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1602,7 +1602,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 95,
                 'nombre' => 'ENZIMAS DIGESTIVAS',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '1.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1619,7 +1619,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 96,
                 'nombre' => 'SUKROL BEBIBLE',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBILE',
                 'precio' => '5.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1636,7 +1636,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 97,
                 'nombre' => 'ALKA GASTRIC',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1653,7 +1653,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 98,
                 'nombre' => 'Glibenclamida ',
-                'descripcion' => '',
+                'descripcion' => '5 mg ',
                 'precio' => '0.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1670,7 +1670,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 99,
                 'nombre' => 'MEDOX ABC',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1687,7 +1687,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 100,
                 'nombre' => 'Desloratadina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 5 mg ',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1704,7 +1704,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 101,
                 'nombre' => 'MEDOX ABC NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '63.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1721,7 +1721,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 102,
                 'nombre' => 'Sudagrip',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1738,7 +1738,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 103,
                 'nombre' => 'MEDOX ABC NIÑO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '99.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1755,7 +1755,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 104,
                 'nombre' => 'Ibuprofeno ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 800 mg ',
                 'precio' => '0.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1772,7 +1772,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 105,
                 'nombre' => 'CALCIO Y VITAMINA D3',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO X60 CAPSULA DE GELATINA BLANDA 540 MG / 200 IU  ',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1789,7 +1789,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 106,
                 'nombre' => 'ACICLOVIR',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS 400MG',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1806,7 +1806,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 107,
                 'nombre' => 'VITAL FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'CAJA 30 CÁPSULAS',
                 'precio' => '33.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1823,7 +1823,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 108,
                 'nombre' => 'ALKA SELTZER EXTREME',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1840,7 +1840,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 109,
                 'nombre' => 'Ibuprofeno ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 600 mg ',
                 'precio' => '0.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1857,7 +1857,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 110,
                 'nombre' => 'MEMORITONC FORTE H4',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULA',
                 'precio' => '3.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1874,7 +1874,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 111,
                 'nombre' => 'TABCIN GRIPE Y TOS',
-                'descripcion' => '',
+                'descripcion' => 'Cápsula de Gelatina Suave x2',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1891,7 +1891,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 112,
                 'nombre' => 'Captopril ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 25 mg ',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1908,7 +1908,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 113,
                 'nombre' => 'Captopril ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 50 mg ',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1925,7 +1925,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 114,
                 'nombre' => 'TABCIN DIA',
-                'descripcion' => '',
+                'descripcion' => 'Cápsula de Gelatina Suave x2',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1942,7 +1942,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 115,
             'nombre' => 'HIERRO (III) + ACIDO FOLICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 105 mg 1mg',
                 'precio' => '0.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1959,7 +1959,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 116,
                 'nombre' => 'Claritromicina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '5.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1976,7 +1976,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 117,
             'nombre' => 'KLORPROSIN (SERTAL COMPUESTO)',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 125MG + 10MG',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -1993,7 +1993,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 118,
                 'nombre' => 'MEMORITONIC FORTE',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '2.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2010,7 +2010,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 119,
                 'nombre' => 'Paludol ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 250 mg ',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2027,7 +2027,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 121,
                 'nombre' => 'ENERHIT MULTIVITAMINICO',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '9.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2044,7 +2044,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 122,
                 'nombre' => 'Meprogesico ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2061,7 +2061,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 123,
                 'nombre' => 'FERRIDOCE ANTIANEMICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '36.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2078,7 +2078,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 124,
                 'nombre' => 'FERROCITON-B',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBIBLE 10ML',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2095,7 +2095,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 125,
                 'nombre' => 'Loratadina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 10 mg ',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2112,7 +2112,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 126,
                 'nombre' => 'Clorfeniramina Maleato',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 8 mg ',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2129,7 +2129,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 127,
                 'nombre' => 'GINKGO BILOBA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2146,7 +2146,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 128,
                 'nombre' => 'METHYCOBAL',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 1ML  500 MCG ',
                 'precio' => '65.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2163,7 +2163,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 129,
                 'nombre' => 'Fosfolípidos Esenciales Dr. Kendall',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas de Gelatina',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2180,7 +2180,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 130,
                 'nombre' => 'Citrato de Piperacina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2197,7 +2197,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 131,
                 'nombre' => 'POSTAVIT-B',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBIBLE 10 ML',
                 'precio' => '8.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2214,7 +2214,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 132,
                 'nombre' => 'Mebendazol ',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 100 MG',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2231,7 +2231,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 133,
                 'nombre' => 'Loratadina',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2248,7 +2248,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 134,
                 'nombre' => 'MENTEVIT',
-                'descripcion' => '',
+                'descripcion' => 'MICROBOTELLAS 15 ML',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2265,7 +2265,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 135,
                 'nombre' => 'Alopurinol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 300 mg ',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2282,7 +2282,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 136,
                 'nombre' => 'Loratadina',
-                'descripcion' => '',
+                'descripcion' => 'Solución Oral',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2299,7 +2299,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 137,
                 'nombre' => 'Atenolol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 100MG ',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2316,7 +2316,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 138,
                 'nombre' => 'Calcio + Vitamina D ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 600 mg ',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2333,7 +2333,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 139,
                 'nombre' => 'SUKROL NIÑOS CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '22.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2350,7 +2350,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 140,
                 'nombre' => 'SUKROL ',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '22.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2367,7 +2367,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 141,
                 'nombre' => 'Carbamazepina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 200 mg ',
                 'precio' => '0.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2384,7 +2384,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 142,
                 'nombre' => 'SUKROL NIÑOS MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '36.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2401,7 +2401,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 143,
                 'nombre' => 'Loratadine',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2418,7 +2418,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 144,
                 'nombre' => 'Yodoclorina ',
-                'descripcion' => '',
+                'descripcion' => 'cápsulas ',
                 'precio' => '0.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2435,7 +2435,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 145,
                 'nombre' => 'SUKROL NIÑOS CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '36.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2452,7 +2452,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 146,
                 'nombre' => 'Cefixima ',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULA 400 MG',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2469,7 +2469,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 147,
                 'nombre' => 'Loratadina',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2486,7 +2486,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 148,
                 'nombre' => 'Clindamicina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 300 mg ',
                 'precio' => '2.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2503,7 +2503,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 149,
                 'nombre' => 'RABANO YODADO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '22.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2520,7 +2520,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 150,
                 'nombre' => 'RABANO YODADO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2537,7 +2537,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 151,
                 'nombre' => 'APETIL CON FLUOR',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2554,7 +2554,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 152,
                 'nombre' => 'Clorfeniramina',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 8MG',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2571,7 +2571,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 153,
                 'nombre' => 'BRONCO-GRIP TOS',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 Tableta 500 mg ',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2588,7 +2588,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 154,
                 'nombre' => 'ANTI-GRIPAL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X4 CAPLETAS',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2605,7 +2605,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 155,
                 'nombre' => 'Neumonil G',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 TabletaS',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2622,7 +2622,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 156,
                 'nombre' => 'LAVERINA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2639,7 +2639,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 157,
                 'nombre' => 'SUPER TIAMINA 300 ANCALMO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2656,7 +2656,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 158,
                 'nombre' => 'Prednisona',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETA 5MG',
                 'precio' => '8.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2673,7 +2673,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 160,
                 'nombre' => 'Ex - Flu ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2690,7 +2690,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 161,
                 'nombre' => 'APETIL CON FLUOR',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '19.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2707,7 +2707,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 162,
                 'nombre' => 'MESINDOL',
-                'descripcion' => '',
+                'descripcion' => 'comprimidos 200mg X5',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2724,7 +2724,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 164,
                 'nombre' => 'Dolo-Neurobión',
-                'descripcion' => '',
+                'descripcion' => 'Jeringa Prellenada de doble cámara + aguja descartable',
                 'precio' => '68.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2741,7 +2741,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 165,
                 'nombre' => 'ASPIRINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 500 MG',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2758,7 +2758,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 166,
                 'nombre' => 'ENERHIT CRECIMIENTO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '36.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2775,7 +2775,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 167,
                 'nombre' => 'CLINDAMICINA 2% VAGINAL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 40GR',
                 'precio' => '44.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2792,7 +2792,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 168,
                 'nombre' => 'ASPIRINA PARA NIÑO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE 100 MG',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2809,7 +2809,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 169,
                 'nombre' => 'ALKA AD',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 2MG',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2826,7 +2826,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 170,
                 'nombre' => 'ENERHIT',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 240 ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2843,7 +2843,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 171,
                 'nombre' => 'ASPIRINA FORTE',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 10 GM',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2860,7 +2860,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 172,
                 'nombre' => 'CLOTRIPLEX',
-                'descripcion' => '',
+                'descripcion' => 'Crema Tópica 15mg',
                 'precio' => '14.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2877,7 +2877,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 173,
                 'nombre' => 'Dexa-Neurobión',
-                'descripcion' => '',
+                'descripcion' => 'Jeringa prellenada de doble cámara+aguja descartable',
                 'precio' => '75.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2894,7 +2894,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 174,
                 'nombre' => 'HIERRO VITAMINADO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2911,7 +2911,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 175,
                 'nombre' => 'TABCIN EXTRA FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2928,7 +2928,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 176,
                 'nombre' => 'DORIVAL ALIVIA RAPIDAMENTE',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA GEL ',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2945,7 +2945,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 177,
                 'nombre' => 'MEMOCITIN GABA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2962,7 +2962,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 178,
                 'nombre' => 'MEMOCITIN GABA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA',
                 'precio' => '1.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2979,7 +2979,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 179,
                 'nombre' => 'HORMONAL FORTE',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas X30',
                 'precio' => '33.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -2996,7 +2996,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 180,
                 'nombre' => 'TABCIN NIÑO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3013,7 +3013,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 181,
                 'nombre' => 'CEREBROL ELIXIR',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '36.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3030,7 +3030,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 182,
                 'nombre' => 'CEREBROL ELIXIR',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '26.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3047,7 +3047,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 183,
                 'nombre' => 'FERRIDOCE ANTIANEMICO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '39.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3064,7 +3064,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 185,
                 'nombre' => 'Neumonil Forte ',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 Tabletas ',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3081,7 +3081,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 186,
                 'nombre' => 'SUPERVIM PARA TODA LA FAMILIA',
-                'descripcion' => '',
+                'descripcion' => 'GRAJEA',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3098,7 +3098,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 187,
                 'nombre' => 'HORMONAL FORTE',
-                'descripcion' => '',
+                'descripcion' => 'Solución oral 240mL',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3115,7 +3115,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 188,
                 'nombre' => 'Normalina ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120ML',
                 'precio' => '42.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3132,7 +3132,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 189,
                 'nombre' => 'CYCLOFEM',
-                'descripcion' => '',
+                'descripcion' => 'Ampoya inyectable',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3149,7 +3149,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 190,
                 'nombre' => 'MENTEVIT',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3166,7 +3166,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 191,
                 'nombre' => 'Neurobión DC Kit 25,000',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable',
                 'precio' => '76.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3183,7 +3183,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 192,
                 'nombre' => 'CLOTRIMAZOL VAGINAL',
-                'descripcion' => '',
+                'descripcion' => 'OVULOS 100MG',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3200,7 +3200,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 193,
                 'nombre' => 'BALLENA AZUL MELOCOTON CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 450 ML',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3217,7 +3217,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 194,
                 'nombre' => 'BALLENA AZUL NARANJA CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE DE 450 ML',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3234,7 +3234,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 195,
                 'nombre' => 'JARABE BALLENA AZUL FRUTAS TROPICALES CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3251,7 +3251,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 196,
                 'nombre' => 'CLOTRIMAZOL 2% VAGINAL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 30GM',
                 'precio' => '17.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3268,7 +3268,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 197,
                 'nombre' => 'BALLENA AZUL CEREZA CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 450 ML',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3285,7 +3285,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 198,
                 'nombre' => 'Sulfaplata',
-                'descripcion' => '',
+                'descripcion' => 'Crema 30g',
                 'precio' => '71.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3302,7 +3302,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 199,
                 'nombre' => 'BALLENA AZUL MELOCOTON CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 200 ML',
                 'precio' => '27.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3319,7 +3319,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 200,
                 'nombre' => 'Filtroquinona ',
-                'descripcion' => '',
+                'descripcion' => 'Crema Tópica',
                 'precio' => '110.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3336,7 +3336,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 201,
                 'nombre' => 'Neurobión DC 10,000',
-                'descripcion' => '',
+                'descripcion' => 'Solución inyectable',
                 'precio' => '59.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3353,7 +3353,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 202,
                 'nombre' => 'BALLENA AZUL NARANJA CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 360 ML',
                 'precio' => '37.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3370,7 +3370,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 203,
                 'nombre' => 'BALLENA AZUL FRUTAS TROPICALES CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 200 ML',
                 'precio' => '27.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3387,7 +3387,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 204,
                 'nombre' => 'CLOTRIMAZOL 1%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 20GM',
                 'precio' => '9.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3404,7 +3404,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 205,
                 'nombre' => 'BALLENA AZUL CEREZA CON OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 200 ML',
                 'precio' => '27.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3421,7 +3421,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 206,
                 'nombre' => 'WINASORB',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas Masticables 100 MG',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3438,7 +3438,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 207,
                 'nombre' => 'Gesteira-PMS',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 120mL',
                 'precio' => '52.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3455,7 +3455,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 208,
                 'nombre' => 'WINASORB',
-                'descripcion' => '',
+                'descripcion' => 'tabletas x2 500 mg ',
                 'precio' => '1.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3472,7 +3472,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 209,
                 'nombre' => 'MEDIZOL V',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 OVULOS VAGINALES',
                 'precio' => '32.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3489,7 +3489,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 210,
                 'nombre' => 'CLOTRIMAZOL 2% VAGINAL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 20GM',
                 'precio' => '16.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3506,7 +3506,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 211,
                 'nombre' => 'Dolo-Neurobión N',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '3.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3523,7 +3523,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 212,
                 'nombre' => 'CLOTRIMAZOL 1%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 20GM',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3540,7 +3540,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 213,
                 'nombre' => 'Acetaminofen ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 mg / 5 ml 120 ml ',
                 'precio' => '8.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3557,7 +3557,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 214,
                 'nombre' => 'BACAOLINITA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 115',
                 'precio' => '26.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3574,7 +3574,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 215,
                 'nombre' => 'CANESTEN V',
-                'descripcion' => '',
+                'descripcion' => 'OVULOS VAGINALES',
                 'precio' => '100.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3591,7 +3591,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 216,
                 'nombre' => 'BACAOLINITA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240',
                 'precio' => '26.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3608,7 +3608,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 217,
                 'nombre' => 'CANESTEN V 2%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA VAGINAL 20GR',
                 'precio' => '91.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3625,7 +3625,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 218,
                 'nombre' => 'Neurobión',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '3.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3642,7 +3642,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 219,
                 'nombre' => 'ACETAMINOFEN NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'Gotas 100 mg / ml 30 ml ',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3659,7 +3659,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 220,
                 'nombre' => 'TABCIN NOCHE',
-                'descripcion' => '',
+                'descripcion' => 'Cápsula de Gelatina Suave x2',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3676,7 +3676,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 221,
                 'nombre' => 'BACAOLINA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240',
                 'precio' => '26.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3693,7 +3693,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 222,
                 'nombre' => 'BACAOLINA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240',
                 'precio' => '26.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3710,7 +3710,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 223,
                 'nombre' => 'WINASORB',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 150 mg / 5 ml 60 ml  ',
                 'precio' => '39.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3727,7 +3727,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 224,
                 'nombre' => 'Diclo Cien',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas ',
                 'precio' => '0.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3744,7 +3744,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 225,
                 'nombre' => 'NUTRISON ADULTO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3761,7 +3761,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 226,
                 'nombre' => 'DOLO-FENIL',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable 75MG',
                 'precio' => '31.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3778,7 +3778,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 227,
                 'nombre' => 'NUTRISON NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 240 ML',
                 'precio' => '31.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3795,7 +3795,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 228,
                 'nombre' => 'DoloFix',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3812,7 +3812,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 229,
                 'nombre' => 'Neo - Melubrina ',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 500 mg ',
                 'precio' => '0.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3829,7 +3829,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 230,
                 'nombre' => 'Metocarban AC',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS',
                 'precio' => '16.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3846,7 +3846,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 231,
                 'nombre' => 'Vitamina C MK',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3863,7 +3863,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 232,
                 'nombre' => 'EMULSION SCOTT NARANJA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 400 ML',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3880,7 +3880,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 233,
                 'nombre' => 'EMULSION SCOTT FRUTAS TROPICALES',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 400 ML',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3897,7 +3897,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 234,
                 'nombre' => 'DOLOFOR 500',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS ',
                 'precio' => '8.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3914,7 +3914,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 235,
                 'nombre' => 'EMULSION SCOTT NARANJA',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 400 ML',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3931,7 +3931,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 236,
                 'nombre' => 'FARLABORIN',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 2.2 GR',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3948,7 +3948,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 237,
                 'nombre' => 'NEURO FOSCKOL-VIT',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 25,000 UI / 3ML',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3965,7 +3965,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 238,
                 'nombre' => 'PEDIALYTE MANZANA 45',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3982,7 +3982,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 239,
                 'nombre' => 'PEDIALYTE FRESA 45',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -3999,7 +3999,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 240,
                 'nombre' => 'PEDIALYTE UVA 60',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4016,7 +4016,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 241,
                 'nombre' => 'PEDIALYTE MANZANA 60',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4033,7 +4033,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 242,
                 'nombre' => 'PEDIALYTE CLASICO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4050,7 +4050,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 243,
                 'nombre' => 'PEDIALYTE COCO 30',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4067,7 +4067,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 244,
                 'nombre' => 'PEDIALYTE CEREZA 30',
-                'descripcion' => '',
+                'descripcion' => 'SUERO 500 ML',
                 'precio' => '17.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4084,7 +4084,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 245,
             'nombre' => 'LEVUSOL (DIABETICOS) COCO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4101,7 +4101,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 246,
             'nombre' => 'LEVUSOL (DIABETICOS) CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4118,7 +4118,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 247,
             'nombre' => 'LEVUSOL (DIABETICOS) MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4135,7 +4135,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 248,
             'nombre' => 'LEVUSOL (DIABETICOS) PIÑA',
-                'descripcion' => '',
+                'descripcion' => 'Frasco x50 Cápsulas',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4152,7 +4152,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 249,
                 'nombre' => 'ORALSOL COCO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4169,7 +4169,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 250,
                 'nombre' => 'ORALSOL MELOCOTON',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4186,7 +4186,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 251,
                 'nombre' => 'ORALSOL MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4203,7 +4203,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 252,
                 'nombre' => 'ORALSOL CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4220,7 +4220,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 253,
                 'nombre' => 'ORALSOL PIÑA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE PLASTICO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4237,7 +4237,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 254,
                 'nombre' => 'ORALSOL MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4254,7 +4254,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 255,
                 'nombre' => 'ORALSOL CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 500 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4271,7 +4271,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 256,
                 'nombre' => 'ORALSOL PIÑA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4288,7 +4288,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 257,
                 'nombre' => 'ORALSOL COCO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4305,7 +4305,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 258,
                 'nombre' => 'ORALSOL MELOCOTON',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4322,7 +4322,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 259,
                 'nombre' => 'LEVUSOL PIÑA PARA DIABETICO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4339,7 +4339,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 260,
                 'nombre' => 'LEVUSOL CEREZA PARA DIABETICO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4356,7 +4356,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 261,
                 'nombre' => 'LEVUSOL MANZANA PARA DIABETICO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4373,7 +4373,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 262,
                 'nombre' => 'LEVUSOL COCO PARA DIABETICO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4390,7 +4390,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 263,
                 'nombre' => 'GLUCOSORAL CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 450 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4407,7 +4407,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 264,
                 'nombre' => 'GLUCOSORAL coco',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 450 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4424,7 +4424,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 265,
                 'nombre' => 'GLUCOSORAL MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 450 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4441,7 +4441,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 266,
                 'nombre' => 'GLUCOSORAL MELOCOTON',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 450 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4458,7 +4458,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 267,
                 'nombre' => 'ELECTRORAL MANZANA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4475,7 +4475,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 268,
                 'nombre' => 'ELECTRORAL COCO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4492,7 +4492,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 269,
                 'nombre' => 'ELECTRORAL DURAZNO',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4509,7 +4509,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 270,
                 'nombre' => 'ELECTRORAL JAMAICA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4526,7 +4526,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 271,
                 'nombre' => 'ELECTRORAL CHERRY PUNCH',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4543,7 +4543,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 272,
                 'nombre' => 'ELECTRORAL PIÑA',
-                'descripcion' => '',
+                'descripcion' => 'SUERO ENVASE VIDRIO 475 ML',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4560,7 +4560,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 273,
                 'nombre' => 'HARTMANN LACTATO DE RINGER',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 1000 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4577,7 +4577,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 274,
                 'nombre' => 'HARTMANN LACTATO DE RINGER',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 500 ML',
                 'precio' => '10.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4594,7 +4594,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 275,
                 'nombre' => 'SUERO MIXTO AL 5%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 1000',
                 'precio' => '13.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4611,7 +4611,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 276,
                 'nombre' => 'SUERO MIXTO AL 5%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 500',
                 'precio' => '10.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4628,7 +4628,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 277,
                 'nombre' => 'DEXTROSA AL 5%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 500 ML',
                 'precio' => '10.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4645,7 +4645,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 278,
                 'nombre' => 'DEXTROVITA - B 5%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 1000ML',
                 'precio' => '36.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4662,7 +4662,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 279,
                 'nombre' => 'DEXTROVITA - B 5%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 500 ML',
                 'precio' => '25.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4679,7 +4679,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 280,
                 'nombre' => 'DEXTROVITA - B 10%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 1000ML',
                 'precio' => '38.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4696,7 +4696,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 281,
                 'nombre' => 'DEXTROVITA - B 10%',
-                'descripcion' => '',
+                'descripcion' => 'SUERO INYECTABLE 10%',
                 'precio' => '26.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4713,7 +4713,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 282,
                 'nombre' => 'CIKRASEL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 30 G',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4730,7 +4730,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 283,
                 'nombre' => 'CIKRASEL',
-                'descripcion' => '',
+                'descripcion' => 'AEROSOL 30 G',
                 'precio' => '42.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4747,7 +4747,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 284,
                 'nombre' => 'TOALLAS HUMEDAS POM POM',
-                'descripcion' => '',
+                'descripcion' => 'DISPENSADOR X 80',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4764,7 +4764,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 285,
                 'nombre' => 'EVACUADOR FIBRA 3 ',
-                'descripcion' => '',
+                'descripcion' => 'POLVO 150 GR',
                 'precio' => '27.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4781,7 +4781,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 286,
                 'nombre' => 'FIBRASYL, FIBRA NATURAL LAXANTE',
-                'descripcion' => '',
+                'descripcion' => 'POLVO PARA SUSPENSION ORAL 400 G',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4798,7 +4798,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 287,
             'nombre' => 'FIBRASYL, FIBRA NATURAL LAXANTE (NARANJA)',
-                'descripcion' => '',
+                'descripcion' => 'POLVO PARA SUSPENSION ORAL 400 G',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4815,7 +4815,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 288,
                 'nombre' => 'CANESTEN TRIPLE ACCION',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 15 GR',
                 'precio' => '37.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4832,7 +4832,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 289,
                 'nombre' => 'CURA HONGOS',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 1% 30 GR',
                 'precio' => '12.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4849,7 +4849,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 290,
                 'nombre' => 'LEVADURA DE CERVEZA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS MASTICABLES 400 MG',
                 'precio' => '11.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4866,7 +4866,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 291,
                 'nombre' => 'GINGIVEX',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION BUCAL 27 ML',
                 'precio' => '13.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4883,7 +4883,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 292,
                 'nombre' => 'HEPATIKON',
-                'descripcion' => '',
+                'descripcion' => 'POLVO EFERVESCENTE 70 GR',
                 'precio' => '9.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4900,7 +4900,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 293,
                 'nombre' => 'SARPIOL',
-                'descripcion' => '',
+                'descripcion' => 'EMULSION TOPICA 60 ML',
                 'precio' => '27.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4917,7 +4917,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 294,
                 'nombre' => 'Lactoixbut',
-                'descripcion' => '',
+                'descripcion' => 'Solución Oral 240mL',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4934,7 +4934,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 295,
                 'nombre' => 'BETOBLOCK 0.5MG',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4951,7 +4951,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 296,
                 'nombre' => 'ACICLOVIR ',
-                'descripcion' => '',
+                'descripcion' => 'POLVO PARA SUSPENSION 200 MG / 5 ML',
                 'precio' => '46.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4968,7 +4968,9 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 297,
                 'nombre' => 'CURA HONGOS',
-                'descripcion' => '',
+                'descripcion' => 'AL 1%
+GO SPRAY
+GO 64 G',
                 'precio' => '24.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -4985,7 +4987,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 298,
                 'nombre' => 'SALBUTAMOL',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 2mg / 5ML 100mL',
                 'precio' => '9.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5002,7 +5004,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 299,
                 'nombre' => 'NISTATINA',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 30G 100,000UI/G',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5019,7 +5021,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 300,
                 'nombre' => 'KETOCONAZOL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 2% 30GM',
                 'precio' => '14.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5036,7 +5038,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 301,
                 'nombre' => 'KETOROLACO 20MG',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 Tabletas',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5053,7 +5055,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 302,
                 'nombre' => 'MESIGYNA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE',
                 'precio' => '90.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5070,7 +5072,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 303,
                 'nombre' => 'ENZITROL ENZIMAS DIGESTIVAS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5087,7 +5089,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 304,
                 'nombre' => 'CANESTEN EXTRA',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 15 G',
                 'precio' => '51.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5104,7 +5106,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 305,
                 'nombre' => 'PRENATALES',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5121,7 +5123,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 306,
                 'nombre' => 'KRALFATO PRTECTOR GASTRICO ANTIULCEROSO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 1 G/ 5ML 240 ML',
                 'precio' => '170.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5138,7 +5140,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 307,
             'nombre' => 'BICARBONATO SODICO (ANTIACIDO)',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 10 GR X 3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5155,7 +5157,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 308,
                 'nombre' => 'CYCLO FEMINA',
-                'descripcion' => '',
+                'descripcion' => 'Susoensión Inyectable 5mg/25mg',
                 'precio' => '105.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5172,7 +5174,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 309,
                 'nombre' => 'PRUEBA DE EMBARAZO YES OR NOT',
-                'descripcion' => '',
+                'descripcion' => 'KIT',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5189,7 +5191,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 310,
                 'nombre' => 'Prueba de emabarazo  Angel',
-                'descripcion' => '',
+                'descripcion' => 'kit',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5206,7 +5208,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 311,
                 'nombre' => 'COLCHICINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 0.5 MG',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5223,7 +5225,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 312,
                 'nombre' => 'CUERPO AMARILLO ',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable IM',
                 'precio' => '32.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5240,7 +5242,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 313,
                 'nombre' => 'LANSOGASTRIC',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE POLVO 15 MG',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5257,7 +5259,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 314,
                 'nombre' => 'Neo - Melubrina',
-                'descripcion' => '',
+                'descripcion' => 'Gotas 500 mg',
                 'precio' => '45.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5274,7 +5276,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 315,
                 'nombre' => 'Neo - Meluntina ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 300  mg',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5291,7 +5293,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 316,
                 'nombre' => 'NAPROXENO SÓDICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 550MG',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5308,7 +5310,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 317,
             'nombre' => 'MULTIPLEX (PRENATALES)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA x30 TABLETA',
                 'precio' => '35.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5325,7 +5327,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 318,
                 'nombre' => 'Neo - Febrina ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 100 ml',
                 'precio' => '19.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5342,7 +5344,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 319,
             'nombre' => 'NATELE (PRENATALES)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X30 TABLETAS',
                 'precio' => '110.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5359,7 +5361,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 320,
                 'nombre' => 'ESPAMOLIT Compuesto',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5376,7 +5378,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 321,
                 'nombre' => 'ESOMEPRAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETA 40MG',
                 'precio' => '24.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5393,7 +5395,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 322,
                 'nombre' => 'Propinoxato',
-                'descripcion' => '',
+                'descripcion' => 'Solución gotas mL/5mg  20mL',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5410,7 +5412,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 323,
                 'nombre' => 'LANSOPRAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULA 30MG',
                 'precio' => '14.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5427,7 +5429,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 324,
                 'nombre' => 'DEPROXONE',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable',
                 'precio' => '57.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5444,7 +5446,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 325,
                 'nombre' => 'METFORMINA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 850MG',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5461,7 +5463,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 326,
                 'nombre' => 'Dolo-Neuromep',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas de Gelatina',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5478,7 +5480,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 327,
                 'nombre' => 'Neo - Melubrina',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 250 mg /  5 ml 100 ml ',
                 'precio' => '62.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5495,7 +5497,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 328,
                 'nombre' => 'FENITOINA - ANTICONVULSIVO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 125 MG / 5 ML',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5512,7 +5514,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 329,
                 'nombre' => 'Terramicina',
-                'descripcion' => '',
+                'descripcion' => 'UNGÜENTO 5 g',
                 'precio' => '40.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5529,7 +5531,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 330,
             'nombre' => 'METFORMINA CLORHIDRATO (LIBERACION PROLONGADA)',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 1000 MG',
                 'precio' => '14.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5546,7 +5548,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 331,
                 'nombre' => 'Metocarbamol',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 500MG',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5563,7 +5565,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 332,
                 'nombre' => 'TYLOFEN',
-                'descripcion' => '',
+                'descripcion' => 'Gotas 20 ml',
                 'precio' => '18.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5580,7 +5582,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 333,
                 'nombre' => 'MEDOX PRENATAL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS',
                 'precio' => '11.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5597,7 +5599,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 334,
                 'nombre' => 'CREOLINA TIPO A',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION',
                 'precio' => '10.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5614,7 +5616,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 335,
                 'nombre' => 'Meloxicam 15mg',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5631,7 +5633,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 336,
                 'nombre' => 'Acetaminofén ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 500 mg ',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5648,7 +5650,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 337,
                 'nombre' => 'Ibuprofeno ',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 100 mg / 5ml 120 ml',
                 'precio' => '8.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5665,7 +5667,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 338,
                 'nombre' => 'TIAMINA Y CAFEINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5682,7 +5684,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 339,
                 'nombre' => 'Diclofenaco Acido Libre ',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 9 mg / 5 ml 120 ml ',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5699,7 +5701,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 340,
                 'nombre' => 'ARCO CORT IM',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 40 MG /ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5716,7 +5718,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 341,
                 'nombre' => 'Betoblock 4mg',
-                'descripcion' => '',
+                'descripcion' => 'solución inyectable /kit ampolla de 1ml y jeringa desartable',
                 'precio' => '37.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5733,7 +5735,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 342,
                 'nombre' => 'MENOESTROGEN',
-                'descripcion' => '',
+                'descripcion' => 'CAJA',
                 'precio' => '37.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5750,7 +5752,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 343,
                 'nombre' => 'BETA 2 PAN',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION INYECTABLE 2ML',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5767,7 +5769,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 344,
                 'nombre' => 'Bronco - Grip ',
-                'descripcion' => '',
+                'descripcion' => 'Ampola Inyectable + 2 Tabletas  ',
                 'precio' => '36.92',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5784,7 +5786,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 345,
                 'nombre' => 'Bronco - Grip Tos ',
-                'descripcion' => '',
+                'descripcion' => 'Ampolla Inyetable + 2 Tabletas ',
                 'precio' => '47.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5801,7 +5803,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 346,
                 'nombre' => 'NEUROTROPAS 25,000 CON VITAMINAS',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE ',
                 'precio' => '15.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5818,7 +5820,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 347,
                 'nombre' => 'VITAMINAS PRENATALES',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5835,7 +5837,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 348,
                 'nombre' => 'KETOROLACO 20MG',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2  Cápsulas de gel',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5852,7 +5854,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 349,
                 'nombre' => 'Expectorante Compuesto ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '31.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5869,7 +5871,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 350,
                 'nombre' => 'DOLO - NEUROTROPAS',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 75 MG',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5886,7 +5888,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 351,
             'nombre' => 'I.R.S. (IRS)',
-                'descripcion' => '',
+                'descripcion' => 'Gotas 20 ml ',
                 'precio' => '51.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5903,7 +5905,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 352,
                 'nombre' => 'Alendronato Acido alendronico ',
-                'descripcion' => '',
+                'descripcion' => 'blister x4 tableta',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5920,7 +5922,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 353,
                 'nombre' => 'Bronco - Grip ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '28.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5937,7 +5939,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 354,
                 'nombre' => 'ARCO PROCT',
-                'descripcion' => '',
+                'descripcion' => 'CREMA RECTAL 20 G',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5954,7 +5956,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 355,
                 'nombre' => 'Bronco - Grip Tos ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5971,7 +5973,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 356,
                 'nombre' => 'MENANGIL NEUROTROPAS 25,000',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 3ML',
                 'precio' => '49.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -5988,7 +5990,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 357,
                 'nombre' => 'Bepanthene Crema Regeneradora',
-                'descripcion' => '',
+                'descripcion' => 'Crema Regeneradora 30GR',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6005,7 +6007,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 358,
             'nombre' => 'I.R.S. (IRS)',
-                'descripcion' => '',
+                'descripcion' => 'Tableta ',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6022,7 +6024,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 359,
                 'nombre' => 'Neobol Spray',
-                'descripcion' => '',
+                'descripcion' => 'Spray',
                 'precio' => '92.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6039,7 +6041,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 360,
                 'nombre' => 'Clorfeniramina Maleato ',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 4 mg ',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6056,7 +6058,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 362,
                 'nombre' => 'DICLOFENACO SODICO',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO 12.5 MG',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6073,7 +6075,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 363,
                 'nombre' => 'Broncomiel',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '45.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6090,7 +6092,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 364,
                 'nombre' => 'LANSOPRAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULA 30MG',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6107,7 +6109,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 365,
                 'nombre' => 'Mucosolvan ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 15 mg / 5 ml 120 ml ',
                 'precio' => '89.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6124,7 +6126,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 366,
             'nombre' => 'CIRBRAL FORTE (cibral)',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X 10 TABLETA 75MG',
                 'precio' => '23.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6141,7 +6143,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 367,
             'nombre' => 'CIRBRAIN 25 (cibral)',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X 20 TABLETA 75MG',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6158,7 +6160,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 368,
                 'nombre' => 'Ambroxol HCI + Salbutamol',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 75 MG + 2 MG/ 5 ml 120 ml ',
                 'precio' => '19.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6175,7 +6177,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 369,
                 'nombre' => 'NERVIFEN RANQUILIZANTE NATURAL',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA',
                 'precio' => '0.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6192,7 +6194,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 370,
                 'nombre' => 'DICLOFENACO SODICO 12.5 Mg',
-                'descripcion' => '',
+                'descripcion' => 'Supositorios',
                 'precio' => '2.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6209,7 +6211,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 371,
                 'nombre' => 'Losortan Potosico + Hidroclorotiazida',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 100MG + 25MG',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6226,7 +6228,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 372,
                 'nombre' => 'Guayacolato de Glicerilo ',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 100 MG / 5ML 120 ML',
                 'precio' => '14.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6243,7 +6245,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 373,
                 'nombre' => 'Enalapril Maleato 20MG',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6260,7 +6262,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 374,
                 'nombre' => 'Enterogermina',
-                'descripcion' => '',
+                'descripcion' => ' frasco de 5ml',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6277,7 +6279,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 375,
                 'nombre' => 'Cardio Vital',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6294,7 +6296,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 376,
                 'nombre' => 'Ambroxol ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 15 mg / 5 ml 120 ml ',
                 'precio' => '11.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6311,7 +6313,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 378,
                 'nombre' => 'Reumetan S',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6328,7 +6330,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 379,
                 'nombre' => 'Neumonil Jarabe ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '23.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6345,7 +6347,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 380,
                 'nombre' => 'Neumonil ',
-                'descripcion' => '',
+                'descripcion' => 'Solución Inyectable 160 ml ',
                 'precio' => '27.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6362,7 +6364,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 381,
                 'nombre' => 'Hemoflebin',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6379,7 +6381,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 382,
                 'nombre' => 'RELHAX PLUS TRANQUILIZANTE NATURAL PARA DORMIR BIEN',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULAS DE GELATINA BLANDA',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6396,7 +6398,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 383,
                 'nombre' => 'Fludisin COMPUESTO',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 100 ml ',
                 'precio' => '19.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6413,7 +6415,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 384,
                 'nombre' => 'SUCRAMAL',
-                'descripcion' => '',
+                'descripcion' => 'sobres granulados 1g',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6430,7 +6432,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 385,
                 'nombre' => 'Furosemida',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 40MG',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6447,7 +6449,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 386,
                 'nombre' => 'Atenolol',
-                'descripcion' => '',
+                'descripcion' => 'Tableta 100MG',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6464,7 +6466,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 387,
                 'nombre' => 'Fludisin ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 100 ml 15MG / 5ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6481,7 +6483,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 388,
                 'nombre' => 'Broncomat ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '54.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6498,7 +6500,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 389,
             'nombre' => 'MAALOX (Anti-ácido/ Anti-gas)',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas masticables',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6515,7 +6517,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 390,
                 'nombre' => 'Atorvastatina',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6532,7 +6534,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 391,
                 'nombre' => 'PASINERVA',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULAS ',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6549,7 +6551,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 392,
                 'nombre' => 'Alicol',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml ',
                 'precio' => '39.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6566,7 +6568,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 393,
                 'nombre' => 'Propranolol',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6583,7 +6585,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 394,
                 'nombre' => 'KRALFATO',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES DE 30ML',
                 'precio' => '3.90',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6600,7 +6602,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 395,
                 'nombre' => 'NERVISEL 25,000',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE 3ML',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6617,7 +6619,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 396,
                 'nombre' => 'Alicol D ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml',
                 'precio' => '49.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6634,7 +6636,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 397,
                 'nombre' => 'Enalapril 10mg',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6651,7 +6653,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 398,
             'nombre' => 'PULMITRIN (SERAFON)',
-                'descripcion' => '',
+                'descripcion' => 'Capsulas de gel 15 mg ',
                 'precio' => '0.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6668,7 +6670,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 399,
                 'nombre' => 'Enalapril 20mg',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6685,7 +6687,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 400,
             'nombre' => 'PEPTO-BISMOL  (CEREZA)',
-                'descripcion' => '',
+                'descripcion' => 'Suspención oral de 1.75mg/100ml 118 ml ',
                 'precio' => '29.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6702,7 +6704,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 401,
                 'nombre' => 'NERISEL 10,000',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE 3 ML',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6719,7 +6721,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 402,
                 'nombre' => 'SALBUTAMOL',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 2mg / 5 ML 120 ml ',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6736,7 +6738,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 403,
                 'nombre' => 'Prednisolona',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETA 5MG',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6753,7 +6755,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 404,
                 'nombre' => 'Gastro-Bismol',
-                'descripcion' => '',
+                'descripcion' => 'Suspención oral 145ml',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6770,7 +6772,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 405,
                 'nombre' => 'Losartan Potásico',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas 50MG',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6787,7 +6789,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 406,
                 'nombre' => 'DOLO-NERVISEL',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE KIT',
                 'precio' => '16.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6804,7 +6806,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 408,
             'nombre' => 'DRAMAMINE (NAUSEOL)',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '2.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6821,7 +6823,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 409,
                 'nombre' => 'Fenitoína Sódica',
-                'descripcion' => '',
+                'descripcion' => 'Frasco x50 cápsulas',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6838,7 +6840,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 410,
                 'nombre' => 'DEXA-NERVISEL',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE KIT',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6855,7 +6857,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 411,
                 'nombre' => 'DIGESFLAT',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6872,7 +6874,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 412,
                 'nombre' => 'Entero Guanil niños',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6889,7 +6891,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 413,
                 'nombre' => 'Entero Guanil Adultos',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6906,7 +6908,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 414,
                 'nombre' => 'DOLO-MEDOX 1ML',
-                'descripcion' => '',
+                'descripcion' => 'KIT SOLUCIÓN INYECTABLE',
                 'precio' => '56.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6923,7 +6925,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 415,
                 'nombre' => 'SUBSALICIALATO DE BISMUTO',
-                'descripcion' => '',
+                'descripcion' => 'Suspención oral de 262mg/15ml 240ml',
                 'precio' => '22.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6940,7 +6942,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 416,
                 'nombre' => 'Crospovidona 20%',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6957,7 +6959,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 417,
                 'nombre' => 'SUBSALICILATO DE BISMUTO',
-                'descripcion' => '',
+                'descripcion' => 'Suspención oral 262mg /15 ml 120 ml',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6974,7 +6976,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 418,
                 'nombre' => 'DOLOFOR 2GRAMOS',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE',
                 'precio' => '36.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -6991,7 +6993,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 419,
                 'nombre' => 'Dearexin',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión Oral',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7008,7 +7010,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 420,
                 'nombre' => 'SIMETICONA',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 100MG/ML 30ML',
                 'precio' => '18.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7025,7 +7027,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 421,
                 'nombre' => 'Estomicida',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7042,7 +7044,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 422,
                 'nombre' => 'DOLO-TETRAVIT PLUS',
-                'descripcion' => '',
+                'descripcion' => 'TRATAMIENTO INYECTABLE, TRATAMIENTO ORAL',
                 'precio' => '46.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7059,7 +7061,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 423,
                 'nombre' => 'Estomicina Fuerte',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7076,7 +7078,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 424,
                 'nombre' => 'ANARA LAXANTE',
-                'descripcion' => '',
+                'descripcion' => 'Gotas',
                 'precio' => '57.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7093,7 +7095,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 425,
                 'nombre' => 'Lomotil',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7110,7 +7112,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 426,
                 'nombre' => 'CUAJO Marschall M-50',
-                'descripcion' => '',
+                'descripcion' => 'Pastillas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7127,7 +7129,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 427,
                 'nombre' => 'DIGEXOPAN',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENCIÓN ORAL',
                 'precio' => '62.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7144,7 +7146,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 428,
                 'nombre' => 'Cuajo Marschall R-50',
-                'descripcion' => '',
+                'descripcion' => 'Pastillas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7161,7 +7163,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 429,
             'nombre' => 'FLAMYDOL 75MG/2ML (flamidol)',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE',
                 'precio' => '33.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7178,7 +7180,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 430,
                 'nombre' => 'ZARZAPARRILLA+GLUCOSAMINA',
-                'descripcion' => '',
+                'descripcion' => 'Solución Oral',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7195,7 +7197,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 431,
                 'nombre' => 'Metoclopramida',
-                'descripcion' => '',
+                'descripcion' => 'Solución oral 2.6 mg/ 30 ml',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7212,7 +7214,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 432,
                 'nombre' => 'NAUSEOL INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 15 MG 60ML',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7229,7 +7231,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 433,
                 'nombre' => 'DOLIN PLUS',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE',
                 'precio' => '74.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7246,7 +7248,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 434,
                 'nombre' => 'Leche de Magnesia ',
-                'descripcion' => '',
+                'descripcion' => 'Hidróxido de magnesio 425MG / 5ML 180 ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7263,7 +7265,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 435,
                 'nombre' => 'NAUSEOL',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO',
                 'precio' => '4.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7280,7 +7282,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 436,
                 'nombre' => 'PANCLASA ALIVIO TOTAL PARA EL COLICO ABDOMINAL',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7297,7 +7299,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 437,
                 'nombre' => 'Guayacolato de Glicerilo ',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 100 MG / 5ML 120 ML',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7314,7 +7316,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 438,
                 'nombre' => 'Bromhexina ',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 4 mg / 5 ml 120 ml ',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7331,7 +7333,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 439,
                 'nombre' => 'MAALOXREFLUX ALIVIO DEL REFLUJO + ANTIACIDO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 180 ML',
                 'precio' => '65.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7348,7 +7350,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 440,
                 'nombre' => 'TRIALOX',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSIÓN ORAL',
                 'precio' => '15.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7365,7 +7367,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 441,
                 'nombre' => 'DOLO-NERVILAN',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE ',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7382,7 +7384,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 442,
                 'nombre' => 'TRILOX',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSIÓN ORAL 360 mL',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7399,7 +7401,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 443,
                 'nombre' => 'NERVILAN VITAMINAS NEUROTROPAS',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 25,000',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7416,7 +7418,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 444,
                 'nombre' => 'DEXA VITA NERVO',
-                'descripcion' => '',
+                'descripcion' => 'KIT X2 AMPOLLA INYECTABLE 2ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7433,7 +7435,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 445,
                 'nombre' => 'NERVIDOCE 25,000',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 2ML',
                 'precio' => '45.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7450,7 +7452,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 446,
                 'nombre' => 'COMPLEJO B',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7467,7 +7469,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 447,
                 'nombre' => 'VITAMINA A',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULAS 50,000 UI',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7484,7 +7486,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 448,
                 'nombre' => 'ANTIGRIP',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 60 ML',
                 'precio' => '27.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7501,7 +7503,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 449,
                 'nombre' => 'CALCIFOS',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS MASTICABLE',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7518,7 +7520,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 450,
                 'nombre' => 'Dextrometorfano',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 10 mg / 5 ml 120 ml ',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7535,7 +7537,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 451,
                 'nombre' => 'ARTROMED',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7552,7 +7554,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 452,
                 'nombre' => 'Leche de magnesia phillips ',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 60mL',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7569,7 +7571,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 453,
                 'nombre' => 'ZINC',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULA 15 MG',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7586,7 +7588,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 454,
                 'nombre' => 'ANTIGRIP',
-                'descripcion' => '',
+                'descripcion' => 'jarabe 120 ml',
                 'precio' => '37.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7603,7 +7605,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 455,
                 'nombre' => 'CALCIO VITAMINADO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 240 ML',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7620,7 +7622,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 456,
                 'nombre' => 'Leche de Magnesio Phillips',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSIÓN 120 Ml',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7637,7 +7639,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 458,
                 'nombre' => 'ACEITE OMEGA 3',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 BLICAPS 200 MG',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7654,7 +7656,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 459,
                 'nombre' => 'Rapidol',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7671,7 +7673,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 460,
                 'nombre' => 'Leche de Magnesia Phillips',
-                'descripcion' => '',
+                'descripcion' => 'Suspensión 360mL',
                 'precio' => '48.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7688,7 +7690,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 462,
                 'nombre' => 'Algodón ELU',
-                'descripcion' => '',
+                'descripcion' => 'Bolsita',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7705,7 +7707,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 463,
                 'nombre' => 'EX FLU INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 30ML',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7722,7 +7724,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 464,
                 'nombre' => 'CALCIO VITAMINADO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 5ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7739,7 +7741,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 465,
                 'nombre' => 'EX FLU MULTI SINTOMAS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '17.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7756,7 +7758,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 466,
                 'nombre' => 'EX FLU SINUS INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7773,7 +7775,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 468,
                 'nombre' => 'EX FLU MULTI SINTOMAS',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 2ML',
                 'precio' => '17.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7790,7 +7792,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 469,
                 'nombre' => 'Sulfato de soda ELU',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7807,7 +7809,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 470,
                 'nombre' => 'EX FLU MULTI SINTOMAS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7824,7 +7826,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 471,
                 'nombre' => 'EX FLU INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7841,7 +7843,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 472,
                 'nombre' => 'ORAN SAL INGLESA',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE x3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7858,7 +7860,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 473,
                 'nombre' => 'CEBION CALCIO + VITAMINA C',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7875,7 +7877,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 474,
                 'nombre' => 'ANTIGRIPITO',
-                'descripcion' => '',
+                'descripcion' => 'Gotas Pediátricas',
                 'precio' => '45.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7892,7 +7894,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 475,
                 'nombre' => 'GASA ABSORBENTE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7909,7 +7911,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 476,
                 'nombre' => 'CEBION VITAMINA C PEDIATRICO SABOR FRESA',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 100 MG/ML',
                 'precio' => '37.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7926,7 +7928,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 477,
                 'nombre' => 'ARCO PULMIN -A- ADULTO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOYA INYECTABLE de 5 ml',
                 'precio' => '19.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7943,7 +7945,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 478,
                 'nombre' => 'ANTIGRIPITO',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 60ml',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7960,7 +7962,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 479,
                 'nombre' => 'VITAMINA C SABOR NARANJA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 BLICAPS 500 MG',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7977,7 +7979,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 480,
                 'nombre' => 'SUPER ALGODÓN ORAN',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES X3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -7994,7 +7996,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 481,
                 'nombre' => 'GRIPETIN MULTISINTOMAS',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml',
                 'precio' => '38.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8011,7 +8013,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 482,
                 'nombre' => 'AZUFRE POLVO',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES 28 GR',
                 'precio' => '1.60',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8028,7 +8030,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 483,
                 'nombre' => 'CLORFENIRAMINA MALEATO',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 2mg 120ml/ 5ml ',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8045,7 +8047,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 484,
                 'nombre' => 'ACIDO BORICO',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8062,7 +8064,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 485,
                 'nombre' => 'ANTIGRIPITO',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas Masticable x 4',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8079,7 +8081,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 486,
                 'nombre' => 'VITEEN C',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE 1000 MG',
                 'precio' => '0.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8096,7 +8098,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 487,
                 'nombre' => 'ANGINOVAG',
-                'descripcion' => '',
+                'descripcion' => 'SPRAY BUCAL',
                 'precio' => '80.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8113,7 +8115,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 488,
                 'nombre' => 'BOLSA DE ORINA PEDRIATICA',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8130,7 +8132,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 489,
                 'nombre' => 'ALEVE LIQUI GEL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA GEL 20g',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8147,7 +8149,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 490,
                 'nombre' => 'OXIDO DE ZINC',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8164,7 +8166,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 492,
                 'nombre' => 'AMLODIPINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 10 MG',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8181,7 +8183,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 494,
                 'nombre' => 'TERMÓMETRO FRONTAL TERMOFLEX',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '19.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8198,7 +8200,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 495,
             'nombre' => 'CINARIZINA (cibral/cirbral forte)',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULAS 75 MG',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8215,7 +8217,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 496,
                 'nombre' => 'CAFIASPIRINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS X2',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8232,7 +8234,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 498,
                 'nombre' => 'TERMÓMETRO FRONTAL MEIYI',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8249,7 +8251,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 499,
                 'nombre' => 'ACEITE DE RPSA MOSQUETA + VITAMINA E',
-                'descripcion' => '',
+                'descripcion' => 'LAGRIMA',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8266,7 +8268,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 500,
                 'nombre' => 'NEUMOFLU MIEL',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8283,7 +8285,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 501,
                 'nombre' => 'TERMÓMETRO ORAL',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8300,7 +8302,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 503,
                 'nombre' => 'TERMÓMETRO RECTAL',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8317,7 +8319,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 504,
                 'nombre' => 'LICOPODIO',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8334,7 +8336,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 505,
                 'nombre' => 'AZUCAR DE LECHE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 28GR',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8351,7 +8353,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 506,
                 'nombre' => 'BROMHEXINA',
-                'descripcion' => '',
+                'descripcion' => 'Solución Oral 120ml',
                 'precio' => '19.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8368,7 +8370,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 507,
                 'nombre' => 'REDOXON VITAMINA C NARANJA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 TABLETAS EFERVESCENTES 1G',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8385,7 +8387,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 508,
                 'nombre' => 'GOTERO',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8402,7 +8404,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 509,
                 'nombre' => 'SALBUTAMOL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS 4 MG',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8419,7 +8421,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 510,
                 'nombre' => 'REDOXON DOBLE ACCION VITAMINA C + ZINC',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 TABLETAS EFERVESCENTES',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8436,7 +8438,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 511,
                 'nombre' => 'PANADOL BEBÉ',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS SABOR FRAMBUESA',
                 'precio' => '41.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8453,7 +8455,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 512,
                 'nombre' => 'SURGICAL GLOVES',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '4.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8470,7 +8472,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 513,
                 'nombre' => 'ARCO PULMIN -A- INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'AMPOYA INYECTABLE de 2 ml',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8487,7 +8489,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 514,
                 'nombre' => 'NAPROXENO SÓDICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8504,7 +8506,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 515,
                 'nombre' => 'PARCHE TÉRMICO LEÓN',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8523,7 +8525,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 516,
                 'nombre' => 'PANADOL NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE SABOR FRAMBUESA 60 ml',
                 'precio' => '38.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8540,7 +8542,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 517,
                 'nombre' => 'RANITIDINA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 50 MG 5ML ',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8557,7 +8559,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 518,
                 'nombre' => 'RESFRIOL',
-                'descripcion' => '',
+                'descripcion' => 'Inyectable kit ampolla+ jeringa',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8574,7 +8576,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 519,
                 'nombre' => 'ARCO PULMIN ',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8591,7 +8593,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 520,
                 'nombre' => 'VITAMINA K1',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 10 MG/ML',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8608,7 +8610,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 521,
                 'nombre' => 'DOLOFIN',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X2 TABLETAS',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8625,7 +8627,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 522,
                 'nombre' => 'PANADOL NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8642,7 +8644,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 523,
                 'nombre' => 'VENDA DE GASA 2" X 10YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '3.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8659,7 +8661,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 524,
                 'nombre' => 'VENDA DE GASA 3" X 10YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8676,7 +8678,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 525,
                 'nombre' => 'PROSTALINE',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO 30 CAPSULAS',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8693,7 +8695,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 526,
                 'nombre' => 'VENDA DE GASA 4" X 10YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '8.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8710,7 +8712,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 527,
                 'nombre' => 'PANADOL ARTICULACIONES',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8727,7 +8729,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 528,
                 'nombre' => 'HIGO-MIEL',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe',
                 'precio' => '52.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8744,7 +8746,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 529,
                 'nombre' => 'VENDA DE GASA 6" X 10YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '13.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8761,7 +8763,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 530,
                 'nombre' => 'PANADOL EXTRA FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X2 TABLETAS',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8778,7 +8780,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 531,
                 'nombre' => 'VENDAJE DE PRIMEROS AUXILIOS 2" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '3.90',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8795,7 +8797,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 532,
                 'nombre' => 'PANADOL MUJER',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X2 TABLETAS',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8812,7 +8814,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 533,
                 'nombre' => 'GERIATRICO H3 + GINSENG',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 BLICAPS',
                 'precio' => '9.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8829,7 +8831,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 534,
                 'nombre' => 'VENDAJE DE PRIMEROS AUXILIOS 3" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '4.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8846,7 +8848,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 535,
                 'nombre' => 'PANADOL ALERGIA Y SINUSITIS',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X2 TABLETAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8863,7 +8865,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 536,
                 'nombre' => 'VENDAJE DE PRIMEROS AUXILIOS 4" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8880,7 +8882,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 538,
                 'nombre' => 'DENGUINA',
-                'descripcion' => '',
+                'descripcion' => ' TABLETAS',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8897,7 +8899,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 539,
                 'nombre' => 'VENDAJE DE PRIMEROS AUXILIOS 6" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '9.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8914,7 +8916,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 540,
                 'nombre' => 'CARDIO ASPIRINA',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO X30 TABLETAS',
                 'precio' => '49.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8931,7 +8933,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 541,
                 'nombre' => 'VICK 44 CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120ml',
                 'precio' => '65.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8948,7 +8950,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 542,
                 'nombre' => 'POSTAVIT',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8965,7 +8967,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 543,
                 'nombre' => 'SALBUTAMOL ',
-                'descripcion' => '',
+                'descripcion' => 'Presurizado Inhalación 100MC/DOSIS',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8982,7 +8984,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 544,
                 'nombre' => 'VIRO GRIP AM',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULAS GEL',
                 'precio' => '2.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -8999,7 +9001,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 546,
                 'nombre' => 'VIRO GRIP PM',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULAS GEL',
                 'precio' => '2.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9016,7 +9018,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 547,
                 'nombre' => 'GRIPETIN GRIPE Y TOS',
-                'descripcion' => '',
+                'descripcion' => 'tabletas',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9033,7 +9035,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 548,
                 'nombre' => 'PEPTO-BISMOL ',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS MASTICABLES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9050,7 +9052,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 549,
                 'nombre' => 'VIRO-GRIP LIMON AM',
-                'descripcion' => '',
+                'descripcion' => 'POLVO SOLUCIÓN ORAL',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9067,7 +9069,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 550,
                 'nombre' => 'VIRO-GRIP LIMÓN PM',
-                'descripcion' => '',
+                'descripcion' => 'POLVO SOLUCIÓN ORAL',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9084,7 +9086,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 551,
             'nombre' => 'SOSTENGO (VIAGRA)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X2 TABLETAS',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9101,7 +9103,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 552,
                 'nombre' => 'GERIATRICO MASCULINO',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe',
                 'precio' => '16.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9118,7 +9120,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 553,
                 'nombre' => 'GERIÁTRICO PHARMAKON',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO X30 CAPSULAS',
                 'precio' => '75.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9135,7 +9137,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 554,
                 'nombre' => 'SANI RENAL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 50MG',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9152,7 +9154,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 555,
                 'nombre' => 'BEBETINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS MASTICABLES',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9169,7 +9171,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 556,
                 'nombre' => 'UNI-PULMIN',
-                'descripcion' => '',
+                'descripcion' => 'Cápsulas',
                 'precio' => '1.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9186,7 +9188,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 557,
                 'nombre' => 'TABCIN ANTIGRIPAL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9203,7 +9205,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 558,
                 'nombre' => 'TABCIN GRIPE Y TOS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9220,7 +9222,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 559,
                 'nombre' => 'ALEVE EXTRA FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9237,7 +9239,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 560,
                 'nombre' => 'DORIVAL ALIVIA',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '1.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9254,7 +9256,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 561,
                 'nombre' => 'ZORRITONE CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'BARRAS CON CARAMELOS',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9271,7 +9273,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 562,
                 'nombre' => 'ZORRITONE MIEL-LIMÓN',
-                'descripcion' => '',
+                'descripcion' => 'CARAMELOS',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9288,7 +9290,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 563,
                 'nombre' => 'GLIMEPIRIDA',
-                'descripcion' => '',
+                'descripcion' => 'CARAMELOS',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9305,7 +9307,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 564,
                 'nombre' => 'INHALADOR VICK VAPORUB',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '18.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9322,7 +9324,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 565,
                 'nombre' => 'ALKA SELTZER',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA EFERVESCENTE',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9339,7 +9341,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 566,
                 'nombre' => 'ERITROMICINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 500MG',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9356,7 +9358,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 567,
                 'nombre' => 'REPELENTE DE INSECTOS OFF FAMILYCARE',
-                'descripcion' => '',
+                'descripcion' => 'AEROSOL 170GR',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9373,7 +9375,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 568,
                 'nombre' => 'VICK CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X5 PASTILLAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9390,7 +9392,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 569,
                 'nombre' => 'VICK MENTOL',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X5 PASTILLAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9407,7 +9409,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 570,
                 'nombre' => 'VICK LIMÓN',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X5 PASTILLAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9424,7 +9426,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 571,
                 'nombre' => 'Vitapyrena VICK ',
-                'descripcion' => '',
+                'descripcion' => 'sobre polvo granulado',
                 'precio' => '2.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9441,7 +9443,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 572,
                 'nombre' => 'Gentamicina+ Betametasona+ Clotrimazol',
-                'descripcion' => '',
+                'descripcion' => 'Crema',
                 'precio' => '9.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9458,7 +9460,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 573,
                 'nombre' => 'claritromicina ',
-                'descripcion' => '',
+                'descripcion' => 'Polvo para suspensión oral 5mL/250mg 60mL',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9475,7 +9477,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 574,
                 'nombre' => 'Calmante  ',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE Polvo Oral X3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9492,7 +9494,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 575,
                 'nombre' => 'Cefixima',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULA 400 MG',
                 'precio' => '9.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9509,7 +9511,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 576,
                 'nombre' => 'RANITIDINA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 COMPRIMIDO REVESTIDO DE FILME 300 MG',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9526,7 +9528,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 577,
                 'nombre' => 'PANTOPRAZOL SODICO',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9543,7 +9545,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 578,
                 'nombre' => 'JERINGA',
-                'descripcion' => '',
+                'descripcion' => '1 ML/CC',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9560,7 +9562,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 579,
                 'nombre' => 'JERINGA',
-                'descripcion' => '',
+                'descripcion' => '3ML/CC',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9577,7 +9579,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 580,
                 'nombre' => 'JERINGA',
-                'descripcion' => '',
+                'descripcion' => '5ML/CC',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9594,7 +9596,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 581,
                 'nombre' => 'JERINGA INSULINA',
-                'descripcion' => '',
+                'descripcion' => '1CC 27X1/2 MEDBEST',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9611,7 +9613,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 582,
                 'nombre' => 'AGUJA ESTÉRIL',
-                'descripcion' => '',
+                'descripcion' => ' # 23 X 1  X 100 UNI. GREEN-JECT',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9628,7 +9630,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 583,
                 'nombre' => 'ACETAMINOFEN',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 500 MG',
                 'precio' => '0.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9645,7 +9647,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 584,
                 'nombre' => 'PANADOL MULTISINTOMAS',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X 2 TABLETAS',
                 'precio' => '2.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9662,7 +9664,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 585,
                 'nombre' => 'PANADOL ANTIGRIPAL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9679,7 +9681,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 586,
                 'nombre' => 'NAUSEOL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9696,7 +9698,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 587,
                 'nombre' => 'ANTIGRIP',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X4 TABLETAS',
                 'precio' => '4.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9713,7 +9715,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 588,
                 'nombre' => 'Gabapentine',
-                'descripcion' => '',
+                'descripcion' => 'Células ',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9730,7 +9732,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 589,
                 'nombre' => 'Gasa absorbente Esteril',
-                'descripcion' => '',
+                'descripcion' => 'unidades',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9747,7 +9749,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 590,
                 'nombre' => 'AMOXICILINA',
-                'descripcion' => '',
+                'descripcion' => 'POLVO PARA SUSPENSION 125 MG/5ML 60 ML',
                 'precio' => '35.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9764,7 +9766,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 591,
                 'nombre' => 'Mascarilla para Polvo',
-                'descripcion' => '',
+                'descripcion' => 'unidades',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9781,7 +9783,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 592,
                 'nombre' => 'Gasa Estéril Premium  LE ROY 7.5x5cm',
-                'descripcion' => '',
+                'descripcion' => 'unidad',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9798,7 +9800,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 593,
                 'nombre' => 'AMOXICILINA',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 250 MG/5ML 100 ML',
                 'precio' => '16.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9815,7 +9817,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 594,
                 'nombre' => 'Baja Lengua de Madera ',
-                'descripcion' => '',
+                'descripcion' => 'unidad',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9832,7 +9834,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 595,
                 'nombre' => 'Tira Leche',
-                'descripcion' => '',
+                'descripcion' => 'Pezonera Manual de Plástico',
                 'precio' => '28.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9849,7 +9851,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 596,
                 'nombre' => 'GUANTES DE LATEX TALLA L MAGICA',
-                'descripcion' => '',
+                'descripcion' => 'unidad',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9866,7 +9868,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 597,
                 'nombre' => 'GUANTES DE LATEX TALLA M MAGICA',
-                'descripcion' => '',
+                'descripcion' => 'Unidad',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9883,7 +9885,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 598,
                 'nombre' => 'AMOXICILINA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA 500 MG',
                 'precio' => '0.65',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9900,7 +9902,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 599,
                 'nombre' => 'AGUJAS # 23 X 1  X 100 UNI. GREEN-JECT',
-                'descripcion' => '',
+                'descripcion' => 'Aguja',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9917,7 +9919,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 600,
                 'nombre' => 'AGUJAS # 24 X 1 INFANTIL GREEN-JECT',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9934,7 +9936,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 601,
                 'nombre' => 'AGUJAS # 23 X 1 1/4 GREEN-JECT',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9951,7 +9953,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 602,
                 'nombre' => 'AGUJAS # 22 X 1 1/2 X 100 UNIDADES',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9968,7 +9970,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 603,
                 'nombre' => 'AGUJAS # 21 X 1 1/2 X 100 UNIDADES.',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -9985,7 +9987,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 604,
                 'nombre' => 'AMPICILINA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA 500 MG',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10002,7 +10004,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 605,
                 'nombre' => 'AZITROMICINA',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 TABLETA 500MG',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10019,7 +10021,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 606,
                 'nombre' => 'Citrato de Magnesia',
-                'descripcion' => '',
+                'descripcion' => 'POLVO EFERVESC ENTE',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10036,7 +10038,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 607,
                 'nombre' => 'GASA 1 X 1 YARDA ELU',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '7.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10053,7 +10055,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 608,
                 'nombre' => 'Leche de Magnesia en Polvo',
-                'descripcion' => '',
+                'descripcion' => 'pPolvo para suspensión oral',
                 'precio' => '1.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10070,7 +10072,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 609,
                 'nombre' => 'CLAVULIN',
-                'descripcion' => '',
+                'descripcion' => 'COMPRIMIDO 875 MG + 125 MG',
                 'precio' => '14.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10087,7 +10089,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 610,
             'nombre' => 'Canula Intravenosa 16 (ANGIO CAT)',
-                'descripcion' => '',
+                'descripcion' => 'unidad',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10104,7 +10106,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 611,
                 'nombre' => 'FRESCO PIE',
-                'descripcion' => '',
+                'descripcion' => 'Talco Tópico',
                 'precio' => '17.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10121,7 +10123,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 612,
             'nombre' => 'Canula Intravenosa 18 (ANGIO CAT)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10138,7 +10140,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 613,
                 'nombre' => 'BABY TALCO FAMILY CARE',
-                'descripcion' => '',
+                'descripcion' => 'TALCO',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10155,7 +10157,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 614,
             'nombre' => 'Canula Intravenosa 20 (ANGIO CAT)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10172,7 +10174,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 615,
             'nombre' => 'Canula Intravenosa 24 (ANGIO CAT)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10189,7 +10191,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 616,
                 'nombre' => 'SUDORIN 225GM',
-                'descripcion' => '',
+                'descripcion' => 'POLVO DESODORANTE',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10206,7 +10208,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 617,
                 'nombre' => 'SUDORIN 110g',
-                'descripcion' => '',
+                'descripcion' => 'Polvo Desodorante Absorvente y Secante',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10223,7 +10225,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 618,
                 'nombre' => 'AGUA DE FLORIDA',
-                'descripcion' => '',
+                'descripcion' => 'Botella de 100 ml',
                 'precio' => '4.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10240,7 +10242,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 619,
                 'nombre' => 'MANTECA DE CACAO',
-                'descripcion' => '',
+                'descripcion' => 'BARRA',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10257,7 +10259,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 620,
                 'nombre' => 'Aceite Selecto El Olivo',
-                'descripcion' => '',
+                'descripcion' => 'Aceite Comestible 120 ml',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10274,7 +10276,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 621,
                 'nombre' => 'MICROPORE NEXCARE BLANCO X 1" X 10 YDS.',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10291,7 +10293,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 622,
                 'nombre' => 'MICROPORE NEXCARE PIEL X 1" X 10 YDS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '12.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10308,7 +10310,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 623,
                 'nombre' => 'Aceite Mixto El Rey',
-                'descripcion' => '',
+                'descripcion' => 'Aceite Comestible 100 ml',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10325,7 +10327,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 624,
                 'nombre' => 'Gel Lubricante KY',
-                'descripcion' => '',
+                'descripcion' => 'Gel 100 g',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10342,7 +10344,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 625,
                 'nombre' => 'Violeta de Genciana',
-                'descripcion' => '',
+                'descripcion' => 'Tintura al 1% uso externo',
                 'precio' => '8.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10359,7 +10361,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 626,
                 'nombre' => 'MICROPORE NEXCARE PIEL X 1/2" X 10 YDS.',
-                'descripcion' => '',
+                'descripcion' => 'unidad',
                 'precio' => '6.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10376,7 +10378,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 627,
                 'nombre' => 'Agua Oxigenada',
-                'descripcion' => '',
+                'descripcion' => '10 VOL. SPRAY 30 ml',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10393,7 +10395,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 628,
                 'nombre' => 'Pañalito',
-                'descripcion' => '',
+                'descripcion' => 'Crema 120g',
                 'precio' => '37.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10410,7 +10412,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 629,
                 'nombre' => 'MICROPORE NEXCARE BLANCO X 1/2" X 10 YDS.',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '4.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10427,7 +10429,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 630,
                 'nombre' => 'Pañalito',
-                'descripcion' => '',
+                'descripcion' => 'Tarro de 125g',
                 'precio' => '39.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10444,7 +10446,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 631,
                 'nombre' => 'Pañalito',
-                'descripcion' => '',
+                'descripcion' => ' Crema Liquida 200ml',
                 'precio' => '35.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10461,7 +10463,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 632,
             'nombre' => 'FLAMYDOL RETARD (flamidol)',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA 100 MG',
                 'precio' => '9.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10478,7 +10480,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 633,
                 'nombre' => 'Santemicina',
-                'descripcion' => '',
+                'descripcion' => 'sobres ',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10495,7 +10497,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 634,
                 'nombre' => 'Mentol Davis',
-                'descripcion' => '',
+                'descripcion' => 'Ungüento 7.9g',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10512,7 +10514,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 635,
                 'nombre' => 'Curaderma',
-                'descripcion' => '',
+                'descripcion' => 'Ungüento 12g',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10529,7 +10531,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 636,
                 'nombre' => 'Mentol Davis',
-                'descripcion' => '',
+                'descripcion' => 'Ungüento 12 g',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10546,7 +10548,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 637,
                 'nombre' => 'Pomada de la Campana ',
-                'descripcion' => '',
+                'descripcion' => 'Pomada / Ungüento 35g',
                 'precio' => '18.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10563,7 +10565,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 638,
                 'nombre' => 'Pomada de la Campana',
-                'descripcion' => '',
+                'descripcion' => 'Pomada / Ungüento 19g',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10580,7 +10582,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 639,
                 'nombre' => 'Mentolito Adamed',
-                'descripcion' => '',
+                'descripcion' => 'Pomada / Ungüento 12 g',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10597,7 +10599,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 640,
                 'nombre' => 'GMS BALSAMICO',
-                'descripcion' => '',
+                'descripcion' => 'Balsamo / Ungüento 12 g',
                 'precio' => '4.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10614,7 +10616,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 641,
                 'nombre' => 'GMS POMADA',
-                'descripcion' => '',
+                'descripcion' => 'Pomada / Ungüento 12 g',
                 'precio' => '9.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10631,7 +10633,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 642,
                 'nombre' => 'CLOTRIPLEX',
-                'descripcion' => '',
+                'descripcion' => 'Ungüento / pomada 12 g',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10648,7 +10650,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 644,
                 'nombre' => 'POMADA BELLADONA',
-                'descripcion' => '',
+                'descripcion' => 'POMO 12GR',
                 'precio' => '6.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10665,7 +10667,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 645,
                 'nombre' => 'Pomada Azufrada',
-                'descripcion' => '',
+                'descripcion' => 'Pomada 10% 12g',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10682,7 +10684,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 646,
                 'nombre' => 'Pomada de Oxido de Zinc',
-                'descripcion' => '',
+                'descripcion' => 'Pomada 10% 12g',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10699,7 +10701,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 647,
                 'nombre' => 'DICLOXACILINA',
-                'descripcion' => '',
+                'descripcion' => 'POLVO PARA SUSPENSION 125 MG/5 ML 60 ML',
                 'precio' => '40.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10716,7 +10718,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 648,
                 'nombre' => 'ERITROMICINA',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 250 MG/5ML 120 ML',
                 'precio' => '24.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10733,7 +10735,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 649,
                 'nombre' => 'Pomada Alcanforada 10% 2.3 g',
-                'descripcion' => '',
+                'descripcion' => 'Pomada',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10750,7 +10752,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 650,
                 'nombre' => 'Pomada de Belladona',
-                'descripcion' => '',
+                'descripcion' => 'Pomada 23g',
                 'precio' => '6.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10767,7 +10769,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 651,
                 'nombre' => 'LINCOCIN*',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 300MG / ML',
                 'precio' => '49.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10784,7 +10786,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 652,
                 'nombre' => 'Kura-kura',
-                'descripcion' => '',
+                'descripcion' => 'Pomada',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10801,7 +10803,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 653,
                 'nombre' => 'Cura Hongos',
-                'descripcion' => '',
+                'descripcion' => 'Pomada',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10818,7 +10820,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 654,
                 'nombre' => 'Pomada Sana Sana',
-                'descripcion' => '',
+                'descripcion' => 'Pomada',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10835,7 +10837,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 655,
                 'nombre' => 'BUSCAPINA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 20MG/ML',
                 'precio' => '30.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10852,7 +10854,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 656,
                 'nombre' => 'BUSCAPINA COMPOSITUM',
-                'descripcion' => '',
+                'descripcion' => 'GRAGEAS 10MG/250MG',
                 'precio' => '5.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10869,7 +10871,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 657,
                 'nombre' => 'ZEPOL',
-                'descripcion' => '',
+                'descripcion' => 'Crema 120g',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10886,7 +10888,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 658,
                 'nombre' => 'Zepol',
-                'descripcion' => '',
+                'descripcion' => 'Crema',
                 'precio' => '33.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10903,7 +10905,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 659,
                 'nombre' => 'BUSCAPINA COMPOSITUM N',
-                'descripcion' => '',
+                'descripcion' => 'COMPRIMIDOS 10 MG/500 MG',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10920,7 +10922,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 660,
                 'nombre' => 'Zepol',
-                'descripcion' => '',
+                'descripcion' => 'Crema 30 g',
                 'precio' => '22.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10937,7 +10939,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 661,
                 'nombre' => 'Aceite de Ricino',
-                'descripcion' => '',
+                'descripcion' => 'Frasco por 30ml',
                 'precio' => '11.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10954,7 +10956,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 662,
                 'nombre' => 'Aceite de Ricino',
-                'descripcion' => '',
+                'descripcion' => 'Frasco de 60ml',
                 'precio' => '17.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10971,7 +10973,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 663,
                 'nombre' => 'Aceite Mineral U.S.P',
-                'descripcion' => '',
+                'descripcion' => 'Bote laxante y lubricante de 120 ml',
                 'precio' => '12.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -10988,7 +10990,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 664,
                 'nombre' => 'Aceite de Nervino ',
-                'descripcion' => '',
+                'descripcion' => 'Bote de 30 ml',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11005,7 +11007,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 665,
                 'nombre' => 'GLICERINA',
-                'descripcion' => '',
+                'descripcion' => 'Gotas  de 30 ml',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11022,7 +11024,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 666,
                 'nombre' => 'Aceite De Almendras Dulces  3%',
-                'descripcion' => '',
+                'descripcion' => 'gotas de 30 ml',
                 'precio' => '7.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11039,7 +11041,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 667,
                 'nombre' => 'Aceite De Ajenjo  1.5%',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 30 ml',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11056,7 +11058,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 668,
                 'nombre' => 'NEO-MELUBRINA INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO RECTAL 300 MG',
                 'precio' => '9.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11073,7 +11075,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 669,
                 'nombre' => 'NEO-MELUBRINA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 500MG/ML 2ML',
                 'precio' => '6.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11090,7 +11092,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 670,
                 'nombre' => 'OTIK',
-                'descripcion' => '',
+                'descripcion' => 'Gotas para Oídos 10 ml',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11107,7 +11109,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 671,
                 'nombre' => 'Hipopress Gotas',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de solución 7.5%/ml  20 ml',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11124,7 +11126,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 672,
                 'nombre' => 'Nasolin Oximetazolina 0.5%',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 15 ml',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11141,7 +11143,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 673,
                 'nombre' => 'Alfer Nicol',
-                'descripcion' => '',
+                'descripcion' => 'Gotas clorafenicol 0.5% de 15 ml',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11158,7 +11160,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 674,
                 'nombre' => 'NEO-FEBRINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 500 MG',
                 'precio' => '0.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11175,7 +11177,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 675,
                 'nombre' => 'NEO-FEBRINA INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO 300MG ',
                 'precio' => '7.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11192,7 +11194,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 676,
                 'nombre' => 'Alfer Nicol S',
-                'descripcion' => '',
+                'descripcion' => 'Gotas Para ojos  de 15 ml ',
                 'precio' => '49.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11209,7 +11211,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 677,
                 'nombre' => 'Alfernicol SULF',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 15 ml Sulfacetamida 10%',
                 'precio' => '49.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11226,7 +11228,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 678,
                 'nombre' => 'Alfernicol ungüento',
-                'descripcion' => '',
+                'descripcion' => 'Ungüento de 5 g ',
                 'precio' => '30.52',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11243,7 +11245,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 679,
                 'nombre' => 'OTINFEK',
-                'descripcion' => '',
+                'descripcion' => 'Gotas 10ml',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11260,7 +11262,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 680,
                 'nombre' => 'NAFAZOLINA ',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS DE 15 ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11277,7 +11279,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 681,
                 'nombre' => 'VISINE ORIGINAL',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS DE 15 ML',
                 'precio' => '37.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11294,24 +11296,24 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 682,
                 'nombre' => 'ABREXIL PARA LA TOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 35MG/ 5ML 120 ML',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
-                'imagen' => NULL,
+                'imagen' => 'img/items/682.jpeg',
                 'codigo' => NULL,
-                'stock' => '0.00',
+                'stock' => '38.00',
                 'unimed_id' => 1,
                 'iestado_id' => 1,
                 'ubicacion' => 'E1-A',
                 'created_at' => '2017-04-04 13:35:24',
-                'updated_at' => NULL,
+                'updated_at' => '2017-04-25 18:11:07',
                 'deleted_at' => NULL,
             ),
             164 => 
             array (
                 'id' => 683,
                 'nombre' => 'Corilín',
-                'descripcion' => '',
+                'descripcion' => 'Gotas Pediatricas 30 ml',
                 'precio' => '95.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11328,7 +11330,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 684,
                 'nombre' => 'AMBROXOL HCI + LORATADINA MUCOLITICO Y ANTIHISTAMINICO',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 15 MG + 2.5 MG / ML 120 ML',
                 'precio' => '29.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11345,7 +11347,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 685,
                 'nombre' => 'KOLICON',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 2 MG/ML 15ml',
                 'precio' => '19.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11362,7 +11364,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 686,
                 'nombre' => 'EXPECTORANTE',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11379,7 +11381,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 687,
                 'nombre' => 'LAGRIMAS OCULARES',
-                'descripcion' => '',
+                'descripcion' => 'gotas para ojos Lubricante 15 ml',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11396,7 +11398,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 688,
                 'nombre' => 'SULFACETAMIDA 10%',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS OCULARES DE 10% / 15 ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11413,7 +11415,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 689,
                 'nombre' => 'Cloranfenicol',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 15ML',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11430,7 +11432,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 690,
                 'nombre' => 'Cloranfenicol 0.5% Dexametasona 0.1% ',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 15 ml',
                 'precio' => '19.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11447,7 +11449,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 691,
                 'nombre' => 'CLORANFENICOL + DEXAMETASONA + NAFAZOLINA',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 15 ml ',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11464,7 +11466,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 692,
                 'nombre' => 'ZORRIPULMIN TOS Y FLEMAS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 100 MG / 15ML + 5.2 / 15ML 240 ML',
                 'precio' => '16.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11481,7 +11483,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 693,
                 'nombre' => 'WINASORB',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 100 MG / ML 15 ML',
                 'precio' => '39.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11498,7 +11500,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 694,
                 'nombre' => 'Zorritone Guaifenesin',
-                'descripcion' => '',
+                'descripcion' => 'Jarabe 120 ml',
                 'precio' => '30.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11515,7 +11517,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 695,
                 'nombre' => 'Espavén Pediatrico',
-                'descripcion' => '',
+                'descripcion' => 'Gotas de 15 ml',
                 'precio' => '54.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11532,7 +11534,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 696,
                 'nombre' => 'Ojo de Aguila',
-                'descripcion' => '',
+                'descripcion' => 'gotas de 10 ml',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11549,7 +11551,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 697,
                 'nombre' => 'SOLUTINA',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS DE 10 ml',
                 'precio' => '19.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11566,7 +11568,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 698,
                 'nombre' => 'Guantes de Latex ESTERIL',
-                'descripcion' => '',
+                'descripcion' => 'Sobre TALLA 7',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11583,12 +11585,12 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 699,
                 'nombre' => 'ACCION PLUS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA ',
                 'precio' => '0.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
                 'codigo' => NULL,
-                'stock' => '0.00',
+                'stock' => '55.00',
                 'unimed_id' => 1,
                 'iestado_id' => 1,
                 'ubicacion' => 'E2-C',
@@ -11600,7 +11602,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 700,
                 'nombre' => 'CEBION VITAMINA C SABOR NARANJA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE 500 MG',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11617,7 +11619,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 701,
                 'nombre' => 'CEBION VITAMINA C SABOR FRESA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE 500 MG',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11634,7 +11636,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 702,
                 'nombre' => 'CEBION VITAMINA C MULTISABORES',
-                'descripcion' => '',
+                'descripcion' => 'BOLSA CON TABLETA MASTICABLE 100 MG',
                 'precio' => '22.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11651,7 +11653,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 703,
                 'nombre' => 'GASA MEDICA LA ENFERMERITA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 1 X 1 YARDA',
                 'precio' => '7.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11668,7 +11670,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 704,
                 'nombre' => 'GASA MEDICA LA ENFERMERITA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD DE 1/2 X 1 YARDA',
                 'precio' => '4.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11685,7 +11687,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 705,
             'nombre' => 'APLICADORES  (HISOSPO)',
-                'descripcion' => '',
+                'descripcion' => 'BOLSA X150 UNIDADES',
                 'precio' => '9.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11702,7 +11704,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 706,
                 'nombre' => 'ALCANFOR',
-                'descripcion' => '',
+                'descripcion' => 'BOLSITA X3 PANES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11719,7 +11721,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 707,
                 'nombre' => 'ANARA LAXANTE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X4',
                 'precio' => '7.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11736,7 +11738,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 708,
                 'nombre' => 'Avamigran',
-                'descripcion' => '',
+                'descripcion' => 'Tabletas ',
                 'precio' => '4.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11753,7 +11755,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 709,
                 'nombre' => 'DICLOFENACO POTÁSICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS DE 50MG',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11770,7 +11772,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 710,
                 'nombre' => 'DICLOFENACO SODICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS DE 50MG',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11787,7 +11789,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 711,
                 'nombre' => 'DOLO-FENIL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS DE 50MG',
                 'precio' => '5.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11804,7 +11806,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 712,
                 'nombre' => 'SERAFON',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 50MG + 120MG 2ML',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11821,7 +11823,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 713,
                 'nombre' => 'DOLO-MENALGIL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS ',
                 'precio' => '3.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11838,7 +11840,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 714,
                 'nombre' => 'NEUMONIL',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 1ML',
                 'precio' => '10.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11855,7 +11857,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 715,
                 'nombre' => 'CODERPINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.55',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11872,7 +11874,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 716,
                 'nombre' => 'FLUCONAZOL',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X2 CÁPSULA 200MG',
                 'precio' => '4.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11889,7 +11891,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 717,
                 'nombre' => 'NAUSEOL',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 50MG/ML 2ML',
                 'precio' => '9.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11906,7 +11908,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 718,
                 'nombre' => 'PALUDOL ADULTO',
-                'descripcion' => '',
+                'descripcion' => '50 MG/ML 5ML',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11923,7 +11925,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 719,
                 'nombre' => 'PALUDOL NIÑO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 25MG/ ML',
                 'precio' => '5.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11940,7 +11942,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 720,
                 'nombre' => 'NAUSEOL INYECTABLE',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X2 UNIDADES 50MG/ML',
                 'precio' => '23.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11957,7 +11959,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 721,
                 'nombre' => 'TRAMADOL',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 100MG / 2ML',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11974,7 +11976,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 722,
                 'nombre' => 'CLORFENIRAMINA MALEATO',
-                'descripcion' => '',
+                'descripcion' => 'AMPLLA INYECTABLE 10MG / 1ML ',
                 'precio' => '2.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -11991,7 +11993,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 723,
                 'nombre' => 'LIDOCAINA HCI 1%',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 3.5ML ',
                 'precio' => '3.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12008,7 +12010,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 724,
                 'nombre' => 'LIDOCAINA 2%',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 3ML',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12025,7 +12027,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 725,
                 'nombre' => 'DEXAMETASONA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 0.5 MG',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12042,7 +12044,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 726,
                 'nombre' => 'DEXAMETASONA FOSFATO SODICO',
-                'descripcion' => '',
+                'descripcion' => 'AMPLLA INYECTABLE 8MG/2ML',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12059,7 +12061,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 727,
                 'nombre' => 'DEXAMETASONA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 8MG/2ML',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12076,7 +12078,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 728,
                 'nombre' => 'DEXAMETASONA ',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 4M/1ML',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12093,7 +12095,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 729,
                 'nombre' => 'DIPIRONA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 1G/2ML',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12110,7 +12112,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 730,
                 'nombre' => 'DICLOFENACO SODICO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 75MG / 3ML',
                 'precio' => '2.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12127,7 +12129,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 732,
                 'nombre' => 'GLUCOSORAL POLVO MELOCOTON',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE CON POLVO PARA SOLUCION ORAL 28GM',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12144,7 +12146,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 733,
                 'nombre' => 'GLUCOSORAL POLVO CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE CON POLVO PARA SOLUCION ORAL 28GM',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12161,7 +12163,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 734,
                 'nombre' => 'LOPERAMIDA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS DE 2MG',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12178,7 +12180,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 735,
                 'nombre' => 'BIMALAR ANTIMALARICO',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 TABLETAS',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12195,7 +12197,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 736,
                 'nombre' => 'KOLIT',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER DE 5 TABLETAS ',
                 'precio' => '8.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12212,7 +12214,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 737,
                 'nombre' => 'ASPIRADOR NASAL',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '19.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12229,7 +12231,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 738,
                 'nombre' => 'LANSOPRAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS  30 MG',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12246,7 +12248,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 739,
                 'nombre' => 'NERVESSA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12263,7 +12265,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 740,
                 'nombre' => 'CIPROFIBRATO 100 MG',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12280,7 +12282,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 741,
                 'nombre' => 'SPASMO-UROLONG',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS ',
                 'precio' => '4.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12297,7 +12299,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 742,
                 'nombre' => 'SPASMOCLOR',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12314,7 +12316,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 743,
             'nombre' => 'DIMENHIDRINATO 50 MG (NAUSEOL)',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '0.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12331,7 +12333,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 744,
                 'nombre' => 'SULFATO FERROSO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS 300 MG',
                 'precio' => '0.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12348,7 +12350,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 745,
                 'nombre' => 'ALCANFOR',
-                'descripcion' => '',
+                'descripcion' => 'BOLSITA X3 PANES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12365,7 +12367,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 746,
                 'nombre' => 'ANESTIVIL',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 5ML',
                 'precio' => '9.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12382,7 +12384,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 747,
                 'nombre' => 'ANESTIL',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 5ML',
                 'precio' => '18.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12399,7 +12401,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 748,
                 'nombre' => 'DIYODO 650',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12416,7 +12418,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 749,
                 'nombre' => 'COLITRAN',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '2.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12433,7 +12435,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 750,
                 'nombre' => 'LECITINA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA GEL 1200MG',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12450,7 +12452,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 751,
                 'nombre' => 'METOCARBAMOL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS  500MG',
                 'precio' => '0.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12467,7 +12469,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 752,
                 'nombre' => 'TE VERDE',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA GEL',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12484,7 +12486,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 753,
                 'nombre' => 'ROWATINEX',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA ENTERICA',
                 'precio' => '135.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12501,7 +12503,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 754,
                 'nombre' => 'MORINGA',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULA 350MG',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12518,7 +12520,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 755,
                 'nombre' => 'ANESTENKA',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 5ML',
                 'precio' => '17.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12535,7 +12537,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 756,
                 'nombre' => 'DICLOFENACO SODICO',
-                'descripcion' => '',
+                'descripcion' => 'TUBO GEL TOPICO 1% 20 GR',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12552,7 +12554,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 757,
                 'nombre' => 'ANESTESIN SIN EPINEFRINA 2%',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 50ML',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12569,7 +12571,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 758,
                 'nombre' => 'ANESTESIN CON EPINEFRINA 2%',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE 50ML',
                 'precio' => '32.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12586,12 +12588,12 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 759,
                 'nombre' => 'ACEITE ALCANFORADO',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO 30ML',
                 'precio' => '8.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
                 'codigo' => NULL,
-                'stock' => '0.00',
+                'stock' => '80.00',
                 'unimed_id' => 1,
                 'iestado_id' => 1,
                 'ubicacion' => 'M2-C',
@@ -12603,7 +12605,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 760,
                 'nombre' => 'FOSFO NERVON',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION INYECTABLE X2 AMPOLLAS 3ML',
                 'precio' => '59.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12620,7 +12622,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 761,
                 'nombre' => 'FOSFO NERVON',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X20 CAPSULAS',
                 'precio' => '58.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12637,7 +12639,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 762,
                 'nombre' => 'JABON DE AZUFRE  CON LANOLINA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 100G',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12654,7 +12656,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 763,
                 'nombre' => 'JABON DE AZUFRE NOVOESCABIAN',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 80GM',
                 'precio' => '4.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12671,7 +12673,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 764,
                 'nombre' => 'AGUA OXIGENADA',
-                'descripcion' => '',
+                'descripcion' => '10 VOL 120ML',
                 'precio' => '9.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12688,7 +12690,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 765,
                 'nombre' => 'AGUA OXIGENADA',
-                'descripcion' => '',
+                'descripcion' => '10 VOL 3% 120ML',
                 'precio' => '1.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12705,7 +12707,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 766,
                 'nombre' => 'ALCOHOL 70°',
-                'descripcion' => '',
+                'descripcion' => '960ML / 32 ONZ',
                 'precio' => '21.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12722,7 +12724,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 767,
                 'nombre' => 'ALCOHOL 70°',
-                'descripcion' => '',
+                'descripcion' => '480ML / 16 ONZ',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12739,7 +12741,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 768,
                 'nombre' => 'ALCOHOL ISOPROPILICO',
-                'descripcion' => '',
+                'descripcion' => '99% SOLUCION 120 ML',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12756,7 +12758,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 769,
                 'nombre' => 'ALCOHOL 50%',
-                'descripcion' => '',
+                'descripcion' => '120ML / 4 ONZ',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12773,7 +12775,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 770,
                 'nombre' => 'ALCOHOL GEL ANTIBACTERIAL',
-                'descripcion' => '',
+                'descripcion' => 'GEL 120ML / 4 ONZ',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12790,7 +12792,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 771,
                 'nombre' => 'ALCOHOL GEL ANTIBACTERIAL',
-                'descripcion' => '',
+                'descripcion' => 'GEL 60ML / 2 ONZ',
                 'precio' => '10.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12807,7 +12809,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 772,
                 'nombre' => 'ALCOHOL ALCANFORADO',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCION 10% VOL 60 ML',
                 'precio' => '7.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12824,7 +12826,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 773,
                 'nombre' => 'MERCURIOCROMO AL 1%',
-                'descripcion' => '',
+            'descripcion' => 'SOLUCION SPRAY 30 ML (1 ONZ)',
                 'precio' => '9.45',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12841,7 +12843,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 774,
                 'nombre' => 'AJO PURO',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO X30 CAPSULAS',
                 'precio' => '19.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12858,7 +12860,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 775,
                 'nombre' => 'BAYKID',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS MASTICABLES',
                 'precio' => '0.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12875,7 +12877,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 776,
                 'nombre' => 'TIAMINA 500',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12892,7 +12894,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 777,
                 'nombre' => 'RAPIDOL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12909,7 +12911,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 778,
                 'nombre' => 'MICROPORE CUREBAND BLANCO',
-                'descripcion' => '',
+                'descripcion' => '1" X 10 YD',
                 'precio' => '11.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12926,7 +12928,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 779,
                 'nombre' => 'MICROPORE CUREBAND BLANCO',
-                'descripcion' => '',
+                'descripcion' => '1/2" X 10 YD',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12943,7 +12945,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 780,
                 'nombre' => 'MICROPORE CUREBAND PIEL',
-                'descripcion' => '',
+                'descripcion' => '1" X 10 YD',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12960,7 +12962,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 781,
                 'nombre' => 'MICROPORE CUREBAND PIEL',
-                'descripcion' => '',
+                'descripcion' => '1/2" X 10 YD',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12977,7 +12979,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 782,
                 'nombre' => 'COFAL 35 G',
-                'descripcion' => '',
+                'descripcion' => 'TARRO DE 35G',
                 'precio' => '23.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -12994,7 +12996,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 783,
                 'nombre' => 'COFAL 60 G',
-                'descripcion' => '',
+                'descripcion' => 'TARRO DE  60 G',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13011,7 +13013,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 784,
                 'nombre' => 'COFAL 120 G',
-                'descripcion' => '',
+                'descripcion' => 'TARRO 120 G',
                 'precio' => '39.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13028,7 +13030,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 785,
                 'nombre' => 'COFAL FUERTE  60 G',
-                'descripcion' => '',
+                'descripcion' => 'TARRO DE 60 G',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13045,7 +13047,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 786,
                 'nombre' => 'COFAL FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'TUBO POR 60 G',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13062,7 +13064,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 787,
                 'nombre' => 'SPORT GEL',
-                'descripcion' => '',
+                'descripcion' => 'TUBO DE 30 G',
                 'precio' => '11.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13079,7 +13081,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 788,
                 'nombre' => 'SPORT GEL FORTE',
-                'descripcion' => '',
+                'descripcion' => 'TUBO DE 30 G',
                 'precio' => '14.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13096,7 +13098,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 789,
                 'nombre' => 'METFORMINA CLORHIDRATO + GLIBENCLAMIDA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 850MG + 5MG',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13113,7 +13115,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 790,
                 'nombre' => 'TRIMETOPRIM SULFAMETOXAZOL',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 40MG -200 MG / 5ML 120 ML',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13130,7 +13132,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 791,
                 'nombre' => 'COTRIMOXAZOL - TRIMETOPRIM + SULFAMETOXAZOL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 160MG + 800MG',
                 'precio' => '0.70',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13147,7 +13149,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 792,
                 'nombre' => 'ADEC ADULTO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBILE 5ML',
                 'precio' => '7.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13164,7 +13166,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 793,
                 'nombre' => 'ADEC NIÑO',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBILE 2ML',
                 'precio' => '6.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13181,7 +13183,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 794,
                 'nombre' => 'SOLUCION SALINA 0.9%',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 15ML',
                 'precio' => '14.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13198,7 +13200,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 795,
                 'nombre' => 'VENDITAS ANTISÉPTICAS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13215,7 +13217,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 796,
                 'nombre' => 'VENDITAS REDONDAS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13232,7 +13234,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 797,
                 'nombre' => 'AZUCAR EQUAL',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X20',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13249,7 +13251,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 798,
                 'nombre' => 'DOLOVITANERVO',
-                'descripcion' => '',
+                'descripcion' => 'KIT X2 AMPOLLA INYECTABLE 2ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13266,7 +13268,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 799,
                 'nombre' => 'JERINGA ',
-                'descripcion' => '',
+                'descripcion' => '10ML/CC',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13283,7 +13285,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 800,
                 'nombre' => 'SUPOSITORIO SENOSIAIN ADULTO',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO RECTAL X2',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13301,7 +13303,8 @@ class ItemsTableSeeder extends Seeder
                 'id' => 801,
                 'nombre' => 'SUPOSITORIO SENOSIAIN BEBE
 ',
-                'descripcion' => '',
+                'descripcion' => 'SUPOSITORIO RECTAL X2
+',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13318,7 +13321,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 802,
                 'nombre' => 'CONDONES VIVE AMOR',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13335,7 +13338,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 803,
                 'nombre' => 'CONDONES VIVE COLORS',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13352,7 +13355,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 804,
                 'nombre' => 'CONDONES VIVE ORIGINAL',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13369,7 +13372,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 805,
                 'nombre' => 'CONDONES VIVE MAS TEXTURIZADOS',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13386,7 +13389,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 806,
                 'nombre' => 'CONDONES VIVE MAS RETARDANTE & TEXTURIZADOS',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13403,7 +13406,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 807,
                 'nombre' => 'CONDONES VIVE MAS SENSITIVO',
-                'descripcion' => '',
+                'descripcion' => 'PACK X3 UNIDADES',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13420,7 +13423,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 808,
                 'nombre' => 'SAL ANDREWS ORIGINAL',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 5G',
                 'precio' => '1.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13437,7 +13440,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 809,
                 'nombre' => 'SUPER ALGODÓN ORAN',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13454,7 +13457,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 810,
                 'nombre' => 'ALGODÓN ELU',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X3',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13471,7 +13474,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 811,
                 'nombre' => 'ALGODÓN ZUUM',
-                'descripcion' => '',
+                'descripcion' => '1 LIBRA',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13488,7 +13491,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 812,
                 'nombre' => 'ALGODÓN SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 6G',
                 'precio' => '1.85',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13505,7 +13508,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 813,
                 'nombre' => 'ALGODÓN PLISADO SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 100G',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13522,7 +13525,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 814,
                 'nombre' => 'ALGODÓN SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 10G',
                 'precio' => '3.10',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13539,7 +13542,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 815,
                 'nombre' => 'ALGODÓN SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 3G',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13556,7 +13559,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 816,
                 'nombre' => 'ALGODÓN PLISADO SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 25G',
                 'precio' => '6.35',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13573,7 +13576,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 817,
                 'nombre' => 'ALGODÓN PLISADO SUPERIOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 50G',
                 'precio' => '9.20',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13590,7 +13593,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 818,
                 'nombre' => 'SULFATIAZOL 20%',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X3 ',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13607,7 +13610,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 819,
                 'nombre' => 'VENDA ELASTICA BLANCA 3" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '9.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13624,7 +13627,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 820,
                 'nombre' => 'VENDA ELASTICA VELCRO 2" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13641,7 +13644,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 821,
                 'nombre' => 'VENDA ELASTICA VELCRO 3" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13658,7 +13661,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 822,
                 'nombre' => 'VENDA ELASTICA VELCRO 6" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13675,7 +13678,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 823,
                 'nombre' => 'VENDA ELASTICA  2" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '9.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13692,7 +13695,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 824,
                 'nombre' => 'VENDA ELASTICA 3" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '13.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13709,7 +13712,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 825,
                 'nombre' => 'VENDA ELASTICA 6" X 5YD',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13726,7 +13729,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 826,
                 'nombre' => 'TRILOX ANTIACIDO ANTIFLATULENTO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 180ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13743,7 +13746,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 827,
                 'nombre' => 'LABELLO MED PROTECTION',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 4.8G',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13760,7 +13763,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 828,
                 'nombre' => 'LABELLO FRUITY SHINE CEREZA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 4.8G',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13777,7 +13780,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 829,
                 'nombre' => 'LABELLO VITAMIN SHAKE ARANDANO Y FRESA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 4.8G',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13794,7 +13797,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 830,
                 'nombre' => 'LABELLO SUN PROTECTOR',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 4.8G',
                 'precio' => '20.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13811,7 +13814,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 831,
                 'nombre' => 'MENALGIL NEUROTROPAS 25,000',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 3ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13828,7 +13831,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 832,
                 'nombre' => 'NEURO FOSCKROL-VIT 25,000',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 3ML',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13845,7 +13848,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 833,
                 'nombre' => 'VICK 44 EXPECTORANTE INFANTIL',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 100MG/7.5ML 120ML ',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13862,7 +13865,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 834,
                 'nombre' => 'ANTIGRIP',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 2ML',
                 'precio' => '25.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13879,7 +13882,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 836,
                 'nombre' => 'VASO COLECTOR DE HECES ESTERIL 60 ML',
-                'descripcion' => '',
+                'descripcion' => 'VASO DE 60 ML',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13896,7 +13899,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 837,
                 'nombre' => 'RECIPIENTE PARA HECES',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO DE 60 ML',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13913,7 +13916,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 838,
             'nombre' => 'DIVIRIL (VIAGRA)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X2 TABLETA',
                 'precio' => '26.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13930,7 +13933,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 839,
             'nombre' => 'MAXIUM VIGOR (VIAGRA)',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13947,7 +13950,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 840,
                 'nombre' => 'PRESERVATIVOS MOODS FRESA',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13964,7 +13967,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 841,
                 'nombre' => 'PRESERVATIVOS MOODS BANANO',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13981,7 +13984,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 842,
                 'nombre' => 'PRESERVATIVOS MOODS BUBBLEGUM',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -13998,7 +14001,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 843,
             'nombre' => 'PRESERVATIVOS MOODS SCENTED (PERFUMADO)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14015,7 +14018,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 844,
                 'nombre' => 'PRESERVATIVOS MOODS CHOCOLATE',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14032,7 +14035,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 845,
                 'nombre' => 'PRESERVATIVOS MOODS CAFÉ',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14049,7 +14052,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 846,
                 'nombre' => 'PRESERVATIVOS MOODS ULTRA DELGADOS',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14066,7 +14069,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 847,
                 'nombre' => 'PRESERVATIVOS MOODS COLOR',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14083,7 +14086,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 848,
             'nombre' => 'PRESERVATIVOS MOODS RIBBED (CON ANILLOS)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14100,7 +14103,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 849,
             'nombre' => 'PRESERVATIVOS MOODS DOTTED (TEXTURIZADOS)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14117,7 +14120,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 850,
             'nombre' => 'PRESERVATIVOS MOODS ABSOLUTE XTASY (TEXTURIZADOS Y RETARDANTES)',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14134,7 +14137,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 851,
                 'nombre' => 'PRESERVATIVOS SCUDO NATURAL',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '11.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14151,7 +14154,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 852,
                 'nombre' => 'PRESERVATIVOS SCUDO NATURAL COLORS',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '9.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14168,7 +14171,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 853,
                 'nombre' => 'PRESERVATIVOS SCUDO NATURAL CON ESFERAS',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14185,7 +14188,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 854,
                 'nombre' => 'PRESERVATIVOS SCUDO ORO RETARDANTE',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '21.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14202,7 +14205,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 855,
                 'nombre' => 'PRESERVATIVOS SCUDO ORO ANATONIMO',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '19.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14219,7 +14222,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 856,
                 'nombre' => 'PRESERVATIVOS SCUDO ORO ESPERMICIDA',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14236,7 +14239,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 857,
                 'nombre' => 'PRESERVATIVOS SCUDO ORO SENSITIVO',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X3 UNIDADES',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14253,7 +14256,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 858,
                 'nombre' => 'LUBRICANTE VIVE SIN OLOR NI SABOR',
-                'descripcion' => '',
+                'descripcion' => 'SACHETE 5ML',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14270,7 +14273,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 859,
                 'nombre' => 'LUBRICANTE VIVE FRESA',
-                'descripcion' => '',
+                'descripcion' => 'SACHETE 5ML',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14287,7 +14290,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 860,
                 'nombre' => 'GRIPETIN TOS',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 2ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14304,7 +14307,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 861,
                 'nombre' => 'SUCRAMAL',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE GRANULADO PARA SUSPENSION',
                 'precio' => '7.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14321,7 +14324,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 863,
                 'nombre' => 'BAYTALCID ANTIACIDO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA MASTICABLE',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14338,7 +14341,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 864,
                 'nombre' => 'SIMETICONA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 40MG',
                 'precio' => '0.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14355,7 +14358,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 866,
                 'nombre' => 'AZUCAR SPLENDA',
-                'descripcion' => '',
+                'descripcion' => 'BOLSA X 50',
                 'precio' => '12.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14372,7 +14375,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 867,
                 'nombre' => 'AZUCAR SPLENDA',
-                'descripcion' => '',
+                'descripcion' => 'BOLSA X 20',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14389,7 +14392,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 868,
                 'nombre' => 'AZUCAR SPLENDA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '0.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14406,7 +14409,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 869,
                 'nombre' => 'EQUIPO TRANSFUSION DE SUERO',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD ',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14423,7 +14426,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 870,
                 'nombre' => 'EQUIPO TRANSFUSION DE SUERO Aguja roscable',
-                'descripcion' => '',
+            'descripcion' => 'UNIDAD (AZUL)',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14440,7 +14443,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 871,
                 'nombre' => 'BETABLOCK',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA X5',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14457,7 +14460,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 872,
                 'nombre' => 'LOFENAK PEDIATRICO',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS X20 15MG',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14474,7 +14477,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 873,
                 'nombre' => 'LOFENAK',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 75MG / 3ML',
                 'precio' => '18.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14491,7 +14494,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 874,
                 'nombre' => 'METOCARBAN',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14508,7 +14511,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 875,
                 'nombre' => 'KISAT',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS',
                 'precio' => '16.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14525,7 +14528,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 876,
                 'nombre' => 'DOLO GLUCOFLEX',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE POLVO PARA SOLUCION ORAL',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14542,7 +14545,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 877,
                 'nombre' => 'ESPAMOLIT',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 4ML',
                 'precio' => '30.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14559,7 +14562,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 878,
                 'nombre' => 'HIDROCORTISONA 1%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA TOPICA 30 GM',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14576,7 +14579,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 879,
                 'nombre' => 'CATAFLAM',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSION 120ML',
                 'precio' => '105.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14593,7 +14596,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 880,
                 'nombre' => 'PRINCIPAL R',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 160MG',
                 'precio' => '3.80',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14610,7 +14613,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 881,
                 'nombre' => 'DICLOFENACO POTASICO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 50MG',
                 'precio' => '0.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14627,7 +14630,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 882,
                 'nombre' => 'GINKGO BILOBA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBIBLE 40MG 10ML',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14644,7 +14647,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 883,
             'nombre' => 'DIMENHIDRINATO (NAUSEOL)',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA 1ML',
                 'precio' => '3.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14661,7 +14664,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 884,
                 'nombre' => 'ESTOMICINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14678,7 +14681,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 886,
                 'nombre' => 'BEPANTHENE POMADA PROTECTORA',
-                'descripcion' => '',
+                'descripcion' => 'POMADA 30GR',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14695,7 +14698,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 887,
                 'nombre' => 'ALBENDAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X 6 TABLETAS 200MG',
                 'precio' => '2.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14712,7 +14715,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 888,
                 'nombre' => 'SERTAL COMPUESTO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA ',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14729,7 +14732,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 889,
                 'nombre' => 'MIGRADORIXINA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '3.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14746,7 +14749,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 890,
                 'nombre' => 'LANSOPRAZOL',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULA 30MG',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14763,7 +14766,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 891,
                 'nombre' => 'OMEPRAZOL, LIBERACION RETARDADA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULA 20MG',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14780,7 +14783,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 892,
                 'nombre' => 'ACETAMINOFEN NIÑOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120MG/5ML 60ML',
                 'precio' => '22.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14797,7 +14800,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 893,
             'nombre' => 'ACETAMINOFEN NIÑOS (TEMPRA)',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS PEDIATRICAS',
                 'precio' => '8.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14814,7 +14817,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 894,
                 'nombre' => 'DOLO VITANERVO',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 TABLETAS',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14831,7 +14834,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 895,
                 'nombre' => 'DULCE ZORRITONE',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD X2',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14848,7 +14851,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 896,
                 'nombre' => 'VITAFLENACO',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '1.15',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14865,7 +14868,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 897,
                 'nombre' => 'JABON PROTEX',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 110GR',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14882,7 +14885,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 898,
                 'nombre' => 'AZITROMICINA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X3 TABLETAS',
                 'precio' => '17.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14899,7 +14902,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 900,
                 'nombre' => 'EX FLU TOS',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120ML',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14916,7 +14919,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 901,
                 'nombre' => 'METFORMINA COMPUESTA',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS 500MG + 5MG',
                 'precio' => '6.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14933,7 +14936,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 902,
                 'nombre' => 'AJ CLOMICOTIC',
-                'descripcion' => '',
+                'descripcion' => 'POMADA 12G',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14950,7 +14953,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 903,
                 'nombre' => 'ARGININA FORTE',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBILE 5G/ 10ML',
                 'precio' => '10.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14967,7 +14970,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 904,
             'nombre' => 'LECHE NIDO KINDER 1-3 AÑOS (PROTECTUS)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 2,300GR',
                 'precio' => '135.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -14984,7 +14987,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 905,
             'nombre' => 'LECHE NIDO ENTERA FORTIFICADA (FORTIGROW)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 2,200GR',
                 'precio' => '115.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15001,7 +15004,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 906,
             'nombre' => 'LECHE NIDO FORTIFICADA DESLACTOSADA (FORTIGROW)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 1,600GR',
                 'precio' => '110.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15018,7 +15021,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 907,
             'nombre' => 'LECHE NIDO PRESCOLAR 3-5 AÑOS (NUTRIMENTE PREVIO 3) ',
-                'descripcion' => '',
+                'descripcion' => 'LATA 1,600GR',
                 'precio' => '110.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15035,7 +15038,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 908,
             'nombre' => 'LECHE NIDO KINDER DESLACTOSADA 1-3 AÑOS (PROTECTUS)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 1,600GR',
                 'precio' => '125.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15052,7 +15055,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 909,
             'nombre' => 'LECHE NAN 3 DE 1 A 3 AÑOS(OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 2,000GR',
                 'precio' => '190.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15069,7 +15072,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 910,
             'nombre' => 'LECHE NAN 1 DE 0 A 6 MESES (OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 800GR',
                 'precio' => '115.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15086,7 +15089,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 911,
             'nombre' => 'LECHE NAN 2 DE 6 A 12 MESES (OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 800GR',
                 'precio' => '115.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15103,7 +15106,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 912,
             'nombre' => 'LECHE NAN 1 DE 0 A 6 MESES (OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 350GR',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15120,7 +15123,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 913,
             'nombre' => 'LECHE NAN 2 DE 6 A 12 MESES (OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 350GR',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15137,7 +15140,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 914,
             'nombre' => 'LECHE NAN 2 DE 6 A 12 MESES (OPTIPRO)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 1,100GR',
                 'precio' => '125.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15154,7 +15157,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 915,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 1 DE 0 A 6 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 800GR',
                 'precio' => '240.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15171,7 +15174,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 916,
                 'nombre' => 'LECHE ENFAMIL AR PREMIUM DE 0 A 12 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '140.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15188,7 +15191,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 917,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 2 DE 6 A 12 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 375GR',
                 'precio' => '130.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15205,7 +15208,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 918,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 2 DE 6 A 12 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 1,400GR',
                 'precio' => '320.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15222,7 +15225,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 919,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 1 DE 0 A 6 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 375GR',
                 'precio' => '130.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15239,7 +15242,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 920,
                 'nombre' => 'LECHE ENFAMIL PREMIUM SOYA',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '130.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15256,7 +15259,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 921,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 1',
-                'descripcion' => '',
+                'descripcion' => 'LATA 180GR',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15273,7 +15276,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 922,
                 'nombre' => 'LECHE ENFAMIL PREMIUM 2',
-                'descripcion' => '',
+                'descripcion' => 'LATA 180GR',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15290,7 +15293,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 923,
                 'nombre' => 'LECHE ENFAMIL PREMIUM CONFORT',
-                'descripcion' => '',
+                'descripcion' => 'LATA 180GR',
                 'precio' => '55.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15307,7 +15310,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 924,
             'nombre' => 'LECHE ENFAGROW PREMIUM 3 (PRIMERAS PALABRAS)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 800GR',
                 'precio' => '140.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15324,7 +15327,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 925,
                 'nombre' => 'LECHE ENFAGROW PREMIUM 3',
-                'descripcion' => '',
+                'descripcion' => 'LATA 180GR',
                 'precio' => '45.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15341,7 +15344,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 926,
                 'nombre' => 'LECHE SIMILAC 2 EYE QPLUS IMMUNIFY A PARTIR DE LOS 6 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 850GR',
                 'precio' => '250.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15358,7 +15361,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 927,
                 'nombre' => 'LECHE SIMILAC 2 EYE QPLUS IMMUNIFY A PARTIR DE LOS 6 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '120.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15375,7 +15378,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 928,
                 'nombre' => 'LECHE SIMILAC 1 EYE QPLUS IMMUNIFY DE 0 A 6 MESES',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '120.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15392,7 +15395,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 929,
                 'nombre' => 'LECHE SIMILAC NEOSURE EYE QPLUS PARA BEBES PREMATUROS Y/O CON BAJO PESO',
-                'descripcion' => '',
+                'descripcion' => 'LATA 370GR',
                 'precio' => '100.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15409,7 +15412,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 930,
                 'nombre' => 'LECHE PEDIASURE SIMBIOTICOS',
-                'descripcion' => '',
+                'descripcion' => 'LATA 900GR',
                 'precio' => '265.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15426,7 +15429,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 931,
                 'nombre' => 'LECHE ENSURE VAINILLA',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '120.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15443,7 +15446,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 932,
                 'nombre' => 'LECHE ENSURE FRESA',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '120.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15460,7 +15463,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 933,
                 'nombre' => 'LECHE ENSURE ADVANCE',
-                'descripcion' => '',
+                'descripcion' => 'LATA 400GR',
                 'precio' => '135.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15477,7 +15480,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 934,
                 'nombre' => 'LECHE ENSURE VAINILLA LIQUIDA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 237ML',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15494,7 +15497,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 935,
                 'nombre' => 'LECHE PEDIASURE VAINILLA LIQUIDA',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD 237ML',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15511,7 +15514,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 936,
                 'nombre' => 'VICK VAPORUB',
-                'descripcion' => '',
+                'descripcion' => 'UNGÜENTO TOPICO POMO 12GR',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15528,7 +15531,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 937,
                 'nombre' => 'TYLOFEN',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120MG/5ML  120ML',
                 'precio' => '8.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15545,7 +15548,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 938,
                 'nombre' => 'GERIATRIC PHARMATON',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO X30 CAPSULAS',
                 'precio' => '182.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15562,7 +15565,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 939,
                 'nombre' => 'CEBION VITAMINA C',
-                'descripcion' => '',
+                'descripcion' => 'CAJA X10 TABLETAS EFERVESCENTES',
                 'precio' => '40.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15579,7 +15582,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 940,
             'nombre' => 'FLAMYDOL (flamidol)',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 9MG/5ML 120ML',
                 'precio' => '75.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15596,7 +15599,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 941,
             'nombre' => 'FLAMYDOL (flamidol)',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS 1.5% 20ML',
                 'precio' => '73.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15613,7 +15616,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 942,
                 'nombre' => 'INTRAFER F-800',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 CAPSULAS',
                 'precio' => '46.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15630,7 +15633,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 943,
                 'nombre' => 'DOLOVITANERVO',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X10 TABLETAS',
                 'precio' => '11.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15647,7 +15650,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 944,
                 'nombre' => 'ALEVE GEL',
-                'descripcion' => '',
+                'descripcion' => 'GEL TOPICO 20G',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15664,7 +15667,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 945,
                 'nombre' => 'NERVISEL 10,000',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE 3ML',
                 'precio' => '11.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15681,7 +15684,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 946,
                 'nombre' => 'VITAMINAS NEUROTROPAS 25,000',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA INYECTABLE 3ML ',
                 'precio' => '15.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15698,7 +15701,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 947,
                 'nombre' => 'CANESTEN V 1%',
-                'descripcion' => '',
+                'descripcion' => 'CREMA VAGINAL 35GR',
                 'precio' => '91.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15715,7 +15718,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 948,
                 'nombre' => 'SUERO ORAL NARANJA',
-                'descripcion' => '',
+            'descripcion' => 'SOBRE POLVO GRANULADO 7.1 G (1 VASO)',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15732,7 +15735,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 949,
                 'nombre' => 'SUERO ORAL VITAMINADO',
-                'descripcion' => '',
+            'descripcion' => 'SOBRE POLVO GRANULADO 7.1 G (1 VASO)',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15749,7 +15752,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 950,
                 'nombre' => 'SUERO ORAL FRESA',
-                'descripcion' => '',
+            'descripcion' => 'SOBRE POLVO GRANULADO 7.1 G (1 VASO)',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15766,7 +15769,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 951,
                 'nombre' => 'SUERO ORAL COCO',
-                'descripcion' => '',
+            'descripcion' => 'SOBRE POLVO GRANULADO 7.1 G (1 VASO)',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15783,7 +15786,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 952,
                 'nombre' => 'TYLENOL EXTRA FUERTE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE X2 TABLETAS',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15800,7 +15803,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 953,
                 'nombre' => 'TOALLAS HUMEDAS SESAME STREET',
-                'descripcion' => '',
+                'descripcion' => 'DISPENSADOR X72 UNIDADES',
                 'precio' => '10.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15817,7 +15820,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 954,
                 'nombre' => 'PAÑAL PEQUEÑO HUGGIES',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15834,7 +15837,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 955,
                 'nombre' => 'PAÑAL MEDIANOS HUGGIES',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15851,7 +15854,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 956,
                 'nombre' => 'PAÑAL GRANDES BABY DREAM',
-                'descripcion' => '',
+                'descripcion' => 'X3 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15868,7 +15871,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 957,
                 'nombre' => 'PAÑAL EXTRA GRANDES BABY DREAM',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15885,7 +15888,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 958,
                 'nombre' => 'COCOA NESTLE',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE 20.2GR',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15902,7 +15905,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 959,
                 'nombre' => 'GELATINAS',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15919,7 +15922,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 960,
                 'nombre' => 'TOALLA SANITARIA SABA CONFORT MANZANILLA ',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '18.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15936,7 +15939,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 961,
                 'nombre' => 'TOALLA SANITARIA SABA INVISIBLE',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15953,7 +15956,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 962,
                 'nombre' => 'TOALLA SANITARIA SABA ULTRA INVISIBLE',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '16.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15970,7 +15973,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 963,
                 'nombre' => 'TOALLA SANITARIA SABA BUENAS NOCHES',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -15987,7 +15990,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 964,
                 'nombre' => 'TOALLA SANITARIA KOTEX NOCTURNA',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16004,7 +16007,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 965,
                 'nombre' => 'TOALLA SANITARIA KOTEX NORMAL',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16021,7 +16024,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 966,
                 'nombre' => 'TOALLA SANITARIA KOTEX MANSANILLA',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16038,7 +16041,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 967,
                 'nombre' => 'TOALLA SANITARIA KOTEX ULTRAFINAS',
-                'descripcion' => '',
+                'descripcion' => 'PACK X10 UNIDADES',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16055,7 +16058,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 968,
                 'nombre' => 'REPELENTE DE INSECTOS PROTOX',
-                'descripcion' => '',
+                'descripcion' => 'AEROSOL 170GR',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16072,7 +16075,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 969,
                 'nombre' => 'REPELENTE DE INSECTOS OFF ACTIVE',
-                'descripcion' => '',
+                'descripcion' => 'AEROSOL 170GR',
                 'precio' => '47.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16089,7 +16092,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 970,
                 'nombre' => 'DESODORANTE OLD SPICE PURE SPORT',
-                'descripcion' => '',
+                'descripcion' => 'BARRA GEL',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16106,7 +16109,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 971,
                 'nombre' => 'DESODORANTE DOVE DERMOACLARANT',
-                'descripcion' => '',
+                'descripcion' => 'SPRAY 100G / 169ML',
                 'precio' => '33.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16123,7 +16126,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 972,
                 'nombre' => 'DESODORANTE NIVEA ACLARADO NATURAL',
-                'descripcion' => '',
+                'descripcion' => 'SPRAY 92G / 150ML',
                 'precio' => '32.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16140,7 +16143,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 973,
                 'nombre' => 'DESODORANTE DOVE DERMOACLARANT',
-                'descripcion' => '',
+                'descripcion' => 'BARRA TALCO 50GR',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16157,7 +16160,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 974,
                 'nombre' => 'GOMITAS CANELS',
-                'descripcion' => '',
+                'descripcion' => 'X8 UNIDADES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16174,7 +16177,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 975,
                 'nombre' => 'LOMBRICITAS NEO',
-                'descripcion' => '',
+                'descripcion' => 'X3 UNIDADES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16191,7 +16194,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 976,
                 'nombre' => 'DULCE MENTA',
-                'descripcion' => '',
+                'descripcion' => 'X4 UNIDADES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16208,7 +16211,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 977,
                 'nombre' => 'BASTON DE MENTA',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16225,7 +16228,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 978,
                 'nombre' => 'LAGRIMAS DE CLOROMILAN',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X6 LAGRIMAS',
                 'precio' => '2.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16242,7 +16245,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 979,
             'nombre' => 'DICLO AZUL (diclofenaco)',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 CAPSULAS GEL 50MG',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16259,7 +16262,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 980,
                 'nombre' => 'VITAMINA E 400 UI',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 BLICAPS',
                 'precio' => '6.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16276,7 +16279,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 981,
                 'nombre' => 'IBUPROFENO MK',
-                'descripcion' => '',
+                'descripcion' => 'LIQUI GELS 600MG',
                 'precio' => '4.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16293,7 +16296,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 982,
                 'nombre' => 'CEREBREX CON GINKGO BILOBA',
-                'descripcion' => '',
+                'descripcion' => 'AMPOLLA BEBIBLE',
                 'precio' => '5.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16310,7 +16313,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 983,
                 'nombre' => 'DESODORANTE REXONA CLINICAL HOMBRE SPORT STRENGTH ',
-                'descripcion' => '',
+                'descripcion' => 'BARRA CREMA 48GM',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16327,7 +16330,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 984,
                 'nombre' => 'DESODORANTE REXONA CLINICAL MUJER STRESS CONTROL',
-                'descripcion' => '',
+                'descripcion' => 'BARRA CREMA 48GM',
                 'precio' => '38.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16344,7 +16347,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 985,
                 'nombre' => 'CREMA NIVEA TARRO AZUL PLASTICO',
-                'descripcion' => '',
+                'descripcion' => '200ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16361,7 +16364,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 986,
                 'nombre' => 'BICARBONATO DE SODIO ELU',
-                'descripcion' => '',
+                'descripcion' => 'UNIDADES X4 BOLSAS',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16378,7 +16381,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 987,
                 'nombre' => 'FULCRUM',
-                'descripcion' => '',
+                'descripcion' => 'BLISTER X5 COMPRIMIDOS',
                 'precio' => '28.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16395,7 +16398,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 988,
                 'nombre' => 'TUSIGEN',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120ML',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16412,7 +16415,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 989,
             'nombre' => 'LECHE GLUCERNA (diabeticos)',
-                'descripcion' => '',
+                'descripcion' => 'LATA 900GR',
                 'precio' => '310.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16429,7 +16432,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 990,
                 'nombre' => 'ENANTYUM',
-                'descripcion' => '',
+                'descripcion' => 'SOBRE POLVO GRANULADO 25MG',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16446,7 +16449,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 991,
                 'nombre' => 'ENANTYUM',
-                'descripcion' => '',
+                'descripcion' => 'COMPRIMIDO 25MG',
                 'precio' => '14.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16463,7 +16466,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 992,
                 'nombre' => 'HERSHEYS NUGGETS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16480,7 +16483,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 993,
             'nombre' => 'M&Ms DULCE DE CHOCOLATE (fun size)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16497,7 +16500,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 994,
             'nombre' => 'M&Ms MANI CON CHOCOLATE (fun size)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16514,7 +16517,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 995,
                 'nombre' => 'M&Ms MINIS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16531,7 +16534,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 996,
             'nombre' => 'SNICKERS MINI (navidad)',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16548,7 +16551,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 997,
                 'nombre' => 'SNICKERS MINI',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16565,7 +16568,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 998,
                 'nombre' => 'MILKYWAY MINIS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16582,7 +16585,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 999,
                 'nombre' => 'DOLO TETRAVIT',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA ',
                 'precio' => '2.30',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16599,7 +16602,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1000,
                 'nombre' => 'PAÑAL HUGGIES GRANDES',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16616,7 +16619,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1001,
                 'nombre' => 'PAÑAL EXTRAGRANDE HUGGIES',
-                'descripcion' => '',
+                'descripcion' => 'X2 UNIDADES',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16633,7 +16636,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1002,
                 'nombre' => 'NIKZON',
-                'descripcion' => '',
+                'descripcion' => 'Blister X10 tabletas masticables',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16650,7 +16653,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1003,
                 'nombre' => 'BB MAKEUP ASEPXIA ',
-                'descripcion' => '',
+                'descripcion' => 'Polvos compactos',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16667,7 +16670,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1004,
                 'nombre' => 'Kotex Days protectores',
-                'descripcion' => '',
+                'descripcion' => 'Protectores',
                 'precio' => '39.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16684,7 +16687,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1005,
                 'nombre' => 'Protectores Saba Diarios',
-                'descripcion' => '',
+                'descripcion' => 'pack 90 Protectores',
                 'precio' => '35.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16701,7 +16704,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1006,
                 'nombre' => 'Desodorante Lady Speed Stick',
-                'descripcion' => '',
+                'descripcion' => 'barra de 45 g',
                 'precio' => '42.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16718,7 +16721,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1007,
                 'nombre' => 'Desodorante Speed Stick Clinical Complete protection',
-                'descripcion' => '',
+                'descripcion' => 'Barra de 50 mg',
                 'precio' => '42.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16735,7 +16738,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1008,
                 'nombre' => 'Desodorante Speed Stick Clinical Stress defense',
-                'descripcion' => '',
+                'descripcion' => 'barra de 50 mg',
                 'precio' => '42.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16752,7 +16755,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1009,
                 'nombre' => 'Piroxicam',
-                'descripcion' => '',
+                'descripcion' => 'ampolla',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16769,7 +16772,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1010,
                 'nombre' => 'HISTAPRIN',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA ',
                 'precio' => '3.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16786,7 +16789,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1011,
                 'nombre' => 'FULCRUM',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16803,7 +16806,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1012,
                 'nombre' => 'CONDROX',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES',
                 'precio' => '16.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16820,7 +16823,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1013,
                 'nombre' => 'ALIVIAX',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16837,7 +16840,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1014,
                 'nombre' => 'ACETONA',
-                'descripcion' => '',
+                'descripcion' => '60 ML',
                 'precio' => '7.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16854,7 +16857,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1015,
                 'nombre' => 'JOHNSONS BABY SHAMPOO',
-                'descripcion' => '',
+                'descripcion' => '200 ML',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16871,7 +16874,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1016,
                 'nombre' => 'VIOLETA DE GENCIANA',
-                'descripcion' => '',
+                'descripcion' => '30 ML',
                 'precio' => '8.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16888,7 +16891,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1017,
                 'nombre' => 'EXCEDRIN MIGRAINE',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.40',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16905,7 +16908,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1018,
                 'nombre' => 'ENANTYUM',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '15.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16922,7 +16925,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1019,
                 'nombre' => 'KOREOFIN',
-                'descripcion' => '',
+                'descripcion' => 'CAJAS ',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16939,7 +16942,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1020,
                 'nombre' => 'FOLY HIERRO PRENATAL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS BLISTER ',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16956,7 +16959,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1021,
                 'nombre' => 'ZENTEL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16973,7 +16976,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1022,
                 'nombre' => 'TETRACICLINA MK',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -16990,7 +16993,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1023,
                 'nombre' => 'POLYDERM NF',
-                'descripcion' => '',
+                'descripcion' => 'CREMA 15 G',
                 'precio' => '165.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17007,7 +17010,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1024,
                 'nombre' => 'SEGURA PLUS',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '25.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17026,7 +17029,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1025,
                 'nombre' => 'MUCOSOLVAN',
-                'descripcion' => '',
+                'descripcion' => 'JARABE 120 ML',
                 'precio' => '89.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17043,7 +17046,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1026,
                 'nombre' => 'MUCOSOLVAN COMPOOSITUM',
-                'descripcion' => '',
+                'descripcion' => 'JARABE DE 5 ML',
                 'precio' => '129.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17060,7 +17063,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1027,
                 'nombre' => 'SPASMOCLR ',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '2.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17077,7 +17080,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1028,
                 'nombre' => 'CONMEL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA',
                 'precio' => '0.95',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17094,7 +17097,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1029,
                 'nombre' => 'MESIGYNA',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE',
                 'precio' => '90.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17111,7 +17114,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1030,
                 'nombre' => 'YASMÍN',
-                'descripcion' => '',
+                'descripcion' => '21 COMPRIMIDOS',
                 'precio' => '210.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17128,7 +17131,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1031,
                 'nombre' => 'DEXA-TETRAVIT',
-                'descripcion' => '',
+                'descripcion' => 'INYECTABLE',
                 'precio' => '50.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17145,7 +17148,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1032,
                 'nombre' => 'SIMETICONA',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENCIÓN ORAL 30 ML 100 MG/ ML',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17162,7 +17165,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1033,
                 'nombre' => 'JOHNSONS BABY SHAMPOO NORMAL / CABELLO CLARO',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES DE 10 ML',
                 'precio' => '1.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17179,7 +17182,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1035,
                 'nombre' => 'KOACT 625',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '4.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17196,7 +17199,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1036,
                 'nombre' => 'KOACT 1000',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '5.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17213,7 +17216,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1037,
                 'nombre' => 'CITOCOL #1 NEGRO INTENSO',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLA',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17230,7 +17233,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1038,
                 'nombre' => 'CITOCOL #49 café',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17247,7 +17250,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1039,
                 'nombre' => 'CITOCOL #21 AZUL MARINO',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17264,7 +17267,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1040,
                 'nombre' => 'CITOCOL #6 VERDE OBSCURO ',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17281,7 +17284,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1041,
                 'nombre' => 'CITOCOL #11 AZUL CLARO ',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17298,7 +17301,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1042,
                 'nombre' => 'CITOCOL #7 ROJO OBSCURO',
-                'descripcion' => '',
+                'descripcion' => 'PASTILLAS',
                 'precio' => '12.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17315,7 +17318,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1043,
                 'nombre' => 'TINTURA DE RUIBARBO',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN ORAL ',
                 'precio' => '9.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17332,7 +17335,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1044,
                 'nombre' => 'GLICERINA ',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS',
                 'precio' => '8.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17349,7 +17352,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1045,
                 'nombre' => 'Dolo Plexdocil D',
-                'descripcion' => '',
+                'descripcion' => 'solución inyectable',
                 'precio' => '285.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17366,7 +17369,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1046,
                 'nombre' => 'Dolo Plexdocil 25,000 D.A.',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN INYECTABLE',
                 'precio' => '29.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17383,7 +17386,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1047,
                 'nombre' => 'Dolgenal 10 mg',
-                'descripcion' => '',
+                'descripcion' => 'tabletas',
                 'precio' => '10.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17400,7 +17403,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1048,
                 'nombre' => 'Dolgenal 20mg',
-                'descripcion' => '',
+                'descripcion' => 'tabletas',
                 'precio' => '17.50',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17417,7 +17420,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1049,
                 'nombre' => 'GENTAMICINA, BETAMETASONA Y CLOTRIMAZOL',
-                'descripcion' => '',
+                'descripcion' => 'TUBO DE 20 G',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17434,7 +17437,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1050,
                 'nombre' => 'METAMUCIL - NATURAL',
-                'descripcion' => '',
+                'descripcion' => 'FRASCO 210GR',
                 'precio' => '80.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17451,7 +17454,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1051,
                 'nombre' => 'LASIX',
-                'descripcion' => '',
+                'descripcion' => 'TABLETA 40MG',
                 'precio' => '5.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17468,7 +17471,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1052,
                 'nombre' => 'JERINGAS DIABETICOS',
-                'descripcion' => '',
+                'descripcion' => 'UNIDAD AGUJA 29, JERINGA 1ML/CC',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17485,7 +17488,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1053,
             'nombre' => 'XICANIL GEL (CONTROL ACNE)',
-                'descripcion' => '',
+                'descripcion' => 'TUBO DE 15 MG',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17502,7 +17505,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1054,
                 'nombre' => 'Xicanil Piel',
-                'descripcion' => '',
+                'descripcion' => 'tubo de 15 g',
                 'precio' => '35.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17519,7 +17522,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1055,
                 'nombre' => 'Aderogyl Adulto',
-                'descripcion' => '',
+                'descripcion' => 'solución oral 1 ampolla de 3 ml',
                 'precio' => '53.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17536,7 +17539,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1056,
                 'nombre' => 'SUCKOL DUO',
-                'descripcion' => '',
+                'descripcion' => 'DUO PACK 200 TABLETAS',
                 'precio' => '95.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17553,7 +17556,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1057,
                 'nombre' => 'ATENUA',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '11.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17570,7 +17573,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1058,
                 'nombre' => 'Crema Lassar',
-                'descripcion' => '',
+                'descripcion' => '120 g.',
                 'precio' => '19.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17587,7 +17590,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1059,
                 'nombre' => 'Diclofenaco Resinato 1.5%0',
-                'descripcion' => '',
+                'descripcion' => 'gotas de 15 ml',
                 'precio' => '20.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17604,7 +17607,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1060,
                 'nombre' => 'LANSOPRAZOL 30 MG',
-                'descripcion' => '',
+                'descripcion' => 'CÁPSULAS',
                 'precio' => '1.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17621,7 +17624,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1061,
                 'nombre' => 'Ranitidina 300 mg',
-                'descripcion' => '',
+                'descripcion' => 'tabletas',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17638,7 +17641,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1062,
                 'nombre' => 'LANSOPRAZOL 30 MG',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17655,7 +17658,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1063,
                 'nombre' => 'DICLOFENACO POTASICO ',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS DE 15 ML',
                 'precio' => '13.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17672,7 +17675,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1064,
                 'nombre' => 'DICLOFENACO DE SODIO',
-                'descripcion' => '',
+                'descripcion' => 'GOTAS DE 15 ML',
                 'precio' => '15.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17689,7 +17692,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1065,
                 'nombre' => 'CREMOR',
-                'descripcion' => '',
+                'descripcion' => 'SOBRES',
                 'precio' => '3.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17706,7 +17709,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1066,
                 'nombre' => 'VITAL FUERTE ECONO PACK',
-                'descripcion' => '',
+                'descripcion' => '100 + 30 CAPSULAS BOTE',
                 'precio' => '105.75',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17723,7 +17726,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1067,
                 'nombre' => 'BONAGEL COMPUESTO',
-                'descripcion' => '',
+                'descripcion' => 'SUSPENSIÓN ORAL 360 ML',
                 'precio' => '157.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17740,7 +17743,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1068,
                 'nombre' => 'LANSOPRAZOL MK',
-                'descripcion' => '',
+                'descripcion' => 'CAPSULAS DE 21 G',
                 'precio' => '7.90',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17757,7 +17760,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1069,
                 'nombre' => 'RANITIDINA MK',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '6.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17774,7 +17777,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1070,
                 'nombre' => 'GASTROPRAL',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS',
                 'precio' => '1.25',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17791,7 +17794,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1071,
                 'nombre' => 'AVENA CON LINAZA, NOPAL, APIO Y PIÑA.',
-                'descripcion' => '',
+                'descripcion' => 'BOTE TAPA AMARILLA',
                 'precio' => '60.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17808,7 +17811,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1072,
                 'nombre' => 'AERO FLUX',
-                'descripcion' => '',
+                'descripcion' => 'SOLUCIÓN ORAL 120 ML',
                 'precio' => '135.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17825,7 +17828,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1073,
                 'nombre' => 'CANESTEN V 1 DÍA',
-                'descripcion' => '',
+                'descripcion' => ' CAJA DE 1 OVULO DE 1 DÍA',
                 'precio' => '85.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17842,7 +17845,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1074,
                 'nombre' => 'IBUWIN 400',
-                'descripcion' => '',
+                'descripcion' => 'TABLETAS  400 MG',
                 'precio' => '1.00',
                 'precio_pro' => '0.00',
                 'imagen' => NULL,
@@ -17859,7 +17862,7 @@ class ItemsTableSeeder extends Seeder
             array (
                 'id' => 1075,
                 'nombre' => 'SOLUCIÓN SALINA NORMAL ( SOLUCIÓN ISOTÓNICA 0.9% DE CLORURO DE SODIO.',
-                    'descripcion' => '',
+                    'descripcion' => '1,000 ML',
                     'precio' => '15.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17876,7 +17879,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1076,
                     'nombre' => 'GINNA ',
-                    'descripcion' => '',
+                    'descripcion' => 'CREMA VAGINAL 40 G + 7 AOKUCADIRES DESCARTABLES.',
                     'precio' => '166.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17893,7 +17896,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1077,
                 'nombre' => 'PULMITRIN (SERAFÓN)',
-                    'descripcion' => '',
+                    'descripcion' => 'TABLETA',
                     'precio' => '0.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17910,7 +17913,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1078,
                     'nombre' => 'ACICLOVIR',
-                    'descripcion' => '',
+                    'descripcion' => 'SUSPENCIÓN ORAL',
                     'precio' => '36.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17927,7 +17930,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1079,
                     'nombre' => 'MEBENDAZOL',
-                    'descripcion' => '',
+                    'descripcion' => 'SUSPENSIÓN ORAL',
                     'precio' => '8.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17944,7 +17947,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1080,
                     'nombre' => 'I.R.S JARABE',
-                    'descripcion' => '',
+                    'descripcion' => 'FRASCO DE 120 ML',
                     'precio' => '49.75',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17961,7 +17964,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1081,
                     'nombre' => 'UNAL ',
-                    'descripcion' => '',
+                    'descripcion' => 'SOLUCIÓN INYECTABLE',
                     'precio' => '38.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17978,7 +17981,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1082,
                     'nombre' => 'DOLO NERVISEL ',
-                    'descripcion' => '',
+                    'descripcion' => 'TABLETAS ',
                     'precio' => '1.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -17995,7 +17998,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1083,
                     'nombre' => 'DORIXINA RELAX',
-                    'descripcion' => '',
+                    'descripcion' => 'TABLETAS',
                     'precio' => '9.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -18012,7 +18015,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1084,
                     'nombre' => 'METRONIDAZOL+NISTANTINA',
-                    'descripcion' => '',
+                    'descripcion' => 'OVULOS VAGINALES 500 MG',
                     'precio' => '28.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -18029,7 +18032,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1085,
                 'nombre' => 'DICLOFENACO + NEUROTROPAS (ARGUS SALUD)',
-                    'descripcion' => '',
+                    'descripcion' => 'CAPSULAS',
                     'precio' => '1.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -18046,7 +18049,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1086,
                 'nombre' => 'PERLAS DE GUAYACOL EUCALIPTOL (SERAFON)',
-                    'descripcion' => '',
+                    'descripcion' => 'PERLAS',
                     'precio' => '0.25',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -18063,7 +18066,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1087,
                     'nombre' => 'JARABE ACHICORIA',
-                    'descripcion' => '',
+                    'descripcion' => 'GOTAS',
                     'precio' => '19.00',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
@@ -18080,7 +18083,7 @@ class ItemsTableSeeder extends Seeder
                 array (
                     'id' => 1088,
                     'nombre' => 'POMADA PASTA LASSAR',
-                    'descripcion' => '',
+                    'descripcion' => 'TARRO DE 30 G',
                     'precio' => '23.75',
                     'precio_pro' => '0.00',
                     'imagen' => NULL,
