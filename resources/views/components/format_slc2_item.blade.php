@@ -17,10 +17,11 @@
     "<div class='select2-result-repository__meta'>"+
         "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}}</div>"+
         "<div class='select2-result-repository__description'>{{$descripcion or 'descripcion'}}</div>"+
+        "<div class='select2-result-repository__description'>Contiens: {{$contiene or ''}}</div>"+
         "<div class='select2-result-repository__statistics'>"+
-            {{--"<div class='select2-result-repository__forks'><i>U/M: </i> <strong>{{$um or 'um'}}</strong></div>"+--}}
-            "<div class='select2-result-repository__stargazers'><i>Lab: </i> <strong>{{$laboratorio or 'laboratorio'}}</strong></div>"+
-            "<div class='select2-result-repository__watchers'><i class='fa fa-money'></i> Q {{$precio}}</div>"+
-        "</div>"+
+            "<div class='select2-result-repository__forks'><strong>{{$laboratorio or 'laboratorio'}} </strong></div>"+
+            "<div class='select2-result-repository__stargazers'><i class='fa fa-money'></i> <strong>Q {{$precio}} </strong></div>"+
+            "<div class='select2-result-repository__watchers'><i class='fa fa-archive'></i> <strong>{{$ubicacion or ''}} </strong></div>"+
+            "</div>"+
     "</div>"+
 "</div>
