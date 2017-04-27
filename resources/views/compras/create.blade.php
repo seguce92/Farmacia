@@ -76,15 +76,16 @@
                                         </div>
                                         <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                             <div class="input-group">
-                                                <span class="input-group-addon">$</span>
-                                                <input type="text" name="precio" id="precio-new-det" class="form-control" >
-                                                <span class="input-group-addon">
-                                        <a href="#" id="btn-add-det" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>"  >
-                                            <span class="text-success text-capitalize glyphicon glyphicon-plus"></span>
-                                        </a>
-                                    </span>
-                                                <input type="hidden" name="temp_compra_id" value="{{$tempCompraUser->id}}">
-                                            </div>
+                                                <span class="input-group-addon">Q</span>
+                                                <input type="text" name="precio" id="precio-new-det" class="form-control" placeholder="Precio compra">
+                                                <span class="input-group-btn">
+                                                <button type="button" id="btn-add-det" class="btn btn-success" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i> Agregando" >
+                                                    <span class="glyphicon glyphicon-plus"></span> Agregar
+                                                </button>
+                                            </span>
+                                            </div><!-- /input-group -->
+
+                                            <input type="hidden" name="temp_venta_id" value="{{$tempCompraUser->id}}">
                                         </div>
                                     </div>
                                 </div>
