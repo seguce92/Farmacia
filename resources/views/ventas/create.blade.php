@@ -26,7 +26,7 @@
                                         <div class="col-sm-9">
                                             <select name="buscar_por" id="buscar_por" class="form-control">
                                                 <option value="nombre"> Nombre </option>
-                                                <option value="componente"> Componentes </option>
+                                                <option value="contiene"> Componentes </option>
                                                 <option value="indicaciones"> Indicaciones </option>
                                                 <option value="todo"> Todo </option>
                                             </select>
@@ -231,7 +231,6 @@
                 data: function (params) {
                     var buscarPor= $('#buscar_por').val();
 
-                    console.log(buscarPor);
                     return {
                         search: params.term,
                         buscar_por: buscarPor,
