@@ -48,20 +48,22 @@
                         {{--Box busqueda--}}
                             <div class="box box-warning">
                                 <div class="box-header with-border">
-                                    <h3 class="box-title">
-                                        <strong>
-                                            Busqueda
-                                        </strong>
-                                    </h3>
-                                    <div class="box-tools pull-right">
-                                        {{--<button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>--}}
-                                        {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
-                                    </div>
+                                    <strong>
+                                        <label for="buscar_por" class="col-sm-3 control-label"><h3 class="box-title">Busqueda por:</h3></label>
+                                        <div class="col-sm-9">
+                                            <select name="buscar_por" id="buscar_por" class="form-control">
+                                                <option value="nombre"> Nombre </option>
+                                                <option value="contiene"> Componentes </option>
+                                                <option value="indicaciones"> Indicaciones </option>
+                                                <option value="todo"> Todo </option>
+                                            </select>
+                                        </div>
+                                    </strong>
                                 </div>
                                 <!-- /.box-header -->
                                 <div class="box-body" id="datos-new-det">
                                     <div class="form-group">
-                                        <select name="item_id" id="items" class="form-control" style="widows: 100%;">
+                                        <select name="item_id" id="items" class="form-control" style="width: 100%;">
                                             <option value=""> -- Select One -- </option>
                                         </select>
                                     </div>
@@ -131,7 +133,7 @@
                                                     $subt =$det->cantidad*$det->precio;
                                                 @endphp
                                                 <tr >
-                                                    <td class="celda-descripcion">{{$det->item->nombre}}</td>
+                                                    <td class="celda-descripcion">{{$det->item->nombre}} / {{$det->item->medicamento->laboratorio->nombre}}</td>
                                                     <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
                                                     <td class="celda-cantidad">{{$det->cantidad}}</td>
                                                     {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
@@ -185,6 +187,7 @@
                 </div>
 
             </div>
+
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
                 <div class="box box-primary">
@@ -238,16 +241,16 @@
         function formatStateItems (state) {
 
             var $state = $(
-                    "@component('components.format_slc2_item')"+
-                    "@slot('imagen')"+state.imagen+ "@endslot"+
-                    "@slot('nombre')"+state.nombre+ "@endslot"+
-                    "@slot('descripcion')"+ state.descripcion+"@endslot"+
-                    "@slot('contiene')"+ state.contiene+"@endslot"+
-                    "@slot('um')"+ state.um+"@endslot"+
-                    "@slot('laboratorio')"+ state.laboratorio+"@endslot"+
-                    "@slot('precio')"+state.precio+"@endslot"+
-                    "@slot('ubicacion')"+state.ubicacion+"@endslot"+
-                    "@endcomponent"
+                "@component('components.format_slc2_item')"+
+                "@slot('imagen')"+state.imagen+ "@endslot"+
+                "@slot('nombre')"+state.nombre+ "@endslot"+
+                "@slot('descripcion')"+ state.descripcion+"@endslot"+
+                "@slot('contiene')"+ state.contiene+"@endslot"+
+                "@slot('um')"+ state.um+"@endslot"+
+                "@slot('laboratorio')"+ state.laboratorio+"@endslot"+
+                "@slot('precio')"+state.precio+"@endslot"+
+                "@slot('ubicacion')"+state.ubicacion+"@endslot"+
+                "@endcomponent"
             );
 
             return $state;
@@ -255,13 +258,15 @@
 
         var slc2item=$("#items").select2({
             language : 'es',
-//            closeOnSelect: false,
             ajax: {
                 url: "{{ route('api.items.index') }}",
                 dataType: 'json',
                 data: function (params) {
+                    var buscarPor= $('#buscar_por').val();
+
                     return {
-                        search: params.term
+                        search: params.term,
+                        buscar_por: buscarPor,
                     };
                 },
                 processResults: function (data, params) {
@@ -302,7 +307,7 @@
                     var det= res.data;
                     console.log('respuesta ajax:',res)
                     if(res.success){
-                        addDet(det.id,det.item_id,det.cantidad,det.item.nombre,det.precio);
+                        addDet(det.id,det.item_id,det.cantidad,det.item.nombre+" / "+det.item.medicamento.laboratorio.nombre,det.precio);
                         bootstrap_alert(res.message,'success',3000);
                     }
 
