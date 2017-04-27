@@ -14,7 +14,7 @@ class ItemRepository extends BaseRepository
         'nombre' => 'like',
         'contiene' => 'like',
         'descripcion' => 'like',
-//        'codigo' => 'like',
+        'codigo' => 'like',
     ];
 
     /**
@@ -23,5 +23,11 @@ class ItemRepository extends BaseRepository
     public function model()
     {
         return Item::class;
+    }
+
+    public function setFieldSearchable($fields=[])
+    {
+        $this->fieldSearchable=$fields;
+
     }
 }

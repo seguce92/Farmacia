@@ -36,6 +36,19 @@ class ItemAPIController extends AppBaseController
      */
     public function index(Request $request)
     {
+        if($request->buscar_por!='todo'){
+            $fieldsSearch = [];
+
+            $fieldsSearch = $request->buscar_por=='nombre' ? array_add($fieldsSearch,'nombre','like') : $fieldsSearch ;
+            $fieldsSearch = $request->buscar_por=='contiene' ? array_add($fieldsSearch,'contiene','like') : $fieldsSearch;
+            $fieldsSearch = $request->buscar_por=='descripcion' ? array_add($fieldsSearch,'descripcion','like') : $fieldsSearch ;
+            $fieldsSearch = $request->buscar_por=='codigo' ? array_add($fieldsSearch,'codigo','like') : $fieldsSearch ;
+
+            $this->itemRepository->setFieldSearchable($fieldsSearch);
+        }
+
+        //dd($this->itemRepository->getFieldsSearchable(),$request->toArray());
+
         $this->itemRepository->pushCriteria(new RequestCriteria($request));
         $this->itemRepository->pushCriteria(new LimitOffsetCriteria($request));
         $items = $this->itemRepository->all();
@@ -46,14 +59,19 @@ class ItemAPIController extends AppBaseController
 
             $temp->um = $item->unimed->nombre;
             $temp->estado = $item->iestado->descripcion;
-            $temp->laboratorio = $item->medicamentos->laboratorio->nombre;
+            $temp->laboratorio = $item->medicamento->laboratorio->nombre;
 
             $items2[] = $temp;
         }
 
-        //dd($itemsWcats);
+        $result=[
+            'success' => true,
+            'rows' => count($items2),
+            'data'    => $items2,
+            'message' => 'Items retrieved successfully',
+        ];
 
-        return $this->sendResponse($items2, 'Items retrieved successfully');
+        return Response::json($result);
     }
 
     /**

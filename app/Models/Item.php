@@ -102,7 +102,7 @@ class Item extends Model
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      **/
-    public function medicamentos()
+    public function medicamento()
     {
         return $this->hasOne(\App\Models\Medicamento::class);
     }

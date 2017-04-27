@@ -13,13 +13,17 @@
 </style>
 @endpush
 <div class='select2-result-repository clearfix'>"+
-    "<div class='select2-result-repository__avatar'><img src='{!! asset($imagen) !!}' class='img-responsive' alt='Image'></div>"+
+    @if($imagen=='undefined')
+        "<div class='select2-result-repository__avatar'><img src='{!! asset($imagen) !!}' class='img-responsive' alt='Image'></div>"+
+    @else
+        "<div class='select2-result-repository__avatar'><img src='{!! asset('img/avatar_none.png') !!}' class='img-responsive' alt='Image'></div>"+
+    @endif
     "<div class='select2-result-repository__meta'>"+
-        "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}}</div>"+
-        "<div class='select2-result-repository__description'>{{$descripcion or 'descripcion'}}</div>"+
-        "<div class='select2-result-repository__description'>Contiens: {{$contiene or ''}}</div>"+
+        "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}} / {{$descripcion or 'descripcion'}}</div>"+
+        "<div class='select2-result-repository__title'>{{$laboratorio or ''}}</div>"+
+        "<div class='select2-result-repository__description'>{{$contiene or ''}}</div>"+
         "<div class='select2-result-repository__statistics'>"+
-            "<div class='select2-result-repository__forks'><strong>{{$laboratorio or 'laboratorio'}} </strong></div>"+
+            {{--"<div class='select2-result-repository__forks'><strong>{{$laboratorio or 'laboratorio'}} </strong></div>"+--}}
             "<div class='select2-result-repository__stargazers'><i class='fa fa-money'></i> <strong>Q {{$precio}} </strong></div>"+
             "<div class='select2-result-repository__watchers'><i class='fa fa-archive'></i> <strong>{{$ubicacion or ''}} </strong></div>"+
             "</div>"+

@@ -58,6 +58,7 @@ class TempVentaDetalleAPIController extends AppBaseController
         $tempVentaDetalles = $this->tempVentaDetalleRepository->create($input);
 
         $tempVentaDetalles->item;
+        $tempVentaDetalles->item->medicamento->laboratorio;
 
         return $this->sendResponse($tempVentaDetalles->toArray(), 'Temp Venta Detalle saved successfully');
     }
