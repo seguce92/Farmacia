@@ -18,7 +18,13 @@ class ItemDataTable extends DataTable
         return $this->datatables
             ->queryBuilder($this->query())
             ->addColumn('action', 'items.datatables_actions')
-            ->editColumn('imagen', '{{asset($imagen) }}')
+            ->editColumn('imagen',function ($data){
+                if($data->imagen)
+                    return asset($data->imagen);
+                else
+                    return asset('img/avatar_none.png');
+
+            })
             ->make(true);
     }
 
@@ -43,7 +49,9 @@ class ItemDataTable extends DataTable
                         'items.precio_pro',
                         'items.stock',
                         'iestados.descripcion as iestado'
-                    );
+                    )
+                    ->whereNull('items.deleted_at')
+                    ->orderBy('id');
         return $this->applyScopes($items);
     }
 
@@ -88,6 +96,7 @@ class ItemDataTable extends DataTable
     private function getColumns()
     {
         return [
+            'imagen' => ['name' => 'imagen', 'data' => 'imagen', 'render' => '"<img src=\""+data+"\" class=\"img-responsive\" alt=\"Image\" width=\"42px\" height=\"42px\"/>"'],
             'nombre' => ['name' => 'nombre', 'data' => 'nombre'],
             'descripcion' => ['name' => 'descripcion', 'data' => 'descripcion'],
             'precio' => ['name' => 'precio', 'data' => 'precio'],
@@ -95,7 +104,6 @@ class ItemDataTable extends DataTable
             'U/M' => ['name' => 'unimeds.nombre', 'data' => 'unimed'],
             'precio_pro' => ['name' => 'precio_pro', 'data' => 'precio_pro'],
             'Estado' => ['name' => 'iestados.descripcion', 'data' => 'iestado'],
-            'imagen' => ['name' => 'imagen', 'data' => 'imagen', 'render' => '"<img src=\""+data+"\" class=\"img-responsive\" alt=\"Image\"/>"'],
             'stock' => ['name' => 'stock', 'data' => 'stock'],
 
         ];

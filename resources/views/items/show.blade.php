@@ -9,16 +9,23 @@
     <div class="content">
         <div class="box box-primary">
             <div class="box-body">
-                <div class="row" style="padding-left: 20px">
-                    <div class="col-sm-6">
-                        <img src="{{asset($item->imagen)}}" class="img-responsive" alt="Image">
+                <div class="row" >
+                    <div class="col-sm-6" align="center">
+                        @if($item->imagen)
+                            <img src="{{asset($item->imagen)}}" class="img-responsive" alt="Image">
+                        @else
+                            <img src="{{asset('img/avatar_none.png')}}" class="img-responsive" alt="Image" width="400px" height="400px">
+                        @endif
                     </div>
                     <div class="col-sm-6">
 
                        @include('items.show_fields')
-                   </div>
+                    </div>
 
-                    <a href="{!! route('items.index') !!}" class="btn btn-default">Back</a>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                        <a href="{!! route('items.index') !!}" class="btn btn-default">Back</a>
+                    </div>
                 </div>
             </div>
         </div>
