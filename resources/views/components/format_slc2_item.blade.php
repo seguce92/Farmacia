@@ -6,7 +6,9 @@
     .select2-result-repository__meta { margin-left: 70px; }
     .select2-result-repository__title { color: black; font-weight: bold; word-wrap: break-word; line-height: 1.1; margin-bottom: 4px; }
     .select2-result-repository__forks, .select2-result-repository__stargazers { margin-right: 1em; }
-    .select2-result-repository__forks, .select2-result-repository__stargazers, .select2-result-repository__watchers { display: inline-block; color: #aaa; font-size: 11px; }
+    .select2-result-repository__forks, .select2-result-repository__stargazers, .select2-result-repository__watchers {
+        display: inline-block; color: #0f4bac; font-size: 13px; padding: 0px;
+    }
     .select2-result-repository__description { font-size: 13px; color: #777; margin-top: 4px; }
     .select2-results__option--highlighted .select2-result-repository__title { color: white; }
     .select2-results__option--highlighted .select2-result-repository__forks, .select2-results__option--highlighted .select2-result-repository__stargazers, .select2-results__option--highlighted .select2-result-repository__description, .select2-results__option--highlighted .select2-result-repository__watchers { color: #c6dcef; }
@@ -21,11 +23,12 @@
     "<div class='select2-result-repository__meta'>"+
         "<div class='select2-result-repository__title'>{{$nombre or 'nombre'}} / {{$descripcion or 'descripcion'}}</div>"+
         "<div class='select2-result-repository__title'>{{$laboratorio or ''}}</div>"+
-        "<div class='select2-result-repository__description'>{{$contiene or ''}}</div>"+
         "<div class='select2-result-repository__statistics'>"+
             {{--"<div class='select2-result-repository__forks'><strong>{{$laboratorio or 'laboratorio'}} </strong></div>"+--}}
             "<div class='select2-result-repository__stargazers'><i class='fa fa-money'></i> <strong>Q {{$precio}} </strong></div>"+
             "<div class='select2-result-repository__watchers'><i class='fa fa-archive'></i> <strong>{{$ubicacion or ''}} </strong></div>"+
             "</div>"+
+        "<div class='select2-result-repository__description'>{{$contiene or ''}}</div>"+
+
     "</div>"+
 "</div>
