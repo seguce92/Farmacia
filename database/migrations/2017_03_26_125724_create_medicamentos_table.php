@@ -15,7 +15,7 @@ class CreateMedicamentosTable extends Migration {
 		Schema::create('medicamentos', function(Blueprint $table)
 		{
 			$table->integer('id', true);
-			$table->integer('laboratorio_id')->index('fk_medicamento_laboratorio1_idx');
+			$table->integer('laboratorio_id')->index('fk_medicamento_laboratorio1_idx')->nullable();
 			$table->integer('clasificacion_id')->index('fk_medicamento_clalsificacion1_idx')->nullable();
 			$table->integer('unimed_id')->index('fk_medicamento_unidad_medida1_idx');
 			$table->integer('item_id')->index('fk_medicamentos_items1_idx');
@@ -27,6 +27,7 @@ class CreateMedicamentosTable extends Migration {
 			$table->text('dosis', 65535)->nullable();
 			$table->text('contraindicaciones', 65535)->nullable();
 			$table->text('advertencias', 65535)->nullable();
+            $table->text('contiene')->after('generico')->nullable();
             $table->boolean('generico')->nullable()->default(0);
 			$table->timestamps();
 			$table->softDeletes();
