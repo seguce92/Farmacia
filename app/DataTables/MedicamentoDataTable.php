@@ -97,7 +97,7 @@ class MedicamentoDataTable extends DataTable
             'generico' => ['name' => 'generico', 'data' => 'generico'],
 //            'item_id' => ['name' => 'item_id', 'data' => 'item_id'],
             'cnt_total' => ['name' => 'cnt_total', 'data' => 'cnt_total'],
-            'cnt_formula' => ['name' => 'cnt_formula', 'data' => 'cnt_formula'],
+//            'cnt_formula' => ['name' => 'cnt_formula', 'data' => 'cnt_formula'],
 //            'indicaciones' => ['name' => 'indicaciones', 'data' => 'indicaciones'],
 //            'dosis' => ['name' => 'dosis', 'data' => 'dosis'],
 //            'contraindicaciones' => ['name' => 'contraindicaciones', 'data' => 'contraindicaciones'],
