@@ -11,7 +11,7 @@ class MedicamentoRepository extends BaseRepository
      * @var array
      */
     protected $fieldSearchable = [
-        'laboratotio_id',
+        'laboratorio_id',
         'clasificacion_id',
         'unimed_id',
         'item_id',
@@ -22,7 +22,9 @@ class MedicamentoRepository extends BaseRepository
         'indicaciones',
         'dosis',
         'contraindicaciones',
-        'advertencias'
+        'advertencias',
+        'generico',
+        'contiene'
     ];
 
     /**

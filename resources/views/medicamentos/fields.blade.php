@@ -1,80 +1,109 @@
-<!-- Laboratotio Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('laboratotio_id', 'Laboratotio Id:') !!}
-    {!! Form::number('laboratotio_id', null, ['class' => 'form-control']) !!}
-</div>
+@push('css')
+@include('layouts.select2_css')
+@endpush
 
-<!-- Clasificacion Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('clasificacion_id', 'Clasificacion Id:') !!}
-    {!! Form::number('clasificacion_id', null, ['class' => 'form-control']) !!}
-</div>
 
-<!-- Unimed Id Field -->
+<!-- Laboratorio Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('unimed_id', 'Unimed Id:') !!}
-    {!! Form::number('unimed_id', null, ['class' => 'form-control']) !!}
+    {!! Form::label('laboratorio_id', 'Laboratorio:') !!}
+    {!! Form::select('laboratorio_id', $laboratorios, null, ['class' => 'form-control','id'=>'laboratorio_id','multiple'=>"multiple"]) !!}
 </div>
-
-<!-- Item Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('item_id', 'Item Id:') !!}
-    {!! Form::number('item_id', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Nombre Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('nombre', 'Nombre:') !!}
     {!! Form::text('nombre', null, ['class' => 'form-control']) !!}
 </div>
 
-<!-- Receta Field -->
+
+<!-- Clasificacion Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('receta', 'Receta:') !!}
-    <label class="checkbox-inline">
-        {!! Form::hidden('receta', false) !!}
-        {!! Form::checkbox('receta', '1', null) !!} 1
-    </label>
+    {!! Form::label('clasificacion_id', 'Vía de administración / Presentación:') !!}
+    {!! Form::select('clasificacion_id', $clasificaciones, null, ['class' => 'form-control','id'=>'clasificacion_id','multiple'=>"multiple"]) !!}
 </div>
 
-<!-- Cnt Total Field -->
+<!-- Unimed Id Field -->
 <div class="form-group col-sm-6">
+    {!! Form::label('unimed_id', 'Unimed:') !!}
+    {!! Form::select('unimed_id', $unimeds, null, ['class' => 'form-control','id'=>'unimed_id','multiple'=>"multiple"]) !!}
+</div>
+
+{{--<!-- Item Id Field -->--}}
+{{--<div class="form-group col-sm-6">--}}
+    {{--{!! Form::label('item_id', 'Item:') !!}--}}
+    {{--{!! Form::number('item_id', null, ['class' => 'form-control']) !!}--}}
+{{--</div>--}}
+
+
+
+<!-- Cnt Total Field -->
+<div class="form-group col-sm-3">
     {!! Form::label('cnt_total', 'Cnt Total:') !!}
-    {!! Form::number('cnt_total', null, ['class' => 'form-control']) !!}
+    {!! Form::text('cnt_total', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Cnt Formula Field -->
-<div class="form-group col-sm-6">
+<div class="form-group col-sm-3">
     {!! Form::label('cnt_formula', 'Cnt Formula:') !!}
-    {!! Form::number('cnt_formula', null, ['class' => 'form-control']) !!}
+    {!! Form::text('cnt_formula', null, ['class' => 'form-control']) !!}
 </div>
+
+<!-- Generico Field -->
+<div class="form-group col-sm-3">
+    {!! Form::label('generico', 'Generico:') !!}
+    <label class="checkbox-inline">
+        {!! Form::hidden('generico', false) !!}
+        {!! Form::checkbox('generico', '1', $medicamento->generico=='SI' ? 1 : 0 ) !!} 1
+    </label>
+</div>
+
+<!-- Receta Field -->
+<div class="form-group col-sm-3">
+    {!! Form::label('receta', 'Receta:') !!}
+    <label class="checkbox-inline">
+        {!! Form::hidden('receta', false) !!}
+        {!! Form::checkbox('receta', '1', $medicamento->receta=='SI' ? 1 : 0 )!!} 1
+    </label>
+</div>
+
 
 <!-- Indicaciones Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('indicaciones', 'Indicaciones:') !!}
-    {!! Form::textarea('indicaciones', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('indicaciones', null, ['class' => 'form-control','rows'=>'2']) !!}
 </div>
 
 <!-- Dosis Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('dosis', 'Dosis:') !!}
-    {!! Form::textarea('dosis', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('dosis', null, ['class' => 'form-control','rows'=>'2']) !!}
 </div>
 
 <!-- Contraindicaciones Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('contraindicaciones', 'Contraindicaciones:') !!}
-    {!! Form::textarea('contraindicaciones', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('contraindicaciones', null, ['class' => 'form-control','rows'=>'2']) !!}
 </div>
 
 <!-- Advertencias Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('advertencias', 'Advertencias:') !!}
-    {!! Form::textarea('advertencias', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('advertencias', null, ['class' => 'form-control','rows'=>'2']) !!}
 </div>
 
-<!-- Submit Field -->
-<div class="form-group col-sm-12">
-    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{!! route('medicamentos.index') !!}" class="btn btn-default">Cancel</a>
+<!-- Contiene Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('contiene', 'Contiene:') !!}
+    {!! Form::textarea('contiene', null, ['class' => 'form-control','rows'=>'2']) !!}
 </div>
+
+@push('scripts')
+@include('layouts.select2_js')
+<script>
+
+    $('#unimed_id,#laboratorio_id,#clasificacion_id').select2({
+        language: 'es',
+        maximumSelectionLength: 1
+    })
+
+</script>
+@endpush

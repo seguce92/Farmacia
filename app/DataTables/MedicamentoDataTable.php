@@ -17,6 +17,12 @@ class MedicamentoDataTable extends DataTable
         return $this->datatables
             ->eloquent($this->query())
             ->addColumn('action', 'medicamentos.datatables_actions')
+//            ->editColumn('receta', function ($data){
+//                return $data->receta ? 'SI' : 'NO';
+//            })
+//            ->editColumn('generico', function ($data){
+//                return $data->generico ? 'SI' : 'NO';
+//            })
             ->make(true);
     }
 
@@ -27,7 +33,17 @@ class MedicamentoDataTable extends DataTable
      */
     public function query()
     {
-        $medicamentos = Medicamento::query();
+        $medicamentos = Medicamento::query()
+            ->join('laboratorios','laboratorios.id','=','medicamentos.laboratorio_id')
+            ->leftJoin('clasificacions','clasificacions.id','=','medicamentos.clasificacion_id')
+            ->join('unimeds','unimeds.id','=','medicamentos.unimed_id')
+            ->select(
+             'medicamentos.*',
+             'laboratorios.nombre as laboratorio',
+             'clasificacions.nombre as clasificacion',
+             'unimeds.nombre as unimed'
+            );
+
 
         return $this->applyScopes($medicamentos);
     }
@@ -73,18 +89,20 @@ class MedicamentoDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'laboratotio_id' => ['name' => 'laboratotio_id', 'data' => 'laboratotio_id'],
-            'clasificacion_id' => ['name' => 'clasificacion_id', 'data' => 'clasificacion_id'],
-            'unimed_id' => ['name' => 'unimed_id', 'data' => 'unimed_id'],
-            'item_id' => ['name' => 'item_id', 'data' => 'item_id'],
             'nombre' => ['name' => 'nombre', 'data' => 'nombre'],
+            'laboratorio' => ['name' => 'laboratorios.nombre', 'data' => 'laboratorio'],
+            'clasificacion' => ['name' => 'clasificacions.nombre', 'data' => 'clasificacion'],
+            'unimed' => ['name' => 'unimeds.nombre', 'data' => 'unimed'],
             'receta' => ['name' => 'receta', 'data' => 'receta'],
+            'generico' => ['name' => 'generico', 'data' => 'generico'],
+//            'item_id' => ['name' => 'item_id', 'data' => 'item_id'],
             'cnt_total' => ['name' => 'cnt_total', 'data' => 'cnt_total'],
             'cnt_formula' => ['name' => 'cnt_formula', 'data' => 'cnt_formula'],
-            'indicaciones' => ['name' => 'indicaciones', 'data' => 'indicaciones'],
-            'dosis' => ['name' => 'dosis', 'data' => 'dosis'],
-            'contraindicaciones' => ['name' => 'contraindicaciones', 'data' => 'contraindicaciones'],
-            'advertencias' => ['name' => 'advertencias', 'data' => 'advertencias']
+//            'indicaciones' => ['name' => 'indicaciones', 'data' => 'indicaciones'],
+//            'dosis' => ['name' => 'dosis', 'data' => 'dosis'],
+//            'contraindicaciones' => ['name' => 'contraindicaciones', 'data' => 'contraindicaciones'],
+//            'advertencias' => ['name' => 'advertencias', 'data' => 'advertencias'],
+            'contiene' => ['name' => 'contiene', 'data' => 'contiene']
         ];
     }
 

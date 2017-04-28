@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 /**
  * Class Medicamento
  * @package App\Models
- * @version March 27, 2017, 12:57 pm CST
+ * @version April 27, 2017, 8:35 pm CST
  */
 class Medicamento extends Model
 {
@@ -24,7 +24,7 @@ class Medicamento extends Model
 
 
     public $fillable = [
-        'laboratotio_id',
+        'laboratorio_id',
         'clasificacion_id',
         'unimed_id',
         'item_id',
@@ -35,7 +35,9 @@ class Medicamento extends Model
         'indicaciones',
         'dosis',
         'contraindicaciones',
-        'advertencias'
+        'advertencias',
+        'generico',
+        'contiene'
     ];
 
     /**
@@ -45,7 +47,7 @@ class Medicamento extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'laboratotio_id' => 'integer',
+        'laboratorio_id' => 'integer',
         'clasificacion_id' => 'integer',
         'unimed_id' => 'integer',
         'item_id' => 'integer',
@@ -54,7 +56,9 @@ class Medicamento extends Model
         'indicaciones' => 'string',
         'dosis' => 'string',
         'contraindicaciones' => 'string',
-        'advertencias' => 'string'
+        'advertencias' => 'string',
+        'generico' => 'boolean',
+        'contiene' => 'string'
     ];
 
     /**
@@ -104,5 +108,23 @@ class Medicamento extends Model
     public function farmacoMedicamento()
     {
         return $this->hasOne(\App\Models\FarmacoMedicamento::class);
+    }
+
+    /**
+     * Mutador para que el atributo reseta no devuelva un valor bool
+     * @return string
+     */
+    public function getRecetaAttribute($value)
+    {
+        return $value ? 'SI' : 'NO';
+    }
+
+    /**
+     * Mutador para que el atributo generico no devuelva un valor bool
+     * @return string
+     */
+    public function getGenericoAttribute($value)
+    {
+        return $value ? 'SI' : 'NO';
     }
 }

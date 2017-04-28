@@ -6,6 +6,9 @@ use App\DataTables\MedicamentoDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateMedicamentoRequest;
 use App\Http\Requests\UpdateMedicamentoRequest;
+use App\Models\Clasificacion;
+use App\Models\Laboratorio;
+use App\Models\Unimed;
 use App\Repositories\MedicamentoRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
@@ -97,7 +100,19 @@ class MedicamentoController extends AppBaseController
             return redirect(route('medicamentos.index'));
         }
 
-        return view('medicamentos.edit')->with('medicamento', $medicamento);
+        $laboratorios = Laboratorio::pluck('nombre','id')->toArray();
+        $clasificacionesPadre = Clasificacion::where('clasificacion_id','=','3')->get();
+        $unimeds = Unimed::pluck('nombre','id')->toArray();
+
+
+        $clasificaciones=[];
+        foreach ($clasificacionesPadre as $padre){
+            $clasificaciones[$padre->nombre]= Clasificacion::where('clasificacion_id','=',$padre->id)->pluck('nombre','id')->toArray();
+        };
+
+        //dd($clasificaciones);
+
+        return view('medicamentos.edit',compact('laboratorios','clasificaciones','unimeds','medicamento'));
     }
 
     /**

@@ -1,96 +1,102 @@
 <!-- Id Field -->
 <div class="form-group">
     {!! Form::label('id', 'Id:') !!}
-    <p>{!! $medicamento->id !!}</p>
+    {!! $medicamento->id !!}
 </div>
 
-<!-- Laboratotio Id Field -->
+<!-- Laboratorio Id Field -->
 <div class="form-group">
-    {!! Form::label('laboratotio_id', 'Laboratotio Id:') !!}
-    <p>{!! $medicamento->laboratotio_id !!}</p>
+    {!! Form::label('laboratorio_id', 'Laboratorio:') !!}
+    {!! $medicamento->laboratorio->nombre!!}
 </div>
 
 <!-- Clasificacion Id Field -->
 <div class="form-group">
-    {!! Form::label('clasificacion_id', 'Clasificacion Id:') !!}
-    <p>{!! $medicamento->clasificacion_id !!}</p>
+    {!! Form::label('clasificacion_id', 'Clasificacion:') !!}
+    {!! $medicamento->clasificacion ? $medicamento->clasificacion->nombre : '' !!}
 </div>
 
 <!-- Unimed Id Field -->
 <div class="form-group">
-    {!! Form::label('unimed_id', 'Unimed Id:') !!}
-    <p>{!! $medicamento->unimed_id !!}</p>
-</div>
-
-<!-- Item Id Field -->
-<div class="form-group">
-    {!! Form::label('item_id', 'Item Id:') !!}
-    <p>{!! $medicamento->item_id !!}</p>
+    {!! Form::label('unimed_id', 'Unimed:') !!}
+    {!! $medicamento->unimed->nombre!!}
 </div>
 
 <!-- Nombre Field -->
 <div class="form-group">
     {!! Form::label('nombre', 'Nombre:') !!}
-    <p>{!! $medicamento->nombre !!}</p>
+    {!! $medicamento->nombre !!}
 </div>
 
 <!-- Receta Field -->
 <div class="form-group">
     {!! Form::label('receta', 'Receta:') !!}
-    <p>{!! $medicamento->receta !!}</p>
+    {!! $medicamento->receta !!}
 </div>
 
 <!-- Cnt Total Field -->
 <div class="form-group">
     {!! Form::label('cnt_total', 'Cnt Total:') !!}
-    <p>{!! $medicamento->cnt_total !!}</p>
+    {!! $medicamento->cnt_total !!}
 </div>
 
 <!-- Cnt Formula Field -->
 <div class="form-group">
     {!! Form::label('cnt_formula', 'Cnt Formula:') !!}
-    <p>{!! $medicamento->cnt_formula !!}</p>
+    {!! $medicamento->cnt_formula !!}
 </div>
 
 <!-- Indicaciones Field -->
 <div class="form-group">
     {!! Form::label('indicaciones', 'Indicaciones:') !!}
-    <p>{!! $medicamento->indicaciones !!}</p>
+    {!! $medicamento->indicaciones !!}
 </div>
 
 <!-- Dosis Field -->
 <div class="form-group">
     {!! Form::label('dosis', 'Dosis:') !!}
-    <p>{!! $medicamento->dosis !!}</p>
+    {!! $medicamento->dosis !!}
 </div>
 
 <!-- Contraindicaciones Field -->
 <div class="form-group">
     {!! Form::label('contraindicaciones', 'Contraindicaciones:') !!}
-    <p>{!! $medicamento->contraindicaciones !!}</p>
+    {!! $medicamento->contraindicaciones !!}
 </div>
 
 <!-- Advertencias Field -->
 <div class="form-group">
     {!! Form::label('advertencias', 'Advertencias:') !!}
-    <p>{!! $medicamento->advertencias !!}</p>
+    {!! $medicamento->advertencias !!}
+</div>
+
+<!-- Generico Field -->
+<div class="form-group">
+    {!! Form::label('generico', 'Generico:') !!}
+    {!! $medicamento->generico !!}
+</div>
+
+<!-- Contiene Field -->
+<div class="form-group">
+    {!! Form::label('contiene', 'Contiene:') !!}
+    {!! $medicamento->contiene !!}
 </div>
 
 <!-- Created At Field -->
 <div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}
-    <p>{!! $medicamento->created_at !!}</p>
+    {!! $medicamento->created_at !!}
 </div>
 
 <!-- Updated At Field -->
 <div class="form-group">
     {!! Form::label('updated_at', 'Updated At:') !!}
-    <p>{!! $medicamento->updated_at !!}</p>
+    {!! $medicamento->updated_at !!}
 </div>
 
 <!-- Deleted At Field -->
 <div class="form-group">
     {!! Form::label('deleted_at', 'Deleted At:') !!}
-    <p>{!! $medicamento->deleted_at !!}</p>
+    {!! $medicamento->deleted_at !!}
 </div>
 
