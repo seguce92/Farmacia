@@ -1,5 +1,13 @@
 @extends('adminlte::layouts.app')
 
+@push('css')
+@include('layouts.select2_css')
+@endpush
+
+@push('scripts')
+@include('layouts.select2_js')
+@endpush
+
 @section('content')
     <section class="content-header">
         <h1>

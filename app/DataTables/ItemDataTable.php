@@ -51,7 +51,7 @@ class ItemDataTable extends DataTable
                         'iestados.descripcion as iestado'
                     )
                     ->whereNull('items.deleted_at')
-                    ->orderBy('id');
+                    ->orderBy('nombre');
         return $this->applyScopes($items);
     }
 

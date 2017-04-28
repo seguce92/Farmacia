@@ -27,7 +27,6 @@ class Item extends Model
         'nombre',
         'descripcion',
         'precio',
-        'imagen',
         'codigo',
         'unimed_id',
         'iestado_id'
@@ -113,5 +112,14 @@ class Item extends Model
     public function ventaDetalles()
     {
         return $this->hasMany(\App\Models\VentaDetalle::class);
+    }
+
+    /**
+     * Si el item contiene la categoría medicamento
+     * @return bool
+     */
+    public function esMedicamento(){
+
+        return in_array(1,array_pluck($this->icategorias->toArray(),"id")) ? true : false;
     }
 }

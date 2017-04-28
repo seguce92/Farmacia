@@ -17,12 +17,12 @@ class MedicamentoDataTable extends DataTable
         return $this->datatables
             ->eloquent($this->query())
             ->addColumn('action', 'medicamentos.datatables_actions')
-//            ->editColumn('receta', function ($data){
-//                return $data->receta ? 'SI' : 'NO';
-//            })
-//            ->editColumn('generico', function ($data){
-//                return $data->generico ? 'SI' : 'NO';
-//            })
+            ->editColumn('receta', function ($data){
+                return $data->receta ? 'SI' : 'NO';
+            })
+            ->editColumn('generico', function ($data){
+                return $data->generico ? 'SI' : 'NO';
+            })
             ->make(true);
     }
 
@@ -34,9 +34,9 @@ class MedicamentoDataTable extends DataTable
     public function query()
     {
         $medicamentos = Medicamento::query()
-            ->join('laboratorios','laboratorios.id','=','medicamentos.laboratorio_id')
+            ->leftJoin('laboratorios','laboratorios.id','=','medicamentos.laboratorio_id')
             ->leftJoin('clasificacions','clasificacions.id','=','medicamentos.clasificacion_id')
-            ->join('unimeds','unimeds.id','=','medicamentos.unimed_id')
+            ->leftJoin('unimeds','unimeds.id','=','medicamentos.unimed_id')
             ->select(
              'medicamentos.*',
              'laboratorios.nombre as laboratorio',

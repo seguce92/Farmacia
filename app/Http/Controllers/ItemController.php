@@ -6,10 +6,14 @@ use App\DataTables\ItemDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateItemRequest;
 use App\Http\Requests\UpdateItemRequest;
+use App\Models\Clasificacion;
 use App\Models\Icategoria;
 use App\Models\Item;
+use App\Models\Laboratorio;
+use App\Models\Medicamento;
 use App\Models\Unimed;
 use App\Repositories\ItemRepository;
+use App\Repositories\MedicamentoRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
 use Response;
@@ -18,11 +22,13 @@ class ItemController extends AppBaseController
 {
     /** @var  ItemRepository */
     private $itemRepository;
+    private $medicamentoRepository;
 
-    public function __construct(ItemRepository $itemRepo)
+    public function __construct(ItemRepository $itemRepo,MedicamentoRepository $medicamentoRepository)
     {
         $this->middleware("auth");
         $this->itemRepository = $itemRepo;
+        $this->medicamentoRepository = $medicamentoRepository;
     }
 
     /**
@@ -43,13 +49,23 @@ class ItemController extends AppBaseController
      */
     public function create()
     {
-        $unimeds= array_pluck(Unimed::all()->toArray(),"nombre","id");
-        $cats= Icategoria::all();
-        $catsItem= [];
+        $unimeds = Unimed::pluck("nombre","id")->toArray();
+        $categorias = Icategoria::pluck("nombre","id")->toArray();
+        $categoriasItem= [];
+
+        $laboratorios = Laboratorio::pluck('nombre','id')->toArray();
+        $clasificacionesPadre = Clasificacion::where('clasificacion_id','=','3')->get();
+
+        $clasificaciones=[];
+        foreach ($clasificacionesPadre as $padre){
+            $clasificaciones[$padre->nombre]= Clasificacion::where('clasificacion_id','=',$padre->id)->pluck('nombre','id')->toArray();
+        };
+
+        $medicamento = new Medicamento();
 
 
 //        dd($unimeds);
-        return view('items.create',compact('unimeds','cats','catsItem'));
+        return view('items.create',compact('unimeds','categorias','categoriasItem','laboratorios','clasificaciones','medicamento'));
     }
 
     /**
@@ -62,33 +78,24 @@ class ItemController extends AppBaseController
     public function store(CreateItemRequest $request)
     {
 
-        $fields = [
-            'nombre'=> $request->nombre,
-            'descripcion'=> $request->descripcion,
-            'precio' => $request->precio,
-            'codigo' => $request->codigo,
-            'unimed_id' => $request->unimed_id,
-            'iestado_id' => 1
-        ];
+        $input = $request->all();
 
-        $item=Item::create($fields);
+        $medicamento= new Medicamento($input);
+//        dd($medicamento->toArray());
 
+        $item = $this->itemRepository->create($input);
 
-        if($request->categorias){
+        $item->icategorias()->sync(
+            $request->categorias ? $request->categorias : []
+        );
 
-            $item->icategorias()->sync($request->categorias);
+        //Actualiza y guarda imagen
+        if ($request->hasFile('imagen')) {
+            $this->saveImg($request->file('imagen'),$item->id);
         }
 
-
-        if ($request->hasFile('imagen')) {
-            $file= $request->file('imagen');
-
-            $nameImg= $item->id.'.'.$file->extension();
-
-            $item->imagen = 'img/items/'.$nameImg;
-            $item->save();
-
-            $file->move(public_path().'/img/items/',$nameImg);
+        if($item->esMedicamento()){
+            $item->medicamento()->save($medicamento);
         }
 
         Flash::success('Item saved successfully.');
@@ -133,11 +140,20 @@ class ItemController extends AppBaseController
             return redirect(route('items.index'));
         }else{
             $unimeds= array_pluck(Unimed::all()->toArray(),"nombre","id");
-            $cats= Icategoria::all();
-            $catsItem= array_pluck($item->icategorias->toArray(),"id");
+            $categorias = Icategoria::pluck("nombre","id")->toArray();
+            $categoriasItem= array_pluck($item->icategorias->toArray(),"id");
 
-//            dd($catsItem);
-            return view('items.edit',compact('item','unimeds','cats','catsItem'));
+            $laboratorios = Laboratorio::pluck('nombre','id')->toArray();
+            $clasificacionesPadre = Clasificacion::where('clasificacion_id','=','3')->get();
+
+            $clasificaciones=[];
+            foreach ($clasificacionesPadre as $padre){
+                $clasificaciones[$padre->nombre]= Clasificacion::where('clasificacion_id','=',$padre->id)->pluck('nombre','id')->toArray();
+            };
+
+            $medicamento = $item->medicamento;
+
+            return view('items.edit',compact('item','unimeds','categorias','categoriasItem','laboratorios','clasificaciones','medicamento'));
         }
 
     }
@@ -154,44 +170,39 @@ class ItemController extends AppBaseController
     {
         $item = $this->itemRepository->findWithoutFail($id);
 
+
         if (empty($item)) {
             Flash::error('Item not found');
 
             return redirect(route('items.index'));
-        }else{
+        }
 
-            $fields = [
-                'nombre'=> $request->nombre,
-                'descripcion'=> $request->descripcion,
-                'precio' => $request->precio,
-                'codigo' => $request->codigo,
-                'unimed_id' => $request->unimed_id
-            ];
+        $medicamento = $this->medicamentoRepository->findWithoutFail($request->medicamento_id);
 
-            if ($request->hasFile('imagen')) {
-                $file= $request->file('imagen');
-
-                $nameImg= $item->id.'.'.$file->extension();
-
-                $fields['imagen']= 'img/items/'.$nameImg;
-
-                $file->move(public_path().'/img/items/',$nameImg);
-            }
-
-            $item->fill($fields);
-            $item->save();
-
-            if($request->categorias){
-
-                $item->icategorias()->sync($request->categorias);
-            }
-
-
-
-            Flash::success('Item updated successfully.');
+        if (empty($medicamento)) {
+            Flash::error('Medicamento not found');
 
             return redirect(route('items.index'));
         }
+
+        $item = $this->itemRepository->update($request->all(), $id);
+
+        //Actualiza y guarda imagen
+        if ($request->hasFile('imagen')) {
+            $this->saveImg($request->file('imagen'),$item->id);
+        }
+
+        //Sincroniza las categorías
+        $item->icategorias()->sync(
+            $request->categorias ? $request->categorias : []
+        );
+
+        //Actualiza el medicamento
+        $medicamento = $this->medicamentoRepository->update($request->all(), $request->medicamento_id);
+
+        Flash::success('Item updated successfully.');
+
+        return redirect(route('items.index'));
 
     }
 
@@ -217,5 +228,14 @@ class ItemController extends AppBaseController
         Flash::success('Item deleted successfully.');
 
         return redirect(route('items.index'));
+    }
+
+    public function saveImg($file,$idItem){
+
+        $nameImg= $idItem.'.'.$file->extension();
+
+        $fields['imagen']= 'img/items/'.$nameImg;
+
+        $file->move(public_path().'/img/items/',$nameImg);
     }
 }

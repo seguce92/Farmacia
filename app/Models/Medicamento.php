@@ -110,21 +110,21 @@ class Medicamento extends Model
         return $this->hasOne(\App\Models\FarmacoMedicamento::class);
     }
 
-    /**
-     * Mutador para que el atributo reseta no devuelva un valor bool
-     * @return string
-     */
-    public function getRecetaAttribute($value)
-    {
-        return $value ? 'SI' : 'NO';
-    }
-
-    /**
-     * Mutador para que el atributo generico no devuelva un valor bool
-     * @return string
-     */
-    public function getGenericoAttribute($value)
-    {
-        return $value ? 'SI' : 'NO';
-    }
+//    /**
+//     * Mutador para que el atributo reseta no devuelva un valor bool
+//     * @return string
+//     */
+//    public function getRecetaAttribute($value)
+//    {
+//        return $value ? 'SI' : 'NO';
+//    }
+//
+//    /**
+//     * Mutador para que el atributo generico no devuelva un valor bool
+//     * @return string
+//     */
+//    public function getGenericoAttribute($value)
+//    {
+//        return $value ? 'SI' : 'NO';
+//    }
 }
