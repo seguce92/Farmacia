@@ -6,6 +6,7 @@ use App\DataTables\FarmacoDataTable;
 use App\Http\Requests;
 use App\Http\Requests\CreateFarmacoRequest;
 use App\Http\Requests\UpdateFarmacoRequest;
+use App\Models\Fcategoria;
 use App\Repositories\FarmacoRepository;
 use Flash;
 use App\Http\Controllers\AppBaseController;
@@ -39,7 +40,8 @@ class FarmacoController extends AppBaseController
      */
     public function create()
     {
-        return view('farmacos.create');
+        $categorias = Fcategoria::pluck('nombre','id')->toArray();
+        return view('farmacos.create',compact('categorias'));
     }
 
     /**
@@ -52,6 +54,8 @@ class FarmacoController extends AppBaseController
     public function store(CreateFarmacoRequest $request)
     {
         $input = $request->all();
+
+//        dd($input);
 
         $farmaco = $this->farmacoRepository->create($input);
 
@@ -97,7 +101,9 @@ class FarmacoController extends AppBaseController
             return redirect(route('farmacos.index'));
         }
 
-        return view('farmacos.edit')->with('farmaco', $farmaco);
+        $categorias = Fcategoria::pluck('nombre','id')->toArray();
+
+        return view('farmacos.edit',compact('farmaco','categorias'));
     }
 
     /**

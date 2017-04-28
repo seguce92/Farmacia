@@ -27,7 +27,12 @@ class FarmacoDataTable extends DataTable
      */
     public function query()
     {
-        $farmacos = Farmaco::query();
+        $farmacos = Farmaco::query()
+            ->join('fcategorias','fcategorias.id','=','farmacos.fcategoria_id')
+            ->select(
+                'farmacos.*',
+                'fcategorias.nombre as categoria'
+            );
 
         return $this->applyScopes($farmacos);
     }
@@ -73,7 +78,7 @@ class FarmacoDataTable extends DataTable
     private function getColumns()
     {
         return [
-            'fcategoria_id' => ['name' => 'fcategoria_id', 'data' => 'fcategoria_id'],
+            'categoría' => ['name' => 'fcategorias.nombre', 'data' => 'categoria'],
             'nombre' => ['name' => 'nombre', 'data' => 'nombre']
         ];
     }

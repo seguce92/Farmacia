@@ -6,8 +6,8 @@
 
 <!-- Fcategoria Id Field -->
 <div class="form-group">
-    {!! Form::label('fcategoria_id', 'Fcategoria Id:') !!}
-    <p>{!! $farmaco->fcategoria_id !!}</p>
+    {!! Form::label('fcategoria_id', 'Categoría:') !!}
+    <p>{!! $farmaco->fcategoria->nombre !!}</p>
 </div>
 
 <!-- Nombre Field -->
