@@ -37,7 +37,7 @@
                             <div class="box-body" id="datos-new-det">
 
                                 <div class="form-group">
-                                    <select name="item_id" id="items" class="form-control" style="width: 100%;">
+                                    <select name="item_id" id="items" class="form-control" multiple="multiple" size="10" style="width: 100%;">
                                         <option value=""> -- Select One -- </option>
                                     </select>
                                 </div>
@@ -224,8 +224,8 @@
 
         var slc2item=$("#items").select2({
             language : 'es',
-//            closeOnSelect: false,
-            dropdownCssClass: "bigdrop",
+            masimumSelectionLength: 1,
+            placeholder: "Ingrese código,nombre o componente para la búsqueda",
             ajax: {
                 url: "{{ route('api.items.index') }}",
                 dataType: 'json',
@@ -256,9 +256,10 @@
                     return data.nombre;
                 }
             }
-        }).on('select2:close', function (evt) {
-            $("#cant-new-det").focus().select();
-        });
+        })
+//                .on('select2:close', function (evt) {
+//            $("#cant-new-det").focus().select();
+//        });
 
         $("#btn-add-det").click(function (e) {
 
