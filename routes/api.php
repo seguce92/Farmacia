@@ -40,3 +40,5 @@ Route::resource('venta_detalles', 'VentaDetalleAPIController');
 Route::resource('temp_compra_detalles', 'TempCompraDetalleAPIController');
 
 Route::resource('temp_venta_detalles', 'TempVentaDetalleAPIController');
+
+Route::resource('item_medicamentos', 'ItemMedicamentoAPIController');
