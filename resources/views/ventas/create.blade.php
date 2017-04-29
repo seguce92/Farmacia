@@ -227,7 +227,7 @@
             masimumSelectionLength: 1,
             placeholder: "Ingrese código,nombre o componente para la búsqueda",
             ajax: {
-                url: "{{ route('api.items.index') }}",
+                url: "{{ route('api.item_medicamentos.index') }}",
                 dataType: 'json',
                 data: function (params) {
                     var buscarPor= $('#buscar_por').val();
