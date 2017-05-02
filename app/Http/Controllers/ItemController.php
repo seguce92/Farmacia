@@ -91,7 +91,7 @@ class ItemController extends AppBaseController
 
         //Actualiza y guarda imagen
         if ($request->hasFile('imagen')) {
-            $this->saveImg($request->file('imagen'),$item->id);
+            $this->saveImg($request->file('imagen'),$item);
         }
 
         if($item->esMedicamento()){
@@ -189,7 +189,7 @@ class ItemController extends AppBaseController
 
         //Actualiza y guarda imagen
         if ($request->hasFile('imagen')) {
-            $this->saveImg($request->file('imagen'),$item->id);
+            $this->saveImg($request->file('imagen'),$item);
         }
 
         //Sincroniza las categorías
@@ -230,11 +230,12 @@ class ItemController extends AppBaseController
         return redirect(route('items.index'));
     }
 
-    public function saveImg($file,$idItem){
+    public function saveImg($file,Item $item){
 
-        $nameImg= $idItem.'.'.$file->extension();
+        $nameImg= $item->id.'.'.$file->extension();
 
-        $fields['imagen']= 'img/items/'.$nameImg;
+        $item->imagen = 'img/items/'.$nameImg;
+        $item->save();
 
         $file->move(public_path().'/img/items/',$nameImg);
     }
