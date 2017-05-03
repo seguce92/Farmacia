@@ -22,7 +22,7 @@
                 $subt =$det->cantidad*$det->precio;
             @endphp
             <tr >
-                <td class="celda-descripcion">{{$det->item->nombre}} / {{$det->item->medicamento->laboratorio->nombre}}</td>
+                <td class="celda-descripcion">{{$det->item->nombre}} {{ $det->item->medicamento ? ' / '.$det->item->medicamento->laboratorio->nombre : '' }}</td>
                 <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
                 <td class="celda-cantidad">{{$det->cantidad}}</td>
                 {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}

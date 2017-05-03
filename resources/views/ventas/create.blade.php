@@ -222,10 +222,14 @@
                 data: data,
                 dataType: 'json',
                 success: function (res) {
-                    var det= res.data;
                     console.log('respuesta ajax:',res)
+
+                    var det= res.data;
+                    //si es medicamento agrega el laboratorio  a la descripcion o nombre del item
+                    var descrip = det.item.medicamento ? det.item.nombre+" / "+det.item.medicamento.laboratorio.nombre : det.item.nombre;
+
                     if(res.success){
-                        addDet(det.id,det.item_id,det.cantidad,det.item.nombre+" / "+det.item.medicamento.laboratorio.nombre,det.precio);
+                        addDet(det.id,det.item_id,det.cantidad,descrip,det.precio);
                         bootstrap_alert(res.message,'success',3000);
                     }
 

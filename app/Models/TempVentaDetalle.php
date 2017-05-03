@@ -62,6 +62,11 @@ class TempVentaDetalle extends Model
         return $this->belongsTo(\App\Models\Item::class);
     }
 
+    public function itemMedicamento()
+    {
+        return $this->belongsTo(\App\Models\ItemMedicamento::class);
+    }
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      **/
