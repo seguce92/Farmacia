@@ -1,41 +1,29 @@
 @extends('adminlte::layouts.app')
 
 @push('css')
-<style>
-    #tablaDetalle2 input[type=text],
-    #tablaDetalle input[type=text]{
-        height: 21px;
-        padding: 2px 5px;
-        line-height: 1.5;
-        border: none;
-        border-radius: 0px;
-    }
-    .table{
-        margin-bottom: 2px;
-    }
-    .table-xtra-condensed > thead > tr > th,
-    .table-xtra-condensed > tbody > tr > th,
-    .table-xtra-condensed > tfoot > tr > th,
-    .table-xtra-condensed > thead > tr > td,
-    .table-xtra-condensed > tbody > tr > td,
-    .table-xtra-condensed > tfoot > tr > td {
-        padding: 2px;
-    }
-    .format-select-item{
-        padding: 0px;
-        margin: 0px;
-        font-size: small;
-    }
-</style>
+@include('layouts.select2_css')
+@include('layouts.plugins.datepiker_css')
 @endpush
+
+@push('scripts')
+@include('layouts.select2_js')
+@include('layouts.plugins.datepiker_js')
+@endpush
+
+
+@include('layouts.xtra_condensed_css')
+@include('layouts.plugins.fancy_box')
+@include('layouts.bootstrap_alert_float')
+
 @section('content')
 
     <div class="content">
         @include('flash::message')
         @include('adminlte-templates::common.errors')
 
-        {!! Form::model($tempCompraUser, ['route' => ['compras.update', $tempCompraUser->id], 'method' => 'patch']) !!}
+        {!! Form::model($tempCompra, ['route' => ['compras.update', $tempCompra->id], 'method' => 'patch']) !!}
         <div class="row">
+            <!--Pestañas-->
             <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                 <!-- TAB NAVIGATION -->
                 <ul class="nav nav-tabs" role="tablist">
@@ -44,182 +32,92 @@
                 </ul>
                 <!-- TAB CONTENT -->
                 <div class="tab-content">
+
+                    <!--Tab busqueda-->
                     <div class="active tab-pane fade in" id="tab1">
-                        {{--Box busqueda--}}
-                            <div class="box box-warning">
-                                <div class="box-header with-border">
-                                    <strong>
-                                        <label for="buscar_por" class="col-sm-3 control-label"><h3 class="box-title">Busqueda por:</h3></label>
-                                        <div class="col-sm-9">
-                                            <select name="buscar_por" id="buscar_por" class="form-control">
-                                                <option value="nombre"> Nombre </option>
-                                                <option value="contiene"> Componentes </option>
-                                                <option value="indicaciones"> Indicaciones </option>
-                                                <option value="todo"> Todo </option>
-                                            </select>
-                                        </div>
-                                    </strong>
-                                </div>
-                                <!-- /.box-header -->
-                                <div class="box-body" id="datos-new-det">
-                                    <div class="form-group">
-                                        <select name="item_id" id="items" class="form-control" style="width: 100%;">
-                                            <option value=""> -- Select One -- </option>
+                        <div class="box box-warning">
+                            <div class="box-header with-border">
+                                <strong>
+                                    <label for="buscar_por" class="col-sm-3 control-label"><h3 class="box-title">Busqueda por:</h3></label>
+                                    <div class="col-sm-9">
+                                        <select name="buscar_por" id="buscar_por" class="form-control">
+                                            <option value="nombre"> Nombre </option>
+                                            <option value="contiene"> Componentes </option>
+                                            <option value="indicaciones"> Indicaciones </option>
+                                            <option value="todo"> Todo </option>
                                         </select>
                                     </div>
-                                    <div class="row">
-                                        <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                            <div class="input-group">
-                                                <span class="input-group-addon">Cant</span>
-                                                <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
-                                            </div>
+                                </strong>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body" id="datos-new-det">
+
+                                <div class="form-group">
+                                    <select name="item_id" id="items" class="form-control" multiple="multiple" size="10" style="width: 100%;">
+                                        <option value=""> -- Select One -- </option>
+                                    </select>
+                                </div>
+                                <div id="div-info-item">
+
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">Cant</span>
+                                            <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
                                         </div>
-                                        <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                            <div class="input-group">
-                                                <span class="input-group-addon">Q</span>
-                                                <input type="text" name="precio" id="precio-new-det" class="form-control" placeholder="Precio compra">
-                                                <span class="input-group-btn">
+                                    </div>
+                                    <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">Q</span>
+                                            <input type="text" name="precio" id="precio-new-det" class="form-control" placeholder="Precio compra" data-toggle="tooltip" title="Doble Enter para agregar">
+                                            <span class="input-group-btn">
                                                 <button type="button" id="btn-add-det" class="btn btn-success" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i> Agregando" >
                                                     <span class="glyphicon glyphicon-plus"></span> Agregar
                                                 </button>
                                             </span>
-                                            </div><!-- /input-group -->
+                                        </div><!-- /input-group -->
 
-                                            <input type="hidden" name="temp_venta_id" value="{{$tempCompraUser->id}}">
-                                        </div>
+                                        <input type="hidden" name="temp_compra_id" value="{{$tempCompra->id}}">
                                     </div>
                                 </div>
                             </div>
-                        {{--Box busqueda--}}
+                        </div>
                     </div>
+                    <!--/Tab busqueda-->
+
+                    <!--Tab detalles-->
                     <div class="tab-pane fade" id="tab2">
-                        {{--Box detalles--}}
-                            <div class="box box-success">
-                                <div class="box-header with-border">
-                                    <h3 class="box-title">
-                                        <strong>
-                                            Detalles
-                                        </strong>
-                                    </h3>
-                                    <div class="box-tools pull-right">
-                                        <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                                        {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
-                                    </div>
-                                </div>
-                                <!-- /.box-header -->
-
-
-                                <div class="box-body" style="padding: 0px;">
-                                    <table width="100%"  class="table table-bordered table-condensed" id="tablaDetalle">
-                                        <thead>
-                                        <tr class="bg-primary txtzs txtwb" align="center">
-                                            <td width="50%">Producto</td>
-                                            <td width="10%">Precio</td>
-                                            {{--<td width="10%">Código</td>--}}
-                                            <td width="10%">Cantidad</td>
-                                            <td width="10%">Subtotal</td>
-                                            <td width="10%">-</td>
-                                        </tr>
-                                        </thead>
-
-                                        <tbody>
-                                        @php
-                                            $subt =0;
-                                            $total =0;
-                                        @endphp
-
-                                        @if($tempDetalles->count()>0)
-                                            @foreach($tempDetalles as $det)
-                                                @php
-                                                    $subt =$det->cantidad*$det->precio;
-                                                @endphp
-                                                <tr >
-                                                    <td class="celda-descripcion">{{$det->item->nombre}} / {{$det->item->medicamento->laboratorio->nombre}}</td>
-                                                    <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
-                                                    <td class="celda-cantidad">{{$det->cantidad}}</td>
-                                                    {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
-                                                    <td class="celda-subt">{{'Q '.number_format($subt,2)}}</td>
-                                                    <td>
-                                                        <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="{{$det->id}}">
-                                                            <span class="glyphicon glyphicon-remove"></span>
-                                                        </button>
-                                                        <input type="hidden" name="cantidades[]" class="h-cantidad" value="{{$det->cantidad}}">
-                                                        <input type="hidden" name="items[]" class="h-item" value="{{$det->item_id}}">
-                                                        <input type="hidden" name="precios[]" class="h-precio" value="{{$det->precio}}">
-                                                        {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="{{$det->descuento}}">--}}
-                                                        <input type="hidden" class="h-subt" value="{{$subt}}">
-                                                    </td>
-                                                </tr>
-                                            @endforeach
-                                        @else
-                                            <tr >
-                                                <td class="celda-descripcion">-</td>
-                                                <td class="celda-precio">0</td>
-                                                <td class="celda-cantidad">0</td>
-                                                {{--<td class="celda-codigo">0</td>--}}
-                                                <td class="celda-subt">0</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
-                                                        <span class="glyphicon glyphicon-remove"></span>
-                                                    </button>
-                                                    <input type="hidden" name="cantidades[]" class="h-cantidad" value="" >
-                                                    <input type="hidden" name="items[]" class="h-item" value="">
-                                                    <input type="hidden" name="precios[]" class="h-precio" value="">
-                                                    {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="">--}}
-                                                    <input type="hidden" class="h-subt" value="">
-                                                </td>
-                                            </tr>
-                                        @endif
-                                        </tbody>
-                                        <tfoot>
-                                        <tr>
-                                            <td colspan="5" >
-                                                Total
-                                                <span class="pull-right" id="totalTexto">{{'Q '.number_format($total,2)}}</span>
-                                            </td>
-                                        </tr>
-                                        </tfoot>
-
-                                    </table>
-                                </div>
+                        <div class="box box-success">
+                            <div class="box-body" style="padding: 0px;">
+                                @include('components.tabla_item_detalles', ['detalles' => $tempCompra->tempCompraDetalles])
                             </div>
-                        {{--/Box detalles--}}
+                        </div>
                     </div>
+                    <!--/Tab detalles-->
                 </div>
 
             </div>
+            <!--/Pestañas-->
+
 
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-
                 <div class="box box-primary">
                     <div class="box-header with-border">
                         <h3 class="box-title">
                             <strong>
-                                Compra <small>datos generales, inicia: {{$tempCompraUser->created_at}}</small>
+                                Compra <small>inicia: {{$tempCompra->created_at}}</small>
                             </strong>
                         </h3>
                         <div class="box-tools pull-right">
-                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                            <button class="btn btn-box-tool" data-widget="collapse" tabindex="1000"><i class="fa fa-minus"></i></button>
                             {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
                         </div>
                     </div>
                     <!-- /.box-header -->
-                    <div class="box-body">
+                    <div class="box-body" style="padding: 0px;">
 
                         @include('compras.fields')
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <div class="form-group">
-                                    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                    <a href="{!! route('unimeds.index') !!}" class="btn btn-default">Cancel</a>
-
-                                    <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success pull-right">
-                                        <span class="glyphicon glyphicon-ok"></span> Procesar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
 
                     </div>
                 </div><!-- /.row -->
@@ -232,18 +130,20 @@
     @include('compras.modal_provs')
 
 @endsection
-@include('layouts.bootstrap_alert_float')
+
 @push('scripts')
-<!--
-*********** Scripts create compras ***********-->
+
+<!--*********** Scripts create compras ***********-->
 <script>
     $(function() {
 
         function formatStateItems (state) {
 
+            var imagen= state.imagen==undefined ? 'img/avatar_none.png' : state.imagen;
+
             var $state = $(
                 "@component('components.format_slc2_item')"+
-                "@slot('imagen')"+state.imagen+ "@endslot"+
+                "@slot('imagen')"+imagen+ "@endslot"+
                 "@slot('nombre')"+state.nombre+ "@endslot"+
                 "@slot('descripcion')"+ state.descripcion+"@endslot"+
                 "@slot('contiene')"+ state.contiene+"@endslot"+
@@ -251,6 +151,7 @@
                 "@slot('laboratorio')"+ state.laboratorio+"@endslot"+
                 "@slot('precio')"+state.precio+"@endslot"+
                 "@slot('ubicacion')"+state.ubicacion+"@endslot"+
+                "@slot('stock')"+state.stock+"@endslot"+
                 "@endcomponent"
             );
 
@@ -259,8 +160,11 @@
 
         var slc2item=$("#items").select2({
             language : 'es',
+            maximumSelectionLength: 1,
+            placeholder: "Ingrese código,nombre o componente para la búsqueda",
+            delay: 250,
             ajax: {
-                url: "{{ route('api.items.index') }}",
+                url: "{{ route('api.item_medicamentos.index') }}",
                 dataType: 'json',
                 data: function (params) {
                     var buscarPor= $('#buscar_por').val();
@@ -280,16 +184,27 @@
             minimumInputLength: 1,
             templateResult: formatStateItems,
             templateSelection: function(data,contenedor) {
-                if(data.id === ''){
-                    return 'Ingrese descripcion';
-                }
-                else{
-                    return data.nombre;
-                }
+                $("#div-info-item").html(
+                        "@component('components.items.show_bar')"+
+                        "@slot('imagen')"+data.imagen+ "@endslot"+
+                        "@slot('laboratorio')"+ data.laboratorio+"@endslot"+
+                        "@slot('descripcion')"+ data.descripcion+"@endslot"+
+                        "@slot('precio')"+data.precio+"@endslot"+
+                        "@slot('ubicacion')"+data.ubicacion+"@endslot"+
+                        "@slot('stock')"+data.stock+"@endslot"+
+                        "@slot('contiene')"+ data.contiene+"@endslot"+
+                        "@slot('um')"+ data.um+"@endslot"+
+                        "@slot('indicaciones')"+ data.indicaciones+"@endslot"+
+                        "@slot('contraindicaciones')"+ data.contraindicaciones+"@endslot"+
+                        "@slot('advertencias')"+ data.advertencias+"@endslot"+
+                        "@endcomponent"
+                );
+
+                return data.nombre;
             }
-        }).on('select2:close', function (evt) {
-            $("#cant-new-det").focus().select();
-        });
+        }).on('select2:unselecting',function (e) {
+            $("#div-info-item").html('');
+        })
 
         $("#btn-add-det").click(function (e) {
 
@@ -313,7 +228,9 @@
                     }
 
                     $btn.button('reset');
+                    slc2item.val('').trigger('change');
                     slc2item.select2('open');
+                    $("#div-info-item").html('');
                 },
                 error: function (res) {
                     console.log('respuesta ajax:',res.responseJSON);
@@ -445,6 +362,13 @@
                 })
             }
 
+        });
+
+        $("#precio-new-det").keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault();
+                $("#btn-add-det").focus();
+            }
         });
 
     })

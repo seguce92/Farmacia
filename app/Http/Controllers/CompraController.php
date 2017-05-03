@@ -52,36 +52,27 @@ class CompraController extends AppBaseController
 
         $user=Auth::user();
 
-        $tempCompraUser = TempCompra::where('procesada',0)
+        $tempCompra = TempCompra::where('procesada',0)
             ->where('user_id',$user->id)
             ->get();
 
         ///si el usuario no tiene ninguna compra creada
-        if($tempCompraUser->count()>1) {
-            dd('el usuario tiens '.$tempCompraUser->count().' compras temporales');
+        if($tempCompra->count()>1) {
+            dd('el usuario tiene '.$tempCompra->count().' compras temporales');
         }
 
-        if($tempCompraUser->count()==0){
+        if($tempCompra->count()==0){
 
-            $tempCompraUser = TempCompra::create([
-                'user_id' => $user->id
-            ]);
-            //dd("Creada nueva compra");
+            $tempCompra = TempCompra::create(['user_id' => $user->id]);
 
         }else{
-            $tempCompraUser = $tempCompraUser[0];
+            $tempCompra = $tempCompra[0];
         }
 
-        $tempDetalles = isset($tempCompraUser->tempCompraDetalles) ? $tempCompraUser->tempCompraDetalles : collect();
+        $proveedores = Proveedor::pluck('nombre','id')->toArray();
+        $tiposComprobantes = Tcomprobante::pluck('nombre','id')->toArray();
 
-        $proveedores = array_pluck(Proveedor::all()->toArray(),'nombre','id');
-        $proveedores= array_prepend($proveedores,'Selecione uno...','');
-
-        $tcomps = array_pluck(Tcomprobante::all()->toArray(),'nombre','id');
-        $tcomps = array_prepend($tcomps,'Selecione uno...','');
-
-//        dd($tempCompraUser->toArray());
-        return view('compras.create',compact('proveedores','tcomps','tempCompraUser','tempDetalles'));
+        return view('compras.create',compact('proveedores','tiposComprobantes','tempCompra'));
 
     }
 
