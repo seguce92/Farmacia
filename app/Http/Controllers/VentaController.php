@@ -57,7 +57,7 @@ class VentaController extends AppBaseController
 
         ///si el usuario no tiene ninguna venta creada
         if($tempVenta->count()>1) {
-            dd('el usuario tiens '.$tempVenta->count().' compras temporales');
+            dd('el usuario tiene '.$tempVenta->count().' Ventas temporales');
         }
 
         if($tempVenta->count()==0){
@@ -71,7 +71,14 @@ class VentaController extends AppBaseController
         }
 
 
-        $clientes = Cliente::all();
+        $clientes = Cliente::all()->map(function ($item){
+            $item['fullname']= $item->nombres." ".$item->apellidos;
+
+            return $item;
+        });
+
+        $clientes = array_pluck($clientes->toArray(),'fullname','id');
+        //dd($clientes);
 
         return view('ventas.create',compact('clientes','tempVenta'));
 
@@ -210,7 +217,6 @@ class VentaController extends AppBaseController
         $detalles = $tempVenta->tempVentaDetalles->map(function ($item) {
             return new VentaDetalle($item->toArray());
         });
-
 
 
         $datos = [

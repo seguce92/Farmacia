@@ -1,6 +1,4 @@
 @push('css')
-@include('layouts.select2_css')
-@include('layouts.plugins.datepiker_css')
 <style>
     .panel-body{
         padding-bottom: 0px;
@@ -18,13 +16,8 @@
 <div class="panel panel-default">
 	<div class="panel-body">
         <div class="form-group col-sm-12">
-            <label for="clients" class="control-label">Cliente: <a class="success" data-toggle="modal" href="#modal-form-cliente">nuevo</a></label>
-            <select name="cliente_id" id="clients" class="form-control" style="width: 100%">
-                <option value=""> -- Select One -- </option>
-                @foreach($clientes as $clt)
-                    <option value="{{$clt->id}}">{{$clt->nit.' '.$clt->nombres.' '.$clt->apellidos}}</option>
-                @endforeach
-            </select>
+            <label for="clients" class="control-label">Cliente: <a class="success" data-toggle="modal" href="#modal-form-cliente" tabindex="1000">nuevo</a></label>
+            {!! Form::select('cliente_id', $clientes ,$tempVenta->cliente_id ,['class' => 'form-control', 'id'=>'clientes','multiple'=>"multiple",'style' => "width: 100%"]) !!}
         </div>
 	</div>
 </div>
@@ -124,14 +117,14 @@
 
 
 @push('scripts')
-@include('layouts.select2_js')
-@include('layouts.plugins.datepiker_js')
 <script>
     $("#fecha").datepicker({
         language : 'es'
     });
-    $('#clients').select2({
-        language: 'es'
+    $('#clientes').select2({
+        language: 'es',
+        maximumSelectionLength: 1,
+        allowClear: true
     })
 
 
@@ -143,7 +136,7 @@
     function vuelto() {
         var Total = parseFloat($("#h-total").val());
         var recibido = parseFloat($("#recibido").val());
-        console.log(Total,recibido);
+//        console.log(Total,recibido);
 
         recibido = isNaN(recibido) ? 0 : recibido;
 

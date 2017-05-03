@@ -1,8 +1,22 @@
 @extends('adminlte::layouts.app')
 
+@push('css')
+@include('layouts.select2_css')
+@include('layouts.plugins.datepiker_css')
+@endpush
+
+@push('scripts')
+@include('layouts.select2_js')
+@include('layouts.plugins.datepiker_js')
+@endpush
+
+
 @include('layouts.xtra_condensed_css')
+@include('layouts.plugins.fancy_box')
+@include('layouts.bootstrap_alert_float')
 
 @section('content')
+
     <div class="content">
         @include('flash::message')
         @include('adminlte-templates::common.errors')
@@ -17,8 +31,9 @@
                 </ul>
                 <!-- TAB CONTENT -->
                 <div class="tab-content">
+
+                    <!--Tab busqueda-->
                     <div class="active tab-pane fade in" id="tab1">
-                        {{--Box busqueda--}}
                         <div class="box box-warning">
                             <div class="box-header with-border">
                                 <strong>
@@ -41,11 +56,8 @@
                                         <option value=""> -- Select One -- </option>
                                     </select>
                                 </div>
-                                <div class="form-group">
-                                    <label class="col-sm-2 control-label">Stock actual</label>
-                                    <div class="col-sm-10">
-                                        <p class="form-control-static" id="stock-actual"></p>
-                                    </div>
+                                <div id="div-info-item">
+
                                 </div>
                                 <div class="row">
                                     <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -57,7 +69,7 @@
                                     <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <div class="input-group">
                                             <span class="input-group-addon">Q</span>
-                                            <input type="text" name="precio" id="precio-new-det" class="form-control" placeholder="Precio venta">
+                                            <input type="text" name="precio" id="precio-new-det" class="form-control" placeholder="Precio venta" data-toggle="tooltip" title="Doble Enter para agregar">
                                             <span class="input-group-btn">
                                                 <button type="button" id="btn-add-det" class="btn btn-success" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i> Agregando" >
                                                     <span class="glyphicon glyphicon-plus"></span> Agregar
@@ -70,101 +82,19 @@
                                 </div>
                             </div>
                         </div>
-                        {{--Box busqueda--}}
                     </div>
+                    <!--/Tab busqueda-->
+
+                    <!--Tab detalles-->
                     <div class="tab-pane fade" id="tab2">
-                        {{--Box detalles--}}
                         <div class="box box-success">
-                            <div class="box-header with-border">
-                                <h3 class="box-title">
-                                    <strong>
-                                        Detalles
-                                    </strong>
-                                </h3>
-                                <div class="box-tools pull-right">
-                                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                                    {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
-                                </div>
-                            </div>
-                            <!-- /.box-header -->
-
-
                             <div class="box-body" style="padding: 0px;">
-                                <table width="100%"  class="table table-bordered table-condensed" id="tablaDetalle">
-                                    <thead>
-                                    <tr class="bg-primary txtzs txtwb" align="center">
-                                        <td width="50%">Producto</td>
-                                        <td width="10%">Precio</td>
-                                        {{--<td width="10%">Código</td>--}}
-                                        <td width="10%">Cantidad</td>
-                                        <td width="10%">Subtotal</td>
-                                        <td width="10%">-</td>
-                                    </tr>
-                                    </thead>
-
-                                    <tbody>
-                                    @php
-                                        $subt =0;
-                                        $total =0;
-                                    @endphp
-
-                                    @if($tempVenta->tempVentaDetalles->count() > 0)
-                                        @foreach($tempVenta->tempVentaDetalles as $det)
-                                            @php
-                                                $subt =$det->cantidad*$det->precio;
-                                            @endphp
-                                            <tr >
-                                                <td class="celda-descripcion">{{$det->item->nombre}} / {{$det->item->medicamento->laboratorio->nombre}}</td>
-                                                <td class="celda-precio">{{'Q '.number_format($det->precio,2)}}</td>
-                                                <td class="celda-cantidad">{{$det->cantidad}}</td>
-                                                {{--<td class="celda-codigo">{{$det->item->codigo}}</td>--}}
-                                                <td class="celda-subt">{{'Q '.number_format($subt,2)}}</td>
-                                                <td>
-                                                    <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="{{$det->id}}">
-                                                        <span class="glyphicon glyphicon-remove"></span>
-                                                    </button>
-                                                    <input type="hidden" name="cantidades[]" class="h-cantidad" value="{{$det->cantidad}}">
-                                                    <input type="hidden" name="items[]" class="h-item" value="{{$det->item_id}}">
-                                                    <input type="hidden" name="precios[]" class="h-precio" value="{{$det->precio}}">
-                                                    {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="{{$det->descuento}}">--}}
-                                                    <input type="hidden" class="h-subt" value="{{$subt}}">
-                                                </td>
-                                            </tr>
-                                        @endforeach
-                                    @else
-                                        <tr >
-                                            <td class="celda-descripcion">-</td>
-                                            <td class="celda-precio">0</td>
-                                            <td class="celda-cantidad">0</td>
-                                            {{--<td class="celda-codigo">0</td>--}}
-                                            <td class="celda-subt">0</td>
-                                            <td>
-                                                <button type="button" class="btn btn-xs btn-danger btnEliminaDet" data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i>" value="0" >
-                                                    <span class="glyphicon glyphicon-remove"></span>
-                                                </button>
-                                                <input type="hidden" name="cantidades[]" class="h-cantidad" value="" >
-                                                <input type="hidden" name="items[]" class="h-item" value="">
-                                                <input type="hidden" name="precios[]" class="h-precio" value="">
-                                                {{--<input type="hidden" name="descuentos[]" class="h-descuento" value="">--}}
-                                                <input type="hidden" class="h-subt" value="">
-                                            </td>
-                                        </tr>
-                                    @endif
-                                    </tbody>
-                                    <tfoot>
-                                    <tr>
-                                        <td colspan="5" >
-                                            Total
-                                            <span class="pull-right" id="totalTexto">{{'Q '.number_format($total,2)}}</span>
-                                        </td>
-                                    </tr>
-                                    </tfoot>
-
-                                </table>
+                                @include('components.tabla_item_detalles', ['detalles' => $tempVenta->tempVentaDetalles])
                             </div>
                         </div>
-                        {{--/Box detalles--}}
                     </div>
+                    <!--/Tab detalles-->
+
                 </div>
 
             </div>
@@ -179,7 +109,7 @@
                             </strong>
                         </h3>
                         <div class="box-tools pull-right">
-                            <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                            <button class="btn btn-box-tool" data-widget="collapse" tabindex="1000"><i class="fa fa-minus"></i></button>
                             {{--<button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>--}}
                         </div>
                     </div>
@@ -198,17 +128,21 @@
     </div>
 
     @include('ventas.modal_cliente')
+
 @endsection
 
 @push('scripts')
-<script>
+<!--*********** Scripts create ventas ***********-->
+<script >
     $(function() {
 
         function formatStateItems (state) {
 
+            var imagen= state.imagen==undefined ? 'img/avatar_none.png' : state.imagen;
+
             var $state = $(
                     "@component('components.format_slc2_item')"+
-                    "@slot('imagen')"+state.imagen+ "@endslot"+
+                    "@slot('imagen')"+imagen+ "@endslot"+
                     "@slot('nombre')"+state.nombre+ "@endslot"+
                     "@slot('descripcion')"+ state.descripcion+"@endslot"+
                     "@slot('contiene')"+ state.contiene+"@endslot"+
@@ -216,6 +150,7 @@
                     "@slot('laboratorio')"+ state.laboratorio+"@endslot"+
                     "@slot('precio')"+state.precio+"@endslot"+
                     "@slot('ubicacion')"+state.ubicacion+"@endslot"+
+                    "@slot('stock')"+state.stock+"@endslot"+
                     "@endcomponent"
             );
 
@@ -224,8 +159,9 @@
 
         var slc2item=$("#items").select2({
             language : 'es',
-            masimumSelectionLength: 1,
+            maximumSelectionLength: 1,
             placeholder: "Ingrese código,nombre o componente para la búsqueda",
+            delay: 250,
             ajax: {
                 url: "{{ route('api.item_medicamentos.index') }}",
                 dataType: 'json',
@@ -247,19 +183,30 @@
             minimumInputLength: 1,
             templateResult: formatStateItems,
             templateSelection: function(data,contenedor) {
-                if(data.id === ''){
-                    return 'Ingrese descripcion';
-                }
-                else{
-                    $("#stock-actual").text(data.stock);
-                    $("#precio-new-det").val(data.precio);
-                    return data.nombre;
-                }
+                $("#div-info-item").html(
+                        "@component('components.items.show_bar')"+
+                        "@slot('imagen')"+data.imagen+ "@endslot"+
+                        "@slot('laboratorio')"+ data.laboratorio+"@endslot"+
+                        "@slot('descripcion')"+ data.descripcion+"@endslot"+
+                        "@slot('precio')"+data.precio+"@endslot"+
+                        "@slot('ubicacion')"+data.ubicacion+"@endslot"+
+                        "@slot('stock')"+data.stock+"@endslot"+
+                        "@slot('contiene')"+ data.contiene+"@endslot"+
+                        "@slot('um')"+ data.um+"@endslot"+
+                        "@slot('indicaciones')"+ data.indicaciones+"@endslot"+
+                        "@slot('contraindicaciones')"+ data.contraindicaciones+"@endslot"+
+                        "@slot('advertencias')"+ data.advertencias+"@endslot"+
+                        "@endcomponent"
+                );
+
+                $("#precio-new-det").val(data.precio);
+
+                return data.nombre;
             }
+        }).on('select2:unselecting',function (e) {
+            $("#div-info-item").html('');
         })
-//                .on('select2:close', function (evt) {
-//            $("#cant-new-det").focus().select();
-//        });
+
 
         $("#btn-add-det").click(function (e) {
 
@@ -283,7 +230,9 @@
                     }
 
                     $btn.button('reset');
+                    slc2item.val('').trigger('change');
                     slc2item.select2('open');
+                    $("#div-info-item").html('');
                 },
                 error: function (res) {
                     console.log('respuesta ajax:',res.responseJSON);
@@ -437,6 +386,13 @@
                 })
             }
 
+        });
+
+        $("#precio-new-det").keypress(function (e) {
+            if (e.keyCode == 13) {
+                e.preventDefault();
+                $("#btn-add-det").focus();
+            }
         });
 
         vuelto();
