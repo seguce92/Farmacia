@@ -2,15 +2,18 @@
 <style>
 
     .item-contiene-show, .item-indicaciones-show,.item-contraindicaciones-show,.item-advertencias-show{
-        font-size: 10px; line-height: 1;
+        font-size: 12px; line-height: 1;
     }
 
-    .item-contiene-show strong {
-        font-weight: bold;
+    .item-contiene-show > b,
+    .item-indicaciones-show > b,
+    .item-contraindicaciones-show > b,
+    .item-advertencias-show > b {
+        font-weight: 700; font-size: 12px; text-transform: uppercase;
     }
 </style>
 @endpush
-<div class='box box-primary'>"+
+<div class='box'>"+
     "<div class='box-body'>"+
         "<div class='row' >"+
             "<div class='col-sm-3' style='padding-right: 0px'>"+
@@ -24,10 +27,10 @@
                 "<div class='select2-result__precio'><i class='fa fa-money'></i> Q {{$precio or 0}} </div>"+
                 "<div class='select2-result__ubicacion'><i class='fa fa-archive'></i> {{$ubicacion or 'Ubicación'}} </div>"+
                 "<div class='select2-result__stock'><i class='fa fa-cubes'></i> {{$stock or 'Stock'}} </div><br>"+
-                "<div class='item-contiene-show text-justify'> <strong>Contiene:</strong> {{$contiene or 'Contiene'}} </div>"+
-                "<div class='item-indicaciones-show text-justify'> <strong>Indicaciones:</strong> {{$indicaciones or 'Indicaciones'}} </div>"+
-                "<div class='item-contraindicaciones-show text-justify'> <strong>Contraindicaciones:</strong> {{$contraindicaciones or 'Contraindicaciones'}} </div>"+
-                "<div class='item-advertencias-show text-justify'> <strong>Advertencias:</strong> {{$advertencias or 'Advertencias'}} </div>"+
+                "<p class='item-contiene-show text-justify text-lowercase'> <b>CONTIENE:</b> {{$contiene or 'Contiene'}} </p>"+
+                "<p class='item-indicaciones-show text-justify text-lowercase'> <b>INDICACIONES:</b> {{$indicaciones or 'Indicaciones'}} </p>"+
+                "<p class='item-contraindicaciones-show text-justify text-lowercase'> <b>CONTRAINDICACIONES:</b> {{$contraindicaciones or 'Contraindicaciones'}} </p>"+
+                "<p class='item-advertencias-show text-justify text-lowercase'> <b>ADVERTENCIAS:</b> {{$advertencias or 'Advertencias'}} </p>"+
             "</div>"+
         "</div>"+
     "</div>"+
