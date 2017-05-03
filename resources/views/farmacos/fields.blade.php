@@ -4,7 +4,7 @@
 <!-- Fcategoria Id Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('fcategoria_id', 'Categoría:') !!}
-    {!! Form::select('fcategoria_id', $categorias, null, ['class' => 'form-control','id'=>'fcats','multiple'=>"multiple"]) !!}
+    {!! Form::select('fcategoria_id', $categorias, null, ['class' => 'form-control','id'=>'fcats','multiple'=>"multiple",'style' => "width: 100%"]) !!}
 </div>
 
 <!-- Nombre Field -->
@@ -20,7 +20,8 @@
 
     $('#fcats').select2({
         language: 'es',
-        maximumSelectionLength: 1
+        maximumSelectionLength: 1,
+        placeholder: 'Ingrese descripción para buscar'
     })
 
 </script>
