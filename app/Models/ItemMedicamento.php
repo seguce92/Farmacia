@@ -19,4 +19,10 @@ class ItemMedicamento extends Model
         
     ];
 
+
+    public function getImagenAttribute($value)
+    {
+        return $value ? $value : 'img/avatar_none.png';
+    }
+
 }
