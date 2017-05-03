@@ -174,8 +174,20 @@
                     };
                 },
                 processResults: function (data, params) {
+                    //recorre todos los item q
+                    var data = $.map(data.data, function (item) {
+
+                        //recorre los atributos del item
+                        $.each(item,function (index,valor) {
+                            //Si no existe valor se asigan un '-' al attributo
+                            item[index] = !valor ? '-' : valor;
+                        });
+
+                        return item;
+                    });
+
                     return {
-                        results: data.data,
+                        results: data,
                     };
                 },
                 cache: true
@@ -183,6 +195,7 @@
             minimumInputLength: 1,
             templateResult: formatStateItems,
             templateSelection: function(data,contenedor) {
+
                 $("#div-info-item").html(
                         "@component('components.items.show_bar')"+
                         "@slot('imagen')"+data.imagen+ "@endslot"+

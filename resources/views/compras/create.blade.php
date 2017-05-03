@@ -175,8 +175,20 @@
                     };
                 },
                 processResults: function (data, params) {
+                    //recorre todos los item q
+                    var data = $.map(data.data, function (item) {
+
+                        //recorre los atributos del item
+                        $.each(item,function (index,valor) {
+                            //Si no existe valor se asigan un '-' al attributo
+                            item[index] = !valor ? '-' : valor;
+                        });
+
+                        return item;
+                    });
+
                     return {
-                        results: data.data,
+                        results: data,
                     };
                 },
                 cache: true
