@@ -247,7 +247,7 @@
                     }
 
                     $btn.button('reset');
-                    slc2item.val('').trigger('change');
+                    slc2item.empty().trigger('change');
                     slc2item.select2('open');
                     $("#div-info-item").html('');
                 },
