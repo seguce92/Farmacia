@@ -20,6 +20,7 @@
     .select2-results__option--highlighted .select2-result__ubicacion { color: #F2FC2A; }
     .select2-results__option--highlighted .select2-result__contiene { color: #c6dcef; }
     .select2-results__option{ padding: 2px; }
+    .select2-container--default .select2-results>.select2-results__options{ max-height: 400px}
 </style>
 @endpush
 <div class='select2-result-content clearfix'>"+
