@@ -17,7 +17,7 @@
 	<div class="panel-body">
         <div class="form-group col-sm-12">
             <label for="clients" class="control-label">Cliente: <a class="success" data-toggle="modal" href="#modal-form-cliente" tabindex="1000">nuevo</a></label>
-            {!! Form::select('cliente_id', $clientes ,$tempVenta->cliente_id ,['class' => 'form-control', 'id'=>'clientes','multiple'=>"multiple",'style' => "width: 100%"]) !!}
+            {!! Form::select('cliente_id', $clientes ,1,['class' => 'form-control', 'id'=>'clientes','multiple'=>"multiple",'style' => "width: 100%"]) !!}
         </div>
 	</div>
 </div>
@@ -125,8 +125,7 @@
         language: 'es',
         maximumSelectionLength: 1,
         allowClear: true
-    })
-
+    });
 
     
     $("#recibido").keyup(function (e) {
