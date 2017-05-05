@@ -177,12 +177,16 @@ class ItemController extends AppBaseController
             return redirect(route('items.index'));
         }
 
-        $medicamento = $this->medicamentoRepository->findWithoutFail($request->medicamento_id);
+        //Si el item tiene un medicamento asociado
+        if($item->medicamento){
 
-        if (empty($medicamento)) {
-            Flash::error('Medicamento not found');
+            $medicamento = $this->medicamentoRepository->findWithoutFail($request->medicamento_id);
 
-            return redirect(route('items.index'));
+            if (empty($medicamento)) {
+                Flash::error('Medicamento not found');
+
+                return redirect(route('items.index'));
+            }
         }
 
         $item = $this->itemRepository->update($request->all(), $id);
@@ -198,7 +202,9 @@ class ItemController extends AppBaseController
         );
 
         //Actualiza el medicamento
-        $medicamento = $this->medicamentoRepository->update($request->all(), $request->medicamento_id);
+        if($item->medicamento){
+            $medicamento = $this->medicamentoRepository->update($request->all(), $request->medicamento_id);
+        }
 
         Flash::success('Item updated successfully.');
 
