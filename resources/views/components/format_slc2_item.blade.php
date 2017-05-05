@@ -24,7 +24,7 @@
 @endpush
 <div class='select2-result-content clearfix'>"+
     "<div class='select2-result__avatar'><img src='{!! asset($imagen) !!}' class='img-responsive' alt='Image'></div>"+
-    "<div class='select2-result__meta'>"+
+    "<div class='select2-result__meta text-uppercase'>"+
         "<div class='select2-result__nombre'>{{$nombre or 'nombre'}} / {{$descripcion or 'descripcion'}}</div>"+
         "<div class='select2-result__laboratorio'>{{$laboratorio or ''}}</div>"+
         "<div class='select2-result__precio'><i class='fa fa-money'></i> Q {{$precio}} </div>"+
