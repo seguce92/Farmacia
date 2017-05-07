@@ -77,7 +77,7 @@
     <div class="panel-body">
         <div class="form-group col-sm-12">
             <div class="input-group">
-                <input type="text" name="recibido" id="recibido" class="form-control" placeholder="Q Recibido" value="{{old('recibido')}}">
+                <input type="text" name="recibido" id="recibido" class="form-control" placeholder="Q Recibido" value="{{old('recibido')}}" data-toggle="tooltip" title="Doble Enter para procesar">
                 <div class="input-group-btn ">
                     {{--<button type="button" class="btn btn-info">guardar</button>--}}
                     <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success" disabled >
