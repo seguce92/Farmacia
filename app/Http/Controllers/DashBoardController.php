@@ -12,6 +12,7 @@ class DashBoardController extends Controller
     public function graficaVentasDia(){
 
         $diaSemana=Carbon::now()->dayOfWeek;
+        $diaSemana = $diaSemana==0 ? 7 : $diaSemana;
 
         $horarios= Horario::where('dia','=',$diaSemana)->get();
 
