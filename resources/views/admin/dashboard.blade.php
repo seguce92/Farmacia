@@ -118,7 +118,7 @@
             xAxis: {
                 categories: [],
                 title: {
-                    text: 'dias del mes'
+                    text: 'Horario de hoy'
                 },
                 crosshair: true
             },
@@ -274,7 +274,7 @@
             xAxis: {
                 categories: [],
                 title: {
-                    text: 'dias del mes'
+                    text: 'Meses del año'
                 },
                 crosshair: true
             },
