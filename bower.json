@@ -1,0 +1,21 @@
+{
+  "name": "Farmacia",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "main": "webpack.mix.js",
+  "authors": [
+    "Esdras Altamirano"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/altamiranoesdras/Farmacia",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "highstock": "^3.0.1"
+  }
+}
