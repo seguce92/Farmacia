@@ -63,7 +63,7 @@
                                     <div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                         <div class="input-group">
                                             <span class="input-group-addon">Cant</span>
-                                            <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1">
+                                            <input type="text" name="cantidad" id="cant-new-det"  class="form-control"  value="1" data-toggle="tooltip" title="Doble Enter para agregar">
                                         </div>
                                     </div>
                                     <div class="form-group  col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -405,11 +405,13 @@
 
         });
 
-        $("#precio-new-det").keypress(function (e) {
+        $("#precio-new-det,#cant-new-det").keypress(function (e) {
             if (e.keyCode == 13) {
                 e.preventDefault();
                 $("#btn-add-det").focus();
             }
+        }).focus(function () {
+            $(this).select()
         });
 
         vuelto();
