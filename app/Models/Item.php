@@ -29,6 +29,7 @@ class Item extends Model
         'precio',
         'codigo',
         'unimed_id',
+        'ubicacion',
         'iestado_id'
     ];
 
@@ -54,7 +55,8 @@ class Item extends Model
      */
     public static $rules = [
         "nombre" => 'required|max:45',
-        "precio" => 'required|numeric'
+        "precio" => 'required|numeric',
+        "unimed_id" => 'required',
 
     ];
 

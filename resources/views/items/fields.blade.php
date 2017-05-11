@@ -38,7 +38,11 @@
     {!! Form::hidden('iestado_id', 1) !!}
 </div>
 
-
+<!-- Ubicacion Id Field -->
+<div class="form-group col-sm-6">
+    {!! Form::label('ubicacion', 'Ubicación:') !!}
+    {!! Form::text('ubicacion', null , ['class' => 'form-control']) !!}
+</div>
 
 <!-- Imagen Field -->
 <div class="form-group col-sm-6">
