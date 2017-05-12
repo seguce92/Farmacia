@@ -29,9 +29,7 @@ class VentaDataTable extends DataTable
      */
     public function query()
     {
-        $ventas = VistaVenta::query()
-            ->orderBy('fecha','desc')
-            ->orderBy('hora','desc');
+        $ventas = VistaVenta::query();
 
         return $this->applyScopes($ventas);
     }
