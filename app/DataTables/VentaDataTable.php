@@ -19,6 +19,7 @@ class VentaDataTable extends DataTable
         return $this->datatables
             ->eloquent($this->query())
             ->addColumn('action', 'ventas.datatables_actions')
+            ->orderColumn('id', '-id $1')
             ->make(true);
     }
 
@@ -75,11 +76,11 @@ class VentaDataTable extends DataTable
     private function getColumns()
     {
         return [
+            'id' => ['name' => 'id', 'data' => 'id'],
             'cliente' => ['name' => 'cliente', 'data' => 'cliente'],
             'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
             'hora' => ['name' => 'hora', 'data' => 'hora'],
             'S/N' => ['name' => 'ns', 'data' => 'ns'],
-//            'numero' => ['name' => 'numero', 'data' => 'numero'],
             'estado' => ['name' => 'estado', 'data' => 'estado'],
             'usuario' => ['name' => 'usuario', 'data' => 'usuario']
         ];
