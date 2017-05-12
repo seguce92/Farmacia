@@ -3,6 +3,7 @@
 namespace App\DataTables;
 
 use App\Models\Venta;
+use App\Models\VistaVenta;
 use Form;
 use Illuminate\Support\Facades\DB;
 use Yajra\Datatables\Services\DataTable;
@@ -28,18 +29,9 @@ class VentaDataTable extends DataTable
      */
     public function query()
     {
-        $ventas = Venta::query()
-            ->join('clientes','clientes.id','=','ventas.cliente_id')
-            ->join('vestados','vestados.id','=','ventas.vestado_id')
-            ->join('users','users.id','=','ventas.user_id')
-            ->select(
-                "ventas.*",
-                DB::raw("concat(clientes.nit,' ',clientes.nombres,' ',clientes.apellidos) as cliente"),
-                DB::raw("DATE_FORMAT(fecha,'%d/%m/%Y') as fechaf"),
-                DB::raw("time(ventas.created_at) as hora"),
-                "vestados.descripcion as estado",
-                "users.name as usuario"
-            )->orderBy('created_at','vestado_id');
+        $ventas = VistaVenta::query()
+            ->orderBy('fecha','desc')
+            ->orderBy('hora','desc');
 
         return $this->applyScopes($ventas);
     }
@@ -86,10 +78,10 @@ class VentaDataTable extends DataTable
     {
         return [
             'cliente' => ['name' => 'cliente', 'data' => 'cliente'],
-            'fecha' => ['name' => 'fecha', 'data' => 'fechaf'],
+            'fecha' => ['name' => 'fecha', 'data' => 'fecha'],
             'hora' => ['name' => 'hora', 'data' => 'hora'],
-            'serie' => ['name' => 'serie', 'data' => 'serie'],
-            'numero' => ['name' => 'numero', 'data' => 'numero'],
+            'S/N' => ['name' => 'ns', 'data' => 'ns'],
+//            'numero' => ['name' => 'numero', 'data' => 'numero'],
             'estado' => ['name' => 'estado', 'data' => 'estado'],
             'usuario' => ['name' => 'usuario', 'data' => 'usuario']
         ];
