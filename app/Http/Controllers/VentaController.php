@@ -177,7 +177,7 @@ class VentaController extends AppBaseController
 
             Flash::success('Venta saved successfully.');
 
-            return redirect(route('ventas.index'));
+            return redirect('/home');
         }else{
 
             Flash::success('Venta updated successfully.');

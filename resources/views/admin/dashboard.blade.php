@@ -18,6 +18,15 @@
             </div>
             <!-- /.info-box -->
         </div>
+        <div class="col-md-3 col-sm-6 col-xs-12 pull-right">
+
+            <a href="{{route('ventas.create')}}" type="button" class="btn btn-lg btn-success pull-right">
+                <i class="ion ion-ios-cart-outline"></i> Nueva Venta
+            </a>
+
+        </div>
+
+
 
     </div>
     <!-- /.row -->
