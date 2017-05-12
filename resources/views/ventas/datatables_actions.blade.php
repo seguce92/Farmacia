@@ -7,15 +7,15 @@
         <i class="glyphicon glyphicon-remove" data-toggle="tooltip" title="Anular venta"></i>
     </a>
 
-    <div class="modal fade" id="modal-delete-{{$id}}">
+    <div class="modal fade modal-warning" id="modal-delete-{{$id}}">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Eliminar</h4>
+                    <h4 class="modal-title">Canselar venta!</h4>
                 </div>
                 <div class="modal-body">
-                    Seguro que desea eliminar al usuario?
+                    Seguro que desea cancelar la venta?
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
