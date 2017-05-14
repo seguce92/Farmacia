@@ -80,7 +80,7 @@
                 <input type="text" name="recibido" id="recibido" class="form-control" placeholder="Q Recibido" value="{{old('recibido')}}" data-toggle="tooltip" title="Doble Enter para procesar">
                 <div class="input-group-btn ">
                     {{--<button type="button" class="btn btn-info">guardar</button>--}}
-                    <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success" disabled >
+                    <button type="submit" id="btn-procesar" name="procesar" value="1" class="btn btn-success" disabled data-loading-text="<i class='fa fa-cog fa-spin fa-1x fa-fw'></i> Procesando">
                         <span data-toggle="tooltip" title="Ingrese un monto mayor al total para procesar">
 
                         <span class="glyphicon glyphicon-ok" ></span> Procesar
@@ -158,6 +158,9 @@
         }
     });
 
+    $("#btn-procesar").click(function () {
+        $(this).button('loading');
+    })
 
 </script>
 @endpush
