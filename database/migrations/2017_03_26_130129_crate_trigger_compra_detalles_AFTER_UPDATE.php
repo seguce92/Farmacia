@@ -16,7 +16,7 @@ class CrateTriggerCompraDetallesAFTERUPDATE extends Migration
         DB::unprepared("
             CREATE DEFINER = CURRENT_USER TRIGGER `farmacia`.`compra_detalles_AFTER_UPDATE` AFTER UPDATE ON `compra_detalles` FOR EACH ROW
             BEGIN
-            IF (old.deleted_at is not null) THEN
+            IF (new.deleted_at is not null) THEN
                 CALL log_triggers('compra_detalles_AFTER_UPDATE',concat('se actualizo el stock del item:',new.item_id));    
                 update items set stock = stock - new.cantidad where items.id = new.item_id;
             end if;
