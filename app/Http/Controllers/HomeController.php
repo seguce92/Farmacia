@@ -55,7 +55,10 @@ class HomeController extends Controller
                 }
             }
 
-            return view('admin.dashboard',compact('totalDia'));
+            $cntVentas=$ventas->count();
+
+            return view('admin.dashboard',compact('totalDia','cntVentas'));
+
         }else{
 
             return view('home');

@@ -55,6 +55,40 @@ class DashBoardController extends Controller
 
 
     }
+    public function graficaVentasDia2(){
+
+        $diaSemana=Carbon::now()->dayOfWeek;
+        $diaSemana = $diaSemana==0 ? 7 : $diaSemana;
+
+        $horarios= Horario::where('dia','=',$diaSemana)->get();
+
+        $horaini = $horarios[0]->hora_ini;
+        $horafin = $horarios[0]->hora_fin;
+
+        $results = DB::select( DB::raw("
+            select 
+                date_format(v.created_at,'%h.%i') hora
+                ,sum((d.cantidad* d.precio)) monto
+            from 
+                ventas v inner join venta_detalles d on v.id= d.venta_id
+            where
+                v.fecha=curdate()
+                and v.vestado_id=2
+            group by
+                1
+        ") );
+
+        $horas = array_pluck($results,'monto','hora');
+
+
+        return response()->json([
+            'horaini' => $horaini,
+            'horafin' => $horafin,
+            'datos' => $horas
+        ]);
+
+
+    }
 
     public function graficaVentasMes(){
 

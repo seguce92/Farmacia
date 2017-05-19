@@ -13,6 +13,8 @@
                 <div class="info-box-content">
                     <span class="info-box-text">Ventas Hoy </span>
                     <span class="info-box-number">Q {{number_format($totalDia,2)}}</span>
+                    <input type="hidden" name="totalDia" id="totalDia" value="{{number_format($totalDia,2)}}">
+                    <input type="hidden" name="cntVentas" id="cntVentas" value="{{$cntVentas}}">
                 </div>
                 <!-- /.info-box-content -->
             </div>
@@ -25,9 +27,6 @@
             </a>
 
         </div>
-
-
-
     </div>
     <!-- /.row -->
 
@@ -52,6 +51,25 @@
             <!-- /.box -->
         </div>
 
+        <div class="col-md-12">
+            <!-- AREA CHART -->
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Ventas por hora hoy {{diaLetras(\Carbon\Carbon::now()->dayOfWeek)}}</h3>
+
+                    <div class="box-tools pull-right">
+                        <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                        </button>
+                        <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div id="grafica-ventas-dia2" style="width:100%; height:100%;"></div>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
 
 
 
@@ -108,6 +126,16 @@
 <script>
     $(function () {
 
+        var d = new Date();
+        var diaActaul = parseInt(d.getDate());
+        var mesActual = parseInt(d.getMonth()+1);
+        var anioActual = parseInt(d.getFullYear());
+        var totalDia= parseFloat($("#totalDia").val());
+        var cntVentas= parseFloat($("#cntVentas").val());
+        var ventaMedia= parseFloat((totalDia/cntVentas).toFixed(2));
+
+//        console.log(totalDia,cntVentas,ventaMedia);
+
         var optionsDia={
             chart: {
                 renderTo: 'grafica-ventas-dia',
@@ -157,7 +185,11 @@
             series: [{
                 name: 'monto',
                 data: []
-            }]
+            },{
+                name: 'Venta Media',
+                data: []
+            }
+            ]
         }
 
         $.ajax({
@@ -165,18 +197,78 @@
             url: '{{url('graficas/ventas/dia')}}',
             dataType: 'json',
             success: function (res) {
-                ///res = JSON.parse(res);
-                console.log('respuesta ajax:',res);
+//                console.log('respuesta ajax:',res);
                 var i=0;
                 var monto=0;
+                var countHoras=res.horafin-res.horaini;
+
                 for(i=res.horaini;i<=res.horafin;i++){
                     monto= parseFloat(res.datos[i]);
                     optionsDia.series[0].data.push(monto);
+                    optionsDia.series[1].data.push(ventaMedia);
                     optionsDia.xAxis.categories.push(i+':00');
 
                 }
 
                 chart = new Highcharts.Chart(optionsDia);
+
+            },
+            error: function (res) {
+                console.log('respuesta ajax:',res);
+
+            }
+        })
+
+        var options= {
+            chart: {
+                zoomType: 'x'
+            },
+            title: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            subtitle: {
+                text: '',
+                style: {
+                    display: 'none'
+                }
+            },
+            xAxis: {
+                type: 'datetime',
+                tickInterval: 3600 * 1000,
+            },
+            series: [{
+                name: 'Monto',
+                data: [],
+//                pointStart: Date.UTC(2012, 05, 22),
+                pointInterval: 24 * 3600 * 1000 // one day
+            }]
+        }
+
+        $.ajax({
+            method: 'GET',
+            url: '{{url('graficas/ventas/dia2')}}',
+            dataType: 'json',
+            success: function (res) {
+//                console.log('respuesta ajax:',res);
+
+                var datos=[],h,m,temp;
+                $.each(res.datos,function (hora,monto) {
+                    temp= hora.split('.');
+                    h= temp[0];
+                    m= temp[1];
+
+                    datos.push([Date.UTC(anioActual,mesActual,diaActaul,h,m), parseFloat(monto)])
+
+                })
+
+                options.xAxis.min= Date.UTC(anioActual,mesActual,diaActaul,res.horaini);
+                options.xAxis.max =Date.UTC(anioActual,mesActual,diaActaul,res.horafin);
+                options.series[0].data = datos;
+
+                $('#grafica-ventas-dia2').highcharts(options );
 
             },
             error: function (res) {
@@ -243,8 +335,7 @@
             url: '{{url('graficas/ventas/mes')}}',
             dataType: 'json',
             success: function (res) {
-                ///res = JSON.parse(res);
-                console.log('respuesta ajax:',res);
+//                console.log('respuesta ajax:',res);
                 var i=0;
                 var monto=0;
                 for(i=1;i<=res.diasmes;i++){
@@ -321,8 +412,7 @@
             url: '{{url('graficas/ventas/anio')}}',
             dataType: 'json',
             success: function (res) {
-                ///res = JSON.parse(res);
-                console.log('respuesta ajax:',res);
+//                console.log('respuesta ajax:',res);
 
                 var meses =['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
                 var i=0;
